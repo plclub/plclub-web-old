@@ -1,0 +1,35 @@
+body {
+	font-family: Optima, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+}
+
+td {
+	font-family: Optima, Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Optima, Arial, Helvetica, sans-serif;
+}
+
+body, td, th {
+	color: #400040;
+}
+
+h1, h2 {
+	color: #770077;
+}
+
+h3, h4, h5, h6 {
+	color: #333333;
+}
+
+a {
+ color: #336600;
+ text-decoration: none;
+
+}
+
+a:hover      { color: #770077 }
+
+
+*.header   { color: #336600; font-variant: small-caps; font-weight: bold }

@@ -1,0 +1,87 @@
+<h3 align="center">PLClub Summer 2004 Schedule</h3>
+<table width="534" border="0" align="center" cellpadding="5" cellspacing="5">
+  <tr bgcolor="#FFFF99">
+    <td width="78" align="right"><div align="left">Date</div></td>
+    <td width="88">Speaker</td>
+    <td width="318">Topic</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">Jun 4</td>
+    <td>&nbsp;</td>
+    <td><i><a href="http://icfpcontest.org">ICFP&nbsp; CONTEST</a></i></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">11</td>
+    <td>&nbsp;</td>
+    <td><i>Contest discussion</i></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">14</td>
+    <td>Karl Crary<br>
+	CMU</td>
+    <td>Grid Computing and Foundational Certified Code</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">25</td>
+    <td>&nbsp;</td>
+    <td><i>no meeting</i></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">July 2</td>
+    <td>Dimitris </td>
+    <td><a href="http://www.cs.vu.nl/boilerplate/tldi03.ps">Scrap your boilerplate</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td height="31" align="right">9</td>
+    <td>Nitin</td>
+    <td>
+	<a href="http://web.comlab.ox.ac.uk/oucl/research/areas/ap/dgp/workshop2004/hinze-masses.pdf">
+	Generics for the Masses</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">16</td>
+    <td>&nbsp;</td>
+    <td><i>POPL deadline!</i></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">23</td>
+    <td>Steve</td>
+    <td><a href="http://coq.inria.fr/">Coq</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">30</td>
+    <td>Stephen</td>
+    <td><a href="http://www.twelf.org/">Twelf</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">Aug 6</td>
+    <td>Nate</td>
+    <td><a href="http://www.cl.cam.ac.uk/Research/HVG/Isabelle/">Isabelle/HOL</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">13</td>
+    <td>Vladimir</td>
+    <td><a href="http://pvs.csl.sri.com/">PVS</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">20</td>
+    <td>Alan :)</td>
+    <td>
+	<a href="http://sardes.inrialpes.fr/~aschmitt/papers/LNCS_GC_04_Kells.ps.gz">
+	The Kell Calculus: A Family of Higher-Order Distributed Process Calculi</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">27</td>
+    <td>Michael</td>
+    <td>
+	<a href="http://arbre.is.s.u-tokyo.ac.jp/~hahosoya/papers/polyx.ps">
+	Parametric Polymorphism for XML</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">Sep 3</td>
+    <td>Benjamin</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<p align="center">Previous schedule: <a href="spring04.shtml">Spring 
+2004</a>

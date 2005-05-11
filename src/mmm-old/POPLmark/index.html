@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>The POPLmark Challenge</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="http://www.cis.upenn.edu/proj/plclub/mmm/POPLmark/style.css" 
+type="text/css" />
+</head>
+<body>
+
+<div class="content">
+<table style="width: 100%; padding: 0.5em">
+<tr>
+<td><h1>The POPLmark Challenge</h1></td>
+<td style="text-align: right">
+<img src="./POPLmark-logo-color.png" alt="POPLmark" />
+</td>
+</tr>
+</table>
+
+<p>[<a href="#problems">The&nbsp;Problems</a>] [<a
+href="#solutions">Solutions</a>] [<a
+href="http://www.cis.upenn.edu/proj/plclub/mmm/">Mechanized Metatheory
+for the Masses</a>]</p>
+
+<p>We issue here a set of challenge problems, dubbed the POPLmark
+Challenge, chosen to exercise many aspects of programming languages that
+are known to be difficult to formalize: variable binding at both term
+and type levels, syntactic forms with variable numbers of components
+(including binders), and proofs demanding complex induction principles.
+Our goal is to push the state of the art in formalizing programming
+language metatheory to the point where the technology is <a
+href="http://www.cis.upenn.edu/proj/plclub/mmm/">usable by the
+masses</a>.</p>
+
+<p>Overtime, we expect to post here proposed solutions to the challenge
+and discussions about those solutions.  General tools and libraries that
+come out of the challenge will be posted at a companion site on <a
+href="http://www.cis.upenn.edu/proj/plclub/mmm/">mechanized metatheory
+for the masses</a>.  We may also post additional problems for the
+challenge when it becomes evident that the current set of problems are
+no longer challenging enough.</p>
+
+
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<h2><a id="problems"></a>The Challenge Problems</h2>
+
+<p>Our challenge problems are taken from the basic metatheory of System
+F<sub>&lt;:</sub>. This system is formed by enriching the types and
+terms of System F with a subtype relation, refining universal
+quantifiers to carry subtyping constraints, and adding records, record
+subtyping, and record patterns.  The challenge problems are currently:</p>
+
+<ol>
+   <li>Transitivity of the algorithmic subtyping relation</li>
+   <li>Type safety</li>
+   <li>Testing and animating with respect to the semantics</li>
+</ol>
+
+<p>The official description, along with background information
+concerning the design of the challenge, is available for download: [<a
+href="poplmark.ps">PostScript</a>] [<a
+href="poplmark.ps.gz">Gzipped&nbsp;PostScript</a>] [<a
+href="poplmark.pdf">PDF</a>]</p>
+
+<p>The F<sub>&lt;:</sub> interpreter for Challenege 3 is currently in
+need of work, but a preliminary implementation, written in <a
+href="http://www.ocaml.org/">OCaml</a>, is available: [<a
+href="fsubimpl.tar.gz">tar.gz</a>].</p>
+
+<p>Proposed solutions should be sent to someplace.  (We'll figure this
+out eventually...)</p>
+
+
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<h2><a id="solutions"></a>Solutions</h2>
+
+<p>This is where you come in.  Send us something!</p>
+
+
+
+<div style="text-align: right">
+      <a href="http://validator.w3.org/check?uri=referer">
+<img style="border:0;width:88px;height:31px"
+          src="http://www.w3.org/Icons/valid-xhtml11"
+          alt="Valid XHTML 1.1!" /></a>
+<a href="http://jigsaw.w3.org/css-validator/">
+<img style="border:0;width:88px;height:31px"
+     src="http://jigsaw.w3.org/css-validator/images/vcss"
+     alt="Valid CSS!" />
+</a>
+</div>
+
+</div>
+</body>
+</html>

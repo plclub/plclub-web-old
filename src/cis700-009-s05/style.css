@@ -1,0 +1,78 @@
+body, h1, h2, h3, h4, p, ul, ol, dl, li, dt, dd, th, td, i, b, em, strong  { font-family: sans-serif; }
+
+div.section { 
+margin-bottom: 1em;
+}
+
+div.subsection {
+margin-bottom: 1em;
+}
+
+div.subsubsection {  
+margin-bottom: 1em;
+}
+
+div.subsubsubsection { 
+margin-bottom: 1em;
+}
+
+td.label { 
+text-align: left;
+color: #000000;
+font-size: small;
+}
+
+:visited { color: #DDAA00; } 
+:link { color: #FFAA11; }      
+:link:hover, :visited:hover { color: #990000; }
+:link:active, :visited:active { color: #000000; }  
+
+h1.pagetitle { 
+  background: #666633; 
+  color: #EEEEEE; 
+  font-family: serif; 
+  font-size: x-large;
+  padding: 0.2em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+div.menu { 
+  text-align: center;
+  padding: 0.2em;
+}
+table.footer { 
+  width: 100%;
+  font-size: x-small;
+  background: #666633; 
+  color: #FFFFFF; 
+  padding: 0.2em;
+}
+
+tr.header {
+  background: #666633;
+  color: #EEEEEE;
+}
+th.header {
+  padding: 0.7em;
+}
+tr.cell {
+  background: #FFFFEE;
+  font-size: small;
+}
+tr.cellb {
+  background: #FFFADA;
+  font-size: small;
+}
+tr.cellc {
+  background: #EEEEEE;
+  font-size: small;
+}
+td.cell {
+  padding: 0.7em;
+  font-size: small;
+}
+
+body { 
+  background: #888855;
+  color: #000000; 
+}

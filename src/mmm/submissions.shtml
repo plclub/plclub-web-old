@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>POPLmark: Submissions</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+
+<div class="content">
+<!-- body -->
+
+<h1>
+   <img style="float: left; border: solid 1px black; margin-right: 10px"
+        src="./POPLmark-logo-64.png" alt="POPLmark" />
+   Submissions 
+</h1>
+
+<div style="clear: both; height: 0.1em"></div>
+
+<h2>Current submissions</h2>
+
+<p>Submissions should be sent to the <a
+href="http://lists.seas.upenn.edu/mailman/listinfo/poplmark">mailing
+list</a>.</p>
+
+<ul>
+
+   <li><a href="./poplmark/vouillon-coq.v">Submission</a> by
+   J&eacute;r&ocirc;me Vouillon</li>
+
+   <li><a href="./poplmark/cmu-twelf.tar.gz">Submission</a> by Karl Crary,
+   Robert Harper, and  Michael Ashley-Rollman of Carnegie Mellon (also
+   available as individual files: <a
+   href="./poplmark/cmu-twelf/1a.elf">1a.elf</a>, <a
+   href="./poplmark/cmu-twelf/1b.elf">1b.elf</a>, <a
+   href="./poplmark/cmu-twelf/2a.elf">2a.elf</a>, <a
+   href="./poplmark/cmu-twelf/2b.elf">2b.elf</a>)</li>
+
+   <li><a href="./poplmark/mf266-alpha-prolog.tar.gz">Submission</a> by
+   Matthew Fairbairn</li>
+
+</ul>
+
+<h2>Evaluation</h2>
+
+<p><em><b>Important:</b> The scores and evaluations here are provisional and
+subject to revision on the basis of further discussion.</em></p>
+
+<p>The scores in the following table attempt to summarize our impressions of
+each submission according to the criteria listed; by no means do they
+constitute a definitive evaluation.  The criteria here are an elaboration of
+the ones listed in Section 2.3 of the challenge, and descriptions can be
+found below the table.  While the meaning of the scores depends on the
+particular criteria in question, we generally intend them to convey the
+following:</p>
+
+<ul>
+
+   <li><b>A</b>: exactly the sort of thing we're looking for</li>
+
+   <li><b>B</b>: useable but a lot of trouble</li>
+
+   <li><b>C</b>: useable only with heroic effort (we will prefer to stick
+   with paper-and-pencil until the situation improves)</li>
+
+   <li><b>Yes</b>: challenge completed</li>
+
+   <li><b>Close</b>: challenge essentially completed, but we have some
+   reservations</li>
+
+   <li><b>-</b>: unable to evaluate or not completed</li>
+
+   <li><b>?</b>: not evaluated yet</li>
+
+</ul>
+
+<table class="gd" style="margin:0 auto;">
+<tr><td></td><td></td><th style="text-align:center;">Solution 1<br /><a href="./poplmark/vouillon-coq.v">Vouillon</a></th><th 
+style="text-align: center;">Solution 2<br /><a href="./poplmark/cmu-twelf.tar.gz">Carnegie 
+Mellon</a></th>
+<th style="text-align: center;">Solution 3<br /><a
+href="./poplmark/mf266-alpha-prolog.tar.gz">Fairbairn</a></th></tr>
+
+<tr><th colspan="2">System/Logic</th>             <td class="gd"><a href="http://coq.inria.fr/">Coq</a></td> <td 
+class="gd"><a href="http://www-2.cs.cmu.edu/~twelf/">Twelf</a></td> <td
+class="gd"><a
+href="http://homepages.inf.ed.ac.uk/jcheney/programs/aprolog/">AlphaProlog</a></td> </tr>
+
+<tr><th colspan="2">Term representation</th>   <td class="gd">de Bruijn</td>
+<td class="gd">HOAS</td> <td class="gd">Nominal</td>
+</tr>
+
+<!--
+<tr><th rowspan="2">Start-up cost</th>  <th class="sub"><a href="#desc-startup-onetime">One time</a></th>  <td
+class="gd"><a href="./poplmark/vouillon-coq.shtml#startup-onetime">A</a></td> <td class="gd"><a 
+href="./poplmark/cmu-twelf.shtml#startup-onetime">A</a></td> <td class="gd">?</td></tr>
+
+<tr><th class="sub"><a href="#desc-startup-perlang">Per object language</a></th>  <td class="gd">?</td> 
+<td class="gd"><a href="./poplmark/cmu-twelf.shtml#startup-perlang">A</a></td> </tr>
+-->
+
+<tr><th colspan="2"><a href="#desc-drag">Drag</a></th>  <td class="gd">C+</td> <td class="gd">
+<a href="./poplmark/cmu-twelf.shtml#drag">B</a></td>
+<td class="gd">?</td>
+</tr>
+
+<tr><th colspan="2"><a href="#desc-Accessibility">Accessibility</a></th> <td
+class="gd"><a href="./poplmark/vouillon-coq.shtml#access">B+</a></td> 
+<td class="gd"><a href="./poplmark/cmu-twelf.shtml#access">C+</a></td>
+<td class="gd">?</td>
+</tr>
+
+<tr><th colspan="2"><a href="#desc-transparency">Transparency</a></th> <td
+class="gd"><a href="./poplmark/vouillon-coq.shtml#transparency">B+</a></td> 
+<td class="gd"><a href="./poplmark/cmu-twelf.shtml#transparency">-</a></td>
+<td class="gd">?</td>
+</tr>
+
+<tr>
+<th colspan="2"><a href="#desc-challenge1a">Challenge 1a</a></th>   <td
+class="gd"><a href="./poplmark/vouillon-coq.shtml#challenges">Close</a></td> 
+<td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenges1a">Yes</a></td>
+<td class="gd">-</td>
+</tr>
+
+<tr>
+<th colspan="2"><a href="#desc-challenge1b">Challenge 1b</a></th>   <td class="gd">-</td> <td 
+class="gd"><a href="./poplmark/cmu-twelf.shtml#challenges1b">Yes</a></td>
+<td class="gd">-</td>
+</tr>
+
+<tr>
+<th colspan="2"><a href="#desc-challenge2a">Challenge 2a</a></th> <td
+class="gd"><a href="./poplmark/vouillon-coq.shtml#challenges">Close</a></td> 
+<td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenges2a">Yes</a></td>
+<td class="gd">-</td>
+</tr>
+
+<tr>
+<th colspan="2"><a href="#desc-challenge2b">Challenge 2b</a></th>               <td class="gd">-</td> 
+<td class="gd"><a 
+href="./poplmark/cmu-twelf.shtml#challenges2b">Yes</a></td>
+<td class="gd">-</td>
+</tr>
+
+<tr>
+<th colspan="2"><a href="#desc-challenge3">Challenge 3</a></th>              <td class="gd">-</td> <td 
+class="gd"><a href="./poplmark/cmu-twelf.shtml#challenges3">-</a></td>
+<td class="gd">?</td>
+</tr>
+
+<tr>
+<th colspan="2">Overall</th>   <td class="gd">-</td>  <td class="gd"><a 
+href="./poplmark/cmu-twelf.shtml#overall">-</a></td>
+<td class="gd">-</td>
+</tr>
+
+<tr><th colspan="2">Additional comments available?</th> <td class="gd"><a
+href="./poplmark/vouillon-coq.shtml">Yes</a></td>
+<td class="gd"><a href="./poplmark/cmu-twelf.shtml">Yes</a></td>
+<td class="gd">No</td>
+</tr>
+
+</table>
+
+<h2>Lines of Code </h2>
+
+<p>As a rough measure of the work involved in developing each solution, we
+include the number of lines of code needed for each challenge problem.  The
+values are intended to be <em>totals</em>; for example, the lines of code
+counted for the definitions of Challenge 2b includes the code needed to
+define (in their entirety) the subtyping, typing, and evaluation
+relations.</p>
+
+<table class="gd" style="margin:0 auto;">
+<tr><td></td><td></td><th style="text-align:center;">Solution 1<br /><a href="./poplmark/vouillon-coq.v">Vouillon</a></th><th 
+style="text-align: center;">Solution 2<br /><a href="./poplmark/cmu-twelf.tar.gz">Carnegie 
+Mellon</a></th>
+<th style="text-align: center;">Solution 3<br /><a
+href="./poplmark/mf266-alpha-prolog.tar.gz">Fairbairn</a></th></tr>
+
+<tr>
+<th rowspan="2">Challenge 1a</th>  <th class="sub">Definitions</th> <td
+class="gd">?</td> <td class="gd">?</td><td class="gd">-</td>
+</tr>
+<tr>
+<th class="sub">Proofs</th>                       <td class="gd">?</td> <td
+class="gd">?</td><td class="gd">-</td>
+</tr>
+
+<tr>
+<th rowspan="2">Challenge 1b</th>   <th class="sub">Definitions</th><td
+class="gd">-</td> <td class="gd">?</td><td class="gd">-</td>
+</tr>
+<tr>
+<th class="sub">Proofs</th>                       <td class="gd">-</td> <td
+class="gd">?</td><td class="gd">-</td>
+</tr>
+
+<tr>
+<th rowspan="2">Challenge 2a</th><th class="sub">Definitions</th>
+<td class="gd">?</td> <td class="gd">?</td><td class="gd">-</td>
+</tr>
+<tr>
+<th class="sub">Proofs</th>                       <td class="gd">?</td> <td
+class="gd">?</td><td class="gd">-</td>
+</tr>
+
+<tr>
+<th rowspan="2">Challenge 2b</th><th class="sub">Definitions</th>
+<td class="gd">-</td> <td class="gd">?</td><td class="gd">-</td>
+</tr>
+<tr>
+<th class="sub">Proofs</th>                       <td class="gd">-</td> <td
+class="gd">?</td><td class="gd">-</td>
+</tr>
+
+<tr>
+<th colspan="2">Challenge 3</th>              <td class="gd">-</td> <td
+class="gd">?</td><td class="gd">?</td>
+</tr>
+
+</table>
+
+<h2>Descriptions of the Evaluation Criteria</h2>
+
+<dl>
+
+   <!--
+   <dt><a id="desc-startup-onetime"></a>Start-up cost (one time)</dt>
+
+   <dd>The amount of code required to use the term representation technique
+   independent of any particular object language.  This is the code that
+   would be written once and then put into a library.  Less code is
+   preferred.</dd>
+
+   <dt><a id="desc-startup-perlang"></a>Start-up cost (per object
+   language)</dt>
+
+   <dd>The amount of code and effort required to use the term representation
+   technique for F<sub>&lt;:</sub>.  This includes the code required to to be
+   able to define F<sub>&lt;:</sub> (and not the actual definitions
+   themselves).  Less code and effort is preferred.</dd>
+   -->
+
+   <dt><a id="desc-drag"></a>Drag</dt>
+
+   <dd>The degree to which proofs (and to a lesser extent, definitions) are
+   cluttered with elements specific to the term representation technique.
+   These elements tend to obscure the main argument of proofs.  Less clutter
+   is preferred.</dd>
+
+   <dt><a id="desc-accessibility"></a>Accessibility</dt>
+
+   <dd>The ease with which users with little or no experience with
+the technology in question (system and representation technique) can
+convince themselves that the formal presentation corresponds with the
+intended meaning of the paper presentation.  More ease is better.   
+</dd>
+
+   <dt><a id="desc-transparency"></a>Transparency</dt>
+
+   <dd>The degree to which it is clear that the statements of definitions,
+   lemmas, and theorems correspond to ones on paper.  It should be obvious
+   that the statements capture exactly the meaning intended on paper.</dd>
+
+   <dt><a id="desc-challenge1a"></a>Challenge 1a</dt>
+   
+   <dd>The proof of transitivity of the algorithmic subtyping relation for
+   pure F<sub>&lt;:</sub>.</dd>
+
+   <dt><a id="desc-challenge1b"></a>Challenge 1b</dt>
+
+   <dd>The proof of transitivity of the algorithmic subtyping relation for
+   pure F<sub>&lt;:</sub> extended with records.</dd>
+
+   <dt><a id="desc-challenge2a"></a>Challenge 2a</dt>
+   <dd>Type soundness for pure F<sub>&lt;:</sub>.</dd>
+
+   <dt><a id="desc-challenge2b"></a>Challenge 2b</dt>
+   <dd>Type soundness for pure F<sub>&lt;:</sub> extended with records and
+   record patterns.</dd>
+
+   <dt><a id="desc-challenge3"></a>Challenge 3</dt>
+   <dd>Testing and animation with respect to the operational semantics of
+   F<sub>&lt;:</sub> (including records).</dd>
+
+</dl>
+
+<!-- footer -->
+
+<div class="footer">
+   Last updated: <!--#flastmod virtual="submissions.shtml"--><br />
+   <a href="http://validator.w3.org/check?uri=referer">Valid XHTML</a>
+   and <a href="http://jigsaw.w3.org/css-validator/check/referer">Valid
+   CSS</a>
+</div>
+
+</div>
+</body>
+</html>
+

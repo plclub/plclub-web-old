@@ -1,0 +1,124 @@
+<h3 align="center">PLClub Spring 2004 Schedule</h3>
+<table width="534" border="0" align="center" cellpadding="5" cellspacing="5">
+  <tr bgcolor="#FFFF99">
+    <td width="78"><div align="left">Date</div></td>
+    <td width="150">Speaker</td>
+    <td width="256">Topic</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">Jan 16</div></td>
+    <td>Dimitris</td>
+    <td><a href="http://citeseer.nj.nec.com/hall96type.html">Type Classes in Haskell</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">23</div></td>
+    <td>Nate</td>
+    <td><a href="http://portal.acm.org/citation.cfm?id=512970&dl=ACM&coll=portal">Social Processes and Proofs of Theorems and Programs</a> - Demillo, Lipton and Perlis</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">30</div></td>
+    <td>Geoff</td>
+    <td><a href="http://www.cis.upenn.edu/~geoffw/research/papers/esop-tr-draft.ps">Unifying Nominal and Structural Ad-Hoc Polymorphism (Extended Version)</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">Feb 6</div></td>
+    <td>Vladimir</td>
+    <td><a href="http://www.cas.mcmaster.ca/~kahl/Publications/TR/Kahl-2003b_PMC/">Basic Pattern Matching Calculi</a> by Wolfram Kahl</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">13</div></td>
+    <td>&nbsp;</td>
+    <td><em>Black Friday</em></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td height="31"><div align="right">20</div></td>
+    <td>Stephen</td>
+    <td><a href="http://www.cis.upenn.edu/~stse/project/dccsysf/main.ps">Translating 
+dependency into parametricity</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">27</div></td>
+    <td>&nbsp;</td>
+    <td><a href="fhttp://www.research.att.com/~kfisher/njpls/">NJPLS</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">Mar 5</div></td>
+    <td>Madhusudan Parthasarathy</td>
+    <td>Algorithmic Software Verification</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">12</div></td>
+    <td>&nbsp;</td>
+    <td><i>Spring Break</i></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">19</div></td>
+    <td>Peng Li</td>
+    <td><a href="http://www.seas.upenn.edu/~lipeng/tmp/benton.pdf">Simple 
+	relational correctness proofs for static analyses <br>
+	and program transformations</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">26</div></td>
+    <td>&nbsp;</td>
+    <td>ICFP contest discussion</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">Apr 2</div></td>
+    <td>&nbsp;</td>
+    <td>ICFP contest discussion</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">9</div></td>
+    <td>Nitin</td>
+    <td>
+	<a href="http://portal.acm.org/citation.cfm?id=964025&jmp=cit&dl=portal&dl=ACM">
+	Tridirectional Type Checking</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">16</div></td>
+    <td>&nbsp;</td>
+    <td>ICFP contest discussion</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">23</div></td>
+    <td>Johnicholas Hines<br>
+	Haverford College</td>
+    <td><a href="http://www.westquote.com/jnthesis/main.pdf">Graphical Type 
+	Inference</a></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">30</div></td>
+    <td>&nbsp;</td>
+    <td>ICFP contest discussion</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">May 7</div></td>
+    <td>&nbsp;</td>
+    <td>ICFP contest discussion</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td><div align="right">14</div></td>
+    <td>James Cheney<br>
+	Cornell University</td>
+    <td>Logic Programming with Names and Binding </td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">18</td>
+    <td>Peter Sewell<br>
+	Cambridge University</td>
+    <td>Marshalling: Abstraction, Rebinding, and Version Control</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">20</td>
+    <td>Steve Freund<br>
+	Williams College</td>
+    <td>Atomizer: A Dynamic Atomicity Checker For Multithreaded Programs</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right"><div align="right">21</div></td>
+    <td></td>
+    <td><i>
+	<a href="http://www.research.ibm.com/compsci/plansoft/plday/plday2004.html">IBM PL Day</a></i></td>
+  </tr>
+</table>

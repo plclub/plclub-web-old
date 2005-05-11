@@ -1,0 +1,86 @@
+<h3 align="center">PLClub Fall 2004 Schedule</h3>
+<table width="534" border="0" align="center" cellpadding="5" cellspacing="5">
+  <tr bgcolor="#FFFF99">
+    <td width="78" align="right"><div align="left">Date</div></td>
+    <td width="88">Speaker</td>
+    <td width="318">Topic</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">Sep 10&nbsp; </td>
+    <td>Lyle Ungar</td>
+    <td>Smooth Functional Programming </td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">&nbsp;17 </td>
+    <td>Andrew Hilton </td>
+    <td>Athena Proof Assistant </td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">24</td>
+    <td>Brian</td>
+    <td>MetaPRL</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">Oct 1</td>
+    <td>&nbsp;</td>
+    <td><i>NJPLS</i></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">8</td>
+    <td>Geoff</td>
+    <td>The Twelf Logical<br>
+	Framework</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">15</td>
+    <td>Eijiro</td>
+    <td>A Bisimulation for Type Abstraction and Recursion</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">22</td>
+    <td>Stephanie</td>
+    <td>Generalized Algebraic Datatypes </td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">29</td>
+    <td>Vladimir</td>
+    <td>Type Classes with Functional Dependencies</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">Nov 5</td>
+    <td>Jeff</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">12</td>
+    <td>Peng</td>
+    <td>Downgrading policies in language-based information-flow control</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">19</td>
+    <td>Aaron</td>
+    <td>Sequent Calculus and Abstract Machines</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">26</td>
+    <td>&nbsp;</td>
+    <td><i>Thanksgiving</i></td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">Dec 3</td>
+    <td>&nbsp;</td>
+    <td>NJPLS @ NYU</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">10</td>
+    <td>Nate/Christian</td>
+    <td>A schema-directed synchronization algorithm</td>
+  </tr>
+  <tr bgcolor="#CCFFFF">
+    <td align="right">14</td>
+    <td>Dimitris</td>
+    <td>Open and Shut Typecase</td>
+  </tr>
+</table>
+<p align="center">Previous schedule: <a href="summer04.shtml">Summer 
+2004</a>

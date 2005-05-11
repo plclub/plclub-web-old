@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Background reading material</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="style.css" type="text/css" /> 
+</head>
+<body>
+
+<div class="content">
+<!-- body -->
+
+<h1>
+   <img style="float: right; border: solid 1px black;"
+        src="./POPLmark-logo-128.png" alt="POPLmark" />
+   Background reading material
+</h1>
+
+<!-- footer -->
+
+<ul>
+<li>Coq</li>
+</li>
+
+<li>Isabelle
+
+</li>
+
+<li>Twelf
+  <ol>
+  <li>Frank Pfenning. <i>Computation and Deduction</i>. 
+      [<a href="http://www-2.cs.cmu.edu/~fp/courses/comp-ded/handouts/cd.pdf">pdf</a>]
+      [<a href="http://www-2.cs.cmu.edu/~fp/courses/comp-ded/handouts/cd.ps">ps</a>]</li>
+  <li>Robert Harper and Karl Crary. "How to Believe a Twelf Proof".  [<a 
+href="http://www-2.cs.cmu.edu/~rwh/papers/how/believe-twelf.pdf">pdf</a>]</li>
+  <li>Frank Pfenning and Carsten Sch&uuml;rmann. <i>Twelf User's Guide: Version 1.4</i>. [<a 
+href="http://www-2.cs.cmu.edu/~twelf/guide-1-4/twelf_toc.html">html</a>] [<a 
+href="http://www-2.cs.cmu.edu/~twelf/guide-1-4/twelf.pdf">pdf</a>] [<a 
+href="http://www-2.cs.cmu.edu/~twelf/guide-1-4/twelf.ps">ps</a>]</li>
+  <li><a href="http://fp.logosphere.cs.cmu.edu/twelf/">The Twelf Wiki</a></li>
+  <li>Carsten Sch&uuml;rmann and Frank Pfenning. "A coverage checking algorithm for LF." [<a 
+href="http://www-2.cs.cmu.edu/~fp/papers/tphols03.pdf">pdf</a>] [<a href="http://www-2.cs.cmu.edu/~fp/papers/tphols03.ps">ps</a>] 
+
+  <li>Brigitte Pientka and Frank Pfenning. "Termination and reduction checking in the logical framework." [<a 
+href="http://www-2.cs.cmu.edu/~fp/papers/induct00.pdf">pdf</a>] [<a href="http://www-2.cs.cmu.edu/~fp/papers/induct00.ps">ps</a>]
+  </li>
+  <li>Penny Anderson and Frank Pfenning. "Verifying uniqueness in a logical framework." [<a 
+href="http://www-2.cs.cmu.edu/~fp/papers/tphols04.pdf">pdf</a>] [<a href="http://www-2.cs.cmu.edu/~fp/papers/tphols04.ps">ps</a>]</li>
+  <li>Carsten Sch&uuml;rmann. <i>Automating the Meta-Theory of Deductive Systems</i>. [<a 
+href="http://cs-www.cs.yale.edu/homes/carsten/papers/S00b.ps.gz">ps</a>]</li>
+  <li>Brigitte Pientka. <i>Tabled Higher-Order Logic Programming</i>. [<a 
+      href="http://www.cs.mcgill.ca/~bpientka/papers/thesis.ps">ps</a>]</li>
+  </ol>
+</li>
+
+</ul>
+
+
+<div class="footer">
+   Last updated: <!--#flastmod virtual="background.shtml"--><br />
+   <a href="http://validator.w3.org/check?uri=referer">Valid XHTML</a>
+   and <a href="http://jigsaw.w3.org/css-validator/check/referer">Valid
+   CSS</a>
+</div>
+
+</div>
+</body>
+</html>

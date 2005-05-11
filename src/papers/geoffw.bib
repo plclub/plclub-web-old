@@ -1,0 +1,532 @@
+
+@TechReport{	  was+wei:uptr-2003,
+  author	= {Geoffrey Washburn and Stephanie Weirich},
+  title		= {Boxes Go Bananas: Encoding higher-order abstract syntax
+		  with parametric polymorphism (Extended Version)},
+  institution	= {University of Pennsylvania},
+  address	= {Computer and Information Science Department, Levine Hall,
+		  3330 Walnut Street, Philadelphia, Pennsylvania,
+		  19104-6389},
+  year		= 2003,
+  number	= {MS-CIS-03-26},
+  month		= {September},
+  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-03-26.ps}
+		  ,
+  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-03-26.ps.gz}
+		  ,
+  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-03-26.pdf}
+		  ,
+  plclub	= "yes",
+  abstract	= { Higher-order abstract syntax is a simple technique for
+		  implementing languages with functional programming. Object
+		  variables and binders are implemented by variables and
+		  binders in the host language. By using this technique, one
+		  can avoid implementing common and tricky routines dealing
+		  with variables, such as capture-avoiding substitution.
+		  However, despite the advantages this technique provides, it
+		  is not commonly used because it is difficult to write sound
+		  elimination forms (such as folds or catamorphisms) for
+		  higher-order abstract syntax. To fold over such a datatype,
+		  one must either simultaneously define an inverse operation
+		  (which may not exist) or show that all functions embedded
+		  in the datatype are parametric.
+		  
+		  In this paper, we show how first-class polymorphism can be
+		  used to guarantee the parametricity of functions embedded
+		  in higher-order abstract syntax. With this restriction, we
+		  implement a library of iteration operators over
+		  data-structures containing functionals. From this
+		  implementation, we derive ``fusion laws'' that functional
+		  programmers may use to reason about the iteration operator.
+		  Finally, we show how this use of parametric polymorphism
+		  corresponds to the Sch\"urmann, Despeyroux and Pfenning
+		  method of enforcing parametricity through modal types. We
+		  do so by using this library to give a sound and complete
+		  encoding of their calculus into System
+		  $\mathrm{F}_{\omega}$. This encoding can serve as a
+		  starting point for reasoning about higher-order structures
+		  in polymorphic languages.}
+}
+
+@TechReport{	  vyt+was+wei:uptr-2004,
+  author	= {Dimitrios Vytiniotis and Geoffrey Washburn and Stephanie
+		  Weirich},
+  title		= {An Open and Shut Typecase (Extended Version)},
+  institution	= {University of Pennsylvania},
+  address	= {Computer and Information Science Department, Levine Hall,
+		  3330 Walnut Street, Philadelphia, Pennsylvania,
+		  19104-6389},
+  year		= 2004,
+  number	= {MS-CIS-04-26},
+  month		= {November},
+  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-04-26.ps}
+		  ,
+  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-04-26.ps.gz}
+		  ,
+  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-04-26.pdf}
+		  ,
+  plclub	= "yes",
+  abstract	= { Ad-hoc polymorphism is a compelling addition to typed
+		  programming languages. There are two different forms of
+		  ad-hoc polymorphism. With the nominal form, the execution
+		  of an operation is determined solely by the name of the
+		  type argument, whereas with the structural form, operations
+		  are defined by case analysis on the structure of types. The
+		  two forms differ in the way that they treat user-defined
+		  types. Operations defined by the nominal approach are
+		  considered ``open''---the programmer can add cases for new
+		  types without modifying existing code. The operations must
+		  be extended however with specialized code for the new
+		  types, and it may be tedious and even difficult to add
+		  extensions that apply to a potentially large universe of
+		  user-defined types. Structurally defined operations apply
+		  to new types by treating them as equal to their underlying
+		  definitions, so no new cases for new types are necessary.
+		  However this form is considered ``closed'' to extension, as
+		  the behaviour of the operations cannot be differentiated
+		  for the new types. This form destroys the distinctions that
+		  user-defined types are designed to express. Both approaches
+		  have their benefits, so it is important to provide both
+		  capabilities in a single language that is expressive enough
+		  to decouple the ``openness'' issue from the way that
+		  user-defined types are treated. We present such a language
+		  that supports both forms of ad-hoc polymorphism. }
+}
+
+@Misc{		  jon+was+wei:2004,
+  author	= {Simon Peyton Jones and Geoffrey Washburn and Stephanie
+		  Weirich},
+  title		= {Wobbly types: type inference for generalised algebraic
+		  data types},
+  year		= 2004,
+  month		= {July},
+  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/gadt.ps},
+  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/gadt.ps.gz}
+		  ,
+  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/gadt.pdf}
+		  ,
+  plclub	= "yes",
+  abstract	= { Generalised algebraic data types (GADTs), sometimes known
+		  as ``guarded recursive data types'' or ``first-class
+		  phantom types'', are a simple but powerful generalisation
+		  of the data types of Haskell and ML. Recent works have
+		  given compelling examples of the utility of GADTs, although
+		  type inference is known to be difficult.
+		  
+		  It is time to pluck the fruit. Can GADTs be added to
+		  Haskell, without losing type inference, or requiring
+		  unacceptably heavy type annotations? Can this be done
+		  without completely rewriting the already-complex Haskell
+		  type-inference engine, and without complex interactions
+		  with (say) type classes? We answer these questions in the
+		  affirmative, giving a type system that explains just what
+		  type annotations are required, and a prototype
+		  implementation that implements it. Our main technical
+		  innovation is \emph{wobbly types}, which express in a
+		  declarative way the uncertainty caused by the incremental
+		  nature of typical type-inference algorithms. }
+}
+
+@InProceedings{	  was+wei:icfp-2003a,
+  author	= {Geoffrey Washburn and Stephanie Weirich},
+  title		= {Boxes Go Bananas: Encoding higher-order abstract syntax
+		  with parametric polymorphism},
+  booktitle	= {Proceedings of the Eighth {ACM SIGPLAN} International
+		  Conference on Functional Programming},
+  year		= 2003,
+  month		= {August},
+  address	= {Uppsala, Sweden},
+  organization	= {ACM SIGPLAN},
+  pages		= {249--262},
+  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/icfp2003-corrected.ps}
+		  ,
+  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/icfp2003-corrected.gz}
+		  ,
+  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/ifcp2004-corrected.pdf}
+		  ,
+  plclub	= "yes",
+  abstract	= { Higher-order abstract syntax is a simple technique for
+		  implementing languages with functional programming. Object
+		  variables and binders are implemented by variables and
+		  binders in the host language. By using this technique, one
+		  can avoid implementing common and tricky routines dealing
+		  with variables, such as capture-avoiding substitution.
+		  However, despite the advantages this technique provides, it
+		  is not commonly used because it is difficult to write sound
+		  elimination forms (such as folds or catamorphisms) for
+		  higher-order abstract syntax. To fold over such a datatype,
+		  one must either simultaneously define an inverse operation
+		  (which may not exist) or show that all functions embedded
+		  in the datatype are parametric.
+		  
+		  In this paper, we show how first-class polymorphism can be
+		  used to guarantee the parametricity of functions embedded
+		  in higher-order abstract syntax. With this restriction, we
+		  implement a library of iteration operators over
+		  data-structures containing functionals. From this
+		  implementation, we derive ``fusion laws'' that functional
+		  programmers may use to reason about the iteration operator.
+		  Finally, we show how this use of parametric polymorphism
+		  corresponds to the Sch\"{u}rmann, Despeyroux and Pfenning
+		  method of enforcing parametricity through modal types. We
+		  do so by using this library to give a sound and complete
+		  encoding of their calculus into System
+		  $\mathrm{F}_{\omega}$. This encoding can serve as a
+		  starting point for reasoning about higher-order structures
+		  in polymorphic languages.},
+  note		= { This version fixes a number of typographical errors found
+		  in the ICFP 2003 document; there are no signficant
+		  technical changes. Generated September 2003.}
+}
+
+@InProceedings{	  was+wei:icfp-2003,
+  author	= {Geoffrey Washburn and Stephanie Weirich},
+  title		= {Boxes Go Bananas: Encoding higher-order abstract syntax
+		  with parametric polymorphism},
+  booktitle	= {Proceedings of the Eighth {ACM SIGPLAN} International
+		  Conference on Functional Programming},
+  year		= 2003,
+  month		= {August},
+  address	= {Uppsala, Sweden},
+  organization	= {ACM SIGPLAN},
+  pages		= {249--262},
+  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/icfp2003.ps}
+		  ,
+  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/icfp2003.ps.gz}
+		  ,
+  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/icfp2003.pdf}
+		  ,
+  plclub	= "yes",
+  abstract	= { Higher-order abstract syntax is a simple technique for
+		  implementing languages with functional programming. Object
+		  variables and binders are implemented by variables and
+		  binders in the host language. By using this technique, one
+		  can avoid implementing common and tricky routines dealing
+		  with variables, such as capture-avoiding substitution.
+		  However, despite the advantages this technique provides, it
+		  is not commonly used because it is difficult to write sound
+		  elimination forms (such as folds or catamorphisms) for
+		  higher-order abstract syntax. To fold over such a datatype,
+		  one must either simultaneously define an inverse operation
+		  (which may not exist) or show that all functions embedded
+		  in the datatype are parametric.
+		  
+		  In this paper, we show how first-class polymorphism can be
+		  used to guarantee the parametricity of functions embedded
+		  in higher-order abstract syntax. With this restriction, we
+		  implement a library of iteration operators over
+		  data-structures containing functionals. From this
+		  implementation, we derive ``fusion laws'' that functional
+		  programmers may use to reason about the iteration operator.
+		  Finally, we show how this use of parametric polymorphism
+		  corresponds to the Sch\"{u}rmann, Despeyroux and Pfenning
+		  method of enforcing parametricity through modal types. We
+		  do so by using this library to give a sound and complete
+		  encoding of their calculus into System
+		  $\mathrm{F}_{\omega}$. This encoding can serve as a
+		  starting point for reasoning about higher-order structures
+		  in polymorphic languages.}
+}
+
+@InProceedings{	  kfo+was+wel:itrs-2002,
+  itrspaper	= {yes},
+  author	= {Assaf J. Kfoury and Geoff Washburn and J. B. Wells},
+  title		= {Implementing Compositional Analysis Using Intersection
+		  Types With Expansion Variables},
+  dartreport	= {yes},
+  churchreport	= {yes},
+  year		= {2002},
+  dvi		= {http://www.church-project.org/reports/electronic/Kfo+Was+Wel:ITRS-2002.dvi}
+		  ,
+  pdf		= {http://www.church-project.org/reports/electronic/Kfo+Was+Wel:ITRS-2002.pdf}
+		  ,
+  elsevierurlb	= {http://www.elsevier.nl/gej-ng/31/29/23/125/51/show/Products/notes/index.htt}
+		  ,
+  elsevierurla	= {http://www.elsevier.nl/locate/entcs/volume70.html},
+  abstract	= {A program analysis is \emph{compositional} when the
+		  analysis result for a particular program fragment is
+		  obtained solely from the results for its immediate
+		  subfragments via some composition operator. This means the
+		  subfragments can be analyzed independently in any order.
+		  Many commonly used program analysis techniques (in
+		  particular, most abstract interpretations and most uses of
+		  the Hindley/Milner type system) are not compositional and
+		  require the entire text of a program for sound and complete
+		  analysis. \par System I is a recent type system for the
+		  pure $\lambda$-calculus with intersection types and the new
+		  technology of expansion variables. System I supports
+		  compositional analysis because it has the \emph{principal
+		  typings} property and an algorithm based on the new
+		  technology of $\beta$-unification has been developed that
+		  finds these principal typings. In addition, for each
+		  natural number $k$, typability in the rank-$k$ restriction
+		  of System I is decidable, so a complete and terminating
+		  analysis algorithm exists for the rank-$k$ restriction.
+		  \par This paper presents new understanding that has been
+		  gained from working with multiple implementations of System
+		  I and $\beta$-unification-based analysis algorithms. The
+		  previous literature on System I presented the type system
+		  in a way that helped in proving its more important
+		  theoretical properties, but was not as easy for
+		  implementers to follow as it could be. This paper provides
+		  a presentation of many aspects of System I that should be
+		  clearer as well as a discussion of important implementation
+		  issues.}
+}
+
+@Misc{		  was+wei:2005,
+  author	= {Geoffrey Washburn and Stephanie Weirich},
+  title		= {Generalizing Parametricity Using Information Flow},
+  year		= 2005,
+  month		= {January},
+  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.ps}
+		  ,
+  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.ps.gz}
+		  ,
+  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.pdf}
+		  ,
+  plclub	= "yes",
+  abstract	= { Run-time type analysis allows programmers to easily and
+		  concisely define operations based upon type structure, such
+		  as serialization, iterators, and structural equality.
+		  However, when types can be inspected at run time, nothing
+		  is secret. A module writer cannot use type abstraction to
+		  hide implementation details from clients: they can use type
+		  analysis to determine the structure of these supposedly
+		  ``abstract'' data types. Furthermore, access control
+		  mechanisms do not help isolate the implementation of
+		  abstract datatypes from their clients. Buggy or malicious
+		  authorized modules may simply leak type information to
+		  unauthorized clients, so module implementors cannot
+		  reliably tell which parts of a program rely on their type
+		  definitions.
+		  
+		  Currently, module implementors rely on parametric
+		  polymorphism to provide guarantees about the use of their
+		  abstract datatypes. Standard parametricity does not hold
+		  for a language with run-time type analysis, but in this
+		  paper we show how to generalize parametricity so that it
+		  does hold in the presence of type analysis and still
+		  encompasses the integrity and confidentiality policies that
+		  are derived from parametricity. The key is to augment the
+		  type system with annotations about information-flow. By
+		  tracking the flow of dynamic type information, the
+		  implementor of an abstract data type can easily see which
+		  parts of the program depend on their chosen implementation.
+		  }
+}
+
+@Misc{		  dan+wal+was+wei:2004,
+  author	= {Daniel S. Dantas and David Walker and Geoffrey Washburn
+		  and Stephanie Weirich},
+  title		= {Analyzing polymorphic advice},
+  year		= 2004,
+  month		= {October},
+  plclub	= "yes",
+  abstract	= { We take one of the first steps towards developing a
+		  practical, statically-typed, functional, aspect-oriented
+		  programming language by showing how to integrate
+		  polymorphism and type analysis with aspect-oriented
+		  programming features. In particular, we demonstrate how to
+		  define type-safe polymorphic advice using pointcuts that
+		  unify a collection of polymorphic join points. We also
+		  introduce a new mechanism for specifying context-sensitive
+		  advice that involves pattern matching against the current
+		  stack of activation records, and meshes well with
+		  functional programming idioms. We give our language meaning
+		  via a type-directed translation into an expressive, but
+		  fairly simple, type-safe intermediate language. Many
+		  complexities of the source language are eliminated in this
+		  translation, leading to a modular specification of its
+		  semantics. One of the novelties of the intermediate
+		  language is the definition of polymorphic labels for
+		  marking control-flow points. These labels are organized in
+		  a tree structure such that a parent in the tree serves as a
+		  representative for the collection of all its children. Type
+		  safety requires that the type of each child is a generic
+		  instance of the type of the polymorphic parent. Similarly,
+		  when a set of labels is assembled as a pointcut, the type
+		  of each label is an instance of the type of the pointcut.
+		  }
+}
+
+@Misc{		  gw-poplmark:2005,
+  author	= {Brian E. Aydemir and Aaron Bohannon and Matthew Fairbairn
+		  and J. Nathan Foster and Benjamin C. Pierce and Peter
+		  Sewell and Dimitrios Vytiniotis and Geoffrey Washburn and
+		  Stephanie Weirich and Steve Zdancewic},
+  title		= {Mechanized metatheory for the masses: The POPLmark
+		  Challenge},
+  year		= 2005,
+  month		= {February},
+  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.ps}
+		  ,
+  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.ps.gz}
+		  ,
+  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.pdf}
+		  ,
+  plclub	= "yes",
+  abstract	= { How close are we to a world where every paper on
+		  programming languages is accompanied by an electronic
+		  appendix with machine-checked proofs?
+		  
+		  We propose a concrete set of benchmarks for measuring
+		  progress in this area. Based on the metatheory of System
+		  \FSUB, a typed lambda-calculus with second-order
+		  polymorphism, subtyping, and records, these benchmarks
+		  embody many aspects of programming languages that are
+		  challenging to formalize: variable binding at both the term
+		  and type levels, syntactic forms with variable numbers of
+		  components (including binders), and proofs demanding
+		  complex induction principles. We hope that these benchmarks
+		  will help clarify the current state of the art, provide a
+		  basis for comparing competing technologies, and motivate
+		  further research.}
+}
+
+@Misc{		  was:senior-thesis,
+  author	= {Geoffrey Washburn},
+  title		= {Modal Typing for Specifying Run-time Code Generation},
+  school	= {Carnegie Mellon University},
+  month		= {May},
+  year		= {2001},
+  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/senior-thesis.ps}
+		  ,
+  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/senior-thesis.ps.gz}
+		  ,
+  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/senior-thesis.pdf}
+		  
+}
+
+@Article{	  vyt+was+wei:tldi-2005,
+  author	= { Dimitrios Vytiniotis and Geoffrey Washburn and Stephanie
+		  Weirich },
+  title		= { An Open and Shut Typecase },
+  journal	= { {ACM SIGPLAN} Notices },
+  year		= 2005,
+  month		= {January},
+  address	= {Longbeach, California},
+  organization	= {ACM SIGPLAN},
+  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/tldi2005.ps}
+		  ,
+  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/tldi2005.ps.gz}
+		  ,
+  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/tldi2005.pdf}
+		  ,
+  plclub	= "yes",
+  abstract	= { Two different ways of defining ad-hoc polymorphic
+		  operations commonly occur in programming languages. With
+		  the first form polymorphic operations are defined
+		  inductively on the structure of types while with the second
+		  form polymorphic operations are defined for specific sets
+		  of types.
+		  
+		  In intensional type analysis operations are defined by
+		  induction on the structure of types. Therefore no new cases
+		  are necessary for user-defined types, because these types
+		  are equivalent to their underlying structure. However,
+		  intensional type analysis is ``closed'' to extension, as
+		  the behavior of the operations cannot be differentiated for
+		  the new types, thus destroying the distinctions that these
+		  types are designed to express.
+		  
+		  Haskell type classes on the other hand define polymorphic
+		  operations for sets of types. Operations defined by class
+		  instances are considered ``open''---the programmer can add
+		  instances for new types without modifying existing code.
+		  However, the operations must be extended with specialized
+		  code for each new type, and it may be tedious or even
+		  impossible to add extensions that apply to a large universe
+		  of new types.
+		  
+		  Both approaches have their benefits, so it is important to
+		  let programmers decide which is most appropriate for their
+		  needs. In this paper, we define a language that supports
+		  both forms of ad-hoc polymorphism, using the same basic
+		  constructs. }
+}
+
+@TechReport{	  dan+wal+was+wei:ptr-2004,
+  author	= {Daniel S. Dantas and David Walker and Geoffrey Washburn
+		  and Stephanie Weirich},
+  title		= {Analyzing polymorphic advice},
+  institution	= {Princeton University},
+  address	= {Department of Computer Science, Princeton University, 35
+		  Olden Street, Princeton, NJ 08544 },
+  year		= 2004,
+  number	= {TR-717-04},
+  month		= {December},
+  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/tr-717-04.ps}
+		  ,
+  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/tr-717-04.ps.gz}
+		  ,
+  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/tr-717-04.pdf}
+		  ,
+  plclub	= "yes",
+  abstract	= { We take one of the first steps towards developing a
+		  practical, statically-typed, functional, aspect-oriented
+		  programming language by showing how to integrate
+		  polymorphism and type analysis with aspect-oriented
+		  programming features. In particular, we demonstrate how to
+		  define type-safe polymorphic advice using pointcuts that
+		  unify a collection of polymorphic join points. We also
+		  introduce a new mechanism for specifying context-sensitive
+		  advice that involves pattern matching against the current
+		  stack of activation records, and meshes well with
+		  functional programming idioms. We give our language meaning
+		  via a type-directed translation into an expressive, but
+		  fairly simple, type-safe intermediate language. Many
+		  complexities of the source language are eliminated in this
+		  translation, leading to a modular specification of its
+		  semantics. One of the novelties of the intermediate
+		  language is the definition of polymorphic labels for
+		  marking control-flow points. These labels are organized in
+		  a tree structure such that a parent in the tree serves as a
+		  representative for the collection of all its children. Type
+		  safety requires that the type of each child is a generic
+		  instance of the type of the polymorphic parent. Similarly,
+		  when a set of labels is assembled as a pointcut, the type
+		  of each label is an instance of the type of the pointcut.
+		  }
+}
+
+@TechReport{	  was:2005,
+  author	= {Geoffrey Washburn},
+  title		= {Cause and effect: type systems for effects and
+		  dependencies},
+  institution	= {University of Pennsylvania},
+  address	= {Computer and Information Science Department, Levine Hall,
+		  3330 Walnut Street, Philadelphia, Pennsylvania,
+		  19104-6389},
+  year		= 2005,
+  number	= {MS-CIS-05-???},
+  month		= {March},
+  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/wpeii.ps}
+		  ,
+  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/wpeii.ps.gz}
+		  ,
+  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/wpeii.pdf}
+		  ,
+  plclub	= "yes",
+  abstract	= { Formal frameworks for reasoning about programs are
+		  important not only for automated tools but also for
+		  programmers. Type systems have proven an enormously popular
+		  framework for validating static analyses of programs, as
+		  well as for documenting their interfaces for programmers.
+		  However, most type systems used in practice today fail to
+		  capture many essential aspects of program behavior: the
+		  effects and dependencies of programs. There has been
+		  considerable research in the past twenty years into
+		  developing type systems that capture this information. In
+		  this paper we examine, compare, contrast, and connect a
+		  number of highly influential and prototypical type systems
+		  for capturing effects and dependencies. Specifically we
+		  look at classic effect type systems as conceived by Gifford
+		  et.al, a canonical example of dependency type systems --
+		  type systems for information-flow, two different modal type
+		  systems that enforce a (co)monadic effect and dependency
+		  discipline, and linear type systems for precise reasoning
+		  about states and resources. Finally, we also present a
+		  calculus that provides an insight into a possibility for an
+		  unified account for all of these systems. }
+}
