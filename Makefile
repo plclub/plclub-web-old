@@ -1,5 +1,6 @@
 all:
-	echo "This doesn't do anything yet."
+	rm -rf dest
+	svn export src dest
 
 commit:
 	svn commit
@@ -8,4 +9,5 @@ update:
 	svn update
 
 live:	
-	rsync -av --delete -e ssh ./src/ $(USER)@saul.cis.upenn.edu:/mnt/ftp/pub/htdocs/proj/plclub/
+	svn commit
+	rsync -av --delete -e ssh ./dest/ $(USER)@saul.cis.upenn.edu:/mnt/ftp/pub/htdocs/proj/plclub/

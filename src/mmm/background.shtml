@@ -20,15 +20,32 @@
 
 <!-- footer -->
 
-<ul>
-<li>Coq</li>
-</li>
+<h2>Coq</h2>
 
-<li>Isabelle
+<h2>Isabelle</h2>
+  <p><strong>Roadmap:</strong> 
+  Make a good pass of the complete tutorial doing the examples
+  yourself before trying anything more complex: For most things 
+  that one wants to do when programming in Isabelle/HOL, there is the 
+  appropriate way to do it somewhere in the Tutorial. Having seen
+  the complete tutorial is very important. The tutorial covers the
+  traditional apply script syntax.
+  </p>
+  <p>Once one becomes familiar with the way tactics and apply scripts work,
+     he can read the second document about Isar and re-structure his 
+     proofs in the much more powerful Isar style.
+  </p>
+  <p>The Isabelle/HOL distribution comes with a very nice set of examples,
+     that include programming languages proofs.</p>
 
-</li>
+  <ol>
+   <li>T. Nipkow, L. Paulson, and M. Wenzel. "Isabelle/HOL. A Proof Assistant for Higher-Order Logic."  [<a href="http://www.cl.cam.ac.uk/Research/HVG/Isabelle/dist/Isabelle2004/doc/tutorial.pdf">pdf</a>]</li>
+   <li>T. Nipkow. "Structured Proofs in Isar/HOL." [<a href="http://www.cl.cam.ac.uk/Research/HVG/Isabelle/dist/Isabelle2004/doc/isar-overview.pdf">pdf</a>]</li>
+   <li><a href="http://www.cl.cam.ac.uk/Research/HVG/Isabelle/docs">Isabelle Documentation</a></li> 
 
-<li>Twelf
+  </ol>
+
+<h2>Twelf</h2>
   <ol>
   <li>Frank Pfenning. <i>Computation and Deduction</i>. 
       [<a href="http://www-2.cs.cmu.edu/~fp/courses/comp-ded/handouts/cd.pdf">pdf</a>]
@@ -53,9 +70,6 @@ href="http://cs-www.cs.yale.edu/homes/carsten/papers/S00b.ps.gz">ps</a>]</li>
   <li>Brigitte Pientka. <i>Tabled Higher-Order Logic Programming</i>. [<a 
       href="http://www.cs.mcgill.ca/~bpientka/papers/thesis.ps">ps</a>]</li>
   </ol>
-</li>
-
-</ul>
 
 
 <div class="footer">
