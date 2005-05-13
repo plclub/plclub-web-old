@@ -27,8 +27,10 @@ list</a>.</p>
 
 <ul>
 
-   <li><a href="./poplmark/vouillon-coq.v">Submission</a> by
-   J&eacute;r&ocirc;me Vouillon</li>
+   <li><a href="./poplmark/vouillon-coq.tar.gz">Submission</a> by
+   J&eacute;r&ocirc;me Vouillon (also available as individual files: <a
+   href="./poplmark/vouillon-coq/part-a.v">part-a.v</a>, <a
+   href="./poplmark/vouillon-coq/part-b.v">part-b.v</a>)</li>
 
    <li><a href="./poplmark/cmu-twelf.tar.gz">Submission</a> by Karl Crary,
    Robert Harper, and  Michael Ashley-Rollman of Carnegie Mellon (also
@@ -126,7 +128,7 @@ class="gd"><a href="./poplmark/vouillon-coq.shtml#challenges">Close</a></td>
 </tr>
 
 <tr>
-<th colspan="2"><a href="#desc-challenge1b">Challenge 1b</a></th>   <td class="gd">-</td> <td 
+<th colspan="2"><a href="#desc-challenge1b">Challenge 1b</a></th>   <td class="gd">?</td> <td 
 class="gd"><a href="./poplmark/cmu-twelf.shtml#challenges1b">Yes</a></td>
 <td class="gd">-</td>
 </tr>
@@ -139,7 +141,7 @@ class="gd"><a href="./poplmark/vouillon-coq.shtml#challenges">Close</a></td>
 </tr>
 
 <tr>
-<th colspan="2"><a href="#desc-challenge2b">Challenge 2b</a></th>               <td class="gd">-</td> 
+<th colspan="2"><a href="#desc-challenge2b">Challenge 2b</a></th>               <td class="gd">?</td> 
 <td class="gd"><a 
 href="./poplmark/cmu-twelf.shtml#challenges2b">Yes</a></td>
 <td class="gd">-</td>
