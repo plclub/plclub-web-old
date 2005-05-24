@@ -10,7 +10,6 @@ commit:
 update:
 	svn update
 
-live:	
+live:	all commit
 	$(if $(USER), ,$(ERRMSG))
-	svn commit
 	rsync -rulzvtS --delete -e ssh ./dest/ $(USER)@saul.cis.upenn.edu:/mnt/ftp/pub/htdocs/proj/plclub/
