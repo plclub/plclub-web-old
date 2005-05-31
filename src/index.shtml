@@ -11,7 +11,7 @@
 <body>
 <table cellpadding="10" cellspacing="4" style="border:0; width: 100%">
   <tr style="vertical-align: bottom;">
-    <td rowspan="2" style="background: #B4D7E9; text-align: center;"> 
+    <td rowspan="2" style="background: #B4D7E9; text-align: center;">
 	<img src="images/tower-retouched-cropped-small.jpg" alt="" style="border:0;height:302px;width:194px;"/>
     </td>
     <td style="background: #CFED74; width: 100%;">
@@ -39,7 +39,7 @@
 			Security-oriented languages</a></li>
 			<li>Type-directed programming
                           <ul>
-			  <li><a href="http://www.cis.upenn.edu/~dimitriv/itaname/">Extensible 
+			  <li><a href="http://www.cis.upenn.edu/~dimitriv/itaname/">Extensible
 			  intensional type analysis</a></li>
 			  <li><a href="http://www.cis.upenn.edu/~sweirich/tdj/tdj.htm">
 			  Type-directed Java</a></li>
@@ -50,12 +50,12 @@
 		</td>
   </tr>
 	<tr style="vertical-align: top;">
-    <td style="background: #CFED74; white-space: nowrap;"> 
+    <td style="background: #CFED74; white-space: nowrap;">
       <h4 class="header">People</h4>
       <ul>
 		<li><a href="http://www.cis.upenn.edu/~bcpierce">Benjamin Pierce</a></li>
 		<li><a href="http://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a></li>
-		<li><a href="http://www.cis.upenn.edu/~stevez/">Steve Zdancewic</a></li> 
+		<li><a href="http://www.cis.upenn.edu/~stevez/">Steve Zdancewic</a></li>
       </ul>
       <ul>
 		<li><a href="http://www.cis.upenn.edu/~baydemir/">Brian Aydemir</a></li>
@@ -66,6 +66,7 @@
 		<li><a href="http://www.cis.upenn.edu/~vgapeyev/">Vladimir Gapayev</a></li>
 		<li><a href="http://www.cis.upenn.edu/~sumii/">Eijiro Sumii</a></li>
 		<li><a href="http://www.cis.upenn.edu/~stse/">Stephen Tse</a></li>
+                <li><a href="http://www.seas.upenn.edu/~vaughan2/">Jeff Vaughan</a></li>
 		<li><a href="http://www.seas.upenn.edu/~dimitriv/">Dimitrios Vytiniotis</a></li>
 		<li><a href="http://www.cis.upenn.edu/~geoffw/">Geoff Washburn</a></li>
 		</ul>
@@ -78,7 +79,7 @@
 			Atsushi Igarashi</a></li>
 			<li>
 			<a href="http://www.brics.dk/~ck/">Christian Kirkegaard</a></li>
-			<li><a href="http://pauillac.inria.fr/~aschmitt/index.html">Alan 
+			<li><a href="http://pauillac.inria.fr/~aschmitt/index.html">Alan
 			Schmitt</a></li>
 			<li><a href="http://www.pps.jussieu.fr/~vouillon/">J&eacute;r&ocirc;me Vouillon
 			</a>
@@ -102,7 +103,7 @@
                         </li>
 			<li>Student reading group -
 			S04 - <a href="http://www.cis.upenn.edu/proj/plclub/rg-s04/">Category theory</a></li>
-     
+
 			<li>CIS 700 / S04 -
 			<a href="http://www.cis.upenn.edu/~stevez/CIS700-04.html">&pi;-calculus and foundations of concurrent systems</a>
 			</li>
@@ -112,11 +113,11 @@
 			<a href="http://www.cis.upenn.edu/~sweirich/cis670/03/">Advanced type systems</a>
 			</li>
 			<li>CIS 670 / S03 -
-			<a href="http://www.seas.upenn.edu/~cis670/Spring2003/">Safety and 
+			<a href="http://www.seas.upenn.edu/~cis670/Spring2003/">Safety and
 			security</a></li>
                         <li>CIS 500 / F02 -
 			<a href="http://www.seas.upenn.edu/~cis500/cis500-f02/index.html">
-			Software foundations 
+			Software foundations
 			</a>
                         </li>
 			<li>CIS 670 / F02 -
@@ -127,20 +128,20 @@
 			<li><a href="contest/index.html">The Seventh Annual ICFP Programming Contest</a> </li>
 			<li>
 			<a href="http://www.cs.uoregon.edu/activities/summerschool/summer04/">Summer School on Software Security</a></li>
-			<li><a href="http://www.research.att.com/~kfisher/njpls/">New Jersey 
+			<li><a href="http://www.research.att.com/~kfisher/njpls/">New Jersey
 		Programming Languages Seminar</a></li>
 			<li>
-			<a href="http://lists.seas.upenn.edu/mailman/listinfo/types-list">The TYPES forum 
+			<a href="http://lists.seas.upenn.edu/mailman/listinfo/types-list">The TYPES forum
 			</a></li>
 		</ul>
 		<h3 class="header">Related Groups at Penn</h3>
 		<ul>
-			<li><a href="http://www.cis.upenn.edu/~lc/home.html">Logic and 
+			<li><a href="http://www.cis.upenn.edu/~lc/home.html">Logic and
 			Computation</a></li>
-			<li><a href="http://www.cis.upenn.edu/sdrl/index.php3">SDRL (Systems 
+			<li><a href="http://www.cis.upenn.edu/sdrl/index.php3">SDRL (Systems
 			Design Research Lab)</a></li>
 			<li><a href="http://www.cis.upenn.edu/~stevez/IAWeb/index.htm">
-			Information Assurance 
+			Information Assurance
 			</a></li>
 			<li><a href="http://www.cis.upenn.edu/securitysem/">Security seminar</a></li>
 		</ul></td>
