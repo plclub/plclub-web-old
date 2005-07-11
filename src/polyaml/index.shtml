@@ -8,10 +8,10 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<h1>The Poly<span style="font-variant: small-caps;">AML</span> Project</h1>
+<h1>The Poly<span style="font-variant: small-caps;">aml</span> Project</h1>
 <h2>Daniel S. Dantas, David Walker, Geoffrey Washburn, and Stephanie Weirich</h2>
 
-The Standard ML prototype implementation of Poly<span style="font-variant: small-caps;">AML</span>: (<a href="http://www.cis.upenn.edu/proj/plclub/polyaml/polyaml-01.tar.gz">polyaml-01.tar.gz</a>)
+The Standard ML prototype implementation of Poly<span style="font-variant: small-caps;">aml</span>: (<a href="http://www.cis.upenn.edu/proj/plclub/polyaml/polyaml-01.tar.gz">polyaml-01.tar.gz</a>)
 <hr />
  <small>Last modified: <!--#flastmod virtual="./index.shtml"--></small>
 </body>
