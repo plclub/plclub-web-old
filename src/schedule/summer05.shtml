@@ -71,13 +71,13 @@
   <tr bgcolor="#EEEEEE">
     <td align="right">15</td>
     <td>Karl</td>
-    <td>&nbsp;</td>
+    <td><a href="http://www.bracha.org/wildcards.pdf">Wildcard Types</a></td>
     <td>&nbsp;</td>
   </tr>
   <tr bgcolor="#CCFFFF">
     <td align="right">22</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
+    <td>Geoff</td>
+    <td><a href="http://pico.vub.ac.be/~wdmeuter/RDL04/papers/Meijer.pdf">Static Typing Where Possible, Dynamic Typing When Needed</a> </td>
     <td>POPL Deadline 18th / Summer School</td>
   </tr>
   <tr bgcolor="#EEEEEE">
@@ -88,7 +88,7 @@
   </tr>
   <tr bgcolor="#CCFFFF">
     <td align="right">August 5</td>
-    <td>&nbsp;</td>
+    <td>Benli</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
   </tr>
