@@ -32,7 +32,7 @@
       <subfile><name>2a.elf</name><file>./poplmark/cmu-twelf/2a.elf</file></subfile>
       <subfile><name>2a.elf</name><file>./poplmark/cmu-twelf/2b.elf</file></subfile>
     </subfiles>
-    <authors>Karl Crary,Robert Harper, and  Michael Ashley-Rollman of Carnegie Mellon</authors>
+    <authors>Karl Crary, Robert Harper, and Michael Ashley-Rollman of Carnegie Mellon</authors>
     <system><a href="http://www-2.cs.cmu.edu/~twelf/">Twelf</a></system>
     <representation>HOAS</representation>
     <gradefile>./poplmark/cmu-twelf.shtml</gradefile>
@@ -70,7 +70,7 @@
      <file>./poplmark/xi-fsub.ats</file>
      <author>Hongwei Xi</author>
      <system><a href="http://www.cs.bu.edu/~hwxi/ATS/ATS.html">ATS/LF</a></system>
-     <representation> ***** </representation>
+     <representation>?</representation>
      <gradefile>./poplmark/ats.shtml</gradefile>
      <drag>?</drag>
      <accessibility>?</accessibility>
