@@ -2,22 +2,60 @@
 <submissions>
   <submission>
     <file>./poplmark/vouillon-coq.tar.gz</file>
+    <subfile>./poplmark/vouillon-coq/part-a.v</subfile>
+    <subfile>./poplmark/vouillon-coq/part-b.v</subfile>
     <authors>J&eacute;r&ocirc;me Vouillon</authors>
-    <system>Coq</system>
+    <system><a href="http://coq.inria.fr/">Coq</a></system>
     <representation>deBruijn</representation>
+    <drag>C+</drag>
+    <accessibility>B+</accessibility>
+    <transparency>B+</transparency>
+    <challenge1a>Close</challenge1a>
+    <challenge1b>?</challenge1b>
+    <challenge2a>Close</challenge2a>
+    <challenge2b>?</challenge2b>
+    <challenge3>-</challenge3>
+    <overall>-</overall>
+    <comments>No</comments>
   </submission>
   <submission>  
     <file>./poplmark/cmu-twelf.tar.gz">Submission</file>
+    <subfile>./poplmark/cmu-twelf/1a.elf</subfile>
+    <subfile>./poplmark/cmu-twelf/1b.elf</subfile>
+    <subfile>./poplmark/cmu-twelf/2a.elf</subfile>
+    <subfile>./poplmark/cmu-twelf/2b.elf</subfile>
     <authors>Karl Crary,Robert Harper, and  Michael Ashley-Rollman of Carnegie Mellon</authors>
     <system>Twelf</system>
     <representation>HOAS</representation>
+    <drag>C+</drag>
+    <accessibility>B+</accessibility>
+    <transparency>B+</transparency>
+    <challenge1a>Close</challenge1a>
+    <challenge1b>?</challenge1b>
+    <challenge2a>Close</challenge2a>
+    <challenge2b>?</challenge2b>
+    <challenge3>-</challenge3>
+    <overall>-</overall>
+    <comments>No</comments>
   <submission>
      <file>./poplmark/mf266-alpha-prolog.tar.gz</file>
      <author>Matthew Fairbairn</author>
      <system>&alpha;Prolog</system>
      <representation>Nominal</representation>
+    <drag>?</drag>
+    <accessibility>?</accessibility>
+    <transparency>?</transparency>
+    <challenge1a>-</challenge1a>
+    <challenge1b>-</challenge1b>
+    <challenge2a>-</challenge2a>
+    <challenge2b>-</challenge2b>
+    <challenge3>?</challenge3>
+    <overall>-</overall>
+    <comments>No</comments>
   </submission>
 </submissions>
+
+<!-- baydemir: format ends here? -->
 
 <table class="gd" style="margin:0 auto;">
 <tr><td></td><td></td><th style="text-align:center;">Solution 1<br /><a href="./poplmark/vouillon-coq.v">Vouillon</a></th><th 
