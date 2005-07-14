@@ -50,24 +50,24 @@ revision on the basis of further discussion.</em></p>
    <dd>
    <dl>
 
-   <dt><a id="challenges1a">Challenge 1a</a></dt>
+   <dt><a id="challenge1a">Challenge 1a</a></dt>
    <dd></dd>
 
-   <dt><a id="challenges1b">Challenge 1b</a></dt>
+   <dt><a id="challenge1b">Challenge 1b</a></dt>
    <dd>Would be nice the theory of <code>nat</code>s and 
       <code>trow</code> list theory could be abstracted out. 
       Unable to discern the purpose of <code>nat_mol</code> bits.</dd>
 
-   <dt><a id="challenges2a">Challenge 2a</a></dt>
+   <dt><a id="challenge2a">Challenge 2a</a></dt>
    <dd>Does not use evaluation contexts.</dd>
 
-   <dt><a id="challenges2b">Challenge 2b</a></dt>
+   <dt><a id="challenge2b">Challenge 2b</a></dt>
    <dd>Does not use evaluation contexts.  Again, <code>nat</code> and
    <code>*list</code> theory could be abstracted out.  Pattern
    representation not the most desirable, but no worse than deBruijn
    encoding.</dd>
 
-   <dt><a id="challenges3">Challenge 3</a></dt>
+   <dt><a id="challenge3">Challenge 3</a></dt>
    <dd>Should provide scripts to demonstrate.  Admittedly we have not 
    yet provide some examples that we would like to see demonstrated.</dd>
    </dl>
