@@ -232,6 +232,15 @@ doctype-system="DTD/xhtml1-strict.dtd" />
   </tr>
 
   <tr> 
+  <th><a href="#desc-challenge2b">Challenge 2b</a></th>
+  <xsl:for-each select="submissions/submission">
+    <td class="gd">
+      <a href="{gradefile/node()}#challenge2b"><xsl:copy-of select="challenge2b/node()" /></a>
+    </td>
+  </xsl:for-each>
+  </tr>
+
+  <tr> 
   <th><a href="#desc-challenge3">Challenge 3</a></th>
   <xsl:for-each select="submissions/submission">
     <td class="gd">

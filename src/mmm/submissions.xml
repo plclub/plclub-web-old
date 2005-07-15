@@ -36,14 +36,14 @@
     <system><a href="http://www-2.cs.cmu.edu/~twelf/">Twelf</a></system>
     <representation>HOAS</representation>
     <gradefile>./poplmark/cmu-twelf.shtml</gradefile>
-    <drag>C+</drag>
-    <accessibility>B+</accessibility>
-    <transparency>B+</transparency>
-    <challenge1a>Close</challenge1a>
-    <challenge1b>?</challenge1b>
-    <challenge2a>Close</challenge2a>
-    <challenge2b>?</challenge2b>
-    <challenge3>-</challenge3>
+    <drag>B</drag>
+    <accessibility>C+</accessibility>
+    <transparency>-</transparency>
+    <challenge1a>Yes</challenge1a>
+    <challenge1b>Yes</challenge1b>
+    <challenge2a>Yes</challenge2a>
+    <challenge2b>Yes</challenge2b>
+    <challenge3>?</challenge3>
     <overall>-</overall>
     <comments>No</comments>
   </submission>  

@@ -24,7 +24,7 @@
                
             </li>
             <li><a href="./poplmark/cmu-twelf.tar.gz&#34;&gt;Submission">Submission</a> by 
-               Karl Crary,Robert Harper, and  Michael Ashley-Rollman of Carnegie Mellon
+               Karl Crary, Robert Harper, and Michael Ashley-Rollman of Carnegie Mellon
                (also available as individual files:
                <a href="./poplmark/cmu-twelf/1a.elf">1a.elf</a>, <a href="./poplmark/cmu-twelf/1b.elf">1a.elf</a>, <a href="./poplmark/cmu-twelf/2a.elf">2a.elf</a>, <a href="./poplmark/cmu-twelf/2b.elf">2a.elf</a>)
                
@@ -90,49 +90,56 @@
             <tr>
                <th><a href="#desc-drag">Drag</a></th>
                <td class="gd"><a href="./poplmark/vouillon-coq.shtml#drag">C+</a></td>
-               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#drag">C+</a></td>
+               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#drag">B</a></td>
                <td class="gd"><a href="./poplmark/alpha-prolog.shtml#drag">?</a></td>
                <td class="gd"><a href="./poplmark/ats.shtml#drag">?</a></td>
             </tr>
             <tr>
                <th><a href="#desc-Accessibility">Accessibility</a></th>
                <td class="gd"><a href="./poplmark/vouillon-coq.shtml#acess">B+</a></td>
-               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#acess">B+</a></td>
+               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#acess">C+</a></td>
                <td class="gd"><a href="./poplmark/alpha-prolog.shtml#acess">?</a></td>
                <td class="gd"><a href="./poplmark/ats.shtml#acess">?</a></td>
             </tr>
             <tr>
                <th><a href="#desc-transparency">Transparency</a></th>
                <td class="gd"><a href="./poplmark/vouillon-coq.shtml#transparency">B+</a></td>
-               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#transparency">B+</a></td>
+               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#transparency">-</a></td>
                <td class="gd"><a href="./poplmark/alpha-prolog.shtml#transparency">?</a></td>
                <td class="gd"><a href="./poplmark/ats.shtml#transparency">?</a></td>
             </tr>
             <tr>
                <th><a href="#desc-challenge1a">Challenge 1a</a></th>
                <td class="gd"><a href="./poplmark/vouillon-coq.shtml#challenge1a">Close</a></td>
-               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge1a">Close</a></td>
+               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge1a">Yes</a></td>
                <td class="gd"><a href="./poplmark/alpha-prolog.shtml#challenge1a">-</a></td>
                <td class="gd"><a href="./poplmark/ats.shtml#challenge1a">?</a></td>
             </tr>
             <tr>
                <th><a href="#desc-challenge1b">Challenge 1b</a></th>
                <td class="gd"><a href="./poplmark/vouillon-coq.shtml#challenge1b">?</a></td>
-               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge1b">?</a></td>
+               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge1b">Yes</a></td>
                <td class="gd"><a href="./poplmark/alpha-prolog.shtml#challenge1b">-</a></td>
                <td class="gd"><a href="./poplmark/ats.shtml#challenge1b">?</a></td>
             </tr>
             <tr>
                <th><a href="#desc-challenge2a">Challenge 2a</a></th>
                <td class="gd"><a href="./poplmark/vouillon-coq.shtml#challenge2a">Close</a></td>
-               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge2a">Close</a></td>
+               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge2a">Yes</a></td>
                <td class="gd"><a href="./poplmark/alpha-prolog.shtml#challenge2a">-</a></td>
                <td class="gd"><a href="./poplmark/ats.shtml#challenge2a">?</a></td>
             </tr>
             <tr>
+               <th><a href="#desc-challenge2b">Challenge 2b</a></th>
+               <td class="gd"><a href="./poplmark/vouillon-coq.shtml#challenge2b">?</a></td>
+               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge2b">Yes</a></td>
+               <td class="gd"><a href="./poplmark/alpha-prolog.shtml#challenge2b">-</a></td>
+               <td class="gd"><a href="./poplmark/ats.shtml#challenge2b">?</a></td>
+            </tr>
+            <tr>
                <th><a href="#desc-challenge3">Challenge 3</a></th>
                <td class="gd"><a href="./poplmark/vouillon-coq.shtml#challenge3">-</a></td>
-               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge3">-</a></td>
+               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge3">?</a></td>
                <td class="gd"><a href="./poplmark/alpha-prolog.shtml#challenge3">?</a></td>
                <td class="gd"><a href="./poplmark/ats.shtml#challenge3">?</a></td>
             </tr>
