@@ -76,8 +76,8 @@
   </tr>
   <tr style="background: #CCFFFF;">
     <td align="right">22</td>
-    <td>Geoff</td>
-    <td><a href="http://pico.vub.ac.be/~wdmeuter/RDL04/papers/Meijer.pdf">Static Typing Where Possible, Dynamic Typing When Needed</a> </td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
     <td>POPL Deadline 18th / Summer School</td>
   </tr>
   <tr style="background: #EEEEEE;">
@@ -88,14 +88,14 @@
   </tr>
   <tr style="background: #CCFFFF;">
     <td align="right">August 5</td>
-    <td>Benli</td>
+    <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
   </tr>
   <tr style="background: #EEEEEE;">
     <td align="right">12</td>
-    <td>Brian</td>
-    <td>TPHOLs practice</td>
+    <td>Benli</td>
+    <td>TBA</td>
     <td>&nbsp;</td>
   </tr>
   <tr style="background: #CCFFFF;">
@@ -112,8 +112,8 @@
   </tr>
   <tr style="background: #CCFFFF;">
     <td align="right">Sept 2</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
+    <td>Geoff</td>
+    <td><a href="http://pico.vub.ac.be/~wdmeuter/RDL04/papers/Meijer.pdf">Static Typing Where Possible, Dynamic Typing When Needed</a></td>
     <td>&nbsp;</td>
   </tr>
 </table>
