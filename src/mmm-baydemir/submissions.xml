@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE submissions SYSTEM "submissions.dtd">
+<submissions>
+  <submission>
+    <name>Vouillon</name>
+    <file>./poplmark/vouillon-coq.tar.gz</file>
+    <subfiles>
+      <subfile><name>part-a.v</name><file>./poplmark/vouillon-coq/part-a.v</file></subfile>
+      <subfile><name>part-b.v</name><file>./poplmark/vouillon-coq/part-b.v</file></subfile>
+    </subfiles>  
+    <author>J&eacute;r&ocirc;me Vouillon</author>
+    <system><a href="http://coq.inria.fr/">Coq</a></system>
+    <representation>deBruijn</representation>
+    <gradefile>./poplmark/vouillon-coq.shtml</gradefile>
+    <drag>C+</drag>
+    <accessibility>B+</accessibility>
+    <transparency>B+</transparency>
+    <challenge1a>Close</challenge1a>
+    <challenge1b>?</challenge1b>
+    <challenge2a>Close</challenge2a>
+    <challenge2b>?</challenge2b>
+    <challenge3>-</challenge3>
+    <overall>-</overall>
+    <comments>No</comments>
+  </submission>
+  <submission>  
+    <name>Carnegie Mellon</name>
+    <file>./poplmark/cmu-twelf.tar.gz">Submission</file>
+    <subfiles>
+      <subfile><name>1a.elf</name><file>./poplmark/cmu-twelf/1a.elf</file></subfile>
+      <subfile><name>1a.elf</name><file>./poplmark/cmu-twelf/1b.elf</file></subfile>
+      <subfile><name>2a.elf</name><file>./poplmark/cmu-twelf/2a.elf</file></subfile>
+      <subfile><name>2a.elf</name><file>./poplmark/cmu-twelf/2b.elf</file></subfile>
+    </subfiles>
+    <authors>Karl Crary, Robert Harper, and Michael Ashley-Rollman of Carnegie Mellon</authors>
+    <system><a href="http://www-2.cs.cmu.edu/~twelf/">Twelf</a></system>
+    <representation>HOAS</representation>
+    <gradefile>./poplmark/cmu-twelf.shtml</gradefile>
+    <drag>B</drag>
+    <accessibility>C+</accessibility>
+    <transparency>-</transparency>
+    <challenge1a>Yes</challenge1a>
+    <challenge1b>Yes</challenge1b>
+    <challenge2a>Yes</challenge2a>
+    <challenge2b>Yes</challenge2b>
+    <challenge3>?</challenge3>
+    <overall>-</overall>
+    <comments>No</comments>
+  </submission>  
+  <submission>
+     <name>Fairbairn</name>
+     <file>./poplmark/mf266-alpha-prolog.tar.gz</file>
+     <author>Matthew Fairbairn</author>
+     <system><a href="http://homepages.inf.ed.ac.uk/jcheney/programs/aprolog/">&alpha;Prolog</a></system>
+     <representation>Nominal</representation>
+     <gradefile>./poplmark/alpha-prolog.shtml</gradefile>
+     <drag>?</drag>
+     <accessibility>?</accessibility>
+     <transparency>?</transparency>
+     <challenge1a>-</challenge1a>
+     <challenge1b>-</challenge1b>
+     <challenge2a>-</challenge2a>
+     <challenge2b>-</challenge2b>
+     <challenge3>?</challenge3>
+     <overall>-</overall>
+     <comments>No</comments>
+  </submission>
+  <submission>
+     <name>Xi</name>
+     <file>./poplmark/xi-fsub.ats</file>
+     <author>Hongwei Xi</author>
+     <system><a href="http://www.cs.bu.edu/~hwxi/ATS/ATS.html">ATS/LF</a></system>
+     <representation>?</representation>
+     <gradefile>./poplmark/ats.shtml</gradefile>
+     <drag>?</drag>
+     <accessibility>?</accessibility>
+     <transparency>?</transparency>
+     <challenge1a>?</challenge1a>
+     <challenge1b>?</challenge1b>
+     <challenge2a>?</challenge2a>
+     <challenge2b>?</challenge2b>
+     <challenge3>?</challenge3>
+     <overall>?</overall>
+     <comments>No</comments>
+  </submission>
+</submissions>

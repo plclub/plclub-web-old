@@ -1,0 +1,17 @@
+Revision 171:
+   -- Clarifications throughout the challenge.
+   -- Additional citations to related work.
+
+Revisions 152--170:
+   -- (Internal updates)
+
+Revision 151:
+   -- Clarified the fact that we are only dealing with well-scoped terms.
+      For example, (X <: Top) should not be derivable in the empty context.
+      See the fourth paragraph under Challenge 1A.
+
+Revisions 149--150:
+   -- (Internal updates)
+
+Revision 148:
+   -- Initial release.
