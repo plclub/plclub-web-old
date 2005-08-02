@@ -7,7 +7,7 @@ SRC = src
 # All proper subdirectories of the current one
 SRCDIRS = $(subdirs CP, $(SRC)) $(SRC)
 SPECIALDIRS = $(SRC)/papers
-
+DIRS=$(SRCDIRS) $(SPECIALDIRS)
 $(LIVE): 
 	if $(file-exists $@)
 	  # NOP
@@ -15,8 +15,13 @@ $(LIVE):
 	 -mkdir $@
 
 .PHONY: build clean commit update live
+
+update:
+	svn update
+
+$(DIRS): update
  
-build: $(SRCDIRS) 
+build: $(DIRS) 
 
 clean:
 	$(RM) -r $(LIVE)
@@ -24,10 +29,8 @@ clean:
 commit:
 	svn commit
 
-update:
-	svn update
 
-live: update commit build 
+live: commit build 
 	rsync -rulzvtS --delete -e ssh ./dest/ $(USER)@saul.cis.upenn.edu:/mnt/ftp/pub/htdocs/proj/plclub/
 
 .SUBDIRS: $(SRC)/papers
