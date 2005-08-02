@@ -4,6 +4,8 @@ LIVE = dest
 # Name of the source directory
 SRC = src
 
+RSYNC=rsync -rulzvtS --delete -e ssh 
+
 # All proper subdirectories of the current one
 SRCDIRS = $(subdirs CP, $(SRC)) $(SRC)
 SPECIALDIRS = $(SRC)/papers
@@ -18,8 +20,6 @@ $(LIVE):
 
 update:
 	svn update
-
-$(DIRS): update
  
 build: $(DIRS) 
 
@@ -29,9 +29,8 @@ clean:
 commit:
 	svn commit
 
-
-live: commit build 
-	rsync -rulzvtS --delete -e ssh ./dest/ $(USER)@saul.cis.upenn.edu:/mnt/ftp/pub/htdocs/proj/plclub/
+live: 
+	$(RSYNC) ./$(LIVE)/ "$(USER)@saul.cis.upenn.edu:/mnt/ftp/pub/htdocs/proj/plclub/"
 
 .SUBDIRS: $(SRC)/papers
   DIR = $(in $(ROOT)/$(SRC), $(CWD))
