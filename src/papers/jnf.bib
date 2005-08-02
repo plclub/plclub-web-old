@@ -1,23 +1,246 @@
-
 @STRING{springer = {Springer-Verlag}}
 @STRING{lncs = {Lecture Notes in Computer Science}}
 
+@STRING{dbpl = {Symposium on Database Programming Languages (DBPL)}}
 @STRING{ecoop =     {European Conference on Object-Oriented Programming (ECOOP)}}
-@STRING{ecoop04 =   ecoop # ", Oslo, Norway" }
+@STRING{popl =      {ACM {SIGPLAN--SIGACT} {S}ymposium on {P}rinciples of {P}rogramming {L}anguages ({POPL})}}
+@STRING{tphols =    {International Conference on Theorem Proving in Higher Order Logics (TPHOLS)}}
 
-@InProceedings{BruceFosterLOOJ04,
-  author = 	 {Kim B. Bruce and J. Nathan Foster},
-  title = 	 {{LOOJ}: Weaving {LOOM} into {J}ava},
-  booktitle =    ecoop04,
-  pages = 	 {389-413},
-  year = 	 {2004},
-  month =        jun,
-  volume = 	 {3086},
-  series = 	 lncs,
-  publisher = springer,
-  plclub = yes,
-  ps = "http://www.cis.upenn.edu/~jnfoster/papers/looj.ps",
-  pdf = "http://www.cis.upenn.edu/~jnfoster/papers/looj.pdf",
-  slides = "http://www.cis.upenn.edu/~jnfoster/papers/ecoop-slides.pdf",
+@STRING{dbpl05 =  dbpl # ", Trondheim, Norway" }
+@STRING{ecoop04 =   ecoop # ", Oslo, Norway" }
+@STRING{popl05 =   popl # ", Long Beach, CA" }
+@STRING{tphols05 = tphols # ", Oxford, UK" }
+
+@inproceedings{schema-sync05,
+  author = {J. Nathan Foster 
+            and Michael B. Greenwald 
+            and Christian Kirkegaard 
+            and Benjamin C. Pierce 
+            and Alan Schmitt},
+  title =  {Exploiting Schemas in Data Synchronization},
+  booktitle = dbpl05,
+  month =  aug,
+  year =   2005,
+  note =   {To appear after revision. Extended version available as University of Pennsylvania technical report MS-CIS-05-02},
+  pdf =     {http://www.cis.upenn.edu/~jnfoster/papers/schema-sync.pdf},
+  jnf =    yes,
 }
 
+@inproceedings{poplmark05,
+  author = {Brian E. Aydemir 
+            and Aaron Bohannon 
+            and Matthew Fairbairn 
+            and J. Nathan Foster 
+            and Benjamin C. Pierce 
+            and Peter Sewell 
+            and Dimitrios Vytiniotis 
+            and Geoffrey Washburn 
+            and Stephanie Weirich 
+            and Steve Zdancewic},
+  booktitle = tphols05,
+  title =  {Mechanized Metatheory for the Masses: The POPLmark Challenge},
+  month =  aug,
+  year =   2005,
+  note =   {To appear after revision.},
+  pdf =    {http://www.cis.upenn.edu/proj/plclub/mmm/poplmark/poplmark.pdf},
+  jnf =    yes,
+}
+
+@inproceedings{focal05,
+  author =    {J. Nathan Foster 
+               and Michael B. Greenwald 
+               and Jonathan T. Moore 
+               and Benjamin C. Pierce 
+               and Alan Schmitt},
+  title =     {Combinators for Bi-Directional Tree Transformations: 
+              {A} Linguistic Approach to the View Update Problem},
+  booktitle = popl05,
+  pages =     {233--246},
+  month =     jan,
+  year =      {2005},
+  note =      {Extended version available as University of Pennsylvania technical report MS-CIS-03-08.},
+  conf =      {http://www.cis.upenn.edu/~jnfoster/papers/focal.pdf},
+  tr =        {http://www.cis.upenn.edu/~jnfoster/papers/focal-tr.pdf},
+  slides =    {http://www.cis.upenn.edu/~jnfoster/papers/focal-slides.pdf},
+
+  abstract = {We propose a novel approach to the well-known view
+              update problem for the case of tree-structured data: a
+              domainspecific programming language in which all
+              expressions denote bi-directional transformations on
+              trees. In one direction, these transformations---dubbed
+              lenses---map a ``concrete'' tree into a simplified ``abstract
+              view''; in the other, they map a modified abstract view,
+              together with the original concrete tree, to a
+              correspondingly modified concrete tree. Our design
+              emphasizes both robustness and ease of use, guaranteeing
+              strong well-behavedness and totality properties for
+              well-typed lenses.
+
+              We identify a natural mathematical space of well-behaved
+              bi-directional transformations over arbitrary
+              structures, study definedness and continuity in this
+              setting, and state a precise connection with the
+              classical theory of ``update translation under a constant
+              complement'' from databases. We then instantiate this
+              semantic framework in the form of a collection of lens
+              combinators that can be assembled to describe
+              transformations on trees. These combinators include
+              familiar constructs from functional programming
+              (composition, mapping, projection, conditionals,
+              recursion) together with some novel primitives for
+              manipulating trees (splitting, pruning, copying,
+              merging, etc.). We illustrate the expressiveness of
+              these combinators by developing a number of
+              bi-directional list-processing transformations as
+              derived forms. An extended example shows how our
+              combinators can be used to define a lens that translates
+              between a native HTML representation of browser
+              bookmarks and a generic abstract bookmark format.}, 
+  jnf =      yes, 
+}
+
+@InProceedings{looj04,
+  author =    {Kim B. Bruce and J. Nathan Foster},
+  title =     {{LOOJ}: Weaving {LOOM} into {J}ava},
+  booktitle = ecoop04,
+  pages =     {389-413},
+  year =      {2004},
+  month =     jun,
+  volume =    {3086},
+  series =    lncs,
+  publisher = springer,
+  conf =      {http://www.cis.upenn.edu/~jnfoster/papers/looj.pdf},
+  slides =    {http://www.cis.upenn.edu/~jnfoster/papers/looj-slides.pdf},
+  abstract = {LOOJ is an extension of Java obtained by adding bounded
+              parametric polymorphism and new type expressions
+              ThisClass and ThisType, which are similar to MyType in
+              LOOM. Through examples we demonstrate the utility of
+              this language even over very expressive extensions such
+              as GJ. The LOOJ compiler generates standard JVML code
+              and supports instanceof and casts for all types
+              including type variables and the other new type
+              expressions. The core of the LOOJ type system is sound,
+              as demonstrated by a soundness proof for an extension of
+              Featherweight GJ. This paper also highlights
+              difficulties that arise from the use of both classes and
+              interfaces as types in Java.},
+  plclub =    yes,
+  jnf =       yes,
+}
+
+@MastersThesis{hps-diss03,
+  author =   {J N Foster},
+  title =    {Indexicals and Belief Reports},
+  type =     {{MP}hil Dissertation},
+  school =   {Department of History and Philosophy of Science, University of Cambridge},
+  address =  {Cambridge, UK},
+  month =    jun,
+  year =     2003,
+  pdf =      {http://www.cis.upenn.edu/~jnfoster/papers/hps-diss.pdf},
+  abstract = {Problems with the semantics of belief reports, typified
+              by Frege's Puzzle, are the source of the most serious
+              objections to the theory of Direct Reference. Kaplan's
+              work on indexicals hints at a reply to these objections
+              based on his notion that belief is mediated by the
+              characters of linguistic expressions. However his
+              account is only successful in explaining belief reports
+              which involve indexicals--it fails to explain a large
+              class of puzzling reports which contain proper names. In
+              this dissertaion, I argue that there are good reasons
+              for supposing that names are indexicals and show that
+              using this thesis, we can extend Kaplan's solution to
+              Frege's Puzzle to many more belief reports.},
+  jnf =     yes,
+}
+
+@MastersThesis{cl-diss02,
+  author =   {John N Foster},
+  title =    {Model Checking for a Functional Hardware Description Language},
+  school =   {Computer Laboratory, University of Cambridge},
+  address =  {Cambridge, UK},
+  month =    jun,
+  year =     {2002},  
+  type =     {{T}ripos Dissertation},
+  pdf =      {http://www.cis.upenn.edu/~jnfoster/papers/cl-diss.pdf},
+  abstract = {We present a verification tool for the functional
+              hardware description language SAFL. Model checking
+              is a popular verification technique. Given a
+              model of a finite state transition system, and a
+              temporal logic specification, a model checker determines
+              if the model satisfies the specification. Advantages of
+              model checking over other verification techniques are
+              that it is fully automatic, and can produce counter
+              examples for false specifications. 
+
+              We have developed a model checker which uses the SAFL
+              language as the modelling language. SAFL is a
+              functional hardware description language. As a result of
+              this project, the same SAFL description can be used to
+              describe a circuit and as a model for model checking. No
+              separate model of the system is needed. It is hoped that
+              this will make verification a regular part of the
+              development process for SAFL programs. Just as a static
+              type checker enforces safety properties for a
+              programming language, we would like to see our model
+              checker used to verify user-defined temporal properties
+              before compiling SAFL programs to silicon. While
+              limitations in model checking technology, (i.e., the
+              state explosion problem), make achieving this goal
+              unlikely for larger programs, techniques such as
+              abstraction and a translation to an industrial-grade
+              symbolic model checker, SMV, can be used to overcome
+              them in many cases.},
+  jnf =     yes,
+}
+
+@MastersThesis{williams-thesis01,
+  author =  {John N Foster},
+  title =   {Rupiah: Towards an Expressive Static Type System for Java},
+  type =    {Senior Honors Thesis},
+  school =  {Department of Computer Science, Williams College},
+  address = {Williamstown, MA},
+  month =   jun,
+  year =    2001,
+  pdf =     {http://www.cis.upenn.edu/~jnfoster/papers/williams-thesis.pdf},
+  abstract = {Despite Java's popularity, several practical limitations
+              imposed by the language's type system have become
+              increasingly apparent in recent years. A particularly
+              glaring omission is the lack of a generic mechanism. As
+              a result of this shortcoming, many recent projects have
+              extended Java to support polymorphism in the style of
+              C++ templates or Ada generics. One project, GJ,
+              adds F-bounded parametric polymorphism to Java
+              via a homogeneous translation (such that only one class
+              file results from each compiled source file), and
+              produces bytecode that is compatible with the standard
+              Java Virtual Machine. However while GJÕs simple
+              translation based on erasure allows for maximum
+              interaction with existing Java code, the new
+              parameterized types that it supports do not operate
+              consistently with Java's semantics for lightweight
+              reflection (i.e., checked type-casts and instanceof
+              operations). 
+
+              We present Rupiah, a language based on features adapted
+              from LOOM, a provably type-safe language, and
+              implemented by a translation based on GJ. However its
+              translation differs from GJ's in that it harnesses
+              Java's built-in reflection to store information about
+              parameterized types. The resulting bytecode correctly
+              executes checked cast and instanceof expressions because
+              it has access to the necessary type information at
+              run-time. We also add a ThisType construct, which solves
+              many of the problems that arise when binary methods are
+              mixed with inheritance, and we replace subtyping with a
+              different relation, matching. Finally, we add exact
+              types, an inheritable virtual constructor mechanism:
+              ThisClass, and compiler features to allow separate
+              compilation of Rupiah source files. These features are
+              implemented in a modified javac compiler. Bytecode
+              emitted by our compiler runs on any Java 1.2 VM. Thus,
+              the Rupiah project contributes a complete implementation
+              of an extension of Java with a more expressive type
+              system that maintains a close fit with existing Java
+              semantics and philosophies. },
+  jnf =     yes,
+}

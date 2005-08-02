@@ -165,7 +165,13 @@
                     {S}ystems, {L}anguages, and {A}pplications ({OOPSLA})" }
 
 
+@STRING{dbpl    =   {Database Programming Languages (DBPL)}}
+@STRING{dbpl05 =   dbpl}
+
 @STRING{ecoop =     {European Conference on Object-Oriented Programming (ECOOP)} }
+@STRING{ecoop92 =   ecoop}
+@STRING{ecoop95 =   ecoop}
+@STRING{ecoop98 =   ecoop}
 
 @STRING{oopsla86 =  oopslapre96 # ", Portland, Oregon" }
 @STRING{oopsla89 =  oopslapre96 # ", New Orleans, Louisiana"}
@@ -771,19 +777,21 @@ plclub = yes,
 bcp =             yes
 }
 
-@article{         Pierce92a,
-author =          "Benjamin C. Pierce",
-title =           "Bounded Quantification is Undecidable",
-journal =         "Information and Computation",
-year =            1994,
-volume =          112,
-number =          1,
-pages =           "131--165",
-month =           jul,
-note =            "Also in "  # taoop # ". Summary in \bgroup \em "  # popl92
-                # "\egroup",
-plclub = yes,                  
-bcp =             yes
+@article         {         Pierce92a,
+author       =   "Benjamin C. Pierce",
+title        =   "Bounded Quantification is Undecidable",
+journal      =   "Information and Computation",
+year         =   1994,
+volume       =   112,
+number       =   1,
+pages        =   "131--165",
+month        =   jul,
+note         =   "Also in "  # taoop # ". Summary in \bgroup \em "  # popl92
+                  # "\egroup",
+plclub       =   yes,                  
+bcp          =   yes,
+keys         =   "subtyping",
+conf         =   "http://www.cis.upenn.edu/~bcpierce/papers/fsubpopl.ps",
 }
 
 @misc{            Pierce:COPC-talk,
@@ -797,29 +805,33 @@ plclub = yes,
 bcp =             yes
 }
 
-@inproceedings{   CastagnaPierce93,
-author =          "Giuseppe Castagna and Benjamin Pierce",
-title =           "Decidable Bounded Quantification",
-booktitle =       proc # " Twenty-First "  # popl # ", Portland, Oregon",
-publisher =       "ACM",
-year =            1994,
-month =           jan,
-plclub = yes,                  
-bcp =             yes
+@inproceedings   {   CastagnaPierce93,
+author       =   "Giuseppe Castagna and Benjamin Pierce",
+title        =   "Decidable Bounded Quantification",
+booktitle    =   proc # " Twenty-First "  # popl # ", Portland, Oregon",
+publisher    =   "ACM",
+year         =   1994,
+month        =   jan,
+plclub       =   yes,                  
+bcp          =   yes,
+keys         =   "subtyping",
+ps           =   "http://www.cis.upenn.edu/~bcpierce/papers/fsubnew.ps",
 }
 
-@inproceedings{   PierceSteffen95,
-author =          "Benjamin C. Pierce and Martin Steffen",
-realauthor =      "Benjamin Pierce and Martin Steffen",
-title =           "Higher-Order Subtyping",
-booktitle =       "IFIP Working Conference on Programming Concepts, Methods
+@inproceedings   {   PierceSteffen95,
+author       =   "Benjamin C. Pierce and Martin Steffen",
+realauthor   =   "Benjamin Pierce and Martin Steffen",
+title        =   "Higher-Order Subtyping",
+booktitle    =   "IFIP Working Conference on Programming Concepts, Methods
                   and Calculi (PROCOMET)",
-year =            1994,
-note =            "Full version in \bgroup\em Theoretical Computer
+year         =   1994,
+note         =   "Full version in \bgroup\em Theoretical Computer
                   Science\egroup, vol.~176, no.~1--2, pp.\  235--282, 1997
                   (corrigendum in TCS vol.~184 (1997), p.~247)",
-plclub = yes,                  
-bcp =             yes
+plclub       =   yes,                  
+bcp          =   yes,
+keys         =   "subtyping",
+tr           =   "http://www.cis.upenn.edu/~bcpierce/papers/fomega.ps",
 }
 
 @techreport{      SteffenPierce93:TR,
@@ -928,7 +940,9 @@ publisher =       "ACM",
 year =            1995,
 month =           jan,
 plclub = yes,                  
-bcp =             yes
+bcp =             yes,
+keys = "subtyping",
+ps           =   "http://www.cis.upenn.edu/~bcpierce/papers/fsubnew-corrigendum.ps",
 }
 
 @article{         Abadi92,
@@ -1177,15 +1191,17 @@ bcp          =   yes,
 keys         =   "pi",
 }
 
-@techreport{      Pierce:BQB,
-author =          "Benjamin C. Pierce",
-title =           "Bounded Quantification with Bottom",
-year =            "1997",
-institution =     "Computer Science Department, Indiana University",
-series =          "CSCI",
-number =          "492",
-plclub = yes,                  
-bcp =             yes
+@techreport      {Pierce:BQB,
+author       =   "Benjamin C. Pierce",
+title        =   "Bounded Quantification with Bottom",
+year         =   "1997",
+institution  =   "Computer Science Department, Indiana University",
+series       =   "CSCI",
+number       =   "492",
+plclub       =   yes,                  
+bcp          =   yes,
+keys         =   "subtyping",
+tr           =   "http://www.cis.upenn.edu/~bcpierce/papers/bqb.ps",
 }
 
 @inproceedings{   BruceCardelliPierce96:TACS,
@@ -1310,8 +1326,7 @@ bcp =             yes
 author =          "Benjamin C. Pierce and David N. Turner",
 title =           "Pict: A Programming Language Based on the Pi-Calculus",
 year =            "1997",
-note =            "Compiler, documentation, demonstration programs, and
-                  standard libraries; available electronically",
+note =            "\URL{http://www.cis.upenn.edu/~bcpierce/papers/pict}",
 plclub = yes,                  
 bcp =             yes
 }
@@ -1379,8 +1394,10 @@ title        =   "Bounded Existentials and Minimal Typing",
 year         =   "1992",
 note         =   "Circulated in manuscript form. Full version in 
                   {\em Theoretical Computer Science}, 193(1--2):75--96, February 1998.",
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,
+keys         =   "subtyping",
+ps           =   "http://www.cis.upenn.edu/~bcpierce/papers/exists.ps",
 }
 
 @techreport{      BalasubramaniamPierce98-TR,
@@ -1695,8 +1712,15 @@ bcp =             yes
 author =          "Benjamin C. Pierce and Trevor Jim and Jerome Vouillon",
 title =           "{\sc Unison}: A portable, cross-platform file
                   synchronizer",
-year =            "2001",
+year =            "2001--present",
 note =            "\URL{http://www.cis.upenn.edu/~bcpierce/unison}",
+}
+
+@misc{            Pierce:harmony,
+author =          "J. Nathan Foster and Benjamin C. Pierce and Alan Schmitt",
+title =           "{\sc Harmony}: A Synchronization Framework for Heterogeneous Tree-Structured Data",
+year =            "2005",
+note =            "\URL{http://www.cis.upenn.edu/~bcpierce/harmony}",
 }
 
 ###article{         PierceSangiorgi96FullVersion,
@@ -1807,8 +1831,10 @@ number       =   6,
 pages        =   "511--548",
 checked      =   yes,
 year         =   "2003",
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,
+keys         =   "subtyping",
+conf         =   "http://www.cis.upenn.edu/~bcpierce/papers/rsr.ps",
 note         =   "Preliminary version in {\em International Conference on
                   Functional Programming (ICFP)}, 2000.  Also appears as
                   Chapter 21 of {\em Types and Programming Languages}
@@ -1829,7 +1855,7 @@ note         =   "To appear in {\em Journal of Functional Programming}"
 author =          "Haruo Hosoya and J\'er\^ome Vouillon and Benjamin C.
                   Pierce",
 title =           "Regular Expression Types for {XML}",
-booktitle =       "Proceedings of the International Conference on Functional
+booktitle =       "International Conference on Functional
                   Programming (ICFP)",
 year =            "2000",
 keys = "xduce",
@@ -1914,7 +1940,7 @@ note         =   "Special issue of papers from {\em
                   of Object Oriented Languages (FOOL 3), July 1996",
 plclub = yes,                  
 bcp          =   yes,
-keywords     =   "oop",
+keys         =   "oop",
 ps           =   "http://www.cis.upenn.edu/~bcpierce/papers/compobj.ps",
 }
 
@@ -1977,11 +2003,12 @@ volume       =   27,
 number       =   1,
 pages        =   "46--90",
 note         =   "Preliminary version in ICFP 2000",
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,
 checked      =   yes,
 keys         =   "xduce",
-conf         =   "http://www.cis.upenn.edu/~bcpierce/regsub.ps",
+conf         =   "http://www.cis.upenn.edu/~bcpierce/papers/regsub.ps",
+full         =   "http://www.cis.upenn.edu/~bcpierce/papers/regsub-toplas.pdf",
 }
 
 @article         {HosoyaPierce2002,
@@ -1989,15 +2016,15 @@ author       =   "Haruo Hosoya and Benjamin C. Pierce",
 title        =   "{XDuce}: A Statically Typed {XML} Processing Language",
 journal      =   "ACM Transactions on Internet Technology",
 year         =   "2003",
-volume = 3,
-number = 2,
-month = may,
-pages = "117--148",
-checked = yes,
-official = "http://doi.acm.org/10.1145/767193.767195",
-plclub = yes,                  
+volume       =   3,
+number       =   2,
+month        =   may,
+pages        =   "117--148",
+checked      =   yes,
+official     =   "http://doi.acm.org/10.1145/767193.767195",
+plclub       =   yes,                  
 bcp          =   yes,
-keys = "xduce",
+keys         =   "xduce",
 }
 
 @inproceedings{   Pierce-Sumii-01,
@@ -2171,8 +2198,8 @@ author       =   "Michael B. Greenwald and Sanjeev Khanna and
 title        =   "Agreement is Quicker than Domination: Conflict Resolution for
                   Optimistically Replicated Data",
 year         =   2005,
-note         =   "Submitted for publication",
-plclub = yes,                  
+note         =   "Submitted for publication; available electronically",
+plclub       =   yes,                  
 bcp          =   yes,
 keys         =   "harmony",                  
 short        =   "http://www.cis.upenn.edu/~bcpierce/papers/nway-short.pdf",
@@ -2206,12 +2233,12 @@ booktitle    =   popl05,
 year         =   "2005",
 conf         =   "http://www.cis.upenn.edu/~bcpierce/papers/newlenses-popl.pdf",
 slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/newlenses-popl-slides.pdf",
-TR           =   "http://www.cis.upenn.edu/~bcpierce/papers/newlenses-full.pdf",
+tr           =   "http://www.cis.upenn.edu/~bcpierce/papers/newlenses-full.pdf",
 note         =   {Extended version available as University of Pennsylvania 
                   technical report MS-CIS-03-08.  Earlier version presented at 
                   the {\em Workshop on Programming Language Technologies for 
                   XML (PLAN-X)}, 2004},
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,
 keys         =   "harmony",
 }
@@ -2244,44 +2271,69 @@ keys         =   "harmony",
 % institution = "Department of Computer and Information Science,
 %                University of Pennsylvania"
 
+@misc            {Pierce:LinksTalk2005,
+author       =   "Benjamin C. Pierce",
+title        =   "Fancy Types for XML: Friend or Foe?",
+month        =   apr,
+year         =   2005,
+slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/linkstalk-200504.pdf",
+note         =   "Talk at {\em LINKS} workshop, April 2005",
+plclub       =   yes,                  
+bcp          =   yes,
+keys         =   "xtatic",
+}
+
+@misc            {Pierce:HarmonyTalkTGC,
+author       =   "Benjamin C. Pierce",
+title        =   "Harmony: {T}he Art of Reconciliation",
+month        =   apr,
+year         =   2005,
+slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/harmony-tgc-talk-2005.pdf",
+note         =   "Invited talk at {\em Trusted Global Computing} conference, 
+                  April 2005", 
+plclub       =   yes,                  
+bcp          =   yes,
+keys         =   "harmony",
+}
+
 @misc            {Pierce:HarmonyTalk2003,
 author       =   "Benjamin C. Pierce",
 title        =   "Harmony: A Synchronization Framework for Tree-Structured Data",
 month        =   sep,
 year         =   2003,
 slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/harmonyslides-2003aug.pdf",
-note         =   "Slides from a talk presented in several places (Cambridge, Edinburgh, 
+note         =   "Slides from a talk presented in several places
+                  (Cambridge, Edinburgh, 
                   Philadelphia, Princeton) in Fall 2003",
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,
 keys         =   "harmony",
 }
-% institution = "Department of Computer and Information Science,
-%                University of Pennsylvania"
 
 @misc            {Pierce:EPFLTalk2002,
 author       =   "Benjamin C. Pierce",
 title        =   "Synchronize globally, compute locally",
 month        =   jul,
 year         =   2002,
-slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/harmonyslides-pfl.ps",
-note         =   "Keynote address at {\em Research Day on Global Computing}, EFPL, Lausanne",
-plclub = yes,                  
+slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/harmonyslides-epfl.ps",
+note         =   "Keynote address at {\em Research Day on Global Computing}, 
+                  EFPL, Lausanne",
+plclub       =   yes,                  
 bcp          =   yes,
 keys         =   "harmony",
 }
                   
-@TechReport{ HocusFocusTR2003-old,
-author = "Michael B. Greenwald and Jonathan T. Moore and Benjamin C. Pierce
-             and Alan Schmitt",
-title = "A Language for Bi-Directional Tree Transformations",
-year = 2003,
-type = "Technical Report",
-number = "MS-CIS-03-08",
-institution = "               University of Pennsylvania",
-plclub = yes,                  
-bcp = yes,
-note = "Revised April 2004",
+@techreport      { HocusFocusTR2003-old,
+author       =   "Michael B. Greenwald and Jonathan T. Moore and Benjamin C. Pierce
+                  and Alan Schmitt",
+title        =   "A Language for Bi-Directional Tree Transformations",
+year         =   2003,
+type         =   "Technical Report",
+number       =   "MS-CIS-03-08",
+institution  =   "               University of Pennsylvania",
+plclub       =   yes,                  
+bcp          =   yes,
+note         =   "Revised April 2004",
 }
 
 @techreport      {HarmonyOverview,
@@ -2310,12 +2362,21 @@ type         =   "Technical Report",
 number       =   "MS-CIS-05-02",
 institution  =   "University of Pennsylvania",
 note         =   {Supercedes MS-CIS-03-42},
+TR           =   "http://www.cis.upenn.edu/~bcpierce/papers/sync-tr.pdf",
+bcp          =   yes,
 }
 
-TR           =   "http://www.cis.upenn.edu/~bcpierce/papers/newlenses-full.pdf",
-plclub = yes,                  
+@inproceedings      {SYNC2005,
+author       =   "J. Nathan Foster and Michael B. Greenwald and Christian Kirkegaard
+                  and Benjamin C. Pierce and Alan Schmitt",
+title        =   "Exploiting Schemas in Data Synchronization",
+month        =   aug,
+year         =   2005,
+booktitle    =  DBPL05,
+TR           =   "http://www.cis.upenn.edu/~bcpierce/papers/sync-tr.pdf",
+plclub       =   yes,                  
 bcp          =   yes,
-                  
+}
 
 ### @unpublished{ HocusFocus2003,
 author = "Michael B. Greenwald and Jonathan T. Moore and Benjamin C. Pierce
@@ -2358,7 +2419,9 @@ author       =   "Vladimir Gapeyev and Michael Y. Levin
 year         =   2005,
 month        =   apr,
 booktitle    =   "14th International Conference on Compiler Construction",
-plclub = yes,                  
+conf         =   "http://www.cis.upenn.edu/~bcpierce/papers/xtatic-runtime-CC.pdf",
+tr           =   "http://www.cis.upenn.edu/~bcpierce/papers/xtatic-runtime-TR.pdf",
+plclub       =   yes,                  
 bcp          =   yes,
 keys         =   "xtatic",
 }
@@ -2372,8 +2435,6 @@ month = oct,
 type         =   "Technical Report",
 number       =   "MS-CIS-04-23",
 institution  =   "University of Pennsylvania",
-plclub = yes,                  
-bcp          =   yes,
 keys         =   "xtatic",
 TR          =   "http://www.cis.upenn.edu/~bcpierce/papers/xtatic-runtime-TR.pdf",
 }
@@ -2396,7 +2457,7 @@ title        =   "The {Xtatic} Experience",
 author       =   "Vladimir Gapeyev and Michael Y. Levin 
                   and Benjamin C. Pierce and Alan Schmitt",
 booktitle    =   "Workshop on Programming Language Technologies for XML (PLAN-X)",
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,
 month        =   jan,
 year         =   2005,
@@ -2427,9 +2488,9 @@ title        =   {Typed-based optimization for Regular Patterns},
 booktitle    =   {First International Workshop on High Performance XML Processing},
 year         =   {2004},
 url          =   {http://wam.inrialpes.fr/www-workshop2004/Program.html},
-short =                  "typebasedoptimization-short.pdf",
+short        =   "typebasedoptimization-short.pdf",
 keys         =   "xtatic",
-slides = "typebasedoptimization-slides.pdf",
+slides       =   "typebasedoptimization-slides.pdf",
 }
 
 @inproceedings   {SchmittXtaticFOOLtalk,                  
@@ -2452,23 +2513,24 @@ slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/xtatic-progrep-2004-
 keys = "xtatic",
 }                  
 
-@misc            {poplmark,
+@inproceedings   {poplmark,
 author       =   {Brian E. Aydemir and Aaron Bohannon and Matthew Fairbairn
                   and J. Nathan Foster and Benjamin C. Pierce and Peter
                   Sewell and Dimitrios Vytiniotis and Geoffrey Washburn and
                   Stephanie Weirich and Steve Zdancewic},
-title        =   {Mechanized metatheory for the masses: The POPLmark
+title        =   {Mechanized metatheory for the masses: {T}he {POPLmark}
                   Challenge},
+booktitle    =   "International Conference on Theorem Proving in 
+                  Higher Order Logics (TPHOLs)",
 year         =   2005,
-month        =   {February},
-                  note = "Submitted for publication",
+month        =   {August},
 ps           =   {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.ps}
                   ,
 psgz         =   {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.ps.gz}
                   ,
 pdf          =   {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.pdf}
                   ,
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,                  
 abstract     =   {How close are we to a world where every paper on
                   programming languages is accompanied by an electronic
@@ -2488,6 +2550,32 @@ abstract     =   {How close are we to a world where every paper on
                   further research.}
 }
                   
+@techreport      {LevinPierce05TR,
+title        =   "Type-based Optimization for Regular Patterns",
+author       =   "Michael Y. Levin and Benjamin C. Pierce",
+year         =   2005,
+type         =   "Technical Report",
+number       =   "MS-CIS-05-13",
+institution  =   "University of Pennsylvania",
+month        =   jun,
+bcp          =   yes,
+keys = "xtatic",
+tr           =   "http://www.cis.upenn.edu/~bcpierce/papers/tb-TR.pdf",
+}
+                  
+@inproceedings      {LevinPierce05,
+title        =   "Type-based Optimization for Regular Patterns",
+author       =   "Michael Y. Levin and Benjamin C. Pierce",
+booktitle    =   dbpl05,
+year         =   2005,
+month        =   aug,
+bcp          =   yes,
+plclub       =   yes,                  
+keys = "xtatic",
+tr           =   "http://www.cis.upenn.edu/~bcpierce/papers/tb-TR.pdf",
+}
+                  
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                    %%
 %%                       Entries for ATTAPL                           %%
@@ -3501,7 +3589,6 @@ year = 1986,
   note =	 {Report ESC-LFCS-94-304}, 
   address =      {Edinburgh, Scotland},
 }
-%% url = "http://www.lfcs.informatics.ed.ac.uk/reports/94/ECS-LFCS-94-304/index.html"
 
 @Article{girard:light-linear-logic,
   author = 	 {Jean-Yves Girard},
@@ -8155,10 +8242,6 @@ checked =         "Not checked",
 year =            1986
 }
 
-% Dinesh Katiyar and Sriram Sankar,
-% "Completely Bounded Quantification is Decidable."
-% Proceedings of the ACM SIGPLAN Workshop on ML and
-% its Applications, June, 1992.
 @techreport{      Cardelli91:FsubTheSystem,
 author =          "Luca Cardelli",
 title =           "An Implementation of {$F_{<:}$}",
@@ -8172,7 +8255,7 @@ year =            "1993"
 @article{         Cardelli:BasicPolyTypech:old,
 author =          "Luca Cardelli",
 title =           "Basic Polymorphic Typechecking",
-journal =         polymorphism,
+journal =         "Polymorphism Newsletter",
 year =            1985,
 volume =          2,
 number =          1,
@@ -8221,9 +8304,6 @@ howpublished =    "Talk at {\em Higher-Order Operational Techniques in
                   from Cardelli's web page"
 }
 
-% [BL90] K. B. Bruce and G. Longo, "A Modest Model of Records,
-% Inheritance, and Bounded Quantification."  Information and
-% Computation, 87, 1990, pp. 196-240.
 @inproceedings{   Cardelli88a,
 author =          "Luca Cardelli",
 title =           "Structural Subtyping and the Notion of Power Type",
@@ -9397,12 +9477,13 @@ crossref =        "PEPT:98",
 pages =           {367--411}
 }
 
-@unpublished     {     HosoyaPierceTurner98,
+@unpublished     {HosoyaPierceTurner98,
 author       =   "Haruo Hosoya and Benjamin C. Pierce and David N. Turner",
 title        =   "Datatypes and Subtyping",
 note         =   "Manuscript",
 plclub = yes,                  
 bcp          =   yes,
+keys = "subtyping",
 year         =   1998,
 ps           =   "http://www.cis.upenn.edu/~bcpierce/ds.ps",
 }
@@ -12787,7 +12868,7 @@ key =             "Katiyar, {\em et al.}",
 author =          "Dinesh Katiyar and David Luckham and John Mitchell and
                   Sigurd Meldal",
 title =           "Polymorphism and Subtyping in Interfaces",
-journal =         sigplan,
+journal =         "Sigplan Notices",
 year =            1994,
 volume =          29,
 number =          8,
@@ -20497,8 +20578,8 @@ url          =   "citeseer.nj.nec.com/gottlob03xpath.html" }
 key          =   {XQuery},
 title        =   "{{XQuery} 1.0: An {XML} Query Language, {W3C Working Draft}}",
 organization =   {W3Consortium},
-month        =   Jul,
-year         =   2004,
+month        =   Apr,
+year         =   2005,
 note         =   {\URL{http://www.w3.org/TR/xquery/}},
 }
 
@@ -20574,7 +20655,17 @@ year         =   2003,
 url          =   {\URL{http://homepages.inf.ed.ac.uk/wadler/planx/planx-eproceed/papers/E00-699879232.pdf}}
 }
 
-@techreport      { XJ2003,
+@inproceedings{ XJ2005,
+author = "Matthew Harren and Mukund Raghavachari and Oded Shmueli and 
+          Michael G. Burke and Rajesh Bordawekar and Igor Pechtchanski and
+          Vivek Sarkar", 
+title  = "{XJ}: facilitating {XML} processing in {Java}",
+booktitle = "International World Wide Web Conference",
+year = 2005, 
+pages = {278--287}
+}
+                  
+@techreport      { XJ2003:old,
 author       =   "Matthew Harren and Berkeley Mukund Raghavachari and Oded Shmueli 
                   and Michael Burke and Vivek Sarkar and Rajesh Bordawekar",
 title        =   "{XJ}: Integration of {XML} Processing into {J}ava",
@@ -20965,567 +21056,831 @@ year         =   "2004",
 
 @misc            {DARCS,
 author       =   "David Roundy",
-title        =   "DARCS Revision Control System",                  
-note         =   "http://www.abridgegame.org/darcs/",
+title        =   "{DARCS} Revision Control System",                  
+note         =   "\url{http://www.abridgegame.org/darcs/}",
 year         =   2004,
 }
 
-
-
-@TechReport{	  was+wei:uptr-2003,
-  author	= {Geoffrey Washburn and Stephanie Weirich},
-  title		= {Boxes Go Bananas: Encoding higher-order abstract syntax
-		  with parametric polymorphism (Extended Version)},
-  institution	= {University of Pennsylvania},
-  address	= {Computer and Information Science Department, Levine Hall,
-		  3330 Walnut Street, Philadelphia, Pennsylvania,
-		  19104-6389},
-  year		= 2003,
-  number	= {MS-CIS-03-26},
-  month		= {September},
-  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-03-26.ps}
-		  ,
-  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-03-26.ps.gz}
-		  ,
-  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-03-26.pdf}
-		  ,
-  plclub	= "yes",
-  abstract	= { Higher-order abstract syntax is a simple technique for
-		  implementing languages with functional programming. Object
-		  variables and binders are implemented by variables and
-		  binders in the host language. By using this technique, one
-		  can avoid implementing common and tricky routines dealing
-		  with variables, such as capture-avoiding substitution.
-		  However, despite the advantages this technique provides, it
-		  is not commonly used because it is difficult to write sound
-		  elimination forms (such as folds or catamorphisms) for
-		  higher-order abstract syntax. To fold over such a datatype,
-		  one must either simultaneously define an inverse operation
-		  (which may not exist) or show that all functions embedded
-		  in the datatype are parametric.
-		  
-		  In this paper, we show how first-class polymorphism can be
-		  used to guarantee the parametricity of functions embedded
-		  in higher-order abstract syntax. With this restriction, we
-		  implement a library of iteration operators over
-		  data-structures containing functionals. From this
-		  implementation, we derive ``fusion laws'' that functional
-		  programmers may use to reason about the iteration operator.
-		  Finally, we show how this use of parametric polymorphism
-		  corresponds to the Sch\"urmann, Despeyroux and Pfenning
-		  method of enforcing parametricity through modal types. We
-		  do so by using this library to give a sound and complete
-		  encoding of their calculus into System
-		  $\mathrm{F}_{\omega}$. This encoding can serve as a
-		  starting point for reasoning about higher-order structures
-		  in polymorphic languages.}
+@TechReport{AITR-474,
+  author =       "Jr. Guy Lewis Steele",
+  title =        "{RABBIT}: {A} Compiler for {SCHEME}",
+  institution =  "MIT Artificial Intelligence Laboratory",
+  number =       "AITR-474",
+  year =         "1978",
+  month =        may # "~6",
+  URL =          "ftp://publications.ai.mit.edu/ai-publications/0-499/AITR-474.ps;
+                 ftp://publications.ai.mit.edu/ai-publications/pdf/AITR-474.pdf",
+  abstract =     "We have developed a compiler for the lexically-scoped
+                 dialect of LISP known as SCHEME. The compiler knows
+                 relatively little about specific data manipulation
+                 primitives such as arithmetic operators, but
+                 concentrates on general issues of environment and
+                 control. Rather than having specialized knowledge about
+                 a large variety of control and environment constructs,
+                 the compiler handles only a small basis set which
+                 reflects the semantics of lambda- calculus. All of the
+                 traditional imperative constructs, such as sequencing,
+                 assignment, looping, GOTO, as well as many standard
+                 LISP constructs such as AND, OR, and COND, are
+                 expressed in macros in terms of the applicative basis
+                 set. A small number of optimization techniques, coupled
+                 with the treatment of function calls as GOTO
+                 statements, serve to produce code as good as that
+                 produced by more traditional compilers. The macro
+                 approach enables speedy implementation of new
+                 constructs as desired without sacrificing efficiency in
+                 the generated code. A fair amount of analysis is
+                 devoted to determining whether environments may be
+                 stack-allocated or must be heap- allocated.
+                 Heap-allocated environments are necessary in general
+                 because SCHEME (unlike Algol 60 and Algol 68, for
+                 example) allows procedures with free lexically scoped
+                 variables to be returned as the values of other
+                 procedures; the Algol stack-allocation environment
+                 strategy does not suffice. The methods used here
+                 indicate that a heap- allocating generalization of the
+                 {"}display{"} technique leads to an efficient
+                 implementation of such {"}upward funargs{"}. Moreover,
+                 compile- time optimization and analysis can eliminate
+                 many {"}funargs{"} entirely, and so far fewer
+                 environment structures need be allocated at run time
+                 than might be expected. A subset of SCHEME (rather than
+                 triples, for example) serves as the representation
+                 intermediate between the optimized SCHEME code and the
+                 final output code; code is expressed in this subset in
+                 the so-called continuation-passing style. As a subset
+                 of SCHEME, it enjoys the same theoretical properties;
+                 one could even apply the same optimizer used on the
+                 input code to the intermediate code. However, the
+                 subset is so chosen that all temporary quantities are
+                 made manifest as variables, and no control stack is
+                 needed to evaluate it. As a result, this apparently
+                 applicative representation admits an imperative
+                 interpretation which permits easy transcription to
+                 final imperative machine code. These qualities suggest
+                 that an applicative language like SCHEME is a better
+                 candidate for an UNCOL than the more imperative
+                 candidates proposed to date.",
 }
 
-@TechReport{	  vyt+was+wei:uptr-2004,
-  author	= {Dimitrios Vytiniotis and Geoffrey Washburn and Stephanie
-		  Weirich},
-  title		= {An Open and Shut Typecase (Extended Version)},
-  institution	= {University of Pennsylvania},
-  address	= {Computer and Information Science Department, Levine Hall,
-		  3330 Walnut Street, Philadelphia, Pennsylvania,
-		  19104-6389},
-  year		= 2004,
-  number	= {MS-CIS-04-26},
-  month		= {November},
-  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-04-26.ps}
-		  ,
-  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-04-26.ps.gz}
-		  ,
-  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-04-26.pdf}
-		  ,
-  plclub	= "yes",
-  abstract	= { Ad-hoc polymorphism is a compelling addition to typed
-		  programming languages. There are two different forms of
-		  ad-hoc polymorphism. With the nominal form, the execution
-		  of an operation is determined solely by the name of the
-		  type argument, whereas with the structural form, operations
-		  are defined by case analysis on the structure of types. The
-		  two forms differ in the way that they treat user-defined
-		  types. Operations defined by the nominal approach are
-		  considered ``open''---the programmer can add cases for new
-		  types without modifying existing code. The operations must
-		  be extended however with specialized code for the new
-		  types, and it may be tedious and even difficult to add
-		  extensions that apply to a potentially large universe of
-		  user-defined types. Structurally defined operations apply
-		  to new types by treating them as equal to their underlying
-		  definitions, so no new cases for new types are necessary.
-		  However this form is considered ``closed'' to extension, as
-		  the behaviour of the operations cannot be differentiated
-		  for the new types. This form destroys the distinctions that
-		  user-defined types are designed to express. Both approaches
-		  have their benefits, so it is important to provide both
-		  capabilities in a single language that is expressive enough
-		  to decouple the ``openness'' issue from the way that
-		  user-defined types are treated. We present such a language
-		  that supports both forms of ad-hoc polymorphism. }
+@COMMENT{{This file has been generated by bib2bib 1.75}}
+
+@COMMENT{{Command line: /usr/bin/bib2bib MS-CIS-03-26.bib MS-CIS-04-26.bib MS-CIS-05-04.bib MS-CIS-05-05.bib MS-CIS-05-07.bib gadt.bib icfp2003-corrected.bib icfp2003.bib icfp2005.bib itrs2002.bib lics2005.bib poplmark.bib senior-thesis.bib tldi2005.bib tr-717-04.bib -ob /home/geoffw/svnroot/web/dest-official/research/papers/geoffw.bib}}
+
+@TECHREPORT{Was+Wei:UPTR-2003,
+  AUTHOR = {Geoffrey Washburn and Stephanie Weirich},
+  TITLE = {Boxes Go Bananas: Encoding higher-order abstract syntax with 
+           parametric polymorphism (Extended Version)},
+  INSTITUTION = {University of Pennsylvania},
+  ADDRESS = {Computer and Information Science Department, Levine Hall, 
+             3330 Walnut Street, Philadelphia, Pennsylvania, 19104-6389},
+  YEAR = 2003,
+  NUMBER = {MS-CIS-03-26},
+  MONTH = {September},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-03-26.pdf},
+  PLCLUB = {yes},
+  ABSTRACT = {
+Higher-order abstract syntax is a simple technique for implementing
+languages with functional programming.  Object variables and binders
+are implemented by variables and binders in the host language.  By
+using this technique, one can avoid implementing common and tricky
+routines dealing with variables, such as capture-avoiding
+substitution.  However, despite the advantages this technique
+provides, it is not commonly used because it is difficult to write
+sound elimination forms (such as folds or catamorphisms) for
+higher-order abstract syntax. To fold over such a datatype, one must
+either simultaneously define an inverse operation (which may not
+exist) or show that all functions embedded in the datatype are
+parametric.
+
+In this paper, we show how first-class polymorphism can be used to
+guarantee the parametricity of functions embedded in higher-order
+abstract syntax. With this restriction, we implement a library of
+iteration operators over data-structures containing functionals.  From
+this implementation, we derive ``fusion laws'' that functional
+programmers may use to reason about the iteration operator.  Finally,
+we show how this use of parametric polymorphism corresponds to the
+Sch\"urmann, Despeyroux and Pfenning method of enforcing
+parametricity through modal types. We do so by using this library to
+give a sound and complete encoding of their calculus into System
+$\mathrm{F}_{\omega}$.  This encoding can serve as a starting point
+for reasoning about higher-order structures in polymorphic languages.}
 }
 
-@Misc{		  jon+was+wei:2004,
-  author	= {Simon Peyton Jones and Geoffrey Washburn and Stephanie
-		  Weirich},
-  title		= {Wobbly types: type inference for generalised algebraic
-		  data types},
-  year		= 2004,
-  month		= {July},
-  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/gadt.ps},
-  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/gadt.ps.gz}
-		  ,
-  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/gadt.pdf}
-		  ,
-  plclub	= "yes",
-  abstract	= { Generalised algebraic data types (GADTs), sometimes known
-		  as ``guarded recursive data types'' or ``first-class
-		  phantom types'', are a simple but powerful generalisation
-		  of the data types of Haskell and ML. Recent works have
-		  given compelling examples of the utility of GADTs, although
-		  type inference is known to be difficult.
-		  
-		  It is time to pluck the fruit. Can GADTs be added to
-		  Haskell, without losing type inference, or requiring
-		  unacceptably heavy type annotations? Can this be done
-		  without completely rewriting the already-complex Haskell
-		  type-inference engine, and without complex interactions
-		  with (say) type classes? We answer these questions in the
-		  affirmative, giving a type system that explains just what
-		  type annotations are required, and a prototype
-		  implementation that implements it. Our main technical
-		  innovation is \emph{wobbly types}, which express in a
-		  declarative way the uncertainty caused by the incremental
-		  nature of typical type-inference algorithms. }
+@TECHREPORT{Vyt+Was+Wei:UPTR-2004,
+  AUTHOR = {Dimitrios Vytiniotis and Geoffrey Washburn and Stephanie Weirich},
+  TITLE = {An Open and Shut Typecase (Extended Version)},
+  INSTITUTION = {University of Pennsylvania},
+  ADDRESS = {Computer and Information Science Department, Levine Hall, 
+             3330 Walnut Street, Philadelphia, Pennsylvania, 19104-6389},
+  YEAR = 2004,
+  NUMBER = {MS-CIS-04-26},
+  MONTH = {November},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-04-26.pdf},
+  PLCLUB = {yes},
+  ABSTRACT = {
+Ad-hoc polymorphism is a compelling addition to typed programming
+languages.  There are two different forms of ad-hoc polymorphism. With
+the nominal form, the execution of an operation is determined solely
+by the name of the type argument, whereas with the structural form,
+operations are defined by case analysis on the structure of types.
+The two forms differ in the way that they treat user-defined types.
+Operations defined by the nominal approach are considered ``open''---the
+programmer can add cases for new types without modifying existing
+code. The operations must be extended however with specialized code for
+the new types, and it may be tedious and even difficult to add extensions
+that apply to a potentially large universe of user-defined types.
+Structurally defined operations apply to new types by treating them as
+equal to their underlying definitions, so no new cases for new types
+are necessary. However this form is considered ``closed'' to extension,
+as the behaviour of the operations cannot be differentiated for the
+new types. This form destroys the distinctions that user-defined types
+are designed to express.  Both approaches have their benefits, so it
+is important to provide both capabilities in a single language that is
+expressive enough to decouple the ``openness'' issue from the way that
+user-defined types are treated. We present such a language that supports
+both forms of ad-hoc polymorphism.
+  }
 }
 
-@InProceedings{	  was+wei:icfp-2003a,
-  author	= {Geoffrey Washburn and Stephanie Weirich},
-  title		= {Boxes Go Bananas: Encoding higher-order abstract syntax
-		  with parametric polymorphism},
-  booktitle	= {Proceedings of the Eighth {ACM SIGPLAN} International
-		  Conference on Functional Programming},
-  year		= 2003,
-  month		= {August},
-  address	= {Uppsala, Sweden},
-  organization	= {ACM SIGPLAN},
-  pages		= {249--262},
-  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/icfp2003-corrected.ps}
-		  ,
-  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/icfp2003-corrected.gz}
-		  ,
-  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/ifcp2004-corrected.pdf}
-		  ,
-  plclub	= "yes",
-  abstract	= { Higher-order abstract syntax is a simple technique for
-		  implementing languages with functional programming. Object
-		  variables and binders are implemented by variables and
-		  binders in the host language. By using this technique, one
-		  can avoid implementing common and tricky routines dealing
-		  with variables, such as capture-avoiding substitution.
-		  However, despite the advantages this technique provides, it
-		  is not commonly used because it is difficult to write sound
-		  elimination forms (such as folds or catamorphisms) for
-		  higher-order abstract syntax. To fold over such a datatype,
-		  one must either simultaneously define an inverse operation
-		  (which may not exist) or show that all functions embedded
-		  in the datatype are parametric.
-		  
-		  In this paper, we show how first-class polymorphism can be
-		  used to guarantee the parametricity of functions embedded
-		  in higher-order abstract syntax. With this restriction, we
-		  implement a library of iteration operators over
-		  data-structures containing functionals. From this
-		  implementation, we derive ``fusion laws'' that functional
-		  programmers may use to reason about the iteration operator.
-		  Finally, we show how this use of parametric polymorphism
-		  corresponds to the Sch\"{u}rmann, Despeyroux and Pfenning
-		  method of enforcing parametricity through modal types. We
-		  do so by using this library to give a sound and complete
-		  encoding of their calculus into System
-		  $\mathrm{F}_{\omega}$. This encoding can serve as a
-		  starting point for reasoning about higher-order structures
-		  in polymorphic languages.},
-  note		= { This version fixes a number of typographical errors found
-		  in the ICFP 2003 document; there are no signficant
-		  technical changes. Generated September 2003.}
+@TECHREPORT{Was+Wei:UPTR-2005,
+  AUTHOR = {Geoffrey Washburn and Stephanie Weirich},
+  TITLE = {Generalizing Parametricity Using Information Flow (Extended Version)},
+  INSTITUTION = {University of Pennsylvania},
+  ADDRESS = {Computer and Information Science Department, Levine Hall, 
+             3330 Walnut Street, Philadelphia, Pennsylvania, 19104-6389},
+  YEAR = 2005,
+  NUMBER = {MS-CIS-05-04},
+  MONTH = {June},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-05-04.pdf},
+  PLCLUB = {yes},
+  ABSTRACT = {
+Run-time type analysis allows programmers to easily and concisely define
+operations based upon type structure, such as serialization, iterators,
+and structural equality.  However, when types can be inspected at run
+time, nothing is secret.  A module writer cannot use type abstraction
+to hide implementation details from clients: clients can determine the
+structure of these supposedly ``abstract'' data types.  Furthermore,
+access control mechanisms do not help isolate the implementation of
+abstract datatypes from their clients.  Buggy or malicious authorized
+modules may leak type information to unauthorized clients, so module
+implementors cannot reliably tell which parts of a program rely on their
+type definitions.
+
+Currently, module implementors rely on parametric polymorphism to provide
+integrity and confidentiality guarantees about their abstract datatypes.
+However, standard parametricity does not hold for languages with run-time
+type analysis; this paper shows how to generalize parametricity so
+that it does.   The key is to augment the type system with annotations
+about information-flow.  Implementors can then easily see which parts
+of a program depend on the chosen implementation by tracking the flow
+of dynamic type information.}
 }
 
-@InProceedings{	  was+wei:icfp-2003,
-  author	= {Geoffrey Washburn and Stephanie Weirich},
-  title		= {Boxes Go Bananas: Encoding higher-order abstract syntax
-		  with parametric polymorphism},
-  booktitle	= {Proceedings of the Eighth {ACM SIGPLAN} International
-		  Conference on Functional Programming},
-  year		= 2003,
-  month		= {August},
-  address	= {Uppsala, Sweden},
-  organization	= {ACM SIGPLAN},
-  pages		= {249--262},
-  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/icfp2003.ps}
-		  ,
-  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/icfp2003.ps.gz}
-		  ,
-  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/icfp2003.pdf}
-		  ,
-  plclub	= "yes",
-  abstract	= { Higher-order abstract syntax is a simple technique for
-		  implementing languages with functional programming. Object
-		  variables and binders are implemented by variables and
-		  binders in the host language. By using this technique, one
-		  can avoid implementing common and tricky routines dealing
-		  with variables, such as capture-avoiding substitution.
-		  However, despite the advantages this technique provides, it
-		  is not commonly used because it is difficult to write sound
-		  elimination forms (such as folds or catamorphisms) for
-		  higher-order abstract syntax. To fold over such a datatype,
-		  one must either simultaneously define an inverse operation
-		  (which may not exist) or show that all functions embedded
-		  in the datatype are parametric.
-		  
-		  In this paper, we show how first-class polymorphism can be
-		  used to guarantee the parametricity of functions embedded
-		  in higher-order abstract syntax. With this restriction, we
-		  implement a library of iteration operators over
-		  data-structures containing functionals. From this
-		  implementation, we derive ``fusion laws'' that functional
-		  programmers may use to reason about the iteration operator.
-		  Finally, we show how this use of parametric polymorphism
-		  corresponds to the Sch\"{u}rmann, Despeyroux and Pfenning
-		  method of enforcing parametricity through modal types. We
-		  do so by using this library to give a sound and complete
-		  encoding of their calculus into System
-		  $\mathrm{F}_{\omega}$. This encoding can serve as a
-		  starting point for reasoning about higher-order structures
-		  in polymorphic languages.}
+@TECHREPORT{Was:UPTR-2005,
+  AUTHOR = {Geoffrey Washburn},
+  TITLE = {Cause and Effect: Type Systems for Effects and Dependencies},
+  INSTITUTION = {University of Pennsylvania},
+  ADDRESS = {Computer and Information Science Department, Levine Hall, 
+             3330 Walnut Street, Philadelphia, Pennsylvania, 19104-6389},
+  YEAR = 2005,
+  NUMBER = {MS-CIS-05-05},
+  MONTH = {July},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-05-05.pdf},
+  PLCLUB = {yes},
+  ABSTRACT = {
+Frameworks for formal reasoning about programs are important not only
+for automated tools but also for programmers.   Type systems are a
+popular framework both for documenting program interfaces and for
+developing static analysis tools.  However, type systems commonly
+used in practice today fail to capture essential aspects of program
+behavior: The effects and dependencies of the programs.  In this paper,
+we examine a prototypical effect type system in the style of Gifford
+et al. and a canonical example of a dependency type system based upon
+the work of Zdancewic.  Finally, we show how these two type systems
+can be embedded in a more general framework, a monadic type system as
+developed by Pfenning and Davies.      
+  }
 }
 
-@InProceedings{	  kfo+was+wel:itrs-2002,
-  itrspaper	= {yes},
-  author	= {Assaf J. Kfoury and Geoff Washburn and J. B. Wells},
-  title		= {Implementing Compositional Analysis Using Intersection
-		  Types With Expansion Variables},
-  dartreport	= {yes},
-  churchreport	= {yes},
-  year		= {2002},
-  dvi		= {http://www.church-project.org/reports/electronic/Kfo+Was+Wel:ITRS-2002.dvi}
-		  ,
-  pdf		= {http://www.church-project.org/reports/electronic/Kfo+Was+Wel:ITRS-2002.pdf}
-		  ,
-  elsevierurlb	= {http://www.elsevier.nl/gej-ng/31/29/23/125/51/show/Products/notes/index.htt}
-		  ,
-  elsevierurla	= {http://www.elsevier.nl/locate/entcs/volume70.html},
-  abstract	= {A program analysis is \emph{compositional} when the
-		  analysis result for a particular program fragment is
-		  obtained solely from the results for its immediate
-		  subfragments via some composition operator. This means the
-		  subfragments can be analyzed independently in any order.
-		  Many commonly used program analysis techniques (in
-		  particular, most abstract interpretations and most uses of
-		  the Hindley/Milner type system) are not compositional and
-		  require the entire text of a program for sound and complete
-		  analysis. \par System I is a recent type system for the
-		  pure $\lambda$-calculus with intersection types and the new
-		  technology of expansion variables. System I supports
-		  compositional analysis because it has the \emph{principal
-		  typings} property and an algorithm based on the new
-		  technology of $\beta$-unification has been developed that
-		  finds these principal typings. In addition, for each
-		  natural number $k$, typability in the rank-$k$ restriction
-		  of System I is decidable, so a complete and terminating
-		  analysis algorithm exists for the rank-$k$ restriction.
-		  \par This paper presents new understanding that has been
-		  gained from working with multiple implementations of System
-		  I and $\beta$-unification-based analysis algorithms. The
-		  previous literature on System I presented the type system
-		  in a way that helped in proving its more important
-		  theoretical properties, but was not as easy for
-		  implementers to follow as it could be. This paper provides
-		  a presentation of many aspects of System I that should be
-		  clearer as well as a discussion of important implementation
-		  issues.}
+@TECHREPORT{Dan+Wal+Was+Wei:UPTR-2005,
+  AUTHOR = {Daniel S. Dantas and David Walker and Geoffrey Washburn and Stephanie Weirich},
+  TITLE = {Poly{AML}: A Polymorphic Aspect-oriented Functional Programmming Language (Extended Version)},
+  INSTITUTION = {University of Pennsylvania},
+  ADDRESS = {Computer and Information Science Department, Levine Hall,
+             3330 Walnut Street, Philadelphia, Pennsylvania, 19104-6389},
+  YEAR = 2005,
+  NUMBER = {MS-CIS-05-07},
+  PLCLUB = {yes},
+  MONTH = {May},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/MS-CIS-05-07.pdf},
+  ABSTRACT = {
+This paper defines PolyAML, a typed functional, aspect-oriented
+programming language.  The main contribution of PolyAML is the
+seamless integration of polymorphism, run-time type analysis and
+aspect-oriented programming language features.  In particular, PolyAML
+allows programmers to define type-safe polymorphic advice using pointcuts
+constructed from a collection of polymorphic join points.  PolyAML
+also comes equipped with a type inference algorithm that conservatively
+extends Hindley-Milner type inference.  To support first-class
+polymorphic point-cut designators, a crucial feature for developing
+aspect-oriented profiling or logging libraries, the algorithm blends the
+conventional Hindley-Milner type inference algorithm with a simple form
+of local type inference.
+
+We give our language operational meaning via a type-directed translation
+into an expressive type-safe intermediate language.  Many complexities
+of the source language are eliminated in this translation, leading
+to a modular specification of its semantics.  One of the novelties
+of the intermediate language is the definition of polymorphic labels
+for marking control-flow points.  These labels are organized in a tree
+structure such that a parent in the tree serves as a representative for
+all of its children.  Type safety requires that the type
+of each child is less polymorphic than its parent type.  Similarly,
+when a set of labels is assembled as a pointcut, the type of each label
+is an instance of the type of the pointcut.
+}
 }
 
-@Misc{		  was+wei:2005,
-  author	= {Geoffrey Washburn and Stephanie Weirich},
-  title		= {Generalizing Parametricity Using Information Flow},
-  year		= 2005,
-  month		= {January},
-  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.ps}
-		  ,
-  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.ps.gz}
-		  ,
-  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.pdf}
-		  ,
-  plclub	= "yes",
-  abstract	= { Run-time type analysis allows programmers to easily and
-		  concisely define operations based upon type structure, such
-		  as serialization, iterators, and structural equality.
-		  However, when types can be inspected at run time, nothing
-		  is secret. A module writer cannot use type abstraction to
-		  hide implementation details from clients: they can use type
-		  analysis to determine the structure of these supposedly
-		  ``abstract'' data types. Furthermore, access control
-		  mechanisms do not help isolate the implementation of
-		  abstract datatypes from their clients. Buggy or malicious
-		  authorized modules may simply leak type information to
-		  unauthorized clients, so module implementors cannot
-		  reliably tell which parts of a program rely on their type
-		  definitions.
-		  
-		  Currently, module implementors rely on parametric
-		  polymorphism to provide guarantees about the use of their
-		  abstract datatypes. Standard parametricity does not hold
-		  for a language with run-time type analysis, but in this
-		  paper we show how to generalize parametricity so that it
-		  does hold in the presence of type analysis and still
-		  encompasses the integrity and confidentiality policies that
-		  are derived from parametricity. The key is to augment the
-		  type system with annotations about information-flow. By
-		  tracking the flow of dynamic type information, the
-		  implementor of an abstract data type can easily see which
-		  parts of the program depend on their chosen implementation.
-		  }
+@MISC{Jon+Was+Wei:2004,
+  AUTHOR = {Simon Peyton Jones and Geoffrey Washburn and Stephanie Weirich},
+  TITLE = {Wobbly types: type inference for generalised algebraic data types},
+  YEAR = 2004,
+  MONTH = {July},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/gadt.pdf},
+  PLCLUB = {yes},
+  NOTE = {Unpublished},
+  ABSTRACT = {
+Generalised algebraic data types (GADTs), sometimes known as ``guarded
+recursive data types'' or ``first-class phantom types'', are a simple
+but powerful generalisation of the data types of Haskell and ML.
+Recent works have given compelling examples of the utility of GADTs,
+although type inference is known to be difficult.
+
+It is time to pluck the fruit.  Can GADTs be added to Haskell, without
+losing type inference, or requiring unacceptably heavy type annotations?
+Can this be done without completely rewriting the already-complex Haskell
+type-inference engine, and without complex interactions with (say)
+type classes?  We answer these questions in the affirmative, giving
+a type system that explains just what type annotations are required,
+and a prototype implementation that implements it.  Our main technical
+innovation is \emph{wobbly types}, which express in a declarative way
+the uncertainty caused by the incremental nature of typical type-inference
+algorithms.      
+  }
 }
 
-@Misc{		  dan+wal+was+wei:2004,
-  author	= {Daniel S. Dantas and David Walker and Geoffrey Washburn
-		  and Stephanie Weirich},
-  title		= {Analyzing polymorphic advice},
-  year		= 2004,
-  month		= {October},
-  plclub	= "yes",
-  abstract	= { We take one of the first steps towards developing a
-		  practical, statically-typed, functional, aspect-oriented
-		  programming language by showing how to integrate
-		  polymorphism and type analysis with aspect-oriented
-		  programming features. In particular, we demonstrate how to
-		  define type-safe polymorphic advice using pointcuts that
-		  unify a collection of polymorphic join points. We also
-		  introduce a new mechanism for specifying context-sensitive
-		  advice that involves pattern matching against the current
-		  stack of activation records, and meshes well with
-		  functional programming idioms. We give our language meaning
-		  via a type-directed translation into an expressive, but
-		  fairly simple, type-safe intermediate language. Many
-		  complexities of the source language are eliminated in this
-		  translation, leading to a modular specification of its
-		  semantics. One of the novelties of the intermediate
-		  language is the definition of polymorphic labels for
-		  marking control-flow points. These labels are organized in
-		  a tree structure such that a parent in the tree serves as a
-		  representative for the collection of all its children. Type
-		  safety requires that the type of each child is a generic
-		  instance of the type of the polymorphic parent. Similarly,
-		  when a set of labels is assembled as a pointcut, the type
-		  of each label is an instance of the type of the pointcut.
-		  }
+@INPROCEEDINGS{Was+Wei:ICFP-2003a,
+  AUTHOR = {Geoffrey Washburn and Stephanie Weirich},
+  TITLE = {Boxes Go Bananas: Encoding higher-order abstract syntax with 
+           parametric polymorphism},
+  BOOKTITLE = {Proceedings of the Eighth {ACM SIGPLAN} International 
+               Conference on Functional Programming},
+  YEAR = 2003,
+  MONTH = {August},
+  ADDRESS = {Uppsala, Sweden},
+  ORGANIZATION = {ACM SIGPLAN},
+  PAGES = {249--262},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/ifcp2004-corrected.pdf},
+  PLCLUB = {yes},
+  ABSTRACT = {
+Higher-order abstract syntax is a simple technique for implementing
+languages with functional programming.  Object variables and binders
+are implemented by variables and binders in the host language.  By
+using this technique, one can avoid implementing common and tricky
+routines dealing with variables, such as capture-avoiding
+substitution.  However, despite the advantages this technique
+provides, it is not commonly used because it is difficult to write
+sound elimination forms (such as folds or catamorphisms) for
+higher-order abstract syntax. To fold over such a datatype, one must
+either simultaneously define an inverse operation (which may not
+exist) or show that all functions embedded in the datatype are
+parametric.
+
+In this paper, we show how first-class polymorphism can be used to
+guarantee the parametricity of functions embedded in higher-order
+abstract syntax. With this restriction, we implement a library of
+iteration operators over data-structures containing functionals.  From
+this implementation, we derive ``fusion laws'' that functional
+programmers may use to reason about the iteration operator.  Finally,
+we show how this use of parametric polymorphism corresponds to the
+Sch\"{u}rmann, Despeyroux and Pfenning method of enforcing
+parametricity through modal types. We do so by using this library to
+give a sound and complete encoding of their calculus into System
+$\mathrm{F}_{\omega}$.  This encoding can serve as a starting point
+for reasoning about higher-order structures in polymorphic languages.},
+  NOTE = {
+This version fixes a number of typographical errors found in the ICFP 2003     
+document; there are no signficant technical changes.  Generated September 2003.}
 }
 
-@Misc{		  gw-poplmark:2005,
-  author	= {Brian E. Aydemir and Aaron Bohannon and Matthew Fairbairn
-		  and J. Nathan Foster and Benjamin C. Pierce and Peter
-		  Sewell and Dimitrios Vytiniotis and Geoffrey Washburn and
-		  Stephanie Weirich and Steve Zdancewic},
-  title		= {Mechanized metatheory for the masses: The POPLmark
-		  Challenge},
-  year		= 2005,
-  month		= {February},
-  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.ps}
-		  ,
-  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.ps.gz}
-		  ,
-  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.pdf}
-		  ,
-  plclub	= "yes",
-  abstract	= { How close are we to a world where every paper on
-		  programming languages is accompanied by an electronic
-		  appendix with machine-checked proofs?
-		  
-		  We propose a concrete set of benchmarks for measuring
-		  progress in this area. Based on the metatheory of System
-		  \FSUB, a typed lambda-calculus with second-order
-		  polymorphism, subtyping, and records, these benchmarks
-		  embody many aspects of programming languages that are
-		  challenging to formalize: variable binding at both the term
-		  and type levels, syntactic forms with variable numbers of
-		  components (including binders), and proofs demanding
-		  complex induction principles. We hope that these benchmarks
-		  will help clarify the current state of the art, provide a
-		  basis for comparing competing technologies, and motivate
-		  further research.}
+@INPROCEEDINGS{Was+Wei:ICFP-2003,
+  AUTHOR = {Geoffrey Washburn and Stephanie Weirich},
+  TITLE = {Boxes Go Bananas: Encoding higher-order abstract syntax with 
+           parametric polymorphism},
+  BOOKTITLE = {Proceedings of the Eighth {ACM SIGPLAN} International 
+               Conference on Functional Programming},
+  YEAR = 2003,
+  MONTH = {August},
+  ADDRESS = {Uppsala, Sweden},
+  ORGANIZATION = {ACM SIGPLAN},
+  PAGES = {249--262},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/icfp2003.pdf},
+  PLCLUB = {yes},
+  ABSTRACT = {
+Higher-order abstract syntax is a simple technique for implementing
+languages with functional programming.  Object variables and binders
+are implemented by variables and binders in the host language.  By
+using this technique, one can avoid implementing common and tricky
+routines dealing with variables, such as capture-avoiding
+substitution.  However, despite the advantages this technique
+provides, it is not commonly used because it is difficult to write
+sound elimination forms (such as folds or catamorphisms) for
+higher-order abstract syntax. To fold over such a datatype, one must
+either simultaneously define an inverse operation (which may not
+exist) or show that all functions embedded in the datatype are
+parametric.
+
+In this paper, we show how first-class polymorphism can be used to
+guarantee the parametricity of functions embedded in higher-order
+abstract syntax. With this restriction, we implement a library of
+iteration operators over data-structures containing functionals.  From
+this implementation, we derive ``fusion laws'' that functional
+programmers may use to reason about the iteration operator.  Finally,
+we show how this use of parametric polymorphism corresponds to the
+Sch\"{u}rmann, Despeyroux and Pfenning method of enforcing
+parametricity through modal types. We do so by using this library to
+give a sound and complete encoding of their calculus into System
+$\mathrm{F}_{\omega}$.  This encoding can serve as a starting point
+for reasoning about higher-order structures in polymorphic languages.}
 }
 
-@Misc{		  was:senior-thesis,
-  author	= {Geoffrey Washburn},
-  title		= {Modal Typing for Specifying Run-time Code Generation},
-  school	= {Carnegie Mellon University},
-  month		= {May},
-  year		= {2001},
-  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/senior-thesis.ps}
-		  ,
-  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/senior-thesis.ps.gz}
-		  ,
-  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/senior-thesis.pdf}
-		  
+@INPROCEEDINGS{{Dan+Wal+Was+Wei:2005,
+  AUTHOR = {Daniel S. Dantas and David Walker and Geoffrey Washburn and Stephanie Weirich},
+  TITLE = {Poly{AML}: A Polymorphic Aspect-oriented Functional Programmming Language},
+  BOOKTITLE = {Proceedings of the Tenth {ACM SIGPLAN} International
+               Conference on Functional Programming},
+  YEAR = 2005,
+  MONTH = {September},
+  ADDRESS = {Tallinn, Estonia},
+  ORGANIZATION = {ACM SIGPLAN},
+  PLCLUB = {yes},
+  ABSTRACT = {
+This paper defines PolyAML, a typed functional, aspect-oriented
+programming language.  The main contribution of PolyAML is the
+seamless integration of polymorphism, run-time type analysis and
+aspect-oriented programming language features.  In particular, PolyAML
+allows programmers to define type-safe polymorphic advice using pointcuts
+constructed from a collection of polymorphic join points.  PolyAML
+also comes equipped with a type inference algorithm that conservatively
+extends Hindley-Milner type inference.  To support first-class
+polymorphic point-cut designators, a crucial feature for developing
+aspect-oriented profiling or logging libraries, the algorithm blends the
+conventional Hindley-Milner type inference algorithm with a simple form
+of local type inference.
+
+We give our language operational meaning via a type-directed translation
+into an expressive type-safe intermediate language.  Many complexities
+of the source language are eliminated in this translation, leading
+to a modular specification of its semantics.  One of the novelties
+of the intermediate language is the definition of polymorphic labels
+for marking control-flow points.  These labels are organized in a tree
+structure such that a parent in the tree serves as a representative for
+all of its children.  Type safety requires that the type
+of each child is less polymorphic than its parent type.  Similarly,
+when a set of labels is assembled as a pointcut, the type of each label
+is an instance of the type of the pointcut.
+  }
 }
 
-@Article{	  vyt+was+wei:tldi-2005,
-  author	= { Dimitrios Vytiniotis and Geoffrey Washburn and Stephanie
-		  Weirich },
-  title		= { An Open and Shut Typecase },
-  journal	= { {ACM SIGPLAN} Notices },
-  year		= 2005,
-  month		= {January},
-  address	= {Longbeach, California},
-  organization	= {ACM SIGPLAN},
-  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/tldi2005.ps}
-		  ,
-  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/tldi2005.ps.gz}
-		  ,
-  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/tldi2005.pdf}
-		  ,
-  plclub	= "yes",
-  abstract	= { Two different ways of defining ad-hoc polymorphic
-		  operations commonly occur in programming languages. With
-		  the first form polymorphic operations are defined
-		  inductively on the structure of types while with the second
-		  form polymorphic operations are defined for specific sets
-		  of types.
-		  
-		  In intensional type analysis operations are defined by
-		  induction on the structure of types. Therefore no new cases
-		  are necessary for user-defined types, because these types
-		  are equivalent to their underlying structure. However,
-		  intensional type analysis is ``closed'' to extension, as
-		  the behavior of the operations cannot be differentiated for
-		  the new types, thus destroying the distinctions that these
-		  types are designed to express.
-		  
-		  Haskell type classes on the other hand define polymorphic
-		  operations for sets of types. Operations defined by class
-		  instances are considered ``open''---the programmer can add
-		  instances for new types without modifying existing code.
-		  However, the operations must be extended with specialized
-		  code for each new type, and it may be tedious or even
-		  impossible to add extensions that apply to a large universe
-		  of new types.
-		  
-		  Both approaches have their benefits, so it is important to
-		  let programmers decide which is most appropriate for their
-		  needs. In this paper, we define a language that supports
-		  both forms of ad-hoc polymorphism, using the same basic
-		  constructs. }
+@INPROCEEDINGS{Kfo+Was+Wel:ITRS-2002,
+  ITRSPAPER = {yes},
+  AUTHOR = {Assaf J. Kfoury and Geoff Washburn and J. B. Wells},
+  TITLE = {Implementing Compositional Analysis Using
+                  Intersection Types With Expansion Variables},
+  DARTREPORT = {yes},
+  CHURCHREPORT = {yes},
+  YEAR = {2002},
+  DVI = {http://www.church-project.org/reports/electronic/Kfo+Was+Wel:ITRS-2002.dvi},
+  PDF = {http://www.church-project.org/reports/electronic/Kfo+Was+Wel:ITRS-2002.pdf},
+  ELSEVIERURLB = {http://www.elsevier.nl/gej-ng/31/29/23/125/51/show/Products/notes/index.htt},
+  ELSEVIERURLA = {http://www.elsevier.nl/locate/entcs/volume70.html},
+  ABSTRACT = {A program analysis is \emph{compositional} when the analysis
+result for a particular program fragment is obtained solely from the
+results for its immediate subfragments via some composition operator.  This
+means the subfragments can be analyzed independently in any order.  Many
+commonly used program analysis techniques (in particular, most abstract
+interpretations and most uses of the Hindley/Milner type system) are not
+compositional and require the entire text of a program for sound and
+complete analysis.  \par System I is a recent type system for the pure
+$\lambda$-calculus with intersection types and the new technology of
+expansion variables.  System I supports compositional analysis because it
+has the \emph{principal typings} property and an algorithm based on the new
+technology of $\beta$-unification has been developed that finds these
+principal typings.  In addition, for each natural number $k$, typability in
+the rank-$k$ restriction of System I is decidable, so a complete and
+terminating analysis algorithm exists for the rank-$k$ restriction.  \par
+This paper presents new understanding that has been gained from working
+with multiple implementations of System I and $\beta$-unification-based
+analysis algorithms.  The previous literature on System I presented the
+type system in a way that helped in proving its more important theoretical
+properties, but was not as easy for implementers to follow as it could be.
+This paper provides a presentation of many aspects of System I that should
+be clearer as well as a discussion of important implementation issues.}
 }
 
-@TechReport{	  dan+wal+was+wei:ptr-2004,
-  author	= {Daniel S. Dantas and David Walker and Geoffrey Washburn
-		  and Stephanie Weirich},
-  title		= {Analyzing polymorphic advice},
-  institution	= {Princeton University},
-  address	= {Department of Computer Science, Princeton University, 35
-		  Olden Street, Princeton, NJ 08544 },
-  year		= 2004,
-  number	= {TR-717-04},
-  month		= {December},
-  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/tr-717-04.ps}
-		  ,
-  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/tr-717-04.ps.gz}
-		  ,
-  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/tr-717-04.pdf}
-		  ,
-  plclub	= "yes",
-  abstract	= { We take one of the first steps towards developing a
-		  practical, statically-typed, functional, aspect-oriented
-		  programming language by showing how to integrate
-		  polymorphism and type analysis with aspect-oriented
-		  programming features. In particular, we demonstrate how to
-		  define type-safe polymorphic advice using pointcuts that
-		  unify a collection of polymorphic join points. We also
-		  introduce a new mechanism for specifying context-sensitive
-		  advice that involves pattern matching against the current
-		  stack of activation records, and meshes well with
-		  functional programming idioms. We give our language meaning
-		  via a type-directed translation into an expressive, but
-		  fairly simple, type-safe intermediate language. Many
-		  complexities of the source language are eliminated in this
-		  translation, leading to a modular specification of its
-		  semantics. One of the novelties of the intermediate
-		  language is the definition of polymorphic labels for
-		  marking control-flow points. These labels are organized in
-		  a tree structure such that a parent in the tree serves as a
-		  representative for the collection of all its children. Type
-		  safety requires that the type of each child is a generic
-		  instance of the type of the polymorphic parent. Similarly,
-		  when a set of labels is assembled as a pointcut, the type
-		  of each label is an instance of the type of the pointcut.
-		  }
+@INPROCEEDINGS{Was+Wei:2005,
+  AUTHOR = {Geoffrey Washburn and Stephanie Weirich},
+  TITLE = {Generalizing Parametricity Using Information Flow},
+  BOOKTITLE = {The Twentieth Annual IEEE Symposium on Logic in Computer Science (LICS 2005)},
+  YEAR = 2005,
+  MONTH = {June},
+  PAGES = {62--71},
+  ADDRESS = {Chicago, IL},
+  ORGANIZATION = {IEEE Computer Society},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.pdf},
+  PLCLUB = {yes},
+  ABSTRACT = {
+Run-time type analysis allows programmers to easily and concisely define
+operations based upon type structure, such as serialization, iterators,
+and structural equality.  However, when types can be inspected at run
+time, nothing is secret.  A module writer cannot use type abstraction
+to hide implementation details from clients: clients can determine the
+structure of these supposedly ``abstract'' data types.  Furthermore,
+access control mechanisms do not help isolate the implementation of
+abstract datatypes from their clients.  Buggy or malicious authorized
+modules may leak type information to unauthorized clients, so module
+implementors cannot reliably tell which parts of a program rely on their
+type definitions.
+
+Currently, module implementors rely on parametric polymorphism to provide
+integrity and confidentiality guarantees about their abstract datatypes.
+However, standard parametricity does not hold for languages with run-time
+type analysis; this paper shows how to generalize parametricity so
+that it does.   The key is to augment the type system with annotations
+about information-flow.  Implementors can then easily see which parts
+of a program depend on the chosen implementation by tracking the flow
+of dynamic type information.
+  }
 }
 
-@TechReport{	  was:2005,
-  author	= {Geoffrey Washburn},
-  title		= {Cause and effect: type systems for effects and
-		  dependencies},
-  institution	= {University of Pennsylvania},
-  address	= {Computer and Information Science Department, Levine Hall,
-		  3330 Walnut Street, Philadelphia, Pennsylvania,
-		  19104-6389},
-  year		= 2005,
-  number	= {MS-CIS-05-???},
-  month		= {March},
-  ps		= {http://www.cis.upenn.edu/~geoffw/research/papers/wpeii.ps}
-		  ,
-  psgz		= {http://www.cis.upenn.edu/~geoffw/research/papers/wpeii.ps.gz}
-		  ,
-  pdf		= {http://www.cis.upenn.edu/~geoffw/research/papers/wpeii.pdf}
-		  ,
-  plclub	= "yes",
-  abstract	= { Formal frameworks for reasoning about programs are
-		  important not only for automated tools but also for
-		  programmers. Type systems have proven an enormously popular
-		  framework for validating static analyses of programs, as
-		  well as for documenting their interfaces for programmers.
-		  However, most type systems used in practice today fail to
-		  capture many essential aspects of program behavior: the
-		  effects and dependencies of programs. There has been
-		  considerable research in the past twenty years into
-		  developing type systems that capture this information. In
-		  this paper we examine, compare, contrast, and connect a
-		  number of highly influential and prototypical type systems
-		  for capturing effects and dependencies. Specifically we
-		  look at classic effect type systems as conceived by Gifford
-		  et.al, a canonical example of dependency type systems --
-		  type systems for information-flow, two different modal type
-		  systems that enforce a (co)monadic effect and dependency
-		  discipline, and linear type systems for precise reasoning
-		  about states and resources. Finally, we also present a
-		  calculus that provides an insight into a possibility for an
-		  unified account for all of these systems. }
+@INPROCEEDINGS{POPLmark:2005,
+  AUTHOR = {Brian E. Aydemir and Aaron Bohannon and Matthew Fairbairn and 
+            J. Nathan Foster and Benjamin C. Pierce and Peter Sewell and
+            Dimitrios Vytiniotis and Geoffrey Washburn and Stephanie Weirich
+            and Steve Zdancewic},
+  TITLE = {Mechanized metatheory for the masses: The POPLmark Challenge},
+  BOOKTITLE = {The Eighteenth International Conference on Theorem Proving in Higher Order Logics (TPHOLs 2005)},
+  YEAR = 2005,
+  MONTH = {August},
+  ADDRESS = {Oxford, England},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.pdf},
+  PLCLUB = {yes},
+  ABSTRACT = {
+How close are we to a world where every paper on programming languages is
+accompanied by an electronic appendix with machine-checked proofs?
+
+We propose an initial set of benchmarks for measuring progress in this
+area.  Based on the metatheory of System F_{<:}, a typed lambda-calculus
+with second-order polymorphism, subtyping, and records, these benchmarks
+embody many aspects of programming languages that are challenging to
+formalize: variable binding at both the term and type levels, syntactic
+forms with variable numbers of components (including binders), and
+proofs demanding complex induction principles.
+We hope that these benchmarks will help clarify the current state of the
+art, provide a basis for comparing competing technologies, and motivate
+further research.            
+  }
+}
+
+@MISC{Was:Senior-Thesis,
+  AUTHOR = {Geoffrey Washburn},
+  TITLE = {Modal Typing for Specifying Run-time Code Generation},
+  SCHOOL = {Carnegie Mellon University},
+  MONTH = {May},
+  YEAR = {2001},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/senior-thesis.pdf}
+}
+
+@INPROCEEDINGS{Vyt+Was+Wei:TLDI-2005,
+  AUTHOR = { Dimitrios Vytiniotis and Geoffrey Washburn and Stephanie Weirich },
+  TITLE = { An Open and Shut Typecase },
+  BOOKTITLE = { The Second {ACM SIGPLAN} Workshop on Types in Language Design and Implementation },
+  YEAR = 2005,
+  MONTH = {January},
+  ADDRESS = {Longbeach, California},
+  PAGES = {13--24},
+  ORGANIZATION = {ACM SIGPLAN},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/tldi2005.pdf},
+  PLCLUB = {yes},
+  ABSTRACT = {
+Two different ways of defining ad-hoc polymorphic operations commonly occur in
+programming languages. With the first form polymorphic operations are defined
+inductively on the structure of types while with the second form polymorphic
+operations are defined for specific sets of types.
+
+In intensional type analysis operations are defined by induction on the
+structure of types. Therefore no new cases are necessary for user-defined types,
+because these types are equivalent to their underlying structure.
+However, intensional type analysis is ``closed'' to extension, as the behavior
+of the operations cannot be differentiated for the new types, thus destroying
+the distinctions that these types are designed to express.
+
+Haskell type classes on the other hand define polymorphic operations for sets
+of types. Operations defined by class instances are considered ``open''---the
+programmer can add instances for new types without modifying existing code. However,
+the operations must be extended with specialized code for each new type, and it
+may be tedious or even impossible to add extensions that apply to a large
+universe of new types.
+
+Both approaches have their benefits, so it is important to let
+programmers decide which is most appropriate for their needs. In this
+paper, we define a language that supports both forms of ad-hoc
+polymorphism, using the same basic constructs.
+}
+}
+
+@TECHREPORT{Dan+Wal+Was+Wei:PTR-2004,
+  AUTHOR = {Daniel S. Dantas and David Walker and Geoffrey Washburn and Stephanie Weirich},
+  TITLE = {Analyzing polymorphic advice},
+  INSTITUTION = {Princeton University},
+  ADDRESS = {Department of Computer Science, Princeton University, 
+             35 Olden Street, Princeton, NJ 08544 },
+  YEAR = 2004,
+  NUMBER = {TR-717-04},
+  MONTH = {December},
+  PDF = {http://www.cis.upenn.edu/~geoffw/research/papers/tr-717-04.pdf},
+  PLCLUB = {yes},
+  ABSTRACT = {
+We take one of the first steps towards developing a practical,
+statically-typed, functional, aspect-oriented programming language
+by showing how to integrate polymorphism and type analysis with
+aspect-oriented programming features.  In particular, we demonstrate
+how to define type-safe polymorphic advice using pointcuts that unify
+a collection of polymorphic join points.  We also introduce a new
+mechanism for specifying context-sensitive advice that involves pattern
+matching against the current stack of activation records, and meshes
+well with functional programming idioms.  We give our language meaning
+via a type-directed translation into an expressive, but fairly simple,
+type-safe intermediate language.  Many complexities of the source language
+are eliminated in this translation, leading to a modular specification
+of its semantics.  One of the novelties of the intermediate language is
+the definition of polymorphic labels for marking control-flow points.
+These labels are organized in a tree structure such that a parent in the
+tree serves as a representative for the collection of all its children.
+Type safety requires that the type of each child is a generic instance
+of the type of the polymorphic parent.  Similarly, when a set of labels
+is assembled as a pointcut, the type of each label is an instance of
+the type of the pointcut.
+  }
 }
 
 @STRING{springer = {Springer-Verlag}}
 @STRING{lncs = {Lecture Notes in Computer Science}}
 
+@STRING{dbpl = {Symposium on Database Programming Languages (DBPL)}}
 @STRING{ecoop =     {European Conference on Object-Oriented Programming (ECOOP)}}
-@STRING{ecoop04 =   ecoop # ", Oslo, Norway" }
+@STRING{popl =      {ACM {SIGPLAN--SIGACT} {S}ymposium on {P}rinciples of {P}rogramming {L}anguages ({POPL})}}
+@STRING{tphols =    {International Conference on Theorem Proving in Higher Order Logics (TPHOLS)}}
 
-@InProceedings{BruceFosterLOOJ04,
-  author = 	 {Kim B. Bruce and J. Nathan Foster},
-  title = 	 {{LOOJ}: Weaving {LOOM} into {J}ava},
-  booktitle =    ecoop04,
-  pages = 	 {389-413},
-  year = 	 {2004},
-  month =        jun,
-  volume = 	 {3086},
-  series = 	 lncs,
-  publisher = springer,
-  plclub = yes,
-  ps = "http://www.cis.upenn.edu/~jnfoster/papers/looj.ps",
-  pdf = "http://www.cis.upenn.edu/~jnfoster/papers/looj.pdf",
-  slides = "http://www.cis.upenn.edu/~jnfoster/papers/ecoop-slides.pdf",
+@STRING{dbpl05 =  dbpl # ", Trondheim, Norway" }
+@STRING{ecoop04 =   ecoop # ", Oslo, Norway" }
+@STRING{popl05 =   popl # ", Long Beach, CA" }
+@STRING{tphols05 = tphols # ", Oxford, UK" }
+
+@inproceedings{schema-sync05,
+  author = {J. Nathan Foster 
+            and Michael B. Greenwald 
+            and Christian Kirkegaard 
+            and Benjamin C. Pierce 
+            and Alan Schmitt},
+  title =  {Exploiting Schemas in Data Synchronization},
+  booktitle = dbpl05,
+  month =  aug,
+  year =   2005,
+  note =   {To appear after revision. Extended version available as University of Pennsylvania technical report MS-CIS-05-02},
+  pdf =     {http://www.cis.upenn.edu/~jnfoster/papers/schema-sync.pdf},
+  jnf =    yes,
 }
 
+@inproceedings{poplmark05,
+  author = {Brian E. Aydemir 
+            and Aaron Bohannon 
+            and Matthew Fairbairn 
+            and J. Nathan Foster 
+            and Benjamin C. Pierce 
+            and Peter Sewell 
+            and Dimitrios Vytiniotis 
+            and Geoffrey Washburn 
+            and Stephanie Weirich 
+            and Steve Zdancewic},
+  booktitle = tphols05,
+  title =  {Mechanized Metatheory for the Masses: The POPLmark Challenge},
+  month =  aug,
+  year =   2005,
+  note =   {To appear after revision.},
+  pdf =    {http://www.cis.upenn.edu/proj/plclub/mmm/poplmark/poplmark.pdf},
+  jnf =    yes,
+}
+
+@inproceedings{focal05,
+  author =    {J. Nathan Foster 
+               and Michael B. Greenwald 
+               and Jonathan T. Moore 
+               and Benjamin C. Pierce 
+               and Alan Schmitt},
+  title =     {Combinators for Bi-Directional Tree Transformations: 
+              {A} Linguistic Approach to the View Update Problem},
+  booktitle = popl05,
+  pages =     {233--246},
+  month =     jan,
+  year =      {2005},
+  note =      {Extended version available as University of Pennsylvania technical report MS-CIS-03-08.},
+  conf =      {http://www.cis.upenn.edu/~jnfoster/papers/focal.pdf},
+  tr =        {http://www.cis.upenn.edu/~jnfoster/papers/focal-tr.pdf},
+  slides =    {http://www.cis.upenn.edu/~jnfoster/papers/focal-slides.pdf},
+
+  abstract = {We propose a novel approach to the well-known view
+              update problem for the case of tree-structured data: a
+              domainspecific programming language in which all
+              expressions denote bi-directional transformations on
+              trees. In one direction, these transformations---dubbed
+              lenses---map a ``concrete'' tree into a simplified ``abstract
+              view''; in the other, they map a modified abstract view,
+              together with the original concrete tree, to a
+              correspondingly modified concrete tree. Our design
+              emphasizes both robustness and ease of use, guaranteeing
+              strong well-behavedness and totality properties for
+              well-typed lenses.
+
+              We identify a natural mathematical space of well-behaved
+              bi-directional transformations over arbitrary
+              structures, study definedness and continuity in this
+              setting, and state a precise connection with the
+              classical theory of ``update translation under a constant
+              complement'' from databases. We then instantiate this
+              semantic framework in the form of a collection of lens
+              combinators that can be assembled to describe
+              transformations on trees. These combinators include
+              familiar constructs from functional programming
+              (composition, mapping, projection, conditionals,
+              recursion) together with some novel primitives for
+              manipulating trees (splitting, pruning, copying,
+              merging, etc.). We illustrate the expressiveness of
+              these combinators by developing a number of
+              bi-directional list-processing transformations as
+              derived forms. An extended example shows how our
+              combinators can be used to define a lens that translates
+              between a native HTML representation of browser
+              bookmarks and a generic abstract bookmark format.}, 
+  jnf =      yes, 
+}
+
+@InProceedings{looj04,
+  author =    {Kim B. Bruce and J. Nathan Foster},
+  title =     {{LOOJ}: Weaving {LOOM} into {J}ava},
+  booktitle = ecoop04,
+  pages =     {389-413},
+  year =      {2004},
+  month =     jun,
+  volume =    {3086},
+  series =    lncs,
+  publisher = springer,
+  conf =      {http://www.cis.upenn.edu/~jnfoster/papers/looj.pdf},
+  slides =    {http://www.cis.upenn.edu/~jnfoster/papers/looj-slides.pdf},
+  abstract = {LOOJ is an extension of Java obtained by adding bounded
+              parametric polymorphism and new type expressions
+              ThisClass and ThisType, which are similar to MyType in
+              LOOM. Through examples we demonstrate the utility of
+              this language even over very expressive extensions such
+              as GJ. The LOOJ compiler generates standard JVML code
+              and supports instanceof and casts for all types
+              including type variables and the other new type
+              expressions. The core of the LOOJ type system is sound,
+              as demonstrated by a soundness proof for an extension of
+              Featherweight GJ. This paper also highlights
+              difficulties that arise from the use of both classes and
+              interfaces as types in Java.},
+  plclub =    yes,
+  jnf =       yes,
+}
+
+@MastersThesis{hps-diss03,
+  author =   {J N Foster},
+  title =    {Indexicals and Belief Reports},
+  type =     {{MP}hil Dissertation},
+  school =   {Department of History and Philosophy of Science, University of Cambridge},
+  address =  {Cambridge, UK},
+  month =    jun,
+  year =     2003,
+  pdf =      {http://www.cis.upenn.edu/~jnfoster/papers/hps-diss.pdf},
+  abstract = {Problems with the semantics of belief reports, typified
+              by Frege's Puzzle, are the source of the most serious
+              objections to the theory of Direct Reference. Kaplan's
+              work on indexicals hints at a reply to these objections
+              based on his notion that belief is mediated by the
+              characters of linguistic expressions. However his
+              account is only successful in explaining belief reports
+              which involve indexicals--it fails to explain a large
+              class of puzzling reports which contain proper names. In
+              this dissertaion, I argue that there are good reasons
+              for supposing that names are indexicals and show that
+              using this thesis, we can extend Kaplan's solution to
+              Frege's Puzzle to many more belief reports.},
+  jnf =     yes,
+}
+
+@MastersThesis{cl-diss02,
+  author =   {John N Foster},
+  title =    {Model Checking for a Functional Hardware Description Language},
+  school =   {Computer Laboratory, University of Cambridge},
+  address =  {Cambridge, UK},
+  month =    jun,
+  year =     {2002},  
+  type =     {{T}ripos Dissertation},
+  pdf =      {http://www.cis.upenn.edu/~jnfoster/papers/cl-diss.pdf},
+  abstract = {We present a verification tool for the functional
+              hardware description language SAFL. Model checking
+              is a popular verification technique. Given a
+              model of a finite state transition system, and a
+              temporal logic specification, a model checker determines
+              if the model satisfies the specification. Advantages of
+              model checking over other verification techniques are
+              that it is fully automatic, and can produce counter
+              examples for false specifications. 
+
+              We have developed a model checker which uses the SAFL
+              language as the modelling language. SAFL is a
+              functional hardware description language. As a result of
+              this project, the same SAFL description can be used to
+              describe a circuit and as a model for model checking. No
+              separate model of the system is needed. It is hoped that
+              this will make verification a regular part of the
+              development process for SAFL programs. Just as a static
+              type checker enforces safety properties for a
+              programming language, we would like to see our model
+              checker used to verify user-defined temporal properties
+              before compiling SAFL programs to silicon. While
+              limitations in model checking technology, (i.e., the
+              state explosion problem), make achieving this goal
+              unlikely for larger programs, techniques such as
+              abstraction and a translation to an industrial-grade
+              symbolic model checker, SMV, can be used to overcome
+              them in many cases.},
+  jnf =     yes,
+}
+
+@MastersThesis{williams-thesis01,
+  author =  {John N Foster},
+  title =   {Rupiah: Towards an Expressive Static Type System for Java},
+  type =    {Senior Honors Thesis},
+  school =  {Department of Computer Science, Williams College},
+  address = {Williamstown, MA},
+  month =   jun,
+  year =    2001,
+  pdf =     {http://www.cis.upenn.edu/~jnfoster/papers/williams-thesis.pdf},
+  abstract = {Despite Java's popularity, several practical limitations
+              imposed by the language's type system have become
+              increasingly apparent in recent years. A particularly
+              glaring omission is the lack of a generic mechanism. As
+              a result of this shortcoming, many recent projects have
+              extended Java to support polymorphism in the style of
+              C++ templates or Ada generics. One project, GJ,
+              adds F-bounded parametric polymorphism to Java
+              via a homogeneous translation (such that only one class
+              file results from each compiled source file), and
+              produces bytecode that is compatible with the standard
+              Java Virtual Machine. However while GJÕs simple
+              translation based on erasure allows for maximum
+              interaction with existing Java code, the new
+              parameterized types that it supports do not operate
+              consistently with Java's semantics for lightweight
+              reflection (i.e., checked type-casts and instanceof
+              operations). 
+
+              We present Rupiah, a language based on features adapted
+              from LOOM, a provably type-safe language, and
+              implemented by a translation based on GJ. However its
+              translation differs from GJ's in that it harnesses
+              Java's built-in reflection to store information about
+              parameterized types. The resulting bytecode correctly
+              executes checked cast and instanceof expressions because
+              it has access to the necessary type information at
+              run-time. We also add a ThisType construct, which solves
+              many of the problems that arise when binary methods are
+              mixed with inheritance, and we replace subtyping with a
+              different relation, matching. Finally, we add exact
+              types, an inheritable virtual constructor mechanism:
+              ThisClass, and compiler features to allow separate
+              compilation of Rupiah source files. These features are
+              implemented in a modified javac compiler. Bytecode
+              emitted by our compiler runs on any Java 1.2 VM. Thus,
+              the Rupiah project contributes a complete implementation
+              of an extension of Java with a more expressive type
+              system that maintains a close fit with existing Java
+              semantics and philosophies. },
+  jnf =     yes,
+}
 %% BIBTEX %%
 
 @string{ACM  = "ACM"}
@@ -21651,20 +22006,131 @@ year         =   2004,
 
 
 
+# Note!  unpublished puts in draft section. misc does not.
+#
+
 @string{dl = "http://www.cis.upenn.edu/~sweirich/papers/"}
 @string{tdl = "http://www.cs.cornell.edu/talc/papers/"}
 
+@Unpublished{vytiniotis+:boxy,
+  author = 		  {Dimitrios Vytiniotis and Stephanie Weirich and Simon {Peyton Jones}},
+  title = 		  {Boxy type inference for higher-rank types and impredicativity},
+  note = 		  {Submitted for publication},
+  month = apr,
+  year = 2005,
+  ps = dl # "boxy/boxy.ps",
+  plclub = "yes",
+  abstract = {
+Languages with rich type systems are beginning to employ a blend of type
+inference and type checking, so that the type inference engine is
+guided by programmer-supplied type annotations.  In this paper we show,
+for the first time, how to combine the virtues of two well-established ideas: unification-based 
+inference, and bidirectional propagation of type annotations.  The result 
+is a type system that conservatively extends Hindley-Milner, and yet supports
+both higher-rank and impredicative types.
+}
+}
 
 
-@Unpublished{mmm,
+@InProceedings{dantas+:polyaml,
+  author = 		  {Daniel S. Dantas and David Walker and Geoffrey Washburn and Stephanie Weirich},
+  title = 		  {{PolyAML}: A polymorphic aspect-oriented functional programmming language},
+  booktitle =    icfp,
+  month =		  sep,
+  year =			  2005,
+  address =      {Tallinn, Estonia},
+  pdf =          {http://www.cis.upenn.edu/proj/plclub/polyaml/icfp2005.pdf},
+  abstract = {
+This paper defines PolyAML, a typed functional and aspect-oriented
+programming language.  The main contribution of PolyAML is in the
+seamless integration of polymorphism, run-time type analysis and
+aspect-oriented programming language features.  In particular, PolyAML
+allows programmers to define type-safe polymorphic advice using pointcuts
+constructed from a collection of polymorphic join points.  PolyAML
+also comes equipped with a type inference algorithm that conservatively
+extends Hindley-Milner type inference.  In order to support first-class
+polymorphic point-cut designators, a crucial feature for developing
+aspect-oriented profiling or logging libraries, the algorithm blends the
+conventional Hindley-Milner type inference algorithm with a simple form
+of local type inference.
+
+We give our language operational meaning via a type-directed
+translation into an expressive type-safe intermediate language.  Many
+complexities of the source language are eliminated in this
+translation, leading to a modular specification of its semantics.  One
+of the novelties of the intermediate language is the definition of
+polymorphic labels for marking control-flow points.  These labels are
+organized in a tree structure such that a parent in the tree serves as
+a representative for the collection of all its children.  Type safety
+requires that the type of each child is a generic instance of the type
+of the polymorphic parent.  Similarly, when a set of labels is
+assembled as a pointcut, the type of each label is an instance of the
+type of the pointcut.
+}
+}
+
+
+@TechReport{peyton-jones+:practical-appendix,
+  author = 		  {Dimitrios Vytiniotis and Stephanie Weirich and Simon L. {Peyton Jones}},
+  title = 		  {Practical type infreence for arbitrary-rank types ({T}echnical appendix)},
+  institution =  {University of Pennsylvania},
+  year = 		  2005,
+  number =		  {MIS-CIS-05-14},
+  url =          { http://www.cis.upenn.edu/~dimitriv/arbitrary-rank/MS-CIS-05-14.ps }
+}
+
+@unpublished{peyton-jones+:practical,
+  author = 		  {Simon L. {Peyton Jones} and Dimitrios Vytiniotis and Stephanie Weirich and Mark Shields},
+  title = 		  {Practical type inference for arbitrary-rank types},
+  month =        jul,
+  year =			  2005,
+  url  =         {http://research.microsoft.com/%7Esimonpj/papers/higher-rank/putting.ps.gz}, 
+
+  abstract = {Haskell's popularity has driven the need for ever more
+  expressive type system features, most of which threaten the
+  decidability and practicality of Damas-Milner type inference. One
+  such feature is the ability to write functions with higher-rank
+  types --- that is, functions that take polymorphic functions as
+  their arguments.
+
+Complete type inference is known to be undecidable for higher-rank
+(impredicative) type systems, but in practice programmers are more
+than willing to add type annotations to guide the type inference
+engine, and to document their code. However, the choice of just what
+annotations are required, and what changes are required in the type
+system and its inference algorithm, has been an ongoing topic of
+research.
+
+We take as our starting point a lambda-calculus proposed by Odersky
+and Laufer. Their system supports arbitrary-rank polymorphism through
+the exploitation of type annotations on lambda-bound arguments and
+arbitrary sub-terms. Though elegant, and more convenient than some
+other proposals, Odersky and Laufer's system requires many
+annotations. We show how to use local type inference (invented by
+Pierce and Turner) to greatly reduce the annotation burden, to the
+point where higher-rank types become eminently usable.
+
+Higher-rank types have a very modest impact on type inference. We
+substantiate this claim in a very concrete way, by presenting a
+complete type-inference engine, written in Haskell, for a traditional
+Damas-Milner type system, and then showing how to extend it for
+higher-rank types. We write the type-inference engine using a monadic
+framework: it turns out to be a particularly compelling example of
+monads in action.
+
+The paper is long, but is strongly tutorial in style. }
+
+}
+
+@InProceedings{mmm,
   author = 		  { Brian E. Aydemir and Aaron Bohannon and Matthew Fairbairn and J. Nathan Foster and Benjamin C. Pierce and Peter Sewell and Dimitrios Vytiniotis and Geoffrey Washburn and Stephanie Weirich and Steve Zdancewic},
   title = 		  {Mechanized Metatheory for the Masses: The {POPLmark} Challenge},
-  note = 		  {Submitted for publication},
-  month =		  feb,
+  booktitle = 		  {The 18th International Conference on Theorem Proving in Higher Order Logics},
+  month =		  aug,
   year =			  2005,
-  ps = {http://www.cis.upenn.edu/proj/plclub/mmm/papers/poplmark.ps},
-  pdf = {http://www.cis.upenn.edu/proj/plclub/mmm/papers/poplmark.pdf},
-  
+  address =      {Oxford, UK},
+  ps = {http://www.cis.upenn.edu/proj/plclub/mmm/poplmark/poplmark.ps},
+  pdf = {http://www.cis.upenn.edu/proj/plclub/mmm/poplmark/poplmark.pdf},
   abstract = {How close are we to a world where every paper on
 programming languages is accompanied by an electronic appendix with
 machine-checked proofs?
@@ -21681,14 +22147,19 @@ current state of the art, provide a basis for comparing competing
 technologies, and motivate further research.  }
 }
 
-@Unpublished{washburn+:seckinds,
+#  ps =           "http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.ps",
+#  pdf =          "http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.pdf",
+
+
+@InProceedings{washburn+:seckinds,
   author = 		  {Geoffrey Washburn and Stephanie Weirich},
   title = 		  {Generalizing Parametricity Using Information Flow},
+  booktitle =    lics,
   year =			  2005,
-  month =        jan, 
-  ps =           "http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.ps",
-  pdf =          "http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.pdf",
-
+  month =        jun, 
+  address =      {Chicago, IL, USA},
+  ps =           dl # "seckinds/lics2005.ps",
+  pdf =          dl # "seckinds/lics2005.pdf",
   abstract = {Run-time type analysis allows programmers to easily and
 concisely define many operations based upon type structure, such as
 serialization, iterators, and structural equality.  However, when
@@ -21727,15 +22198,16 @@ the program depend on the implementation of a given type.
   pdf =          dl # "gadt/gadt_jul04.pdf"
 }
 
-@Unpublished{dantas+:poly-aspects,
+@misc{dantas+:poly-aspects,
   author = 		  {Dan S. Dantas and David Walker and Geoffrey Washburn and 
                   Stephanie Weirich},
   title = 		  {Analyzing Polymorphic Advice},
-  note = 		  {25 pages.},
   month =		  oct,
   year =			  2004,
   pdf =          "http://www.cis.upenn.edu/~geoffw/research/papers/poly-aspect.pdf",
-  ps =          "http://www.cis.upenn.edu/~geoffw/research/papers/poly-aspect.ps"
+  ps =           "http://www.cis.upenn.edu/~geoffw/research/papers/poly-aspect.ps",
+  note =         {25 pages. An extended version of this paper is Princeton University Computer 
+                  Science Technical Report TR-717-04}
 }
 
 @TechReport{dantas+:poly-aspects-tr,
@@ -22448,10 +22920,108 @@ higher-order structures in polymorphic languages.  } }
 
 
 
+@InProceedings{ABFF+05,
+  author = 	 {Brian E. Aydemir and
+   Aaron Bohannon and
+   Matthew Fairbairn and
+   J. Nathan Foster and
+   Benjamin C. Pierce and
+   Peter Sewell and
+   Dimitrios Vytiniotis and
+   Geoffrey Washburn and
+   Stephanie Weirich and
+   Steve Zdancewic},
+  title = 	 {{Mechanized Metatheory for the Masses: The POPLMark Challenge}},
+  booktitle =	 {International Conference on Theorem Proving in Higher Order Logics (TPHOLs)},
+  year =	 2005,
+  hconf =        "yes",
+  plclub        = "yes",
+  pdf =          "http://www.cis.upenn.edu/~stevez/papers/ABFF+05.pdf",
+
+  abstract = " How close are we to a world where every paper on
+  programming languages is accompanied by an electronic appendix with
+  machine-checked proofs?
+
+  We propose an initial set of benchmarks for measuring progress in
+  this area.  Based on the metatheory of System F-Sub, a typed
+  lambda-calculus with second-order polymorphism, subtyping, and
+  records, these benchmarks embody many aspects of programming
+  languages that are challenging to formalize: variable binding at
+  both the term and type levels, syntactic forms with variable numbers
+  of components (including binders), and proofs demanding complex
+  induction principles.  We hope that these benchmarks will help
+  clarify the current state of the art, provide a basis for comparing
+  competing technologies, and motivate further research.  " 
+  }
+
+@InProceedings{HTHZ05,
+  author = 	 {Michael Hicks and Stephen Tse and Boniface Hicks 
+                  and Steve Zdancewic},
+  title = 	 {Dynamic updating of information-flow policies},
+  booktitle =	 {Proc. of Foundations of Computer Security Workshop},
+  year =	 2005,
+  hconf =        "yes",
+  plclub        = "yes",
+  pdf =          "http://www.cis.upenn.edu/~stevez/papers/HTHZ05.pdf",
+
+  abstract = " Applications that manipulate sensitive information
+  should ensure \emph{end-to-end} security by satisfying two
+  properties: \emph{sound execution} and some form of
+  \emph{noninterference}.  By the former, we mean the program should
+  always perform actions in keeping with its current policy, and by
+  the latter we mean that these actions should never cause
+  high-security information to be visible to a low-security observer.
+  Over the last decade, security-typed languages have been developed
+  that exhibit these properties, increasingly improving so as to model
+  important features of real programs.
+
+  No current security-typed language, however, permits general changes
+  to security policies in use by running programs.  This paper
+  presents a simple information flow type system for that allows for
+  dynamic security policy updates while ensuring sound execution and a
+  relaxed form of noninterference we term \emph{noninterference
+  between updates}.  We see this work as an important step toward
+  using language-based techniques to ensure end-to-end security for
+  realistic applications."
+}
+
+
+@InProceedings{LZ05c,
+  author = 	 "Peng Li and Steve Zdancewic",
+  title = 	 "{Unifying Confidentiality and Integrity in Downgrading 
+                  Policies}",
+  booktitle =	 {Proc. of Foundations of Computer Security Workshop},
+  year =	 2005,
+  hconf =        "yes",
+  plclub        = "yes",
+  pdf =          "http://www.cis.upenn.edu/~stevez/papers/LZ05c.pdf",
+  
+  abstract = "Confidentiality and integrity are often treated as dual
+  properties in formal models of information-flow control, access
+  control and many other areas in computer security. However, in
+  contrast to confidentiality policies, integrity policies are less
+  formally studied in the information-flow control literature. One
+  important reason is that traditional noninterference-based
+  information-flow control approaches give very weak integrity
+  guarantees for untrusted code. Integrity and confidentiality
+  policies are also different with respect to implicit information
+  channels. 
+
+  This paper studies integrity downgrading policies in
+  information-flow control and compares them with their
+  confidentiality counterparts. We examine the drawbacks of integrity
+  policies based on noninterference formalizations and study the
+  integrity policies in the framework of downgrading policies and
+  program equivalences. We give semantic interpretations for
+  traditional security levels for integrity, namely, tainted and
+  untainted, and explain the interesting relations between
+  confidentiality and integrity in this framework.  "
+
+}
 
 @InProceedings{Zda04,
   author = 	 {Steve Zdancewic},
-  title = 	 {\textbf{Challenges for Information-flow Security}},
+  title = 	 {{Challenges for Information-flow Security}},
   booktitle =	 {Proceedings of the 1st International Workshop on the
   Programming Language Interference and Dependence (PLID'04)},
   year =	 2004,
@@ -22462,7 +23032,7 @@ higher-order structures in polymorphic languages.  } }
 
 @InProceedings{Zda03,
   author = 	 {Steve Zdancewic},
-  title = 	 {\textbf{A Type System for Robust Declassification}},
+  title = 	 {{A Type System for Robust Declassification}},
   booktitle =	 {Proceedings of the Nineteenth Conference on the 
                   Mathematical Foundations of Programming Semantics},
   year =	 2003,
@@ -22504,7 +23074,7 @@ higher-order structures in polymorphic languages.  } }
 
 @Article{	  ZM02,
   author	= "Steve Zdancewic and Andrew C. Myers",
-  title		= "\textbf{Secure Information Flow via Linear Continuations}",
+  title		= "{Secure Information Flow via Linear Continuations}",
   journal	= "Higher Order and Symbolic Computation",
   volume	= 15,
   number	= "2/3",
@@ -22533,7 +23103,7 @@ language with higher-order functions and state."
 @Article{	  ZZNM02,
   author	= {Steve Zdancewic and Lantian Zheng and Nathaniel Nystrom
 		  and Andrew C. Myers},
-  title		= {\textbf{Secure Program Partitioning}},
+  title		= {{Secure Program Partitioning}},
   journal	= {Transactions on Computer Systems},
   year		= 2002,
   volume        = 20,
@@ -22566,7 +23136,7 @@ in Section 5."
 
 @Article{	  GMZ00,
   author	= "Dan Grossman and Greg Morrisett and Steve Zdancewic",
-  title		= {\textbf{Syntactic Type Abstraction}},
+  title		= {{Syntactic Type Abstraction}},
   journal	= {Transactions on Programming Languages and Systems},
   year		= 2000,
   volume	= 22,
@@ -22598,7 +23168,7 @@ principals, including versions that have mutable state and recursive types."
 
 @InProceedings{TZ04b,
   author = 	 {Stephen Tse and Steve Zdancewic},
-  title = 	 {\textbf{Translating Dependency into Parametricity}},
+  title = 	 {{Translating Dependency into Parametricity}},
   booktitle =	 {Proc. of the 9th ACM SIGPLAN International Conference on
 		  Functional Programming},
   year =	 2004,
@@ -22634,7 +23204,7 @@ principals, including versions that have mutable state and recursive types."
 
 @InProceedings{MSZ04,
   author = 	 {Andrew C. Myers and Andrei Sabelfeld and Steve Zdancewic},
-  title = 	 {\textbf{Enforcing Robust Declassification}},
+  title = 	 {{Enforcing Robust Declassification}},
   booktitle =	 "Proc. of 17th IEEE Computer Security Foundations Workshop",
   pages =	 "172--186",
   year =	 2004,
@@ -22667,11 +23237,9 @@ principals, including versions that have mutable state and recursive types."
 
 
 
-
-
 @InProceedings{TZ05a,
   author = 	 {Stephen Tse and Steve Zdancewic},
-  title = 	 {\textbf{Designing a Security-typed Language with Certificate-based Declassification}},
+  title = 	 {{Designing a Security-typed Language with Certificate-based Declassification}},
   booktitle =	 esop14,
   year = 	 2005,
   note =	 {To appear},
@@ -22692,18 +23260,41 @@ principals, including versions that have mutable state and recursive types."
 
 @InProceedings{LZ05b,
   author = 	 {Peng Li and Steve Zdancewic},
-  title = 	 {\textbf{Practical Information-flow Control in Web-based Information Systems}},
+  title = 	 {{Practical Information-flow Control in Web-based Information Systems}},
   booktitle =	 "Proc. of 18th IEEE Computer Security Foundations Workshop",
   year =	 2005,
-  note =	 "To appear",
+  pages =	 "2--15",
   hconf =        "yes",
   plclub        = "yes",
   pdf =          "http://www.cis.upenn.edu/~stevez/papers/LZ05b.pdf",
+
+  abstract = "This paper presents a practical application of
+  language-based information-flow control, namely, a domain-specific
+  web scripting language designed for interfacing with databases.  The
+  primary goal is to provide strong enforcement of confidentiality and
+  integrity policies: confidential data can be released only in
+  permitted ways and trustworthy data must result from expected
+  computations or conform to expected patterns.  Such security
+  policies are specified in the database layer and statically enforced
+  for the rest of the system in an end-to-end fashion.
+
+  In contrast with existing web-scripting languages, which provide
+  only ad hoc mechanisms for information security, the scripting
+  language described here uses principles based on the well-studied
+  techniques in information-flow type systems.  However, because web
+  scrips often need to downgrade confidential data and manipulate
+  untrusted user input, they require practical and convenient ways of
+  downgrading secure data.  To achieve this goal, the language allows
+  safe downgrading according to \emph{downgrading policies} specified
+  by the programmer.  This novel, pattern-based approach provides a
+  practical instance of recent work on \emph{delimited release} and
+  \emph{relaxed noninterference} and extends that work by accounting
+  for integrity policies.  " 
 }
 
 @InProceedings{LZ05,
   author = 	 {Peng Li and Steve Zdancewic},
-  title = 	 {\textbf{Downgrading Policies and Relaxed Noninterference}},
+  title = 	 {{Downgrading Policies and Relaxed Noninterference}},
   booktitle =	 popl32,
   year =	 2005,
   pages =        "158--170",
@@ -22732,7 +23323,7 @@ principals, including versions that have mutable state and recursive types."
 
 @InProceedings{LZ04a,
   author = 	 {Peng Li and Steve Zdancewic},
-  title = 	 {\textbf{Advanced Control Flow in Java Card Programming}},
+  title = 	 {{Advanced Control Flow in Java Card Programming}},
   booktitle =	 {Proceedings of the 2004 ACM SIGPLAN/SIGBED Conference on Languages, 
                   Compilers, and Tools for Embedded Systems},
   pages =	 "165--174",
@@ -22759,7 +23350,7 @@ model without losing compatibility with the existing Java Card API.
 
 @InProceedings{TZ04a,
   author = 	 {Stephen Tse and Steve Zdancewic},
-  title = 	 {\textbf{Run-time Principals in Information-flow Type Systems}},
+  title = 	 {{Run-time Principals in Information-flow Type Systems}},
   booktitle =	 {IEEE 2004 Symposium on Security and Privacy},
   year =	 2004,
   month =	 may,
@@ -22796,7 +23387,7 @@ model without losing compatibility with the existing Java Card API.
 
 @InProceedings{LMZ03,
   author = 	 {Peng Li and Yun Mao and Steve Zdancewic},
-  title = 	 {\textbf{Information Integrity Policies}},
+  title = 	 {{Information Integrity Policies}},
   booktitle =	 {Proceedings of the Workshop on Formal Aspects in Security \& Trust (FAST)},
   year =	 2003,
   month =        sep,
@@ -22824,7 +23415,7 @@ model without losing compatibility with the existing Java Card API.
 
 @InProceedings{WZL03,
   author = 	 {David Walker and Steve Zdancewic and Jay Ligatti},
-  title = 	 {\textbf{A Theory of Aspects}},
+  title = 	 {{A Theory of Aspects}},
   booktitle =	 {Proc. of the 8th ACM SIGPLAN International Conference on
 		  Functional Programming},
   year =	 2003,
@@ -22860,7 +23451,7 @@ interfering with local program invariants.
 
 @InProceedings{SSDK+03,
   author = 	 {Usa Sammapun and Raman Sharykin and Margaret Delap and Myong Kim and Steve Zdancewic},
-  title = 	 {\textbf{Formalizing {Java-MaC}}},
+  title = 	 {{Formalizing {Java-MaC}}},
   booktitle =	 {Proceedings of the Third Runtime Verification Workshop},
   publisher =    entcs,
   year =	 2003,
@@ -22883,9 +23474,11 @@ interfering with local program invariants.
 }
 
 
+
+
 @InProceedings{ZM03,
   author = 	 {Steve Zdancewic and Andrew C. Myers},
-  title = 	 {\textbf{Observational Determinism for Concurrent Program Security}},
+  title = 	 {{Observational Determinism for Concurrent Program Security}},
   booktitle	= "Proc. of 16th IEEE Computer Security Foundations Workshop",
   year =	 2003,
   month =	 jul,
@@ -22915,7 +23508,7 @@ previous security-typed concurrent languages.
 @InProceedings{GGKS+03,
   author = 	 {Michael Greenwald and Carl A. Gunter and Bj\"{o}rn Knutsson and
                   Andre Scedrov and Jonathan M. Smith and Steve Zdancewic},
-  title = 	 {\textbf{Computer Security is Not a Science (but it should be)}},
+  title = 	 {{Computer Security is Not a Science (but it should be)}},
   booktitle =	 {Proceedings of the Large-Scale Network Security Workshop},
   year =	 2003,
   month =	 mar,
@@ -22928,7 +23521,7 @@ previous security-typed concurrent languages.
 @InProceedings{ZCZM03,
   author = 	 {Lantian Zheng and Stephen Chong and Steve Zdancewic
                   and Andrew C. Myers},
-  title = 	 {\textbf{Building Secure Distributed Systems Using Replication and 
+  title = 	 {{Building Secure Distributed Systems Using Replication and 
                   Partitioning}},
   booktitle =	 {IEEE 2003 Symposium on Security and Privacy},
   year =	 2003,
@@ -22959,7 +23552,7 @@ to various distributed programs.  "
   year		= 2001,
   author	= "Steve Zdancewic and Lantian Zheng and Nathaniel Nystrom
 		  and Andrew C. Myers",
-  title		= "\textbf{Untrusted Hosts and Confidentiality: Secure Program Partitioning}",
+  title		= "{Untrusted Hosts and Confidentiality: Secure Program Partitioning}",
   series	= "Operating Systems Review",
   booktitle	= sosp18,
   address	= "Banff, Canada",
@@ -22991,7 +23584,7 @@ to various distributed programs.  "
 
 @InProceedings{	  ZM01b,
   author	= "Steve Zdancewic and Andrew C. Myers",
-  title		= "\textbf{Robust Declassification}",
+  title		= "{Robust Declassification}",
   booktitle	= "Proc. of 14th IEEE Computer Security Foundations Workshop",
   month		= jun,
   year		= 2001,
@@ -23029,7 +23622,7 @@ leaks. "
 
 @InProceedings{	  ZM01,
   author	= {Steve Zdancewic and Andrew C. Myers},
-  title		= {\textbf{Secure Information Flow and {CPS}}},
+  title		= {{Secure Information Flow and {CPS}}},
   booktitle	= esop10,
   year		= 2001,
   volume	= 2028,
@@ -23053,7 +23646,7 @@ leaks. "
 
 @InProceedings{	  ZGM99,
   author	= {Steve Zdancewic and Dan Grossman and Greg Morrisett},
-  title		= {\textbf{Principals in Programming Languages: A Syntactic Proof Technique}},
+  title		= {{Principals in Programming Languages: A Syntactic Proof Technique}},
   booktitle	= {Proc. of the 4th ACM SIGPLAN International Conference on
 		  Functional Programming},
   year		= 1999,
@@ -23089,7 +23682,7 @@ semantic arguments."
   author	= "Greg Morrisett and Karl Crary and Neal Glew and Dan
 		  Grossman and Richard Samuels and Frederick Smith and David
 		  Walker and Stephanie Weirich and Steve Zdancewic",
-  title		= "\textbf{{TALx86}: A Realistic Typed Assembly Language}",
+  title		= "{{TALx86}: A Realistic Typed Assembly Language}",
   booktitle	= "2nd {ACM SIGPLAN} Workshop on Compiler Support for
 		  System Software",
   year		= 1999,
@@ -23122,7 +23715,7 @@ we present a type-safe C-like language called Popcorn."
 
 @TechReport{TZ05atr,
   author = 	 {Stephen Tse and Steve Zdancewic},
-  title = 	 {\textbf{Designing a Security-typed Language with Certificate-based Declassification}},
+  title = 	 {{Designing a Security-typed Language with Certificate-based Declassification}},
   institution =  {University of Pennsylvania},
   number =       "MIS-CIS-04-16",
   year = 	 2004,
@@ -23165,7 +23758,7 @@ we present a type-safe C-like language called Popcorn."
 
 @TechReport{TZ04c,
   author = 	 {Stephen Tse and Steve Zdancewic},
-  title = 	 {\textbf{Translating Dependency into Parametricity}},
+  title = 	 {{Translating Dependency into Parametricity}},
   institution =  {University of Pennsylvania},
   year = 	 2004,
   number =	 "MIS-CIS-04-01",
@@ -23199,7 +23792,7 @@ we present a type-safe C-like language called Popcorn."
 
 @TechReport{TZ03,
   author = 	 {Stephen Tse and Steve Zdancewic},
-  title = 	 {\textbf{Run-time Principals in Information-flow Type Systems}},
+  title = 	 {{Run-time Principals in Information-flow Type Systems}},
   institution =  {University of Pennsylvania},
   year = 	 2003,
   number =	 "MS-CIS-03-39",
@@ -23236,7 +23829,7 @@ we present a type-safe C-like language called Popcorn."
 
 @PhdThesis{Zda02,
   author = 	 {Stephan A. Zdancewic},
-  title = 	 {\textbf{Programming Languages for Information Security}},
+  title = 	 {{Programming Languages for Information Security}},
   school = 	 {Cornell University},
   year = 	 2002,
   month =	 aug,
@@ -23297,7 +23890,7 @@ Jif/split's run-time enforcement mechanisms."
 
 @TechReport{	  ZZNM01b,
   year		= 2001,
-  title		= "\textbf{Secure Program Partitioning}",
+  title		= "{Secure Program Partitioning}",
   author	= "Steve Zdancewic and Lantian Zheng and Nathaniel Nystrom
 		  and Andrew C. Myers",
   institution	= "Computer Science Dept., Cornell University",
@@ -23333,7 +23926,7 @@ Section 5."
 
 @TechReport{	  ZM00,
   author	= {Steve Zdancewic and Andrew C. Myers},
-  title		= {\textbf{Confidentiality and Integrity with Untrusted Hosts}},
+  title		= {{Confidentiality and Integrity with Untrusted Hosts}},
   institution	= {Computer Science Dept., Cornell University},
   year		= 2000,
   number	= {2000-1810},
@@ -23368,7 +23961,7 @@ transformations, including secure program partitioning."
 
 @TechReport{	  ZG99,
   author	= {Steve Zdancewic and Dan Grossman},
-  title		= {\textbf{Principals in Programming Languages: Technical Results}},
+  title		= {{Principals in Programming Languages: Technical Results}},
   institution	= {Computer Science Dept., Cornell University},
   year		= 1999,
   number	= {TR99-1752},

@@ -165,7 +165,13 @@
                     {S}ystems, {L}anguages, and {A}pplications ({OOPSLA})" }
 
 
+@STRING{dbpl    =   {Database Programming Languages (DBPL)}}
+@STRING{dbpl05 =   dbpl}
+
 @STRING{ecoop =     {European Conference on Object-Oriented Programming (ECOOP)} }
+@STRING{ecoop92 =   ecoop}
+@STRING{ecoop95 =   ecoop}
+@STRING{ecoop98 =   ecoop}
 
 @STRING{oopsla86 =  oopslapre96 # ", Portland, Oregon" }
 @STRING{oopsla89 =  oopslapre96 # ", New Orleans, Louisiana"}
@@ -771,19 +777,21 @@ plclub = yes,
 bcp =             yes
 }
 
-@article{         Pierce92a,
-author =          "Benjamin C. Pierce",
-title =           "Bounded Quantification is Undecidable",
-journal =         "Information and Computation",
-year =            1994,
-volume =          112,
-number =          1,
-pages =           "131--165",
-month =           jul,
-note =            "Also in "  # taoop # ". Summary in \bgroup \em "  # popl92
-                # "\egroup",
-plclub = yes,                  
-bcp =             yes
+@article         {         Pierce92a,
+author       =   "Benjamin C. Pierce",
+title        =   "Bounded Quantification is Undecidable",
+journal      =   "Information and Computation",
+year         =   1994,
+volume       =   112,
+number       =   1,
+pages        =   "131--165",
+month        =   jul,
+note         =   "Also in "  # taoop # ". Summary in \bgroup \em "  # popl92
+                  # "\egroup",
+plclub       =   yes,                  
+bcp          =   yes,
+keys         =   "subtyping",
+conf         =   "http://www.cis.upenn.edu/~bcpierce/papers/fsubpopl.ps",
 }
 
 @misc{            Pierce:COPC-talk,
@@ -797,29 +805,33 @@ plclub = yes,
 bcp =             yes
 }
 
-@inproceedings{   CastagnaPierce93,
-author =          "Giuseppe Castagna and Benjamin Pierce",
-title =           "Decidable Bounded Quantification",
-booktitle =       proc # " Twenty-First "  # popl # ", Portland, Oregon",
-publisher =       "ACM",
-year =            1994,
-month =           jan,
-plclub = yes,                  
-bcp =             yes
+@inproceedings   {   CastagnaPierce93,
+author       =   "Giuseppe Castagna and Benjamin Pierce",
+title        =   "Decidable Bounded Quantification",
+booktitle    =   proc # " Twenty-First "  # popl # ", Portland, Oregon",
+publisher    =   "ACM",
+year         =   1994,
+month        =   jan,
+plclub       =   yes,                  
+bcp          =   yes,
+keys         =   "subtyping",
+ps           =   "http://www.cis.upenn.edu/~bcpierce/papers/fsubnew.ps",
 }
 
-@inproceedings{   PierceSteffen95,
-author =          "Benjamin C. Pierce and Martin Steffen",
-realauthor =      "Benjamin Pierce and Martin Steffen",
-title =           "Higher-Order Subtyping",
-booktitle =       "IFIP Working Conference on Programming Concepts, Methods
+@inproceedings   {   PierceSteffen95,
+author       =   "Benjamin C. Pierce and Martin Steffen",
+realauthor   =   "Benjamin Pierce and Martin Steffen",
+title        =   "Higher-Order Subtyping",
+booktitle    =   "IFIP Working Conference on Programming Concepts, Methods
                   and Calculi (PROCOMET)",
-year =            1994,
-note =            "Full version in \bgroup\em Theoretical Computer
+year         =   1994,
+note         =   "Full version in \bgroup\em Theoretical Computer
                   Science\egroup, vol.~176, no.~1--2, pp.\  235--282, 1997
                   (corrigendum in TCS vol.~184 (1997), p.~247)",
-plclub = yes,                  
-bcp =             yes
+plclub       =   yes,                  
+bcp          =   yes,
+keys         =   "subtyping",
+tr           =   "http://www.cis.upenn.edu/~bcpierce/papers/fomega.ps",
 }
 
 @techreport{      SteffenPierce93:TR,
@@ -928,7 +940,9 @@ publisher =       "ACM",
 year =            1995,
 month =           jan,
 plclub = yes,                  
-bcp =             yes
+bcp =             yes,
+keys = "subtyping",
+ps           =   "http://www.cis.upenn.edu/~bcpierce/papers/fsubnew-corrigendum.ps",
 }
 
 @article{         Abadi92,
@@ -1177,15 +1191,17 @@ bcp          =   yes,
 keys         =   "pi",
 }
 
-@techreport{      Pierce:BQB,
-author =          "Benjamin C. Pierce",
-title =           "Bounded Quantification with Bottom",
-year =            "1997",
-institution =     "Computer Science Department, Indiana University",
-series =          "CSCI",
-number =          "492",
-plclub = yes,                  
-bcp =             yes
+@techreport      {Pierce:BQB,
+author       =   "Benjamin C. Pierce",
+title        =   "Bounded Quantification with Bottom",
+year         =   "1997",
+institution  =   "Computer Science Department, Indiana University",
+series       =   "CSCI",
+number       =   "492",
+plclub       =   yes,                  
+bcp          =   yes,
+keys         =   "subtyping",
+tr           =   "http://www.cis.upenn.edu/~bcpierce/papers/bqb.ps",
 }
 
 @inproceedings{   BruceCardelliPierce96:TACS,
@@ -1310,8 +1326,7 @@ bcp =             yes
 author =          "Benjamin C. Pierce and David N. Turner",
 title =           "Pict: A Programming Language Based on the Pi-Calculus",
 year =            "1997",
-note =            "Compiler, documentation, demonstration programs, and
-                  standard libraries; available electronically",
+note =            "\URL{http://www.cis.upenn.edu/~bcpierce/papers/pict}",
 plclub = yes,                  
 bcp =             yes
 }
@@ -1379,8 +1394,10 @@ title        =   "Bounded Existentials and Minimal Typing",
 year         =   "1992",
 note         =   "Circulated in manuscript form. Full version in 
                   {\em Theoretical Computer Science}, 193(1--2):75--96, February 1998.",
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,
+keys         =   "subtyping",
+ps           =   "http://www.cis.upenn.edu/~bcpierce/papers/exists.ps",
 }
 
 @techreport{      BalasubramaniamPierce98-TR,
@@ -1695,8 +1712,15 @@ bcp =             yes
 author =          "Benjamin C. Pierce and Trevor Jim and Jerome Vouillon",
 title =           "{\sc Unison}: A portable, cross-platform file
                   synchronizer",
-year =            "2001",
+year =            "2001--present",
 note =            "\URL{http://www.cis.upenn.edu/~bcpierce/unison}",
+}
+
+@misc{            Pierce:harmony,
+author =          "J. Nathan Foster and Benjamin C. Pierce and Alan Schmitt",
+title =           "{\sc Harmony}: A Synchronization Framework for Heterogeneous Tree-Structured Data",
+year =            "2005",
+note =            "\URL{http://www.cis.upenn.edu/~bcpierce/harmony}",
 }
 
 ###article{         PierceSangiorgi96FullVersion,
@@ -1807,8 +1831,10 @@ number       =   6,
 pages        =   "511--548",
 checked      =   yes,
 year         =   "2003",
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,
+keys         =   "subtyping",
+conf         =   "http://www.cis.upenn.edu/~bcpierce/papers/rsr.ps",
 note         =   "Preliminary version in {\em International Conference on
                   Functional Programming (ICFP)}, 2000.  Also appears as
                   Chapter 21 of {\em Types and Programming Languages}
@@ -1829,7 +1855,7 @@ note         =   "To appear in {\em Journal of Functional Programming}"
 author =          "Haruo Hosoya and J\'er\^ome Vouillon and Benjamin C.
                   Pierce",
 title =           "Regular Expression Types for {XML}",
-booktitle =       "Proceedings of the International Conference on Functional
+booktitle =       "International Conference on Functional
                   Programming (ICFP)",
 year =            "2000",
 keys = "xduce",
@@ -1914,7 +1940,7 @@ note         =   "Special issue of papers from {\em
                   of Object Oriented Languages (FOOL 3), July 1996",
 plclub = yes,                  
 bcp          =   yes,
-keywords     =   "oop",
+keys         =   "oop",
 ps           =   "http://www.cis.upenn.edu/~bcpierce/papers/compobj.ps",
 }
 
@@ -1977,11 +2003,12 @@ volume       =   27,
 number       =   1,
 pages        =   "46--90",
 note         =   "Preliminary version in ICFP 2000",
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,
 checked      =   yes,
 keys         =   "xduce",
-conf         =   "http://www.cis.upenn.edu/~bcpierce/regsub.ps",
+conf         =   "http://www.cis.upenn.edu/~bcpierce/papers/regsub.ps",
+full         =   "http://www.cis.upenn.edu/~bcpierce/papers/regsub-toplas.pdf",
 }
 
 @article         {HosoyaPierce2002,
@@ -1989,15 +2016,15 @@ author       =   "Haruo Hosoya and Benjamin C. Pierce",
 title        =   "{XDuce}: A Statically Typed {XML} Processing Language",
 journal      =   "ACM Transactions on Internet Technology",
 year         =   "2003",
-volume = 3,
-number = 2,
-month = may,
-pages = "117--148",
-checked = yes,
-official = "http://doi.acm.org/10.1145/767193.767195",
-plclub = yes,                  
+volume       =   3,
+number       =   2,
+month        =   may,
+pages        =   "117--148",
+checked      =   yes,
+official     =   "http://doi.acm.org/10.1145/767193.767195",
+plclub       =   yes,                  
 bcp          =   yes,
-keys = "xduce",
+keys         =   "xduce",
 }
 
 @inproceedings{   Pierce-Sumii-01,
@@ -2171,8 +2198,8 @@ author       =   "Michael B. Greenwald and Sanjeev Khanna and
 title        =   "Agreement is Quicker than Domination: Conflict Resolution for
                   Optimistically Replicated Data",
 year         =   2005,
-note         =   "Submitted for publication",
-plclub = yes,                  
+note         =   "Submitted for publication; available electronically",
+plclub       =   yes,                  
 bcp          =   yes,
 keys         =   "harmony",                  
 short        =   "http://www.cis.upenn.edu/~bcpierce/papers/nway-short.pdf",
@@ -2206,12 +2233,12 @@ booktitle    =   popl05,
 year         =   "2005",
 conf         =   "http://www.cis.upenn.edu/~bcpierce/papers/newlenses-popl.pdf",
 slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/newlenses-popl-slides.pdf",
-TR           =   "http://www.cis.upenn.edu/~bcpierce/papers/newlenses-full.pdf",
+tr           =   "http://www.cis.upenn.edu/~bcpierce/papers/newlenses-full.pdf",
 note         =   {Extended version available as University of Pennsylvania 
                   technical report MS-CIS-03-08.  Earlier version presented at 
                   the {\em Workshop on Programming Language Technologies for 
                   XML (PLAN-X)}, 2004},
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,
 keys         =   "harmony",
 }
@@ -2244,44 +2271,69 @@ keys         =   "harmony",
 % institution = "Department of Computer and Information Science,
 %                University of Pennsylvania"
 
+@misc            {Pierce:LinksTalk2005,
+author       =   "Benjamin C. Pierce",
+title        =   "Fancy Types for XML: Friend or Foe?",
+month        =   apr,
+year         =   2005,
+slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/linkstalk-200504.pdf",
+note         =   "Talk at {\em LINKS} workshop, April 2005",
+plclub       =   yes,                  
+bcp          =   yes,
+keys         =   "xtatic",
+}
+
+@misc            {Pierce:HarmonyTalkTGC,
+author       =   "Benjamin C. Pierce",
+title        =   "Harmony: {T}he Art of Reconciliation",
+month        =   apr,
+year         =   2005,
+slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/harmony-tgc-talk-2005.pdf",
+note         =   "Invited talk at {\em Trusted Global Computing} conference, 
+                  April 2005", 
+plclub       =   yes,                  
+bcp          =   yes,
+keys         =   "harmony",
+}
+
 @misc            {Pierce:HarmonyTalk2003,
 author       =   "Benjamin C. Pierce",
 title        =   "Harmony: A Synchronization Framework for Tree-Structured Data",
 month        =   sep,
 year         =   2003,
 slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/harmonyslides-2003aug.pdf",
-note         =   "Slides from a talk presented in several places (Cambridge, Edinburgh, 
+note         =   "Slides from a talk presented in several places
+                  (Cambridge, Edinburgh, 
                   Philadelphia, Princeton) in Fall 2003",
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,
 keys         =   "harmony",
 }
-% institution = "Department of Computer and Information Science,
-%                University of Pennsylvania"
 
 @misc            {Pierce:EPFLTalk2002,
 author       =   "Benjamin C. Pierce",
 title        =   "Synchronize globally, compute locally",
 month        =   jul,
 year         =   2002,
-slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/harmonyslides-pfl.ps",
-note         =   "Keynote address at {\em Research Day on Global Computing}, EFPL, Lausanne",
-plclub = yes,                  
+slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/harmonyslides-epfl.ps",
+note         =   "Keynote address at {\em Research Day on Global Computing}, 
+                  EFPL, Lausanne",
+plclub       =   yes,                  
 bcp          =   yes,
 keys         =   "harmony",
 }
                   
-@TechReport{ HocusFocusTR2003-old,
-author = "Michael B. Greenwald and Jonathan T. Moore and Benjamin C. Pierce
-             and Alan Schmitt",
-title = "A Language for Bi-Directional Tree Transformations",
-year = 2003,
-type = "Technical Report",
-number = "MS-CIS-03-08",
-institution = "               University of Pennsylvania",
-plclub = yes,                  
-bcp = yes,
-note = "Revised April 2004",
+@techreport      { HocusFocusTR2003-old,
+author       =   "Michael B. Greenwald and Jonathan T. Moore and Benjamin C. Pierce
+                  and Alan Schmitt",
+title        =   "A Language for Bi-Directional Tree Transformations",
+year         =   2003,
+type         =   "Technical Report",
+number       =   "MS-CIS-03-08",
+institution  =   "               University of Pennsylvania",
+plclub       =   yes,                  
+bcp          =   yes,
+note         =   "Revised April 2004",
 }
 
 @techreport      {HarmonyOverview,
@@ -2310,12 +2362,21 @@ type         =   "Technical Report",
 number       =   "MS-CIS-05-02",
 institution  =   "University of Pennsylvania",
 note         =   {Supercedes MS-CIS-03-42},
+TR           =   "http://www.cis.upenn.edu/~bcpierce/papers/sync-tr.pdf",
+bcp          =   yes,
 }
 
-TR           =   "http://www.cis.upenn.edu/~bcpierce/papers/newlenses-full.pdf",
-plclub = yes,                  
+@inproceedings      {SYNC2005,
+author       =   "J. Nathan Foster and Michael B. Greenwald and Christian Kirkegaard
+                  and Benjamin C. Pierce and Alan Schmitt",
+title        =   "Exploiting Schemas in Data Synchronization",
+month        =   aug,
+year         =   2005,
+booktitle    =  DBPL05,
+TR           =   "http://www.cis.upenn.edu/~bcpierce/papers/sync-tr.pdf",
+plclub       =   yes,                  
 bcp          =   yes,
-                  
+}
 
 ### @unpublished{ HocusFocus2003,
 author = "Michael B. Greenwald and Jonathan T. Moore and Benjamin C. Pierce
@@ -2358,7 +2419,9 @@ author       =   "Vladimir Gapeyev and Michael Y. Levin
 year         =   2005,
 month        =   apr,
 booktitle    =   "14th International Conference on Compiler Construction",
-plclub = yes,                  
+conf         =   "http://www.cis.upenn.edu/~bcpierce/papers/xtatic-runtime-CC.pdf",
+tr           =   "http://www.cis.upenn.edu/~bcpierce/papers/xtatic-runtime-TR.pdf",
+plclub       =   yes,                  
 bcp          =   yes,
 keys         =   "xtatic",
 }
@@ -2372,8 +2435,6 @@ month = oct,
 type         =   "Technical Report",
 number       =   "MS-CIS-04-23",
 institution  =   "University of Pennsylvania",
-plclub = yes,                  
-bcp          =   yes,
 keys         =   "xtatic",
 TR          =   "http://www.cis.upenn.edu/~bcpierce/papers/xtatic-runtime-TR.pdf",
 }
@@ -2396,7 +2457,7 @@ title        =   "The {Xtatic} Experience",
 author       =   "Vladimir Gapeyev and Michael Y. Levin 
                   and Benjamin C. Pierce and Alan Schmitt",
 booktitle    =   "Workshop on Programming Language Technologies for XML (PLAN-X)",
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,
 month        =   jan,
 year         =   2005,
@@ -2427,9 +2488,9 @@ title        =   {Typed-based optimization for Regular Patterns},
 booktitle    =   {First International Workshop on High Performance XML Processing},
 year         =   {2004},
 url          =   {http://wam.inrialpes.fr/www-workshop2004/Program.html},
-short =                  "typebasedoptimization-short.pdf",
+short        =   "typebasedoptimization-short.pdf",
 keys         =   "xtatic",
-slides = "typebasedoptimization-slides.pdf",
+slides       =   "typebasedoptimization-slides.pdf",
 }
 
 @inproceedings   {SchmittXtaticFOOLtalk,                  
@@ -2452,23 +2513,24 @@ slides       =   "http://www.cis.upenn.edu/~bcpierce/papers/xtatic-progrep-2004-
 keys = "xtatic",
 }                  
 
-@misc            {poplmark,
+@inproceedings   {poplmark,
 author       =   {Brian E. Aydemir and Aaron Bohannon and Matthew Fairbairn
                   and J. Nathan Foster and Benjamin C. Pierce and Peter
                   Sewell and Dimitrios Vytiniotis and Geoffrey Washburn and
                   Stephanie Weirich and Steve Zdancewic},
-title        =   {Mechanized metatheory for the masses: The POPLmark
+title        =   {Mechanized metatheory for the masses: {T}he {POPLmark}
                   Challenge},
+booktitle    =   "International Conference on Theorem Proving in 
+                  Higher Order Logics (TPHOLs)",
 year         =   2005,
-month        =   {February},
-                  note = "Submitted for publication",
+month        =   {August},
 ps           =   {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.ps}
                   ,
 psgz         =   {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.ps.gz}
                   ,
 pdf          =   {http://www.cis.upenn.edu/~geoffw/research/papers/poplmark.pdf}
                   ,
-plclub = yes,                  
+plclub       =   yes,                  
 bcp          =   yes,                  
 abstract     =   {How close are we to a world where every paper on
                   programming languages is accompanied by an electronic
@@ -2488,6 +2550,32 @@ abstract     =   {How close are we to a world where every paper on
                   further research.}
 }
                   
+@techreport      {LevinPierce05TR,
+title        =   "Type-based Optimization for Regular Patterns",
+author       =   "Michael Y. Levin and Benjamin C. Pierce",
+year         =   2005,
+type         =   "Technical Report",
+number       =   "MS-CIS-05-13",
+institution  =   "University of Pennsylvania",
+month        =   jun,
+bcp          =   yes,
+keys = "xtatic",
+tr           =   "http://www.cis.upenn.edu/~bcpierce/papers/tb-TR.pdf",
+}
+                  
+@inproceedings      {LevinPierce05,
+title        =   "Type-based Optimization for Regular Patterns",
+author       =   "Michael Y. Levin and Benjamin C. Pierce",
+booktitle    =   dbpl05,
+year         =   2005,
+month        =   aug,
+bcp          =   yes,
+plclub       =   yes,                  
+keys = "xtatic",
+tr           =   "http://www.cis.upenn.edu/~bcpierce/papers/tb-TR.pdf",
+}
+                  
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                    %%
 %%                       Entries for ATTAPL                           %%
@@ -3501,7 +3589,6 @@ year = 1986,
   note =	 {Report ESC-LFCS-94-304}, 
   address =      {Edinburgh, Scotland},
 }
-%% url = "http://www.lfcs.informatics.ed.ac.uk/reports/94/ECS-LFCS-94-304/index.html"
 
 @Article{girard:light-linear-logic,
   author = 	 {Jean-Yves Girard},
@@ -8155,10 +8242,6 @@ checked =         "Not checked",
 year =            1986
 }
 
-% Dinesh Katiyar and Sriram Sankar,
-% "Completely Bounded Quantification is Decidable."
-% Proceedings of the ACM SIGPLAN Workshop on ML and
-% its Applications, June, 1992.
 @techreport{      Cardelli91:FsubTheSystem,
 author =          "Luca Cardelli",
 title =           "An Implementation of {$F_{<:}$}",
@@ -8172,7 +8255,7 @@ year =            "1993"
 @article{         Cardelli:BasicPolyTypech:old,
 author =          "Luca Cardelli",
 title =           "Basic Polymorphic Typechecking",
-journal =         polymorphism,
+journal =         "Polymorphism Newsletter",
 year =            1985,
 volume =          2,
 number =          1,
@@ -8221,9 +8304,6 @@ howpublished =    "Talk at {\em Higher-Order Operational Techniques in
                   from Cardelli's web page"
 }
 
-% [BL90] K. B. Bruce and G. Longo, "A Modest Model of Records,
-% Inheritance, and Bounded Quantification."  Information and
-% Computation, 87, 1990, pp. 196-240.
 @inproceedings{   Cardelli88a,
 author =          "Luca Cardelli",
 title =           "Structural Subtyping and the Notion of Power Type",
@@ -9397,12 +9477,13 @@ crossref =        "PEPT:98",
 pages =           {367--411}
 }
 
-@unpublished     {     HosoyaPierceTurner98,
+@unpublished     {HosoyaPierceTurner98,
 author       =   "Haruo Hosoya and Benjamin C. Pierce and David N. Turner",
 title        =   "Datatypes and Subtyping",
 note         =   "Manuscript",
 plclub = yes,                  
 bcp          =   yes,
+keys = "subtyping",
 year         =   1998,
 ps           =   "http://www.cis.upenn.edu/~bcpierce/ds.ps",
 }
@@ -12787,7 +12868,7 @@ key =             "Katiyar, {\em et al.}",
 author =          "Dinesh Katiyar and David Luckham and John Mitchell and
                   Sigurd Meldal",
 title =           "Polymorphism and Subtyping in Interfaces",
-journal =         sigplan,
+journal =         "Sigplan Notices",
 year =            1994,
 volume =          29,
 number =          8,
@@ -20497,8 +20578,8 @@ url          =   "citeseer.nj.nec.com/gottlob03xpath.html" }
 key          =   {XQuery},
 title        =   "{{XQuery} 1.0: An {XML} Query Language, {W3C Working Draft}}",
 organization =   {W3Consortium},
-month        =   Jul,
-year         =   2004,
+month        =   Apr,
+year         =   2005,
 note         =   {\URL{http://www.w3.org/TR/xquery/}},
 }
 
@@ -20574,7 +20655,17 @@ year         =   2003,
 url          =   {\URL{http://homepages.inf.ed.ac.uk/wadler/planx/planx-eproceed/papers/E00-699879232.pdf}}
 }
 
-@techreport      { XJ2003,
+@inproceedings{ XJ2005,
+author = "Matthew Harren and Mukund Raghavachari and Oded Shmueli and 
+          Michael G. Burke and Rajesh Bordawekar and Igor Pechtchanski and
+          Vivek Sarkar", 
+title  = "{XJ}: facilitating {XML} processing in {Java}",
+booktitle = "International World Wide Web Conference",
+year = 2005, 
+pages = {278--287}
+}
+                  
+@techreport      { XJ2003:old,
 author       =   "Matthew Harren and Berkeley Mukund Raghavachari and Oded Shmueli 
                   and Michael Burke and Vivek Sarkar and Rajesh Bordawekar",
 title        =   "{XJ}: Integration of {XML} Processing into {J}ava",
@@ -20965,9 +21056,70 @@ year         =   "2004",
 
 @misc            {DARCS,
 author       =   "David Roundy",
-title        =   "DARCS Revision Control System",                  
-note         =   "http://www.abridgegame.org/darcs/",
+title        =   "{DARCS} Revision Control System",                  
+note         =   "\url{http://www.abridgegame.org/darcs/}",
 year         =   2004,
 }
 
+@TechReport{AITR-474,
+  author =       "Jr. Guy Lewis Steele",
+  title =        "{RABBIT}: {A} Compiler for {SCHEME}",
+  institution =  "MIT Artificial Intelligence Laboratory",
+  number =       "AITR-474",
+  year =         "1978",
+  month =        may # "~6",
+  URL =          "ftp://publications.ai.mit.edu/ai-publications/0-499/AITR-474.ps;
+                 ftp://publications.ai.mit.edu/ai-publications/pdf/AITR-474.pdf",
+  abstract =     "We have developed a compiler for the lexically-scoped
+                 dialect of LISP known as SCHEME. The compiler knows
+                 relatively little about specific data manipulation
+                 primitives such as arithmetic operators, but
+                 concentrates on general issues of environment and
+                 control. Rather than having specialized knowledge about
+                 a large variety of control and environment constructs,
+                 the compiler handles only a small basis set which
+                 reflects the semantics of lambda- calculus. All of the
+                 traditional imperative constructs, such as sequencing,
+                 assignment, looping, GOTO, as well as many standard
+                 LISP constructs such as AND, OR, and COND, are
+                 expressed in macros in terms of the applicative basis
+                 set. A small number of optimization techniques, coupled
+                 with the treatment of function calls as GOTO
+                 statements, serve to produce code as good as that
+                 produced by more traditional compilers. The macro
+                 approach enables speedy implementation of new
+                 constructs as desired without sacrificing efficiency in
+                 the generated code. A fair amount of analysis is
+                 devoted to determining whether environments may be
+                 stack-allocated or must be heap- allocated.
+                 Heap-allocated environments are necessary in general
+                 because SCHEME (unlike Algol 60 and Algol 68, for
+                 example) allows procedures with free lexically scoped
+                 variables to be returned as the values of other
+                 procedures; the Algol stack-allocation environment
+                 strategy does not suffice. The methods used here
+                 indicate that a heap- allocating generalization of the
+                 {"}display{"} technique leads to an efficient
+                 implementation of such {"}upward funargs{"}. Moreover,
+                 compile- time optimization and analysis can eliminate
+                 many {"}funargs{"} entirely, and so far fewer
+                 environment structures need be allocated at run time
+                 than might be expected. A subset of SCHEME (rather than
+                 triples, for example) serves as the representation
+                 intermediate between the optimized SCHEME code and the
+                 final output code; code is expressed in this subset in
+                 the so-called continuation-passing style. As a subset
+                 of SCHEME, it enjoys the same theoretical properties;
+                 one could even apply the same optimizer used on the
+                 input code to the intermediate code. However, the
+                 subset is so chosen that all temporary quantities are
+                 made manifest as variables, and no control stack is
+                 needed to evaluate it. As a result, this apparently
+                 applicative representation admits an imperative
+                 interpretation which permits easy transcription to
+                 final imperative machine code. These qualities suggest
+                 that an applicative language like SCHEME is a better
+                 candidate for an UNCOL than the more imperative
+                 candidates proposed to date.",
+}
 

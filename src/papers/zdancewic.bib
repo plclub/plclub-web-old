@@ -9,10 +9,108 @@
 
 
 
+@InProceedings{ABFF+05,
+  author = 	 {Brian E. Aydemir and
+   Aaron Bohannon and
+   Matthew Fairbairn and
+   J. Nathan Foster and
+   Benjamin C. Pierce and
+   Peter Sewell and
+   Dimitrios Vytiniotis and
+   Geoffrey Washburn and
+   Stephanie Weirich and
+   Steve Zdancewic},
+  title = 	 {{Mechanized Metatheory for the Masses: The POPLMark Challenge}},
+  booktitle =	 {International Conference on Theorem Proving in Higher Order Logics (TPHOLs)},
+  year =	 2005,
+  hconf =        "yes",
+  plclub        = "yes",
+  pdf =          "http://www.cis.upenn.edu/~stevez/papers/ABFF+05.pdf",
+
+  abstract = " How close are we to a world where every paper on
+  programming languages is accompanied by an electronic appendix with
+  machine-checked proofs?
+
+  We propose an initial set of benchmarks for measuring progress in
+  this area.  Based on the metatheory of System F-Sub, a typed
+  lambda-calculus with second-order polymorphism, subtyping, and
+  records, these benchmarks embody many aspects of programming
+  languages that are challenging to formalize: variable binding at
+  both the term and type levels, syntactic forms with variable numbers
+  of components (including binders), and proofs demanding complex
+  induction principles.  We hope that these benchmarks will help
+  clarify the current state of the art, provide a basis for comparing
+  competing technologies, and motivate further research.  " 
+  }
+
+@InProceedings{HTHZ05,
+  author = 	 {Michael Hicks and Stephen Tse and Boniface Hicks 
+                  and Steve Zdancewic},
+  title = 	 {Dynamic updating of information-flow policies},
+  booktitle =	 {Proc. of Foundations of Computer Security Workshop},
+  year =	 2005,
+  hconf =        "yes",
+  plclub        = "yes",
+  pdf =          "http://www.cis.upenn.edu/~stevez/papers/HTHZ05.pdf",
+
+  abstract = " Applications that manipulate sensitive information
+  should ensure \emph{end-to-end} security by satisfying two
+  properties: \emph{sound execution} and some form of
+  \emph{noninterference}.  By the former, we mean the program should
+  always perform actions in keeping with its current policy, and by
+  the latter we mean that these actions should never cause
+  high-security information to be visible to a low-security observer.
+  Over the last decade, security-typed languages have been developed
+  that exhibit these properties, increasingly improving so as to model
+  important features of real programs.
+
+  No current security-typed language, however, permits general changes
+  to security policies in use by running programs.  This paper
+  presents a simple information flow type system for that allows for
+  dynamic security policy updates while ensuring sound execution and a
+  relaxed form of noninterference we term \emph{noninterference
+  between updates}.  We see this work as an important step toward
+  using language-based techniques to ensure end-to-end security for
+  realistic applications."
+}
+
+
+@InProceedings{LZ05c,
+  author = 	 "Peng Li and Steve Zdancewic",
+  title = 	 "{Unifying Confidentiality and Integrity in Downgrading 
+                  Policies}",
+  booktitle =	 {Proc. of Foundations of Computer Security Workshop},
+  year =	 2005,
+  hconf =        "yes",
+  plclub        = "yes",
+  pdf =          "http://www.cis.upenn.edu/~stevez/papers/LZ05c.pdf",
+  
+  abstract = "Confidentiality and integrity are often treated as dual
+  properties in formal models of information-flow control, access
+  control and many other areas in computer security. However, in
+  contrast to confidentiality policies, integrity policies are less
+  formally studied in the information-flow control literature. One
+  important reason is that traditional noninterference-based
+  information-flow control approaches give very weak integrity
+  guarantees for untrusted code. Integrity and confidentiality
+  policies are also different with respect to implicit information
+  channels. 
+
+  This paper studies integrity downgrading policies in
+  information-flow control and compares them with their
+  confidentiality counterparts. We examine the drawbacks of integrity
+  policies based on noninterference formalizations and study the
+  integrity policies in the framework of downgrading policies and
+  program equivalences. We give semantic interpretations for
+  traditional security levels for integrity, namely, tainted and
+  untainted, and explain the interesting relations between
+  confidentiality and integrity in this framework.  "
+
+}
 
 @InProceedings{Zda04,
   author = 	 {Steve Zdancewic},
-  title = 	 {\textbf{Challenges for Information-flow Security}},
+  title = 	 {{Challenges for Information-flow Security}},
   booktitle =	 {Proceedings of the 1st International Workshop on the
   Programming Language Interference and Dependence (PLID'04)},
   year =	 2004,
@@ -23,7 +121,7 @@
 
 @InProceedings{Zda03,
   author = 	 {Steve Zdancewic},
-  title = 	 {\textbf{A Type System for Robust Declassification}},
+  title = 	 {{A Type System for Robust Declassification}},
   booktitle =	 {Proceedings of the Nineteenth Conference on the 
                   Mathematical Foundations of Programming Semantics},
   year =	 2003,
@@ -65,7 +163,7 @@
 
 @Article{	  ZM02,
   author	= "Steve Zdancewic and Andrew C. Myers",
-  title		= "\textbf{Secure Information Flow via Linear Continuations}",
+  title		= "{Secure Information Flow via Linear Continuations}",
   journal	= "Higher Order and Symbolic Computation",
   volume	= 15,
   number	= "2/3",
@@ -94,7 +192,7 @@ language with higher-order functions and state."
 @Article{	  ZZNM02,
   author	= {Steve Zdancewic and Lantian Zheng and Nathaniel Nystrom
 		  and Andrew C. Myers},
-  title		= {\textbf{Secure Program Partitioning}},
+  title		= {{Secure Program Partitioning}},
   journal	= {Transactions on Computer Systems},
   year		= 2002,
   volume        = 20,
@@ -127,7 +225,7 @@ in Section 5."
 
 @Article{	  GMZ00,
   author	= "Dan Grossman and Greg Morrisett and Steve Zdancewic",
-  title		= {\textbf{Syntactic Type Abstraction}},
+  title		= {{Syntactic Type Abstraction}},
   journal	= {Transactions on Programming Languages and Systems},
   year		= 2000,
   volume	= 22,
@@ -159,7 +257,7 @@ principals, including versions that have mutable state and recursive types."
 
 @InProceedings{TZ04b,
   author = 	 {Stephen Tse and Steve Zdancewic},
-  title = 	 {\textbf{Translating Dependency into Parametricity}},
+  title = 	 {{Translating Dependency into Parametricity}},
   booktitle =	 {Proc. of the 9th ACM SIGPLAN International Conference on
 		  Functional Programming},
   year =	 2004,
@@ -195,7 +293,7 @@ principals, including versions that have mutable state and recursive types."
 
 @InProceedings{MSZ04,
   author = 	 {Andrew C. Myers and Andrei Sabelfeld and Steve Zdancewic},
-  title = 	 {\textbf{Enforcing Robust Declassification}},
+  title = 	 {{Enforcing Robust Declassification}},
   booktitle =	 "Proc. of 17th IEEE Computer Security Foundations Workshop",
   pages =	 "172--186",
   year =	 2004,
@@ -228,11 +326,9 @@ principals, including versions that have mutable state and recursive types."
 
 
 
-
-
 @InProceedings{TZ05a,
   author = 	 {Stephen Tse and Steve Zdancewic},
-  title = 	 {\textbf{Designing a Security-typed Language with Certificate-based Declassification}},
+  title = 	 {{Designing a Security-typed Language with Certificate-based Declassification}},
   booktitle =	 esop14,
   year = 	 2005,
   note =	 {To appear},
@@ -253,18 +349,41 @@ principals, including versions that have mutable state and recursive types."
 
 @InProceedings{LZ05b,
   author = 	 {Peng Li and Steve Zdancewic},
-  title = 	 {\textbf{Practical Information-flow Control in Web-based Information Systems}},
+  title = 	 {{Practical Information-flow Control in Web-based Information Systems}},
   booktitle =	 "Proc. of 18th IEEE Computer Security Foundations Workshop",
   year =	 2005,
-  note =	 "To appear",
+  pages =	 "2--15",
   hconf =        "yes",
   plclub        = "yes",
   pdf =          "http://www.cis.upenn.edu/~stevez/papers/LZ05b.pdf",
+
+  abstract = "This paper presents a practical application of
+  language-based information-flow control, namely, a domain-specific
+  web scripting language designed for interfacing with databases.  The
+  primary goal is to provide strong enforcement of confidentiality and
+  integrity policies: confidential data can be released only in
+  permitted ways and trustworthy data must result from expected
+  computations or conform to expected patterns.  Such security
+  policies are specified in the database layer and statically enforced
+  for the rest of the system in an end-to-end fashion.
+
+  In contrast with existing web-scripting languages, which provide
+  only ad hoc mechanisms for information security, the scripting
+  language described here uses principles based on the well-studied
+  techniques in information-flow type systems.  However, because web
+  scrips often need to downgrade confidential data and manipulate
+  untrusted user input, they require practical and convenient ways of
+  downgrading secure data.  To achieve this goal, the language allows
+  safe downgrading according to \emph{downgrading policies} specified
+  by the programmer.  This novel, pattern-based approach provides a
+  practical instance of recent work on \emph{delimited release} and
+  \emph{relaxed noninterference} and extends that work by accounting
+  for integrity policies.  " 
 }
 
 @InProceedings{LZ05,
   author = 	 {Peng Li and Steve Zdancewic},
-  title = 	 {\textbf{Downgrading Policies and Relaxed Noninterference}},
+  title = 	 {{Downgrading Policies and Relaxed Noninterference}},
   booktitle =	 popl32,
   year =	 2005,
   pages =        "158--170",
@@ -293,7 +412,7 @@ principals, including versions that have mutable state and recursive types."
 
 @InProceedings{LZ04a,
   author = 	 {Peng Li and Steve Zdancewic},
-  title = 	 {\textbf{Advanced Control Flow in Java Card Programming}},
+  title = 	 {{Advanced Control Flow in Java Card Programming}},
   booktitle =	 {Proceedings of the 2004 ACM SIGPLAN/SIGBED Conference on Languages, 
                   Compilers, and Tools for Embedded Systems},
   pages =	 "165--174",
@@ -320,7 +439,7 @@ model without losing compatibility with the existing Java Card API.
 
 @InProceedings{TZ04a,
   author = 	 {Stephen Tse and Steve Zdancewic},
-  title = 	 {\textbf{Run-time Principals in Information-flow Type Systems}},
+  title = 	 {{Run-time Principals in Information-flow Type Systems}},
   booktitle =	 {IEEE 2004 Symposium on Security and Privacy},
   year =	 2004,
   month =	 may,
@@ -357,7 +476,7 @@ model without losing compatibility with the existing Java Card API.
 
 @InProceedings{LMZ03,
   author = 	 {Peng Li and Yun Mao and Steve Zdancewic},
-  title = 	 {\textbf{Information Integrity Policies}},
+  title = 	 {{Information Integrity Policies}},
   booktitle =	 {Proceedings of the Workshop on Formal Aspects in Security \& Trust (FAST)},
   year =	 2003,
   month =        sep,
@@ -385,7 +504,7 @@ model without losing compatibility with the existing Java Card API.
 
 @InProceedings{WZL03,
   author = 	 {David Walker and Steve Zdancewic and Jay Ligatti},
-  title = 	 {\textbf{A Theory of Aspects}},
+  title = 	 {{A Theory of Aspects}},
   booktitle =	 {Proc. of the 8th ACM SIGPLAN International Conference on
 		  Functional Programming},
   year =	 2003,
@@ -421,7 +540,7 @@ interfering with local program invariants.
 
 @InProceedings{SSDK+03,
   author = 	 {Usa Sammapun and Raman Sharykin and Margaret Delap and Myong Kim and Steve Zdancewic},
-  title = 	 {\textbf{Formalizing {Java-MaC}}},
+  title = 	 {{Formalizing {Java-MaC}}},
   booktitle =	 {Proceedings of the Third Runtime Verification Workshop},
   publisher =    entcs,
   year =	 2003,
@@ -444,9 +563,11 @@ interfering with local program invariants.
 }
 
 
+
+
 @InProceedings{ZM03,
   author = 	 {Steve Zdancewic and Andrew C. Myers},
-  title = 	 {\textbf{Observational Determinism for Concurrent Program Security}},
+  title = 	 {{Observational Determinism for Concurrent Program Security}},
   booktitle	= "Proc. of 16th IEEE Computer Security Foundations Workshop",
   year =	 2003,
   month =	 jul,
@@ -476,7 +597,7 @@ previous security-typed concurrent languages.
 @InProceedings{GGKS+03,
   author = 	 {Michael Greenwald and Carl A. Gunter and Bj\"{o}rn Knutsson and
                   Andre Scedrov and Jonathan M. Smith and Steve Zdancewic},
-  title = 	 {\textbf{Computer Security is Not a Science (but it should be)}},
+  title = 	 {{Computer Security is Not a Science (but it should be)}},
   booktitle =	 {Proceedings of the Large-Scale Network Security Workshop},
   year =	 2003,
   month =	 mar,
@@ -489,7 +610,7 @@ previous security-typed concurrent languages.
 @InProceedings{ZCZM03,
   author = 	 {Lantian Zheng and Stephen Chong and Steve Zdancewic
                   and Andrew C. Myers},
-  title = 	 {\textbf{Building Secure Distributed Systems Using Replication and 
+  title = 	 {{Building Secure Distributed Systems Using Replication and 
                   Partitioning}},
   booktitle =	 {IEEE 2003 Symposium on Security and Privacy},
   year =	 2003,
@@ -520,7 +641,7 @@ to various distributed programs.  "
   year		= 2001,
   author	= "Steve Zdancewic and Lantian Zheng and Nathaniel Nystrom
 		  and Andrew C. Myers",
-  title		= "\textbf{Untrusted Hosts and Confidentiality: Secure Program Partitioning}",
+  title		= "{Untrusted Hosts and Confidentiality: Secure Program Partitioning}",
   series	= "Operating Systems Review",
   booktitle	= sosp18,
   address	= "Banff, Canada",
@@ -552,7 +673,7 @@ to various distributed programs.  "
 
 @InProceedings{	  ZM01b,
   author	= "Steve Zdancewic and Andrew C. Myers",
-  title		= "\textbf{Robust Declassification}",
+  title		= "{Robust Declassification}",
   booktitle	= "Proc. of 14th IEEE Computer Security Foundations Workshop",
   month		= jun,
   year		= 2001,
@@ -590,7 +711,7 @@ leaks. "
 
 @InProceedings{	  ZM01,
   author	= {Steve Zdancewic and Andrew C. Myers},
-  title		= {\textbf{Secure Information Flow and {CPS}}},
+  title		= {{Secure Information Flow and {CPS}}},
   booktitle	= esop10,
   year		= 2001,
   volume	= 2028,
@@ -614,7 +735,7 @@ leaks. "
 
 @InProceedings{	  ZGM99,
   author	= {Steve Zdancewic and Dan Grossman and Greg Morrisett},
-  title		= {\textbf{Principals in Programming Languages: A Syntactic Proof Technique}},
+  title		= {{Principals in Programming Languages: A Syntactic Proof Technique}},
   booktitle	= {Proc. of the 4th ACM SIGPLAN International Conference on
 		  Functional Programming},
   year		= 1999,
@@ -650,7 +771,7 @@ semantic arguments."
   author	= "Greg Morrisett and Karl Crary and Neal Glew and Dan
 		  Grossman and Richard Samuels and Frederick Smith and David
 		  Walker and Stephanie Weirich and Steve Zdancewic",
-  title		= "\textbf{{TALx86}: A Realistic Typed Assembly Language}",
+  title		= "{{TALx86}: A Realistic Typed Assembly Language}",
   booktitle	= "2nd {ACM SIGPLAN} Workshop on Compiler Support for
 		  System Software",
   year		= 1999,
@@ -683,7 +804,7 @@ we present a type-safe C-like language called Popcorn."
 
 @TechReport{TZ05atr,
   author = 	 {Stephen Tse and Steve Zdancewic},
-  title = 	 {\textbf{Designing a Security-typed Language with Certificate-based Declassification}},
+  title = 	 {{Designing a Security-typed Language with Certificate-based Declassification}},
   institution =  {University of Pennsylvania},
   number =       "MIS-CIS-04-16",
   year = 	 2004,
@@ -726,7 +847,7 @@ we present a type-safe C-like language called Popcorn."
 
 @TechReport{TZ04c,
   author = 	 {Stephen Tse and Steve Zdancewic},
-  title = 	 {\textbf{Translating Dependency into Parametricity}},
+  title = 	 {{Translating Dependency into Parametricity}},
   institution =  {University of Pennsylvania},
   year = 	 2004,
   number =	 "MIS-CIS-04-01",
@@ -760,7 +881,7 @@ we present a type-safe C-like language called Popcorn."
 
 @TechReport{TZ03,
   author = 	 {Stephen Tse and Steve Zdancewic},
-  title = 	 {\textbf{Run-time Principals in Information-flow Type Systems}},
+  title = 	 {{Run-time Principals in Information-flow Type Systems}},
   institution =  {University of Pennsylvania},
   year = 	 2003,
   number =	 "MS-CIS-03-39",
@@ -797,7 +918,7 @@ we present a type-safe C-like language called Popcorn."
 
 @PhdThesis{Zda02,
   author = 	 {Stephan A. Zdancewic},
-  title = 	 {\textbf{Programming Languages for Information Security}},
+  title = 	 {{Programming Languages for Information Security}},
   school = 	 {Cornell University},
   year = 	 2002,
   month =	 aug,
@@ -858,7 +979,7 @@ Jif/split's run-time enforcement mechanisms."
 
 @TechReport{	  ZZNM01b,
   year		= 2001,
-  title		= "\textbf{Secure Program Partitioning}",
+  title		= "{Secure Program Partitioning}",
   author	= "Steve Zdancewic and Lantian Zheng and Nathaniel Nystrom
 		  and Andrew C. Myers",
   institution	= "Computer Science Dept., Cornell University",
@@ -894,7 +1015,7 @@ Section 5."
 
 @TechReport{	  ZM00,
   author	= {Steve Zdancewic and Andrew C. Myers},
-  title		= {\textbf{Confidentiality and Integrity with Untrusted Hosts}},
+  title		= {{Confidentiality and Integrity with Untrusted Hosts}},
   institution	= {Computer Science Dept., Cornell University},
   year		= 2000,
   number	= {2000-1810},
@@ -929,7 +1050,7 @@ transformations, including secure program partitioning."
 
 @TechReport{	  ZG99,
   author	= {Steve Zdancewic and Dan Grossman},
-  title		= {\textbf{Principals in Programming Languages: Technical Results}},
+  title		= {{Principals in Programming Languages: Technical Results}},
   institution	= {Computer Science Dept., Cornell University},
   year		= 1999,
   number	= {TR99-1752},

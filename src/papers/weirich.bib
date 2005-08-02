@@ -123,20 +123,131 @@
 
 
 
+# Note!  unpublished puts in draft section. misc does not.
+#
+
 @string{dl = "http://www.cis.upenn.edu/~sweirich/papers/"}
 @string{tdl = "http://www.cs.cornell.edu/talc/papers/"}
 
+@Unpublished{vytiniotis+:boxy,
+  author = 		  {Dimitrios Vytiniotis and Stephanie Weirich and Simon {Peyton Jones}},
+  title = 		  {Boxy type inference for higher-rank types and impredicativity},
+  note = 		  {Submitted for publication},
+  month = apr,
+  year = 2005,
+  ps = dl # "boxy/boxy.ps",
+  plclub = "yes",
+  abstract = {
+Languages with rich type systems are beginning to employ a blend of type
+inference and type checking, so that the type inference engine is
+guided by programmer-supplied type annotations.  In this paper we show,
+for the first time, how to combine the virtues of two well-established ideas: unification-based 
+inference, and bidirectional propagation of type annotations.  The result 
+is a type system that conservatively extends Hindley-Milner, and yet supports
+both higher-rank and impredicative types.
+}
+}
 
 
-@Unpublished{mmm,
+@InProceedings{dantas+:polyaml,
+  author = 		  {Daniel S. Dantas and David Walker and Geoffrey Washburn and Stephanie Weirich},
+  title = 		  {{PolyAML}: A polymorphic aspect-oriented functional programmming language},
+  booktitle =    icfp,
+  month =		  sep,
+  year =			  2005,
+  address =      {Tallinn, Estonia},
+  pdf =          {http://www.cis.upenn.edu/proj/plclub/polyaml/icfp2005.pdf},
+  abstract = {
+This paper defines PolyAML, a typed functional and aspect-oriented
+programming language.  The main contribution of PolyAML is in the
+seamless integration of polymorphism, run-time type analysis and
+aspect-oriented programming language features.  In particular, PolyAML
+allows programmers to define type-safe polymorphic advice using pointcuts
+constructed from a collection of polymorphic join points.  PolyAML
+also comes equipped with a type inference algorithm that conservatively
+extends Hindley-Milner type inference.  In order to support first-class
+polymorphic point-cut designators, a crucial feature for developing
+aspect-oriented profiling or logging libraries, the algorithm blends the
+conventional Hindley-Milner type inference algorithm with a simple form
+of local type inference.
+
+We give our language operational meaning via a type-directed
+translation into an expressive type-safe intermediate language.  Many
+complexities of the source language are eliminated in this
+translation, leading to a modular specification of its semantics.  One
+of the novelties of the intermediate language is the definition of
+polymorphic labels for marking control-flow points.  These labels are
+organized in a tree structure such that a parent in the tree serves as
+a representative for the collection of all its children.  Type safety
+requires that the type of each child is a generic instance of the type
+of the polymorphic parent.  Similarly, when a set of labels is
+assembled as a pointcut, the type of each label is an instance of the
+type of the pointcut.
+}
+}
+
+
+@TechReport{peyton-jones+:practical-appendix,
+  author = 		  {Dimitrios Vytiniotis and Stephanie Weirich and Simon L. {Peyton Jones}},
+  title = 		  {Practical type infreence for arbitrary-rank types ({T}echnical appendix)},
+  institution =  {University of Pennsylvania},
+  year = 		  2005,
+  number =		  {MIS-CIS-05-14},
+  url =          { http://www.cis.upenn.edu/~dimitriv/arbitrary-rank/MS-CIS-05-14.ps }
+}
+
+@unpublished{peyton-jones+:practical,
+  author = 		  {Simon L. {Peyton Jones} and Dimitrios Vytiniotis and Stephanie Weirich and Mark Shields},
+  title = 		  {Practical type inference for arbitrary-rank types},
+  month =        jul,
+  year =			  2005,
+  url  =         {http://research.microsoft.com/%7Esimonpj/papers/higher-rank/putting.ps.gz}, 
+
+  abstract = {Haskell's popularity has driven the need for ever more
+  expressive type system features, most of which threaten the
+  decidability and practicality of Damas-Milner type inference. One
+  such feature is the ability to write functions with higher-rank
+  types --- that is, functions that take polymorphic functions as
+  their arguments.
+
+Complete type inference is known to be undecidable for higher-rank
+(impredicative) type systems, but in practice programmers are more
+than willing to add type annotations to guide the type inference
+engine, and to document their code. However, the choice of just what
+annotations are required, and what changes are required in the type
+system and its inference algorithm, has been an ongoing topic of
+research.
+
+We take as our starting point a lambda-calculus proposed by Odersky
+and Laufer. Their system supports arbitrary-rank polymorphism through
+the exploitation of type annotations on lambda-bound arguments and
+arbitrary sub-terms. Though elegant, and more convenient than some
+other proposals, Odersky and Laufer's system requires many
+annotations. We show how to use local type inference (invented by
+Pierce and Turner) to greatly reduce the annotation burden, to the
+point where higher-rank types become eminently usable.
+
+Higher-rank types have a very modest impact on type inference. We
+substantiate this claim in a very concrete way, by presenting a
+complete type-inference engine, written in Haskell, for a traditional
+Damas-Milner type system, and then showing how to extend it for
+higher-rank types. We write the type-inference engine using a monadic
+framework: it turns out to be a particularly compelling example of
+monads in action.
+
+The paper is long, but is strongly tutorial in style. }
+
+}
+
+@InProceedings{mmm,
   author = 		  { Brian E. Aydemir and Aaron Bohannon and Matthew Fairbairn and J. Nathan Foster and Benjamin C. Pierce and Peter Sewell and Dimitrios Vytiniotis and Geoffrey Washburn and Stephanie Weirich and Steve Zdancewic},
   title = 		  {Mechanized Metatheory for the Masses: The {POPLmark} Challenge},
-  note = 		  {Submitted for publication},
-  month =		  feb,
+  booktitle = 		  {The 18th International Conference on Theorem Proving in Higher Order Logics},
+  month =		  aug,
   year =			  2005,
-  ps = {http://www.cis.upenn.edu/proj/plclub/mmm/papers/poplmark.ps},
-  pdf = {http://www.cis.upenn.edu/proj/plclub/mmm/papers/poplmark.pdf},
-  
+  address =      {Oxford, UK},
+  ps = {http://www.cis.upenn.edu/proj/plclub/mmm/poplmark/poplmark.ps},
+  pdf = {http://www.cis.upenn.edu/proj/plclub/mmm/poplmark/poplmark.pdf},
   abstract = {How close are we to a world where every paper on
 programming languages is accompanied by an electronic appendix with
 machine-checked proofs?
@@ -153,14 +264,19 @@ current state of the art, provide a basis for comparing competing
 technologies, and motivate further research.  }
 }
 
-@Unpublished{washburn+:seckinds,
+#  ps =           "http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.ps",
+#  pdf =          "http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.pdf",
+
+
+@InProceedings{washburn+:seckinds,
   author = 		  {Geoffrey Washburn and Stephanie Weirich},
   title = 		  {Generalizing Parametricity Using Information Flow},
+  booktitle =    lics,
   year =			  2005,
-  month =        jan, 
-  ps =           "http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.ps",
-  pdf =          "http://www.cis.upenn.edu/~geoffw/research/papers/lics2005.pdf",
-
+  month =        jun, 
+  address =      {Chicago, IL, USA},
+  ps =           dl # "seckinds/lics2005.ps",
+  pdf =          dl # "seckinds/lics2005.pdf",
   abstract = {Run-time type analysis allows programmers to easily and
 concisely define many operations based upon type structure, such as
 serialization, iterators, and structural equality.  However, when
@@ -199,15 +315,16 @@ the program depend on the implementation of a given type.
   pdf =          dl # "gadt/gadt_jul04.pdf"
 }
 
-@Unpublished{dantas+:poly-aspects,
+@misc{dantas+:poly-aspects,
   author = 		  {Dan S. Dantas and David Walker and Geoffrey Washburn and 
                   Stephanie Weirich},
   title = 		  {Analyzing Polymorphic Advice},
-  note = 		  {25 pages.},
   month =		  oct,
   year =			  2004,
   pdf =          "http://www.cis.upenn.edu/~geoffw/research/papers/poly-aspect.pdf",
-  ps =          "http://www.cis.upenn.edu/~geoffw/research/papers/poly-aspect.ps"
+  ps =           "http://www.cis.upenn.edu/~geoffw/research/papers/poly-aspect.ps",
+  note =         {25 pages. An extended version of this paper is Princeton University Computer 
+                  Science Technical Report TR-717-04}
 }
 
 @TechReport{dantas+:poly-aspects-tr,

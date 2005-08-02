@@ -27,7 +27,7 @@ bcp.bib:
 
 geoffw.bib:
 	-$(RM) geoffw.bib
-	wget http://www.cis.upenn.edu/~geoffw/geoffw.bib
+	wget http://www.cis.upenn.edu/~geoffw/research/papers/geoffw.bib
 
 jnf.bib:
 	-$(RM) jnf.bib
@@ -42,7 +42,4 @@ zdancewic.bib:
 	wget http://www.cis.upenn.edu/~stevez/papers/zdancewic.bib
 
 clean:
-	-$(RM) *.bib
-
-
-
+	-$(RM) *.bib plclub.html
