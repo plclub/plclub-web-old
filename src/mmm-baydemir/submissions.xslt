@@ -22,7 +22,7 @@ doctype-system="DTD/xhtml1-strict.dtd" />
 
     <h1><img style="float: left; border: solid 1px black; margin-right: 10px"
              src="./POPLmark-logo-64.png" alt="POPLmark" />
-       Submissions 
+       Submissions
     </h1>
 
     <div style="clear: both; height: 0.1em"></div>
@@ -30,7 +30,7 @@ doctype-system="DTD/xhtml1-strict.dtd" />
     <h2>Current submissions</h2>
 
     <p>Submissions should be sent to the <a href="http://lists.seas.upenn.edu/mailman/listinfo/poplmark">mailing list</a>.</p>
-  
+
     <xsl:call-template name="entries" />
 
     <h2>Evaluation</h2>
@@ -70,12 +70,12 @@ doctype-system="DTD/xhtml1-strict.dtd" />
 <!--
     <h2>Lines of Code </h2>
 
-    <p>As a rough measure of the work involved in developing each solution, we
-    include the number of lines of code needed for each challenge problem.  The
-    values are intended to be <em>totals</em>; for example, the lines of code
-    counted for the definitions of Challenge 2b includes the code needed to
-    define (in their entirety) the subtyping, typing, and evaluation
-    relations.</p>
+    <p>As a rough measure of the work involved in developing each solution,
+    we include the number of lines of code needed for each challenge
+    problem.  The values are intended to be <em>totals</em>; for example,
+    the lines of code counted for the definitions of Challenge 2b includes
+    the code needed to define (in their entirety) the subtyping, typing, and
+    evaluation relations.</p>
 
     <xsl:call-template name="codetable" />
 -->
@@ -83,27 +83,32 @@ doctype-system="DTD/xhtml1-strict.dtd" />
     <h2>Descriptions of the Evaluation Criteria</h2>
 
     <dl>
-      <dt><a id="desc-drag"></a>Drag</dt>
-      <dd>The degree to which proofs (and to a lesser extent, definitions) are
-      cluttered with elements specific to the term representation technique.
-      These elements tend to obscure the main argument of proofs.  Less clutter
-      is preferred.</dd>
 
-      <dt><a id="desc-accessibility"></a>Accessibility</dt>
-      <dd>The ease with which users with little or no experience with
-      the technology in question (system and representation technique) can
-      convince themselves that the formal presentation corresponds with the
-      intended meaning of the paper presentation.  More ease is better.   
-      </dd>
+      <dt><a id="desc-costofentry"></a>Cost of Entry</dt>
+      <dd>How easy it is for a non-expert (i.e., someone generally educated
+      in logic and programming language theory but not in the particular
+      theorem prover or representation methodology being used) to get to the
+      point where they can convince themselves of the correspondence between
+      informal definitions/proofs and their formalizations (not to the point
+      where they can actually carry out proofs).</dd>
+
+      <dt><a id="desc-drag"></a>Drag</dt>
+      <dd>The degree to which the formal development is cluttered with
+      elements that are specific to the technology used. Clutter may include
+      anything that would not be found in even the most pedantic paper
+      presentation of the challenge and aspects of the representation
+      technique that unnecessarily complicate the reasoning used within
+      proofs. (Drag attempts to capture how unpleasant it is to work with
+      the technology in question.)</dd>
 
       <dt><a id="desc-transparency"></a>Transparency</dt>
-      <dd>The degree to which it is clear that the statements of definitions,
-      lemmas, and theorems correspond to ones on paper.  It should be obvious
-      that the statements capture exactly the meaning intended on paper.</dd>
-      
+      <dd>How easy it is for an expert (i.e., someone who is already
+      familiar with the technology) to see the correspondence between some
+      paper definition or theorem and its formalization.</dd>
+
       <dt><a id="desc-challenge1a"></a>Challenge 1a</dt>
-      <dd>The proof of transitivity of the algorithmic subtyping relation for
-      pure F<sub>&lt;:</sub>.</dd>
+      <dd>The proof of transitivity of the algorithmic subtyping relation
+      for pure F<sub>&lt;:</sub>.</dd>
 
       <dt><a id="desc-challenge1b"></a>Challenge 1b</dt>
       <dd>The proof of transitivity of the algorithmic subtyping relation for
@@ -126,17 +131,17 @@ doctype-system="DTD/xhtml1-strict.dtd" />
      <a href="http://validator.w3.org/check?uri=referer">Valid XHTML</a>
      and <a href="http://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
    </div>
-  </div> 
+  </div>
   </body>
   </html>
 
 </xsl:template>
-    
+
 <xsl:template name="entries">
   <ul>
   <xsl:for-each select="submissions/submission">
     <li>
-      <a href="{file/node()}">Submission</a> by 
+      <a href="{file/node()}">Submission</a> by
       <xsl:copy-of select="authors/node()|author/node()" />
       <xsl:if test="subfiles">
         (also available as individual files:
@@ -146,7 +151,7 @@ doctype-system="DTD/xhtml1-strict.dtd" />
           <xsl:text>, </xsl:text>
         </xsl:if>
         </xsl:for-each>)
-      </xsl:if>    
+      </xsl:if>
       </li>
   </xsl:for-each>
   </ul>
@@ -154,7 +159,7 @@ doctype-system="DTD/xhtml1-strict.dtd" />
 
 <xsl:template name="gradetable">
  <table class="gd" style="margin:0 auto;">
-  
+
   <tr><td></td>
   <xsl:for-each select="submissions/submission">
   <th style="text-align:center;">Solution <xsl:value-of select="position()" /><br />
@@ -162,22 +167,31 @@ doctype-system="DTD/xhtml1-strict.dtd" />
   </th>
   </xsl:for-each>
   </tr>
-  
+
   <tr>
-  <th>System/Logic</th> 
+  <th>System/Logic</th>
   <xsl:for-each select="submissions/submission">
     <td class="gd"><xsl:copy-of select="system/node()" /></td>
   </xsl:for-each>
   </tr>
-  
+
   <tr>
-  <th>Term representation</th> 
+  <th>Term representation</th>
   <xsl:for-each select="submissions/submission">
     <td class="gd"><xsl:copy-of select="representation/node()" /></td>
   </xsl:for-each>
   </tr>
-  
-  <tr> 
+
+  <tr>
+  <th><a href="#desc-costofentry">Cost of Entry</a></th>
+  <xsl:for-each select="submissions/submission">
+    <td class="gd">
+      <a href="{gradefile/node()}#acess"><xsl:copy-of select="costofentry/node()" /></a>
+    </td>
+  </xsl:for-each>
+  </tr>
+
+  <tr>
   <th><a href="#desc-drag">Drag</a></th>
   <xsl:for-each select="submissions/submission">
     <td class="gd">
@@ -185,17 +199,8 @@ doctype-system="DTD/xhtml1-strict.dtd" />
     </td>
   </xsl:for-each>
   </tr>
-  
-  <tr> 
-  <th><a href="#desc-Accessibility">Accessibility</a></th>
-  <xsl:for-each select="submissions/submission">
-    <td class="gd">
-      <a href="{gradefile/node()}#acess"><xsl:copy-of select="accessibility/node()" /></a>
-    </td>
-  </xsl:for-each>
-  </tr>
-  
-  <tr> 
+
+  <tr>
   <th><a href="#desc-transparency">Transparency</a></th>
   <xsl:for-each select="submissions/submission">
     <td class="gd">
@@ -203,8 +208,8 @@ doctype-system="DTD/xhtml1-strict.dtd" />
     </td>
   </xsl:for-each>
   </tr>
-  
-  <tr> 
+
+  <tr>
   <th><a href="#desc-challenge1a">Challenge 1a</a></th>
   <xsl:for-each select="submissions/submission">
     <td class="gd">
@@ -212,8 +217,8 @@ doctype-system="DTD/xhtml1-strict.dtd" />
     </td>
   </xsl:for-each>
   </tr>
-  
-  <tr> 
+
+  <tr>
   <th><a href="#desc-challenge1b">Challenge 1b</a></th>
   <xsl:for-each select="submissions/submission">
     <td class="gd">
@@ -221,8 +226,8 @@ doctype-system="DTD/xhtml1-strict.dtd" />
     </td>
   </xsl:for-each>
   </tr>
-  
-  <tr> 
+
+  <tr>
   <th><a href="#desc-challenge2a">Challenge 2a</a></th>
   <xsl:for-each select="submissions/submission">
     <td class="gd">
@@ -231,7 +236,7 @@ doctype-system="DTD/xhtml1-strict.dtd" />
   </xsl:for-each>
   </tr>
 
-  <tr> 
+  <tr>
   <th><a href="#desc-challenge2b">Challenge 2b</a></th>
   <xsl:for-each select="submissions/submission">
     <td class="gd">
@@ -240,7 +245,7 @@ doctype-system="DTD/xhtml1-strict.dtd" />
   </xsl:for-each>
   </tr>
 
-  <tr> 
+  <tr>
   <th><a href="#desc-challenge3">Challenge 3</a></th>
   <xsl:for-each select="submissions/submission">
     <td class="gd">
@@ -248,21 +253,21 @@ doctype-system="DTD/xhtml1-strict.dtd" />
     </td>
   </xsl:for-each>
   </tr>
-  
-  <tr> 
+
+  <tr>
   <th>Overall</th>
   <xsl:for-each select="submissions/submission">
     <td class="gd">
       <a href="{gradefile/node()}#overall"><xsl:copy-of select="overall/node()" /></a>
     </td>
   </xsl:for-each>
-  </tr>  
- </table>    
+  </tr>
+ </table>
 </xsl:template>
 
 <xsl:template name="codetable">
  <table class="gd" style="margin:0 auto;">
- </table>    
+ </table>
 </xsl:template>
 
 
@@ -272,46 +277,46 @@ doctype-system="DTD/xhtml1-strict.dtd" />
 
 
 <tr><th colspan="2"><a href="#desc-transparency">Transparency</a></th> <td
-class="gd"><a href="./poplmark/vouillon-coq.shtml#transparency">B+</a></td> 
+class="gd"><a href="./poplmark/vouillon-coq.shtml#transparency">B+</a></td>
 <td class="gd"><a href="./poplmark/cmu-twelf.shtml#transparency">-</a></td>
 <td class="gd">?</td>
 </tr>
 
 <tr>
 <th colspan="2"><a href="#desc-challenge1a">Challenge 1a</a></th>   <td
-class="gd"><a href="./poplmark/vouillon-coq.shtml#challenges">Close</a></td> 
+class="gd"><a href="./poplmark/vouillon-coq.shtml#challenges">Close</a></td>
 <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenges1a">Yes</a></td>
 <td class="gd">-</td>
 </tr>
 
 <tr>
-<th colspan="2"><a href="#desc-challenge1b">Challenge 1b</a></th>   <td class="gd">?</td> <td 
+<th colspan="2"><a href="#desc-challenge1b">Challenge 1b</a></th>   <td class="gd">?</td> <td
 class="gd"><a href="./poplmark/cmu-twelf.shtml#challenges1b">Yes</a></td>
 <td class="gd">-</td>
 </tr>
 
 <tr>
 <th colspan="2"><a href="#desc-challenge2a">Challenge 2a</a></th> <td
-class="gd"><a href="./poplmark/vouillon-coq.shtml#challenges">Close</a></td> 
+class="gd"><a href="./poplmark/vouillon-coq.shtml#challenges">Close</a></td>
 <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenges2a">Yes</a></td>
 <td class="gd">-</td>
 </tr>
 
 <tr>
-<th colspan="2"><a href="#desc-challenge2b">Challenge 2b</a></th>               <td class="gd">?</td> 
-<td class="gd"><a 
+<th colspan="2"><a href="#desc-challenge2b">Challenge 2b</a></th>               <td class="gd">?</td>
+<td class="gd"><a
 href="./poplmark/cmu-twelf.shtml#challenges2b">Yes</a></td>
 <td class="gd">-</td>
 </tr>
 
 <tr>
-<th colspan="2"><a href="#desc-challenge3">Challenge 3</a></th>              <td class="gd">-</td> <td 
+<th colspan="2"><a href="#desc-challenge3">Challenge 3</a></th>              <td class="gd">-</td> <td
 class="gd"><a href="./poplmark/cmu-twelf.shtml#challenges3">-</a></td>
 <td class="gd">?</td>
 </tr>
 
 <tr>
-<th colspan="2">Overall</th>   <td class="gd">-</td>  <td class="gd"><a 
+<th colspan="2">Overall</th>   <td class="gd">-</td>  <td class="gd"><a
 href="./poplmark/cmu-twelf.shtml#overall">-</a></td>
 <td class="gd">-</td>
 </tr>
@@ -326,8 +331,8 @@ href="./poplmark/vouillon-coq.shtml">Yes</a></td>
 
 
 <table class="gd" style="margin:0 auto;">
-<tr><td></td><td></td><th style="text-align:center;">Solution 1<br /><a href="./poplmark/vouillon-coq.v">Vouillon</a></th><th 
-style="text-align: center;">Solution 2<br /><a href="./poplmark/cmu-twelf.tar.gz">Carnegie 
+<tr><td></td><td></td><th style="text-align:center;">Solution 1<br /><a href="./poplmark/vouillon-coq.v">Vouillon</a></th><th
+style="text-align: center;">Solution 2<br /><a href="./poplmark/cmu-twelf.tar.gz">Carnegie
 Mellon</a></th>
 <th style="text-align: center;">Solution 3<br /><a
 href="./poplmark/mf266-alpha-prolog.tar.gz">Fairbairn</a></th></tr>

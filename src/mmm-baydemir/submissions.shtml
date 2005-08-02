@@ -9,7 +9,7 @@
    <body>
       <div class="content">
          <h1><img style="float: left; border: solid 1px black; margin-right: 10px" src="./POPLmark-logo-64.png" alt="POPLmark"></img>
-            Submissions 
+            Submissions
             
          </h1>
          <div style="clear: both; height: 0.1em"></div>
@@ -17,22 +17,22 @@
          <p>Submissions should be sent to the <a href="http://lists.seas.upenn.edu/mailman/listinfo/poplmark">mailing list</a>.
          </p>
          <ul>
-            <li><a href="./poplmark/vouillon-coq.tar.gz">Submission</a> by 
+            <li><a href="./poplmark/vouillon-coq.tar.gz">Submission</a> by
                J&eacute;r&ocirc;me Vouillon
                (also available as individual files:
                <a href="./poplmark/vouillon-coq/part-a.v">part-a.v</a>, <a href="./poplmark/vouillon-coq/part-b.v">part-b.v</a>)
                
             </li>
-            <li><a href="./poplmark/cmu-twelf.tar.gz&#34;&gt;Submission">Submission</a> by 
+            <li><a href="./poplmark/cmu-twelf.tar.gz&#34;&gt;Submission">Submission</a> by
                Karl Crary, Robert Harper, and Michael Ashley-Rollman of Carnegie Mellon
                (also available as individual files:
                <a href="./poplmark/cmu-twelf/1a.elf">1a.elf</a>, <a href="./poplmark/cmu-twelf/1b.elf">1a.elf</a>, <a href="./poplmark/cmu-twelf/2a.elf">2a.elf</a>, <a href="./poplmark/cmu-twelf/2b.elf">2a.elf</a>)
                
             </li>
-            <li><a href="./poplmark/mf266-alpha-prolog.tar.gz">Submission</a> by 
+            <li><a href="./poplmark/mf266-alpha-prolog.tar.gz">Submission</a> by
                Matthew Fairbairn
             </li>
-            <li><a href="./poplmark/xi-fsub.ats">Submission</a> by 
+            <li><a href="./poplmark/xi-fsub.ats">Submission</a> by
                Hongwei Xi
             </li>
          </ul>
@@ -88,18 +88,18 @@
                <td class="gd">?</td>
             </tr>
             <tr>
+               <th><a href="#desc-costofentry">Cost of Entry</a></th>
+               <td class="gd"><a href="./poplmark/vouillon-coq.shtml#acess">B+</a></td>
+               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#acess">C+</a></td>
+               <td class="gd"><a href="./poplmark/alpha-prolog.shtml#acess">?</a></td>
+               <td class="gd"><a href="./poplmark/ats.shtml#acess">?</a></td>
+            </tr>
+            <tr>
                <th><a href="#desc-drag">Drag</a></th>
                <td class="gd"><a href="./poplmark/vouillon-coq.shtml#drag">C+</a></td>
                <td class="gd"><a href="./poplmark/cmu-twelf.shtml#drag">B</a></td>
                <td class="gd"><a href="./poplmark/alpha-prolog.shtml#drag">?</a></td>
                <td class="gd"><a href="./poplmark/ats.shtml#drag">?</a></td>
-            </tr>
-            <tr>
-               <th><a href="#desc-Accessibility">Accessibility</a></th>
-               <td class="gd"><a href="./poplmark/vouillon-coq.shtml#acess">B+</a></td>
-               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#acess">C+</a></td>
-               <td class="gd"><a href="./poplmark/alpha-prolog.shtml#acess">?</a></td>
-               <td class="gd"><a href="./poplmark/ats.shtml#acess">?</a></td>
             </tr>
             <tr>
                <th><a href="#desc-transparency">Transparency</a></th>
@@ -153,31 +153,35 @@
          </table>
          <h2>Descriptions of the Evaluation Criteria</h2>
          <dl>
+            <dt><a id="desc-costofentry"></a>Cost of Entry
+            </dt>
+            <dd>How easy it is for a non-expert (i.e., someone generally educated
+               in logic and programming language theory but not in the particular
+               theorem prover or representation methodology being used) to get to the
+               point where they can convince themselves of the correspondence between
+               informal definitions/proofs and their formalizations (not to the point
+               where they can actually carry out proofs).
+            </dd>
             <dt><a id="desc-drag"></a>Drag
             </dt>
-            <dd>The degree to which proofs (and to a lesser extent, definitions) are
-               cluttered with elements specific to the term representation technique.
-               These elements tend to obscure the main argument of proofs.  Less clutter
-               is preferred.
-            </dd>
-            <dt><a id="desc-accessibility"></a>Accessibility
-            </dt>
-            <dd>The ease with which users with little or no experience with
-               the technology in question (system and representation technique) can
-               convince themselves that the formal presentation corresponds with the
-               intended meaning of the paper presentation.  More ease is better.   
-               
+            <dd>The degree to which the formal development is cluttered with
+               elements that are specific to the technology used. Clutter may include
+               anything that would not be found in even the most pedantic paper
+               presentation of the challenge and aspects of the representation
+               technique that unnecessarily complicate the reasoning used within
+               proofs. (Drag attempts to capture how unpleasant it is to work with
+               the technology in question.)
             </dd>
             <dt><a id="desc-transparency"></a>Transparency
             </dt>
-            <dd>The degree to which it is clear that the statements of definitions,
-               lemmas, and theorems correspond to ones on paper.  It should be obvious
-               that the statements capture exactly the meaning intended on paper.
+            <dd>How easy it is for an expert (i.e., someone who is already
+               familiar with the technology) to see the correspondence between some
+               paper definition or theorem and its formalization.
             </dd>
             <dt><a id="desc-challenge1a"></a>Challenge 1a
             </dt>
-            <dd>The proof of transitivity of the algorithmic subtyping relation for
-               pure F<sub>&lt;:</sub>.
+            <dd>The proof of transitivity of the algorithmic subtyping relation
+               for pure F<sub>&lt;:</sub>.
             </dd>
             <dt><a id="desc-challenge1b"></a>Challenge 1b
             </dt>

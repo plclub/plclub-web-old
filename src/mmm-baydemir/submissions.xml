@@ -13,7 +13,7 @@
     <representation>deBruijn</representation>
     <gradefile>./poplmark/vouillon-coq.shtml</gradefile>
     <drag>C+</drag>
-    <accessibility>B+</accessibility>
+    <costofentry>B+</costofentry>
     <transparency>B+</transparency>
     <challenge1a>Close</challenge1a>
     <challenge1b>?</challenge1b>
@@ -37,7 +37,7 @@
     <representation>HOAS</representation>
     <gradefile>./poplmark/cmu-twelf.shtml</gradefile>
     <drag>B</drag>
-    <accessibility>C+</accessibility>
+    <costofentry>C+</costofentry>
     <transparency>-</transparency>
     <challenge1a>Yes</challenge1a>
     <challenge1b>Yes</challenge1b>
@@ -55,7 +55,7 @@
      <representation>Nominal</representation>
      <gradefile>./poplmark/alpha-prolog.shtml</gradefile>
      <drag>?</drag>
-     <accessibility>?</accessibility>
+     <costofentry>?</costofentry>
      <transparency>?</transparency>
      <challenge1a>-</challenge1a>
      <challenge1b>-</challenge1b>
@@ -73,7 +73,7 @@
      <representation>?</representation>
      <gradefile>./poplmark/ats.shtml</gradefile>
      <drag>?</drag>
-     <accessibility>?</accessibility>
+     <costofentry>?</costofentry>
      <transparency>?</transparency>
      <challenge1a>?</challenge1a>
      <challenge1b>?</challenge1b>
