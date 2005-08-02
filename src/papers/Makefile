@@ -14,12 +14,12 @@ B2HFLAGS = -dl \
            --named-field sources 'source code' \
            --reverse-sort --sort-by-date
 
-plclub.html: merged.bib Makefile
-	bib2bib -ob /dev/null -oc plclub.keys -c 'bcp:"yes"|plclub:"yes"' merged.bib
-	bibtex2html -o plclub $(B2HFLAGS) -citefile plclub.keys merged.bib
+BIBS= bcp.bib geoffw.bib jnf.bib weirich.bib zdancewic.bib
 
-merged.bib: bcp.bib geoffw.bib jnf.bib weirich.bib zdancewic.bib
-	cat bcp.bib geoffw.bib jnf.bib weirich.bib zdancewic.bib > merged.bib
+plclub.html: $(BIBS) Makefile
+	bib2bib -oc plclub.keys -ob merged.bib -c 'bcp:"yes"|plclub:"yes"' $(BIBS)
+	bibtex2html -o plclub $(B2HFLAGS) -citefile plclub.keys merged.bib
+	-$(RM) merged.bib
 
 bcp.bib:
 	-$(RM) bcp.bib
