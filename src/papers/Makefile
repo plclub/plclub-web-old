@@ -14,7 +14,10 @@ B2HFLAGS = -dl \
            --named-field sources 'source code' \
            --reverse-sort --sort-by-date
 
-BIBS= bcp.bib geoffw.bib jnf.bib weirich.bib zdancewic.bib
+MV=mv
+BIBS=bcp.bib geoffw.bib jnf.bib weirich.bib zdancewic.bib
+
+.DELETE_ON_ERROR: $(BIBS)
 
 plclub.html: $(BIBS) Makefile
 	bib2bib -oc plclub.keys -ob merged.bib -c 'bcp:"yes"|plclub:"yes"' $(BIBS)
@@ -22,8 +25,10 @@ plclub.html: $(BIBS) Makefile
 	-$(RM) merged.bib
 
 bcp.bib:
-	-$(RM) bcp.bib
+	-$(RM) $@
 	wget http://www.cis.upenn.edu/~bcpierce/papers/bcp.bib
+	bib2bib -ob $@-tmp -c 'not($$key = "poplmark") and not($$key = "AITR-474")' $@
+	$(MV) $@-tmp $@
 
 geoffw.bib:
 	-$(RM) geoffw.bib
@@ -34,12 +39,14 @@ jnf.bib:
 	wget http://www.cis.upenn.edu/~jnfoster/papers/jnf.bib
 
 weirich.bib:
-	-$(RM) weirich.bib
+	-$(RM) $@
 	wget http://www.cis.upenn.edu/~sweirich/weirich.bib
 
 zdancewic.bib:
-	-$(RM) zdancewic.bib
+	-$(RM) $@
 	wget http://www.cis.upenn.edu/~stevez/papers/zdancewic.bib
+	bib2bib -ob $@-tmp -c 'not($$key = "ABFF+05")' $@
+	$(MV) $@-tmp $@
 
 clean:
-	-$(RM) *.bib plclub.html
+	-$(RM) *.bib plclub.keys plclub.html plclub_bib.html

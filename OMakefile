@@ -1,0 +1,50 @@
+# Name of the destination directory
+LIVE = dest
+
+# Name of the source directory
+SRC = src
+
+# All proper subdirectories of the current one
+SRCDIRS = $(subdirs CP, $(SRC)) $(SRC)
+SPECIALDIRS = $(SRC)/papers
+
+$(LIVE): 
+	if $(file-exists $@)
+	  # NOP
+	else
+	 -mkdir $@
+
+.PHONY: build clean commit update live
+ 
+build: $(SRCDIRS) 
+
+clean:
+	$(RM) -r $(LIVE)
+
+commit:
+	svn commit
+
+update:
+	svn update
+
+live: update commit build 
+	rsync -rulzvtS --delete -e ssh ./dest/ $(USER)@saul.cis.upenn.edu:/mnt/ftp/pub/htdocs/proj/plclub/
+
+.SUBDIRS: $(SRC)/papers
+  DIR = $(in $(ROOT)/$(SRC), $(CWD))
+  
+  build:
+    make  
+    -mkdir -p $(ROOT)/$(LIVE)/$(DIR)
+    cp $(glob *.html *.shtml) $(ROOT)/$(LIVE)/$(DIR)/ 
+
+# Copy the files into the right place
+.SUBDIRS: $(set-diff $(SRCDIRS), $(SPECIALDIRS))
+  # Get the directory name relative to the project root
+  DIR = $(in $(ROOT)/$(SRC), $(CWD))
+
+  # Copy the files into the right place
+  build:    
+    -mkdir -p $(ROOT)/$(LIVE)/$(DIR)
+    cp $(set-diff $(glob *), $(glob D,*)) $(ROOT)/$(LIVE)/$(DIR)/ 
+    

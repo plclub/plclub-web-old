@@ -1,3 +1,5 @@
+$(error we use omake now)
+
 ERRMSG = $(error USER not defined.  Try "make USER=myname [targets ...]")
 
 all:
