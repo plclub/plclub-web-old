@@ -38,11 +38,11 @@
     <gradefile>./poplmark/cmu-twelf.shtml</gradefile>
     <drag>B</drag>
     <costofentry>C+</costofentry>
-    <transparency>-</transparency>
+    <transparency>B+</transparency>
     <challenge1a>Yes</challenge1a>
-    <challenge1b>Yes</challenge1b>
+    <challenge1b>Close</challenge1b>
     <challenge2a>Yes</challenge2a>
-    <challenge2b>Yes</challenge2b>
+    <challenge2b>Close</challenge2b>
     <challenge3>?</challenge3>
     <overall>-</overall>
     <comments>No</comments>

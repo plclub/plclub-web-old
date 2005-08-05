@@ -104,7 +104,7 @@
             <tr>
                <th><a href="#desc-transparency">Transparency</a></th>
                <td class="gd"><a href="./poplmark/vouillon-coq.shtml#transparency">B+</a></td>
-               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#transparency">-</a></td>
+               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#transparency">B+</a></td>
                <td class="gd"><a href="./poplmark/alpha-prolog.shtml#transparency">?</a></td>
                <td class="gd"><a href="./poplmark/ats.shtml#transparency">?</a></td>
             </tr>
@@ -118,7 +118,7 @@
             <tr>
                <th><a href="#desc-challenge1b">Challenge 1b</a></th>
                <td class="gd"><a href="./poplmark/vouillon-coq.shtml#challenge1b">?</a></td>
-               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge1b">Yes</a></td>
+               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge1b">Close</a></td>
                <td class="gd"><a href="./poplmark/alpha-prolog.shtml#challenge1b">-</a></td>
                <td class="gd"><a href="./poplmark/ats.shtml#challenge1b">?</a></td>
             </tr>
@@ -132,7 +132,7 @@
             <tr>
                <th><a href="#desc-challenge2b">Challenge 2b</a></th>
                <td class="gd"><a href="./poplmark/vouillon-coq.shtml#challenge2b">?</a></td>
-               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge2b">Yes</a></td>
+               <td class="gd"><a href="./poplmark/cmu-twelf.shtml#challenge2b">Close</a></td>
                <td class="gd"><a href="./poplmark/alpha-prolog.shtml#challenge2b">-</a></td>
                <td class="gd"><a href="./poplmark/ats.shtml#challenge2b">?</a></td>
             </tr>
