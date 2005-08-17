@@ -66,9 +66,16 @@ href="http://lists.seas.upenn.edu/mailman/listinfo/poplmark">POPLmark mailing
             <a href="http://www.nuprl.org/">Nuprl</a>,
             <a href="http://www.metaprl.org/">MetaPRL</a>,
             <a href="http://pvs.csl.sri.com/">PVS</a>,
-            <a href="http://www-2.cs.cmu.edu/~twelf/">Twelf</a>
+            <a href="http://www.twelf.org/">Twelf</a>
    </li>
 
+   <li>Comparative proofs of the soundness of <a href="http://www.google.com/url?sa=t&ct=res&cd=5&url=http%3A//www.sato.kuis.kyoto-u.ac.jp/%7Eigarashi/papers/fj.html&ei=LH8DQ9uZDrvIaMa2jFg">Featherweight Java</a>:
+     <ul> 
+       <li>By <a href="http://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a>, using <a href="http://coq.inria.fr/">Coq</a> : [<a href="poplmark/fj-coq.tar.gz">tar.gz</a>]</li>
+       <li>By <a href="http://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> and <a href="http://www.cis.upenn.edu/~geoffw/">Geoffrey Washburn</a>, using <a href="http://www.twelf.org/">Twelf</a> : [<a href="poplmark/fj-twelf.tar.gz">tar.gz</a>]</li>
+       <li>By <a href="http://www.cis.upenn.edu/~jnfoster/">Nate Foster</a> and <a href="http://www.cis.upennn.edu/~dimitriv/">Dimitris Vytiniotis</a>, using <a href="http://www.cl.cam.ac.uk/Research/HVG/Isabelle/">Isabelle</a>/HOL : (coming soon)</li>
+     </ul>  
+   </li>
 
    <li><a href="poplmark/baydemir-stlc.tar.gz">baydemir-stlc.tar.gz</a>:  A
    proof in Coq of type soundness for the simply-typed lambda calculus.
