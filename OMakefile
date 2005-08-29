@@ -48,5 +48,5 @@ live:
   # Copy the files into the right place
   build:    
     -mkdir -p $(ROOT)/$(LIVE)/$(DIR)
-    cp $(set-diff $(glob *), $(glob D,*)) $(ROOT)/$(LIVE)/$(DIR)/ 
+    cp $(set-diff $(glob * .*) $(glob .*), $(glob D,* .*)) $(ROOT)/$(LIVE)/$(DIR)/ 
     
