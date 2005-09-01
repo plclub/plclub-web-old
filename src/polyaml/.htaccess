@@ -1,1 +1,1 @@
-Redirect / http://www.cs.princeton.edu/~ddantas/aspectml/
+Redirect permanent /group/proj/plclub/polyaml/ http://www.cs.princeton.edu/~ddantas/aspectml/
