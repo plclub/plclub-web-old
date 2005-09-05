@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+  <start-date>20050826</start-date>
+  <end-date>20051216</end-date>
+  <talk>
+    <speaker>Geoff</speaker>
+    <topic>HsTeX</topic>
+    <date>20050902</date>
+  </talk>  
+  <talk>
+    <speaker>Geoff</speaker>
+    <link>http://pico.vub.ac.be/~wdmeuter/RDL04/papers/Meijer.pdf</link>
+    <topic>Static Typing Where Possible, Dynamic Typing When Needed</topic>
+    <date>20050909</date>
+  </talk>  
+</schedule>
