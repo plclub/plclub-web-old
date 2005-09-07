@@ -4,7 +4,10 @@ LIVE = dest
 # Name of the source directory
 SRC = src
 
-RSYNC=rsync -rulzvtS --delete -e ssh 
+RSYNC=rsync -rulzvtS -e ssh 
+#RSYNC=rsync -rulzvtS --delete -e ssh 
+
+SMRTCP=rsync 
 
 # All proper subdirectories of the current one
 SRCDIRS = $(subdirs CP, $(SRC)) $(SRC)
@@ -30,7 +33,7 @@ commit:
 	svn commit
 
 live: 
-	$(RSYNC) ./$(LIVE)/ "$(USER)@saul.cis.upenn.edu:/mnt/ftp/pub/htdocs/proj/plclub/"
+	$(RSYNC) ./$(LIVE)/ "plclub@eniac-l.seas.upenn.edu:html/"
 
 .SUBDIRS: $(SRC)/papers
   DIR = $(in $(ROOT)/$(SRC), $(CWD))
@@ -38,7 +41,10 @@ live:
   build:
     make  
     -mkdir -p $(ROOT)/$(LIVE)/$(DIR)
-    cp $(glob *.html *.shtml) $(ROOT)/$(LIVE)/$(DIR)/ 
+    $(SMRTCP) $(glob *.html *.shtml) $(ROOT)/$(LIVE)/$(DIR)/
+    
+  clean:
+    make clean
 
 # Copy the files into the right place
 .SUBDIRS: $(set-diff $(SRCDIRS), $(SPECIALDIRS))
@@ -48,5 +54,6 @@ live:
   # Copy the files into the right place
   build:    
     -mkdir -p $(ROOT)/$(LIVE)/$(DIR)
-    cp $(set-diff $(glob * .*) $(glob .*), $(glob D,* .*)) $(ROOT)/$(LIVE)/$(DIR)/ 
-    
+    $(SMRTCP) $(set-diff $(glob * .*) $(glob .*), $(glob D,* .*)) $(ROOT)/$(LIVE)/$(DIR)/ 
+  clean:
+

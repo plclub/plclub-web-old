@@ -45,7 +45,8 @@
 			  Type-directed Java</a></li>
 		          </ul>
 			</li>
-                        <li><a href="http://www.cis.upenn.edu/proj/plclub/mmm/">Mechanized Metatheory for the Masses!</a></li>
+                        <li><a href="http://www.cis.upenn.edu/~plclub/mmm/">Mechanized Metatheory for the Masses!</a></li>
+                        
 		</ul>
 		</td>
   </tr>
@@ -88,12 +89,12 @@
 		</ul>
 		</td>
     <td style="width: 100%;">
-		<h3 class="header"><a href="http://www.cis.upenn.edu/proj/plclub/papers/">Publications</a></h3>
+		<h3 class="header"><a href="http://www.cis.upenn.edu/~plclub/papers/">Publications</a></h3>
 
 		<h3 class="header">Seminars and Courses</h3>
 		<ul>
-			<li><a href="schedule/summer05.shtml">PLClub discussion group</a></li>
-			<li>CIS 700 / S05 - <a href="http://www.cis.upenn.edu/proj/plclub/cis700-009-s05/">Proof Theory for Programming Languages</a>
+			<li><a href="schedule/fall05.shtml">PLClub discussion group</a></li>
+			<li>CIS 700 / S05 - <a href="http://www.cis.upenn.edu/~plclub/cis700-009-s05/">Proof Theory for Programming Languages</a>
 			</li>
 
 			<li>CIS 500 / F04 - <a href="http://www.seas.upenn.edu/~cis500/">Software foundations</a>
@@ -103,7 +104,7 @@
 			<a href="http://www.cis.upenn.edu/~bcpierce/courses/670Fall04/index.html">Software foundations II</a>
                         </li>
 			<li>Student reading group -
-			S04 - <a href="http://www.cis.upenn.edu/proj/plclub/rg-s04/">Category theory</a></li>
+			S04 - <a href="http://www.cis.upenn.edu/~plclub/rg-s04/">Category theory</a></li>
 
 			<li>CIS 700 / S04 -
 			<a href="http://www.cis.upenn.edu/~stevez/CIS700-04.html">&pi;-calculus and foundations of concurrent systems</a>
