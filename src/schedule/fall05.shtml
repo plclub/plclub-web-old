@@ -2,7 +2,7 @@
   PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-      <title>PLClub  Lunch Schedule</title>
+      <title>PLClub Fall 2005 Lunch Schedule</title>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
       <link href="http://www.cis.upenn.edu/proj/plclub/style.css" rel="stylesheet" type="text/css"></link>
    </head>
@@ -10,7 +10,7 @@
       <table cellpadding="10" cellspacing="4" style="border:0; width: 100%">
          <tr style="vertical-align: bottom;">
             <td colspan="2" style="background: #CFED74; width: 100%;">
-               <h1 style="vertical-align: bottom;">PLClub  Lunch Schedule</h1>
+               <h1 style="vertical-align: bottom;">PLClub Fall 2005 Lunch Schedule</h1>
             </td>
          </tr>
          <tr>
@@ -31,7 +31,7 @@
                      <td>&nbsp;</td>
                   </tr>
                   
-                  <tr style="background: #EEEEEE;">
+                  <tr style="background: #BBEEEE;">
                      <td align="right">Sep&nbsp;09</td>
                      <td>Mark Jason Dominus</td>
                      <td>Higher-Order Perl/Python</td>
@@ -45,7 +45,7 @@
                      <td>NJPLS at Stevens</td>
                   </tr>
                   
-                  <tr style="background: #EEEEEE;">
+                  <tr style="background: #BBEEEE;">
                      <td align="right">Sep&nbsp;23</td>
                      <td>&nbsp;</td>
                      <td>&nbsp;</td>
@@ -59,7 +59,7 @@
                      <td>People away for ICFP</td>
                   </tr>
                   
-                  <tr style="background: #EEEEEE;">
+                  <tr style="background: #BBEEEE;">
                      <td align="right">Oct&nbsp;07</td>
                      <td>&nbsp;</td>
                      <td>&nbsp;</td>
@@ -73,7 +73,7 @@
                      <td>&nbsp;</td>
                   </tr>
                   
-                  <tr style="background: #EEEEEE;">
+                  <tr style="background: #BBEEEE;">
                      <td align="right">Oct&nbsp;21</td>
                      <td>&nbsp;</td>
                      <td>&nbsp;</td>
@@ -87,7 +87,7 @@
                      <td>&nbsp;</td>
                   </tr>
                   
-                  <tr style="background: #EEEEEE;">
+                  <tr style="background: #BBEEEE;">
                      <td align="right">Nov&nbsp;04</td>
                      <td>&nbsp;</td>
                      <td>&nbsp;</td>
@@ -101,21 +101,19 @@
                      <td>&nbsp;</td>
                   </tr>
                   
-                  <tr style="background: #EEEEEE;">
+                  <tr style="background: #BBEEEE;">
                      <td align="right">Nov&nbsp;18</td>
                      <td>&nbsp;</td>
                      <td>&nbsp;</td>
                      <td>&nbsp;</td>
                   </tr>
                   
-                  <tr style="background: #CCFFFF;">
+                  <tr style="background: #AAAAAA;">
                      <td align="right">Nov&nbsp;25</td>
-                     <td>&nbsp;</td>
-                     <td>&nbsp;</td>
-                     <td>&nbsp;</td>
+                     <td colspan="3">Thanksgiving Break</td>
                   </tr>
                   
-                  <tr style="background: #EEEEEE;">
+                  <tr style="background: #BBEEEE;">
                      <td align="right">Dec&nbsp;02</td>
                      <td>&nbsp;</td>
                      <td>&nbsp;</td>
@@ -129,7 +127,7 @@
                      <td>&nbsp;</td>
                   </tr>
                   
-                  <tr style="background: #EEEEEE;">
+                  <tr style="background: #BBEEEE;">
                      <td align="right">Dec&nbsp;16</td>
                      <td>&nbsp;</td>
                      <td>&nbsp;</td>
@@ -140,7 +138,7 @@
          </tr>
          <tr style="height: 3em; vertical-align:bottom;">
             <td style="background: #B4D7E9; width: 20%"><small>Last modified: 
-                  <!--#flastmod virtual=""--></small></td>
+                  <!--#flastmod virtual="fall05.shtml"--></small></td>
             <td style="background: #CFED74; width: 80%;">
                <table width="100%">
                   <tr>

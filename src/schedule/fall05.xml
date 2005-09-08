@@ -26,4 +26,8 @@
     <other>People away for ICFP</other>
     <date>20050930</date>
   </talk>  
+  <cancel>
+    <reason>Thanksgiving Break</reason>
+    <date>20051125</date>
+  </cancel>  
 </schedule>

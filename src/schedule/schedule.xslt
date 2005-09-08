@@ -170,11 +170,14 @@ doctype-system="DTD/xhtml1-strict.dtd" />
  
   <xsl:element name="tr">
     <xsl:choose>
+      <xsl:when test="schedule/cancel[date=$current]">
+       <xsl:attribute name="style"><xsl:text>background: #AAAAAA;</xsl:text></xsl:attribute>
+      </xsl:when>
       <xsl:when test="$parity='even'">
        <xsl:attribute name="style"><xsl:text>background: #CCFFFF;</xsl:text></xsl:attribute>
       </xsl:when> 
       <xsl:when test="$parity='odd'">
-       <xsl:attribute name="style"><xsl:text>background: #EEEEEE;</xsl:text></xsl:attribute>
+       <xsl:attribute name="style"><xsl:text>background: #BBEEEE;</xsl:text></xsl:attribute>
       </xsl:when> 
     </xsl:choose>
     
@@ -185,6 +188,11 @@ doctype-system="DTD/xhtml1-strict.dtd" />
       </td>
 
     <xsl:choose>
+      <xsl:when test="schedule/cancel[date=$current]">
+            <td colspan="3">
+             <xsl:copy-of select="schedule/cancel[date=$current]/reason/node()" />
+           </td>
+      </xsl:when>
       <xsl:when test="schedule/talk[date=$current]">
         <td><xsl:copy-of select="schedule/talk[date=$current]/speaker/node()" /></td>
         <xsl:choose>
