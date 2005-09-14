@@ -14,12 +14,10 @@
     <topic>Higher-Order Perl/Python</topic>
     <date>20050909</date>
   </talk>  
-  <talk>
-    <speaker>&nbsp;</speaker>
-    <topic>&nbsp;</topic>
-    <other>NJPLS at Stevens</other>
+  <cancel>
+    <reason>NJPLS as Stevens</reason>
     <date>20050916</date>
-  </talk>  
+  </cancel>  
   <talk>
     <speaker>&nbsp;</speaker>
     <topic>&nbsp;</topic>

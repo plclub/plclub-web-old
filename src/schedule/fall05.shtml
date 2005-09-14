@@ -38,11 +38,9 @@
                      <td>&nbsp;</td>
                   </tr>
                   
-                  <tr style="background: #CCFFFF;">
+                  <tr style="background: #AAAAAA;">
                      <td align="right">Sep&nbsp;16</td>
-                     <td>&nbsp;</td>
-                     <td>&nbsp;</td>
-                     <td>NJPLS at Stevens</td>
+                     <td colspan="3">NJPLS as Stevens</td>
                   </tr>
                   
                   <tr style="background: #BBEEEE;">
