@@ -31,6 +31,30 @@
     <other>Even more people away for ICFP, etc.</other>
     <date>20050930</date>
   </talk>  
+  <talk>
+    <speaker>Nate</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20051007</date>
+  </talk>  
+  <talk>
+    <speaker>Jeff</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20051014</date>
+  </talk>  
+  <talk>
+    <speaker>Aaron</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20051104</date>
+  </talk>  
+  <talk>
+    <speaker>Karl</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20051111</date>
+  </talk>  
   <cancel>
     <reason>NJPLS as University of Maryland (tentatively) </reason>
     <date>20051118</date>
@@ -39,4 +63,22 @@
     <reason>Thanksgiving Break</reason>
     <date>20051125</date>
   </cancel>  
+  <talk>
+    <speaker>Justin</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20051202</date>
+  </talk>  
+  <talk>
+    <speaker>Brian</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20051209</date>
+  </talk>  
+  <talk>
+    <speaker>Stephen</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20051216</date>
+  </talk>  
 </schedule>
