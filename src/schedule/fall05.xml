@@ -15,7 +15,7 @@
     <date>20050909</date>
   </talk>  
   <cancel>
-    <reason>NJPLS as Stevens</reason>
+    <reason>NJPLS at Stevens</reason>
     <date>20050916</date>
   </cancel>  
   <talk>
@@ -33,7 +33,8 @@
   </talk>  
   <talk>
     <speaker>Nate</speaker>
-    <topic>&nbsp;</topic>
+    <link>http://portal.acm.org/citation.cfm?id=1086365.1086401</link>
+    <topic>A Logical Analysis of Aliasing in Imperative Higher-Order Functions [Berger, Honda, Yoshida '05]</topic>
     <other>&nbsp;</other>
     <date>20051007</date>
   </talk>  
@@ -56,7 +57,7 @@
     <date>20051111</date>
   </talk>  
   <cancel>
-    <reason>NJPLS as University of Maryland (tentatively) </reason>
+    <reason>NJPLS at University of Maryland (tentatively) </reason>
     <date>20051118</date>
   </cancel>  
   <cancel>
