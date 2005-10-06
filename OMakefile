@@ -99,7 +99,7 @@ live:
   build:
     $(setenv CLASSPATH, $(ROOT)/java)
     # Generate some schedules
-    $(JAVA) net.sf.saxon.Transform $(CWD)/fall05.xml $(CWD)/schedule.xslt semester="Fall 2005" file=fall05.shtml > $(CWD)/fall05.shtml
+    $(JAVA) net.sf.saxon.Transform $(CWD)/fall05.xml $(CWD)/schedule.xslt semester="Fall 2005" file=fall05.shtml > $(ROOT)/$(LIVE)/$(DIR)/fall05.shtml
     # Copy everything else
     $(SMRTCP) $(glob *.shtml) $(ROOT)/$(LIVE)/$(DIR)/
     
