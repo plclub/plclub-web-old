@@ -1,24 +1,43 @@
-General instructions on usage.
+Requirements
+------------
+
+To "rebuild" the web page you must have the following software installed
+
+  - omake (...)
+  - j2sdk 1.4 or above (...)
+  - bibtex2html (...)
+  - bib2bib (...)
+  - wget (...)
+  - rsync (...)
+  - ssh (...)
+
+Additionally, you will need the ability to log in as the SEAS user
+"plclub".  This can be done by either having the password, or by having
+a ssh key added to plclub's .ssh/authorized_keys or .ssh/authorized_keys2
+file.
+
+
+General instructions on usage
+-----------------------------
 
 - To rebuild the website run
 
-% make all
+% omake make build
 
   this will create a copy of publishable version of the website in "dest".
 
 - To publish the website run
 
-% make USER=<username> live
+% omake live
 
-  This will first commit your working copy, so as to help avoid races on
-  the actual website.  It will then transfer the contents of the "dest"
-  directory via rsync over ssh.  The variable <username> should be your
-  SEAS username and rsync will ask you for your SEAS password.
+  This will transfer the contents of the "dest" directory via rsync
+  over ssh.  At this point ssh may ask you for the plclub user's password
+  or your ssh key's password.
 
 - To update your local copy you can just run
 
-% make update
+% omake update
 
 - To commit your local copy you can just run
 
-% make commit
+% omake commit

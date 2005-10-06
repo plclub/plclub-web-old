@@ -1,18 +1,36 @@
-# Name of the destination directory
-LIVE = dest
+###############################################################################
+# Software: what it is called, and where to find it
+###############################################################################
 
-# Name of the source directory
-SRC = src
+# Need Java to rebuild some pages -- assume it is in your path
+JAVA = java
 
+# rsync command used to transfer the data to the server
 RSYNC=rsync -rulzvtS -e ssh 
 #RSYNC=rsync -rulzvtS --delete -e ssh 
 
+# Smarter copy?  Hopefully spend less time recopying large files.
 SMRTCP=rsync 
 
-# All proper subdirectories of the current one
-SRCDIRS = $(subdirs CP, $(SRC)) $(SRC)
-SPECIALDIRS = $(SRC)/papers
-DIRS=$(SRCDIRS) $(SPECIALDIRS)
+###############################################################################
+# Distinguished directories
+###############################################################################
+
+
+# Name of the destination directory, where content is staged
+LIVE = dest
+
+# Name of the source directory, where the input files live
+SRC = src
+
+# All proper subdirectories of SRC 
+DIRS = $(subdirs CP, $(SRC)) $(SRC)
+
+
+# SPECIALDIRS are subdirectories of SRC that should be treated specially, 
+# rather than just copied.
+SPECIALDIRS = $(SRC)/papers $(SRC)/schedule
+
 $(LIVE): 
 	if $(file-exists $@)
 	  # NOP
@@ -35,25 +53,55 @@ commit:
 live: 
 	$(RSYNC) ./$(LIVE)/ "plclub@eniac-l.seas.upenn.edu:html/"
 
+###############################################################################
+# Default case - just copy the contents
+###############################################################################
+
+# Copy the files into the right place
+.SUBDIRS: $(set-diff $(DIRS), $(SPECIALDIRS))
+  # Get the directory name relative to the project root
+  DIR = $(in $(ROOT)/$(SRC), $(CWD))
+  FILES = $(set-diff $(glob * .*) $(glob .*), $(glob D,* .*)) 
+  build:
+    # If this directory doesn't exist yet, create it
+    -mkdir -p $(ROOT)/$(LIVE)/$(DIR)
+    if $(eq $(length $(FILES)), $(int 0)) 
+      # NOP
+    else
+      # Do the copying
+      $(SMRTCP) $(FILES) $(ROOT)/$(LIVE)/$(DIR)/ 
+
+  clean:
+
+###############################################################################
+# Build the PLClub publications list 
+###############################################################################
+
 .SUBDIRS: $(SRC)/papers
   DIR = $(in $(ROOT)/$(SRC), $(CWD))
   
   build:
+    # Use the old makefile for the moment
     make  
     -mkdir -p $(ROOT)/$(LIVE)/$(DIR)
     $(SMRTCP) $(glob *.html *.shtml) $(ROOT)/$(LIVE)/$(DIR)/
     
-  clean:
+  clean:  
     make clean
 
-# Copy the files into the right place
-.SUBDIRS: $(set-diff $(SRCDIRS), $(SPECIALDIRS))
-  # Get the directory name relative to the project root
+###############################################################################
+# Build the PLClub lunch schedule
+###############################################################################
+
+.SUBDIRS: $(SRC)/schedule
   DIR = $(in $(ROOT)/$(SRC), $(CWD))
-
-  # Copy the files into the right place
-  build:    
-    -mkdir -p $(ROOT)/$(LIVE)/$(DIR)
-    $(SMRTCP) $(set-diff $(glob * .*) $(glob .*), $(glob D,* .*)) $(ROOT)/$(LIVE)/$(DIR)/ 
+  
+  build:
+    $(setenv CLASSPATH, $(ROOT)/java)
+    # Generate some schedules
+    $(JAVA) net.sf.saxon.Transform $(CWD)/fall05.xml $(CWD)/schedule.xslt semester="Fall 2005" file=fall05.shtml > $(CWD)/fall05.shtml
+    # Copy everything else
+    $(SMRTCP) $(glob *.shtml) $(ROOT)/$(LIVE)/$(DIR)/
+    
   clean:
-
+    $(RM) $(CWD)/fall05.shtml 
