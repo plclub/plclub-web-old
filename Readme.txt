@@ -11,10 +11,6 @@ To "rebuild" the web page you must have the following software installed
   - rsync (...)
   - ssh (...)
 
-Additionally, you will need the ability to log in as the SEAS user
-"plclub".  This can be done by either having the password, or by having
-a ssh key added to plclub's .ssh/authorized_keys or .ssh/authorized_keys2
-file.
 
 
 General instructions on usage
@@ -33,6 +29,13 @@ General instructions on usage
   This will transfer the contents of the "dest" directory via rsync
   over ssh.  At this point ssh may ask you for the plclub user's password
   or your ssh key's password.
+
+
+- If you can log in as the SEAS user "plclub".  Either by having the
+  password, or by having a ssh key added to plclub's .ssh/authorized_keys
+  or .ssh/authorized_keys2 file, you can run the following
+
+% omake live-plclub
 
 - To update your local copy you can just run
 
