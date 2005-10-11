@@ -45,6 +45,12 @@
     <date>20051014</date>
   </talk>  
   <talk>
+    <speaker>Stephanie</speaker>
+    <topic><a href="http://pauillac.inria.fr/~xleroy/publi/coindsem.pdf">Coinductive big-step operational semantics</a></topic>
+    <other>&nbsp;</other>
+    <date>20051021</date>
+  </talk>  
+  <talk>
     <speaker>Aaron</speaker>
     <topic>&nbsp;</topic>
     <other>&nbsp;</other>

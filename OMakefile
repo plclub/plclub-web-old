@@ -51,6 +51,9 @@ commit:
 	svn commit
 
 live: 
+	$(RSYNC) ./$(LIVE)/ $(USER)"@eniac-l.seas.upenn.edu:/home1/p/plclub/html/"
+
+live-plclub: 
 	$(RSYNC) ./$(LIVE)/ "plclub@eniac-l.seas.upenn.edu:html/"
 
 ###############################################################################
@@ -97,11 +100,12 @@ live:
   DIR = $(in $(ROOT)/$(SRC), $(CWD))
   
   build:
-    $(setenv CLASSPATH, $(ROOT)/java)
-    # Generate some schedules
-    $(JAVA) net.sf.saxon.Transform $(CWD)/fall05.xml $(CWD)/schedule.xslt semester="Fall 2005" file=fall05.shtml > $(ROOT)/$(LIVE)/$(DIR)/fall05.shtml
-    # Copy everything else
-    $(SMRTCP) $(glob *.shtml) $(ROOT)/$(LIVE)/$(DIR)/
+    mkdir -p $(ROOT)/$(LIVE)/$(DIR)
+    section
+      setenv(CLASSPATH, $(concat :, $(glob $(ROOT)/java/*.jar)))
+      $(JAVA) net.sf.saxon.Transform $(CWD)/fall05.xml $(CWD)/schedule.xslt semester="Fall 2005" file=fall05.shtml > $(ROOT)/$(LIVE)/$(DIR)/fall05.shtml
+      # Copy everything else
+      $(SMRTCP) $(glob *.shtml) $(ROOT)/$(LIVE)/$(DIR)/
     
   clean:
     $(RM) $(CWD)/fall05.shtml 
