@@ -40,13 +40,15 @@
   </talk>  
   <talk>
     <speaker>Jeff</speaker>
-    <topic>&nbsp;</topic>
+    <link>http://www.cs.princeton.edu/~appel/papers/debugger.ps</link>
+    <topic>"A Debugger for Standard ML" by Tolmach and Appel</topic>
     <other>&nbsp;</other>
     <date>20051014</date>
   </talk>  
   <talk>
     <speaker>Stephanie</speaker>
-    <topic><a href="http://pauillac.inria.fr/~xleroy/publi/coindsem.pdf">Coinductive big-step operational semantics</a></topic>
+    <link>http://pauillac.inria.fr/~xleroy/publi/coindsem.pdf</link>
+    <topic>Coinductive big-step operational semantics</topic>
     <other>&nbsp;</other>
     <date>20051021</date>
   </talk>  
