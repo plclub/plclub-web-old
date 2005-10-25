@@ -37,7 +37,7 @@ $(LIVE):
 	else
 	 -mkdir $@
 
-.PHONY: build clean commit update live
+.PHONY: build clean commit update live live-plclub
 
 update:
 	svn update
