@@ -8,8 +8,11 @@
             Making some progress on this.
         </comment>
     </note>
-    <note priority="medium" time="1128520116">
+    <note priority="medium" time="1128520116" done="1131054489">
         Change NJPLS link.
+        <comment>
+            Done.
+        </comment>
     </note>
     <note priority="medium" time="1128520158">
         Convert old publications makefile to omake.
