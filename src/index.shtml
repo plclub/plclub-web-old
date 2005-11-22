@@ -91,8 +91,10 @@ Metatheory for the Masses!)</a></li>
 		</ul>
 		</td>
     <td style="width: 100%;">
-		<h3 class="header"><a href="http://www.cis.upenn.edu/~plclub/papers/">Publications</a></h3>
-
+		<h3 class="header">Publications</h3>
+                <ul>
+                <li><a href="http://www.cis.upenn.edu/~plclub/papers/">All PLClub publications</a></li>
+                </ul>
 		<h3 class="header">Seminars and Courses</h3>
 		<ul>
 			<li><a href="schedule/fall05.shtml">PLClub discussion group</a></li>

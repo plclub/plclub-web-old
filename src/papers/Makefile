@@ -20,7 +20,7 @@ BIBS=bcp.bib geoffw.bib jnf.bib weirich.bib zdancewic.bib
 .DELETE_ON_ERROR: $(BIBS)
 
 plclub.html: $(BIBS) Makefile
-	bib2bib -oc plclub.keys -ob merged.bib -c 'bcp:"yes"|plclub:"yes"' $(BIBS)
+	bib2bib -s -r -oc plclub.keys -ob merged.bib -c 'bcp:"yes"|plclub:"yes"' $(BIBS)
 	bibtex2html -o plclub $(B2HFLAGS) -citefile plclub.keys merged.bib
 	-$(RM) merged.bib
 
