@@ -83,7 +83,8 @@
   </cancel>  
   <talk>
     <speaker>Justin</speaker>
-    <topic>&nbsp;</topic>
+    <link>http://www.cis.ksu.edu/~tamtoft/Papers/Amt+Ban+Ban:LogicPointer-2005/short.ps</link>
+    <topic>Logic for Information Flow in Object-Oriented Programs</topic>
     <other>&nbsp;</other>
     <date>20051202</date>
   </talk>  
