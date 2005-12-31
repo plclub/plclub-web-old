@@ -12,7 +12,6 @@ To "rebuild" the web page you must have the following software installed
   - ssh (...)
 
 
-
 General instructions on usage
 -----------------------------
 
