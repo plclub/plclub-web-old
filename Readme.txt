@@ -18,7 +18,7 @@ General instructions on usage
 
 - To rebuild the website run
 
-% omake make build
+% omake build
 
   this will create a copy of publishable version of the website in "dest".
 

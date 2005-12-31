@@ -1,9 +1,0 @@
-Use following sequence to compile .v files.
-
-coqc tactics
-coqc sub_defs
-coqc sub
-coqc typ_defs
-coqc typ
-coqc red_defs
-coqc red
