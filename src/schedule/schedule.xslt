@@ -12,7 +12,8 @@
 <xsl:variable name="months">
 <months>
 <month num="01" name="January" abbrev="Jan" days="31" />
-<month num="02" name="February" abbrev="Feb" days="" />
+<!-- FIX - Doesn't correctly handle leap years yet -->
+<month num="02" name="February" abbrev="Feb" days="28" />
 <month num="03" name="March" abbrev="Mar" days="31" />
 <month num="04" name="April" abbrev="Apr" days="30" />
 <month num="05" name="May" abbrev="May" days="31" />
@@ -56,6 +57,7 @@
   <xsl:variable name="mdays" select="$months/node()/*[@num=$month]/@days" />
  
   <xsl:choose>
+  <!--
     <xsl:when test="$month='02'">
       <xsl:choose>
         <xsl:when test="($year mod 4)=0">
@@ -65,7 +67,7 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:when>
-    
+    -->
     <xsl:when test="$month='12'">
       <xsl:choose>
         <xsl:when test="$day > 31">

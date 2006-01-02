@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20060106</start-date>
+  <end-date>20060421</end-date>
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>Social with Phil</topic>
+    <other>Vladimir's defense, Phil's talk on Links</other>
+    <date>20060106</date>
+  </talk>  
+</schedule>
