@@ -2,11 +2,35 @@
 <!DOCTYPE schedule SYSTEM "schedule.dtd">
 <schedule>
   <start-date>20060106</start-date>
-  <end-date>20060421</end-date>
+  <end-date>20060428</end-date>
   <talk>
     <speaker>&nbsp;</speaker>
     <topic>Social with Phil</topic>
     <other>Vladimir's defense, Phil's talk on Links</other>
     <date>20060106</date>
+  </talk>  
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>&nbsp;</topic>
+    <other>People away at POPL</other>
+    <date>20060113</date>
+  </talk>  
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>&nbsp;</topic>
+    <other>Spring break</other>
+    <date>20060310</date>
+  </talk>  
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>&nbsp;</topic>
+    <other>ICFP Deadline</other>
+    <date>20060407</date>
+  </talk>  
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>&nbsp;</topic>
+    <other>Last day of classes for the semester</other>
+    <date>20060421</date>
   </talk>  
 </schedule>
