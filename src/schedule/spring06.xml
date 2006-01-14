@@ -10,10 +10,20 @@
     <date>20060106</date>
   </talk>  
   <talk>
-    <speaker>&nbsp;</speaker>
-    <topic>&nbsp;</topic>
+    <speaker>Dimitris</speaker>
+    <topic>Theorem proving in Haskell</topic>
     <other>People away at POPL</other>
     <date>20060113</date>
+  </talk>  
+  <talk>
+    <speaker>Peng</speaker>
+    <topic>&nbsp;</topic>
+    <date>20060120</date>
+  </talk>  
+  <talk>
+    <speaker>Jeff</speaker>
+    <topic>&nbsp;</topic>
+    <date>20060303</date>
   </talk>  
   <talk>
     <speaker>&nbsp;</speaker>
@@ -22,10 +32,25 @@
     <date>20060310</date>
   </talk>  
   <talk>
-    <speaker>&nbsp;</speaker>
+    <speaker>Karl</speaker>
+    <topic>&nbsp;</topic>
+    <date>20060324</date>
+  </talk>  
+  <talk>
+    <speaker>Justin</speaker>
+    <topic>&nbsp;</topic>
+    <date>20060331</date>
+  </talk>  
+  <talk>
+    <speaker>Aaron</speaker>
     <topic>&nbsp;</topic>
     <other>ICFP Deadline</other>
     <date>20060407</date>
+  </talk>  
+  <talk>
+    <speaker>Brian</speaker>
+    <topic>&nbsp;</topic>
+    <date>20060414</date>
   </talk>  
   <talk>
     <speaker>&nbsp;</speaker>
