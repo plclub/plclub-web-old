@@ -17,8 +17,13 @@
   </talk>  
   <talk>
     <speaker>Peng</speaker>
-    <topic>&nbsp;</topic>
+    <topic>Encoding information flow in Haskell</topic>
     <date>20060120</date>
+  </talk>  
+  <talk>
+    <speaker>Benli and Paul Govereau</speaker>
+    <topic>&nbsp;</topic>
+    <date>20060203</date>
   </talk>  
   <talk>
     <speaker>Jeff</speaker>
