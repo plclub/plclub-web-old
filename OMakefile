@@ -52,9 +52,11 @@ commit:
 
 live: 
 	$(RSYNC) ./$(LIVE)/ $(USER)"@eniac-l.seas.upenn.edu:/home1/p/plclub/html/"
+	ssh $(USER)@eniac-l.seas.upenn.edu chmod -R a+rX html
 
 live-plclub: 
 	$(RSYNC) ./$(LIVE)/ "plclub@eniac-l.seas.upenn.edu:html/"
+	ssh plclub@eniac-l.seas.upenn.edu chmod -R a+rX html
 
 ###############################################################################
 # Default case - just copy the contents
