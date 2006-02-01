@@ -23,7 +23,7 @@
   <talk>
     <speaker>&nbsp;</speaker>
     <topic>Social</topic>
-    <topic>Black Friday</topic>
+    <other>Black Friday</other>
     <date>20060127</date>
   </talk>  
   <talk>
@@ -33,7 +33,8 @@
   </talk>  
   <talk>
     <speaker>Nate</speaker>
-    <topic>&nbsp;</topic>
+    <topic>Polymorphic Regular Tree Types and Patterns</topic>
+    <link>http://www.pps.jussieu.fr/~vouillon/publi/regtypes.pdf</link>
     <date>20060224</date>
   </talk>  
   <talk>
