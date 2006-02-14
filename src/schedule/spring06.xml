@@ -35,6 +35,11 @@
     <speaker>Nate</speaker>
     <topic>Polymorphic Regular Tree Types and Patterns</topic>
     <link>http://www.pps.jussieu.fr/~vouillon/publi/regtypes.pdf</link>
+    <date>20060217</date>
+  </talk>  
+  <talk>
+    <speaker>Geoff</speaker>
+    <topic>Higer-order unification?</topic>
     <date>20060224</date>
   </talk>  
   <talk>
