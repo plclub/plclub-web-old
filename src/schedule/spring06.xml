@@ -28,7 +28,7 @@
   </talk>  
   <talk>
     <speaker>Benli and Paul Govereau</speaker>
-    <topic>&nbsp;</topic>
+    <topic>Type-class like overloading with modules</topic>
     <date>20060203</date>
   </talk>  
   <talk>
@@ -39,7 +39,8 @@
   </talk>  
   <talk>
     <speaker>Geoff</speaker>
-    <topic>Higer-order unification?</topic>
+    <topic>The λσ-calculus</topic>
+    <link>http://www.cse.ucsc.edu/~abadi/Papers/main.ps</link>
     <date>20060224</date>
   </talk>  
   <talk>
