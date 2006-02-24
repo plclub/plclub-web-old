@@ -39,13 +39,13 @@
   </talk>  
   <talk>
     <speaker>Geoff</speaker>
-    <topic>The λσ-calculus</topic>
-    <link>http://www.cse.ucsc.edu/~abadi/Papers/main.ps</link>
+    <topic>First-order unification and anti-unification</topic>
     <date>20060224</date>
   </talk>  
   <talk>
-    <speaker>Jeff</speaker>
-    <topic>&nbsp;</topic>
+    <speaker>Geoff</speaker>
+    <topic>The λσ-calculus and higher-order unification</topic>
+    <link>http://citeseer.ist.psu.edu/dowek95higherorder.html</link>
     <date>20060303</date>
   </talk>  
   <talk>
@@ -80,5 +80,10 @@
     <topic>&nbsp;</topic>
     <other>Last day of classes for the semester</other>
     <date>20060421</date>
+  </talk>  
+  <talk>
+    <speaker>Jeff</speaker>
+    <topic>&nbsp;</topic>
+    <date>20060428</date>
   </talk>  
 </schedule>
