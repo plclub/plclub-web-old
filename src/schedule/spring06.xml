@@ -50,13 +50,14 @@
   </talk>  
   <talk>
     <speaker>&nbsp;</speaker>
-    <topic>Social / Geoff demos AspectML implementation of higher-order unification?</topic>
+    <topic>Social</topic>
     <other>Spring break</other>
     <date>20060310</date>
   </talk>  
   <talk>
     <speaker>Dimitris</speaker>
-    <topic>&nbsp;</topic>
+    <topic>"On functors expressible in the polymorphic typed lambda calculus"</topic>
+    <link>http://homepages.inf.ed.ac.uk/gdp/publications/Functors_Expressible_Polymorphic.pdf</link>
     <date>20060317</date>
   </talk>  
   <talk>
