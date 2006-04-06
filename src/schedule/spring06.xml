@@ -74,7 +74,8 @@
   </talk>  
   <talk>
     <speaker>Aaron</speaker>
-    <topic>&nbsp;</topic>
+    <topic>Dependent functional programming in Coq</topic>
+    <link>http://coq.inria.fr/</link>
     <other>ICFP Deadline</other>
     <date>20060407</date>
   </talk>  
