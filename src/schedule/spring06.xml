@@ -44,7 +44,7 @@
   </talk>  
   <talk>
     <speaker>Geoff</speaker>
-    <topic>The λσ-calculus and higher-order unification</topic>
+    <topic>The Î»Ï-calculus and higher-order unification</topic>
     <link>http://citeseer.ist.psu.edu/dowek95higherorder.html</link>
     <date>20060303</date>
   </talk>  
@@ -92,8 +92,9 @@
     <date>20060421</date>
   </talk>  
   <talk>
-    <speaker>Jeff</speaker>
-    <topic>&nbsp;</topic>
+    <speaker>Joseph Schorr and Chao Cai </speaker>
+    <topic>The Serulian project</topic>
+    <link>http://www.seas.upenn.edu/~cse400/CSE401_2006/CaiSchorr/project.html</link>
     <date>20060428</date>
   </talk>  
 </schedule>

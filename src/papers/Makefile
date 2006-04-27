@@ -1,5 +1,5 @@
 B2HFLAGS = -dl \
-	   -s ./bold-title.bst \
+	   -s bold-title \
            --nodoc -nofooter -noheader --no-abstract -nokeys --no-keywords\
            --named-field slides slides \
            --named-field full 'full version' \
@@ -21,8 +21,8 @@ BIBS=bcp.bib geoffw.bib jnf.bib weirich.bib zdancewic.bib
 
 plclub.html: $(BIBS) Makefile
 	bib2bib -s -r -oc plclub.keys -ob merged.bib -c 'bcp:"yes"|plclub:"yes"' $(BIBS)
-	bibtex2html -o plclub $(B2HFLAGS) -citefile plclub.keys merged.bib
-	-$(RM) merged.bib
+	bibtex2html -o plclub $(B2HFLAGS) -citefile plclub.keys ./merged.bib
+	-$(RM) ./merged.bib
 
 bcp.bib:
 	-$(RM) $@
