@@ -11,7 +11,8 @@
   </talk> 
   <talk>
     <speaker>Jeff</speaker>
-    <topic>&nbsp;</topic>
+    <topic>Polymorphic Type Assignment and CPS Conversion</topic>
+    <link>http://www.cs.cmu.edu/~rwh/papers/cps-ml/lasc93.pdf</link>
     <other>&nbsp;</other>
     <date>20060512</date>
   </talk> 
