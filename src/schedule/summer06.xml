@@ -43,9 +43,14 @@
     <date>20060609</date>
   </talk> 
   <talk>
-    <speaker>Geoff</speaker>
-    <topic>&nbsp;</topic>
-    <other>&nbsp;</other>
+    <speaker>Benjamin</speaker>
+    <topic>Discussion on decidability of the  
+           subtyping relation in some advanced variants of Java
+   </topic>
+    <other> Backgound material in Kennedy's 
+             <a href="http://research.microsoft.com/~akenn/generics/ECOOP06.pdf">Variance and Generalized Constraints for C# Generics</a> 
+            and the <a href="http://www.cis.upenn.edu/~bcpierce/papers/fsubpopl.ps">proof of undecidability of FSub</a>            
+   </other>
     <date>20060616</date>
   </talk> 
   <talk>
