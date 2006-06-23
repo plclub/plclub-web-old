@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE schedule SYSTEM "schedule.dtd">
 <schedule>
+
   <start-date>20060505</start-date>
   <end-date>20060825</end-date>
   <talk>
