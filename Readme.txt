@@ -11,7 +11,6 @@ To "rebuild" the web page you must have the following software installed
   - rsync (...)
   - ssh (...)
 
-
 General instructions on usage
 -----------------------------
 
