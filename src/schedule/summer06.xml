@@ -64,7 +64,8 @@
   <talk>
 
     <speaker>Brian</speaker>
-    <topic>&nbsp;</topic>
+    <topic> Adam Chlipala, "Modular Development of Certified Program Verifiers with a Proof Assistant"</topic>
+    <link>http://www.cs.berkeley.edu/~adamc/papers/CertVerICFP06/</link> 
     <other>&nbsp;</other>
     <date>20060630</date>
   </talk> 
