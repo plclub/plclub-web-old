@@ -77,8 +77,9 @@
     <date>20060707</date>
   </talk> 
   <talk>
-    <speaker>&nbsp;</speaker>
-    <topic>&nbsp;</topic>
+    <speaker>Geoff</speaker>
+    <topic>Boxes Go Bananas: Encoding Higher-order Abstract Syntax with Parametric Polymorphism</topic>
+    <link>http://www.cis.upenn.edu/~geoffw/research/papers/icfp2003.pdf</link>
     <other>&nbsp;</other>
     <date>20060714</date>
   </talk> 
