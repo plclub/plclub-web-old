@@ -86,17 +86,17 @@
   <talk>
     <speaker>&nbsp;</speaker>
     <topic>&nbsp;</topic>
-    <other>&nbsp;</other>
+    <other>ICFP Contest</other>
     <date>20060721</date>
   </talk> 
   <talk>
-    <speaker>&nbsp;</speaker>
+    <speaker>Nate</speaker>
     <topic>&nbsp;</topic>
     <other>&nbsp;</other>
     <date>20060728</date>
   </talk> 
   <talk>
-    <speaker>&nbsp;</speaker>
+    <speaker>Peng</speaker>
     <topic>&nbsp;</topic>
     <other>&nbsp;</other>
     <date>20060804</date>
@@ -108,7 +108,7 @@
     <date>20060811</date>
   </talk> 
   <talk>
-    <speaker>&nbsp;</speaker>
+    <speaker>Karl</speaker>
     <topic>&nbsp;</topic>
     <other>&nbsp;</other>
     <date>20060818</date>
@@ -118,5 +118,11 @@
     <topic>&nbsp;</topic>
     <other>&nbsp;</other>
     <date>20060825</date>
+  </talk> 
+  <talk>
+    <speaker>Benjamin</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20060901</date>
   </talk> 
 </schedule>
