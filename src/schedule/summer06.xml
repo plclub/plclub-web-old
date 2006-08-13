@@ -3,7 +3,7 @@
 <schedule>
 
   <start-date>20060505</start-date>
-  <end-date>20060825</end-date>
+  <end-date>20060908</end-date>
   <talk>
     <speaker>Arthur</speaker>
     <topic>A solution to the POPLmark challenge in Coq</topic>
@@ -98,14 +98,14 @@
   </talk> 
   <talk>
     <speaker>Peng</speaker>
-    <topic>&nbsp;</topic>
+    <topic><a href="http://citeseer.ist.psu.edu/hinze00deriving.html">Deriving Backtracking Monad Transformers</a> and <a href="http://okmij.org/ftp/papers/LogicT.pdf">Backtracking, Interleaving, and Terminating Monad Transformers</a></topic>
     <other>&nbsp;</other>
     <date>20060804</date>
   </talk> 
   <talk>
     <speaker>&nbsp;</speaker>
-    <topic>&nbsp;</topic>
-    <other>Social</other>
+    <topic>Social</topic>
+    <other>&nbsp;</other>
     <date>20060811</date>
   </talk> 
   <talk>
@@ -119,5 +119,11 @@
     <topic>&nbsp;</topic>
     <other>&nbsp;</other>
     <date>20060901</date>
+  </talk> 
+  <talk>
+    <speaker>Geoff</speaker>
+    <topic>Dissertation Proposal Version 2.0</topic>
+    <other>&nbsp;</other>
+    <date>20060908</date>
   </talk> 
 </schedule>
