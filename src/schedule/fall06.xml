@@ -18,8 +18,12 @@
   </talk> 
   <talk>
     <speaker>Karl</speaker>
-    <topic>&nbsp;</topic>
-    <other>&nbsp;</other>
+    <topic>An Overview of the Singularity Project</topic>
+    <link>ftp://ftp.research.microsoft.com/pub/tr/TR-2005-135.pdf</link> 
+    <other>Also material from <a
+href="http://www.cs.kuleuven.ac.be/conference/EuroSys2006/papers/p177-fahndrich.pdf">
+                           Language Support for Fast and Reliable
+Message-based Communication in the Singularity OS</a></other>
     <date>20060915</date>
   </talk> 
   <talk>
