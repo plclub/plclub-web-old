@@ -50,7 +50,7 @@ Message-based Communication in the Singularity OS</a></other>
   </talk> 
   <talk>
     <speaker>Dimitris</speaker>
-    <topic>&nbsp;</topic>
+    <topic>Free theorems and runtime type representations</topic>
     <other>&nbsp;</other>
     <date>20061013</date>
   </talk> 
@@ -63,9 +63,10 @@ Message-based Communication in the Singularity OS</a></other>
   </talk> 
   <talk>
     <speaker>Peng</speaker>
-    <topic>&nbsp;</topic>
-    <link>&nbsp;</link> 
-    <other>&nbsp;</other>
+    <topic>The Spineless Tagless G-Machine</topic>
+    <link>http://citeseer.ist.psu.edu/peytonjones92implementing.html</link> 
+    <other> Presentation based on <a
+href="http://www.haskell.org/~simonmar/bib/evalapply04_abstract.html">this</a></other> 
     <date>20061027</date>
   </talk> 
   <talk>
