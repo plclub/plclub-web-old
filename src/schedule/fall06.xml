@@ -77,17 +77,17 @@ href="http://www.haskell.org/~simonmar/bib/evalapply04_abstract.html">this</a></
     <date>20061103</date>
   </talk> 
   <talk>
-    <speaker>Jeff</speaker>
-    <topic>&nbsp;</topic>
-    <link>&nbsp;</link>
-    <other>&nbsp;</other>
-    <date>20061110</date>
-  </talk> 
-  <talk>
     <speaker>&nbsp;</speaker>
     <topic>&nbsp;</topic>
     <link>&nbsp;</link>
-    <other>&nbsp;</other>
+    <other>Social</other>
+    <date>20061110</date>
+  </talk> 
+  <talk>
+    <speaker>Jeff</speaker>
+    <topic>&nbsp;</topic>
+    <link>&nbsp;</link>
+    <other></other>
     <date>20061117</date>
   </talk> 
   <talk>
@@ -98,9 +98,11 @@ href="http://www.haskell.org/~simonmar/bib/evalapply04_abstract.html">this</a></
     <date>20061124</date>
   </talk> 
   <talk>
-    <speaker>&nbsp;</speaker>
-    <topic>&nbsp;</topic>
-    <link>&nbsp;</link>
+    <speaker>Stephen</speaker>
+    <topic>Leveraging .NET Meta-programming Components from F#:
+           Integrated
+           Queries and Interoperable Heterogeneous Execution</topic>
+    <link>http://research.microsoft.com/~dsyme/papers/ml03-syme.pdf</link>
     <other>&nbsp;</other>
     <date>20061201</date>
   </talk> 
