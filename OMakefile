@@ -6,11 +6,11 @@
 JAVA = java
 
 # rsync command used to transfer the data to the server
-RSYNC=rsync -rulzvtS -e ssh 
-#RSYNC=rsync -rulzvtS --delete -e ssh 
+RSYNC=rsync -rulzvtS -e ssh
+#RSYNC=rsync -rulzvtS --delete -e ssh
 
 # Smarter copy?  Hopefully spend less time recopying large files.
-SMRTCP=rsync 
+SMRTCP=rsync
 
 ###############################################################################
 # Distinguished directories
@@ -23,15 +23,15 @@ LIVE = dest
 # Name of the source directory, where the input files live
 SRC = src
 
-# All proper subdirectories of SRC 
+# All proper subdirectories of SRC
 DIRS = $(subdirs CP, $(SRC)) $(SRC)
 
 
-# SPECIALDIRS are subdirectories of SRC that should be treated specially, 
+# SPECIALDIRS are subdirectories of SRC that should be treated specially,
 # rather than just copied.
 SPECIALDIRS = $(SRC)/papers $(SRC)/schedule
 
-$(LIVE): 
+$(LIVE):
 	if $(file-exists $@)
 	  # NOP
 	else
@@ -41,8 +41,8 @@ $(LIVE):
 
 update:
 	svn update
- 
-build: $(DIRS) 
+
+build: $(DIRS)
 
 clean:
 	$(RM) -r $(LIVE)
@@ -50,11 +50,11 @@ clean:
 commit:
 	svn commit
 
-live: 
+live:
 	$(RSYNC) ./$(LIVE)/ $(USER)"@eniac-l.seas.upenn.edu:/home1/p/plclub/html/"
 	ssh $(USER)@eniac-l.seas.upenn.edu chmod -R a+rX html
 
-live-plclub: 
+live-plclub:
 	$(RSYNC) ./$(LIVE)/ "plclub@eniac-l.seas.upenn.edu:html/"
 	ssh plclub@eniac-l.seas.upenn.edu chmod -R a+rX html
 
@@ -66,32 +66,32 @@ live-plclub:
 .SUBDIRS: $(set-diff $(DIRS), $(SPECIALDIRS))
   # Get the directory name relative to the project root
   DIR = $(in $(ROOT)/$(SRC), $(CWD))
-  FILES = $(set-diff $(glob * .*) $(glob .*), $(glob D,* .*)) 
+  FILES = $(set-diff $(glob * .*) $(glob .*), $(glob D,* .*))
   build:
     # If this directory doesn't exist yet, create it
     -mkdir -p $(ROOT)/$(LIVE)/$(DIR)
-    if $(eq $(length $(FILES)), $(int 0)) 
+    if $(eq $(length $(FILES)), $(int 0))
       # NOP
     else
       # Do the copying
-      $(SMRTCP) $(FILES) $(ROOT)/$(LIVE)/$(DIR)/ 
+      $(SMRTCP) $(FILES) $(ROOT)/$(LIVE)/$(DIR)/
 
   clean:
 
 ###############################################################################
-# Build the PLClub publications list 
+# Build the PLClub publications list
 ###############################################################################
 
 .SUBDIRS: $(SRC)/papers
   DIR = $(in $(ROOT)/$(SRC), $(CWD))
-  
+
   build:
     # Use the old makefile for the moment
-    make  
+    make
     -mkdir -p $(ROOT)/$(LIVE)/$(DIR)
     $(SMRTCP) $(glob *.html *.shtml) $(ROOT)/$(LIVE)/$(DIR)/
-    
-  clean:  
+
+  clean:
     make clean
 
 ###############################################################################
@@ -100,7 +100,7 @@ live-plclub:
 
 .SUBDIRS: $(SRC)/schedule
   DIR = $(in $(ROOT)/$(SRC), $(CWD))
-  
+
   build:
     mkdir -p $(ROOT)/$(LIVE)/$(DIR)
     section
@@ -109,12 +109,13 @@ live-plclub:
       $(JAVA) net.sf.saxon.Transform $(CWD)/spring06.xml $(CWD)/schedule.xslt semester="Spring 2006" file=spring06.shtml > $(ROOT)/$(LIVE)/$(DIR)/spring06.shtml
       $(JAVA) net.sf.saxon.Transform $(CWD)/summer06.xml $(CWD)/schedule.xslt semester="Summer 2006" file=summer06.shtml > $(ROOT)/$(LIVE)/$(DIR)/summer06.shtml
       $(JAVA) net.sf.saxon.Transform $(CWD)/fall06.xml $(CWD)/schedule.xslt semester="Fall 2006" file=fall06.shtml > $(ROOT)/$(LIVE)/$(DIR)/fall06.shtml
+      $(JAVA) net.sf.saxon.Transform $(CWD)/spring07.xml $(CWD)/schedule.xslt semester="Spring 2006" file=spring07.shtml > $(ROOT)/$(LIVE)/$(DIR)/spring07.shtml
 
       # Copy everything else
       $(SMRTCP) $(glob *.shtml) $(ROOT)/$(LIVE)/$(DIR)/
-    
+
   clean:
-    $(RM) $(CWD)/fall05.shtml 
-    $(RM) $(CWD)/spring06.shtml 
-    $(RM) $(CWD)/summer06.shtml 
+    $(RM) $(CWD)/fall05.shtml
+    $(RM) $(CWD)/spring06.shtml
+    $(RM) $(CWD)/summer06.shtml
 

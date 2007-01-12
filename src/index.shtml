@@ -45,10 +45,10 @@
 			  Type-directed Java</a></li>
 		          </ul>
 			</li>
-                        <li><a 
-href="http://fling-l.seas.upenn.edu/~plclub/cgi-bin/poplmark/">POPLmark (formerly Mechanized 
+                        <li><a
+href="http://fling-l.seas.upenn.edu/~plclub/cgi-bin/poplmark/">POPLmark (formerly Mechanized
 Metatheory for the Masses!)</a></li>
-                        
+
 		</ul>
 		</td>
   </tr>
@@ -96,8 +96,8 @@ Metatheory for the Masses!)</a></li>
                 <li><a href="http://www.cis.upenn.edu/~plclub/papers/">All PLClub publications</a></li>
                 </ul>
 		<h3 class="header">Seminars and Courses</h3>
-		<ul>
-			<li><a href="schedule/fall06.shtml">PLClub discussion group</a></li>
+                <ul>
+			<li><a href="schedule/spring07.shtml">PLClub discussion group</a></li>
                         <li>CIS 700 / S06 - <a href="http://www.cis.upenn.edu/~sweirich/cis700/06/">Parametric and Ad hoc Polymorphism</a></li>
 
 			<li>CIS 500 / F05 - <a href="http://www.seas.upenn.edu/~cis500/">Software foundations</a>

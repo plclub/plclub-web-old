@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+
+  <start-date>20070112</start-date>
+  <end-date>20070528</end-date>
+  <talk>
+    <speaker></speaker>
+    <topic>Social</topic>
+    <other>&nbsp;</other>
+    <date>20070112</date>
+  </talk>
+</schedule>
