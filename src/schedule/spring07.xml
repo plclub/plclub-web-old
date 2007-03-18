@@ -12,49 +12,56 @@
   </talk>
   <talk>
     <speaker>Jeff</speaker>
-    <topic></topic>
-    <other>&nbsp;</other>
+    <topic>
+      <a href="http://www.cs.cornell.edu/andru/papers/jmatch2.pdf">
+        Interruptible&nbsp;Iterators</a>
+    </topic>
+    <other></other>
     <date>20070119</date>
   </talk>
   <talk>
     <speaker>Boon Thau Loo</speaker>
-    <topic></topic>
+    <topic>The&nbsp;Design&nbsp;and&nbsp;Implementation&nbsp;of&nbsp;Declarative&nbsp;Networks</topic>
     <other>&nbsp;</other>
     <date>20070126</date>
   </talk>
   <talk>
-    <speaker>Aaron</speaker>
-    <topic></topic>
+    <speaker>Nate</speaker>
+    <topic><a href="http://www.soe.ucsc.edu/~cormac/papers/popl06-hybrid.ps">
+        Hybrid&nbsp;Checking</a></topic>
     <other>&nbsp;</other>
     <date>20070202</date>
   </talk>
   <talk>
-    <speaker>Nate</speaker>
-    <topic></topic>
+    <speaker>Swarat&nbsp;Chauduri</speaker>
+    <topic>Algorithms&nbsp;and&nbsp;Logics&nbsp;for&nbsp;Software&nbsp;Analysis</topic>
     <other>&nbsp;</other>
     <date>20070209</date>
   </talk>
   <talk>
     <speaker></speaker>
-    <topic></topic>
+    <topic>(no&nbsp;meeting)</topic>
     <other>NJPLS</other>
     <date>20070216</date>
   </talk>
   <talk>
-    <speaker>Karl</speaker>
-    <topic></topic>
+    <speaker>Bow-Yaw&nbsp;Wang (Academia&nbsp;Sinica,&nbsp;Taiwan)</speaker>
+    <topic>
+      <a href="http://www.iis.sinica.edu.tw/~bywang/papers/asian-1.pdf.gz">
+        Formalization&nbsp;of&nbsp;CTL*&nbsp;in&nbsp;Calculus&nbsp;of&nbsp;Inductive&nbsp;Constructions
+      </a></topic>
     <other>&nbsp;</other>
     <date>20070223</date>
   </talk>
   <talk>
     <speaker>Ravi</speaker>
-    <topic></topic>
+    <topic>C# 3.0 Enhancements</topic>
     <other>&nbsp;</other>
     <date>20070302</date>
   </talk>
   <talk>
     <speaker></speaker>
-    <topic></topic>
+    <topic>(no meeting)</topic>
     <other>Spring Break</other>
     <date>20070309</date>
   </talk>
@@ -65,8 +72,10 @@
     <date>20070316</date>
   </talk>
   <talk>
-    <speaker>Brian</speaker>
-    <topic></topic>
+    <speaker>Michael&nbsp;Hicks (U.&nbsp;Maryland)</speaker>
+    <topic>CMod: Modular Type Safety and Information Hiding for C
+      <a href="http://www.cs.umd.edu/~saurabhs/CMod/">(CMod Project Webpage)</a>
+    </topic>
     <other></other>
     <date>20070323</date>
   </talk>
