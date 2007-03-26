@@ -81,13 +81,15 @@
   </talk>
   <talk>
     <speaker>Steve</speaker>
-    <topic></topic>
+    <topic>Dependency Core Calculus
+      <a href="http://www.cse.ucsc.edu/~abadi/Papers/acldcc-acm.pdf">
+        (Abadi, ICFP '06)</a></topic>
     <other></other>
     <date>20070330</date>
   </talk>
   <talk>
-    <speaker>Ravi</speaker>
-    <topic></topic>
+    <speaker>Peng</speaker>
+    <topic>Lightweight concurrency</topic>
     <other></other>
     <date>20070406</date>
   </talk>
