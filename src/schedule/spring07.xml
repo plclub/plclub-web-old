@@ -88,14 +88,14 @@
     <date>20070330</date>
   </talk>
   <talk>
-    <speaker>Peng</speaker>
-    <topic>Lightweight concurrency</topic>
-    <other></other>
+    <speaker></speaker>
+    <topic>Social</topic>
+    <other>ICFP Deadline</other>
     <date>20070406</date>
   </talk>
   <talk>
-    <speaker>Stephanie</speaker>
-    <topic></topic>
+    <speaker>Peng</speaker>
+    <topic>Lightweight concurrency</topic>
     <other></other>
     <date>20070413</date>
   </talk>
@@ -106,8 +106,9 @@
     <date>20070420</date>
   </talk>
   <talk>
-    <speaker>Benjamin</speaker>
-    <topic></topic>
+    <speaker>Stephen&nbsd;Edwards (Columbia)</speaker>
+    <topic>SHIM: A Scheduling-Independent Concurrent Language for Embedded
+	    Systems</topic>
     <other></other>
     <date>20070427</date>
   </talk>
