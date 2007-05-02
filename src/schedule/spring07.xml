@@ -3,7 +3,7 @@
 <schedule>
 
   <start-date>20070112</start-date>
-  <end-date>20070427</end-date>
+  <end-date>20070504</end-date>
   <talk>
     <speaker></speaker>
     <topic>Social</topic>
@@ -102,8 +102,7 @@
   <talk>
     <speaker>Dimitris</speaker>
     <topic>Brane Calculi, Interactions of Biological Membranes
-      <a href="http://lucacardelli.name/Papers/Brane%20Calculi.pdf">(Luca
-	Cardelli, BioConcur'03)</a>
+      <a href="http://lucacardelli.name/Papers/Brane%20Calculi.pdf">(Luca&nbsp;Cardelli, BioConcur'03)</a>
     </topic>
     <other></other>
     <date>20070420</date>
@@ -114,5 +113,14 @@
 	    Systems</topic>
     <other></other>
     <date>20070427</date>
+  </talk>
+  <talk>
+    <speaker>Brian</speaker>
+    <topic>A Certified Type-Preserving Compiler from Lambda
+	    Calculus to Assembly Language 
+      <a href="http://www.cs.berkeley.edu/~adamc/papers/CtpcPLDI07/">(Adam Chipala, PLDI '06)</a>
+    </topic>
+    <other />
+    <date>20070504</date> 
   </talk>
 </schedule>
