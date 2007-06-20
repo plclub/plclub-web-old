@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} fling-l\.seas\.upenn\.edu [NC,OR]
+RewriteCond %{HTTP_HOST} fling\.seas\.upenn\.edu [NC]
+RewriteRule (.*) http://alliance.seas.upenn.edu/~plclub/$1 [R=301]
+
+RewriteCond %{REQUEST_URI} ^/proj/plclub/.*
+RewriteRule (.*) /~plclub/$1 [R=301]
