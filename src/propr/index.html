@@ -120,7 +120,7 @@ presentations and discussion.
    <i>Nate Foster (Penn)</i>
 </li>
 
-<li>Provenance and copyright: Some practical problems<br>
+<li><a href="#john">Provenance and copyright: Some practical problems</a><br>
    <i>John Ockerbloom (Penn Library)</i>
 </li>
 </ul>
@@ -150,7 +150,7 @@ presentations and discussion.
 <li>Querying Provenance through User Views<br>
     <i>Susan Davidson (Penn)</i>
 
-<li>Provenance of Data Streams<br>
+<li><a href="#mengmeng">Recursive Views Over Streams</a><br>
     <i>Mengmeng Liu (Penn)</i>
 </li>
 </ul>
@@ -182,7 +182,7 @@ presentations and discussion.
     <i>TJ Green (Penn)</i>
 </li>
 
-<li>Data Provenance for Query Result Explanation<br>
+<li><a href="#yi">Data Provenance for Query Result Explanation</a><br>
     <i>Yi Chen (Arizona State)</i></li>
 </ul>
 </td>
@@ -210,8 +210,6 @@ presentations and discussion.
 </table>
 </center>
 
-
-
 <h2>Organizers</h2>
 <ul>
   <li><a href="http://homepages.inf.ed.ac.uk/opb/">Peter Buneman</a></li>
@@ -221,6 +219,92 @@ presentations and discussion.
 
 </ul>
 
+<h2>Abstracts</h2>
+
+<h3><a name="john">Provenance and copyright: Some practical problems - <i>John Ockerbloom</i></a></h3>
+
+As information seekers increasingly move from print to digital media,
+print resources are being digitized, both by nonprofit libraries
+and for-profit companies like Google and Microsoft, at an ever-accelerating
+rate.  Increasingly, the force that most tightly constrains the process
+for many of the most important research sources is not the cost or complexity
+of the digitization itself, but the cost and complexity of clearing
+copyrights.  For material less than 100 years old, clearing copyright
+can involve establishing a complex and tricky provenance chain for a work,
+its publication, its registration, its derivative sources, its authorship,
+and its ownership.  Moreover, to clear copyrights at high volume with low risk,
+it is important to be able to quickly and automatically identify relevant
+factual assertions deriving from reliable sources.  My talk will informally
+review some of the provenance-related issues and challenges in clearing
+copyrights at large scale, discuss some current work and proposals
+to more efficiently gather and share copyright information, and
+provide useful examples for applying principles of provenance.
+
+<h3><a name="mengmeng">Recursive Views Over Streams - <i>Mengmeng Liu</i></a></h3>
+
+Traditionally, materialized views in relational and deductive
+database systems can be maintained through incremental evaluation
+algorithms such as Counting and DRed proposed by Gupta, Mumick,
+and Subrahmanian(1993). Normally a view is a derived(idb) relation
+defined in terms of base(edb) relations, and the
+changes(insertions, deletions and replacements) to the edb
+relations can change the view. In some cases, datalog views may be
+recursive. The Counting algorithm works for non-recursive views by
+tracking the number of alternative derivations(counts) for each
+idb in the view. However, for recursive views, an alternative of
+Counting algorithm, DRed must be used: it deletes and rederives
+tuples to maintain the correct semantics.
+<p>
+Both non-recursive and recursive views can be more efficiently
+maintained by attaching the provenance expression associated with
+each tuple. This is because for deletion propagation we can easily
+determine which idbs in the view should be deleted. However, in
+recursive views, the challenge lies in how to maintain succinct
+provenance information: the numbers of provenance items may become
+infinitely large with the existence of loops. Here we propose a
+variation on provenance semirings formalism proposed by Green,
+Karvounarakis and Tannen (2007), which exploits boolean absorption
+to make the process more efficient. Our method doesn't keep the
+whole provenance information but maintains necessarily succinct
+provenance expression for recursive view maintenance. This work
+can be easily extended to streams, where sliding windows semantics
+be nicely incorporated. There are many applications of recursive
+view maintenance over streams, such as distributed recursive
+queries in declarative network, region-based transitive closure
+queries in sensor networks and so on.
+
+[Ongoing work with Zackary Ives and Boon Thau Loo]
+
+<h3><a name="yi">Data Provenance for Query Result Explanation - <i>Yi Chen</i></a></h3>
+
+As more and more information from autonomous web databases becomes
+available, query processing over these databases must adapt to deal with
+the imprecise nature of user queries as well as the incompleteness of
+data due to missing attribute values and schema heterogeneity. In such
+scenarios, a query processor begins to acquire the role of a recommender
+system. Specifically, in addition to presenting answers which satisfy
+the user's query, the query processor is expected to provide highly
+relevant answers even though they do not exactly satisfy the query
+predicates. In this case, it is important that the query results
+recommended by the system are trusted by the user. While query result
+explanation is critical in traditional databases, it is even more
+critical in order to obtain user trust in the presence of imprecision
+and incompleteness. For example, consider a scenario where the user
+gives a query that searches for car whose model is Civic, one of the
+tuples returned by the system has a null value on model, and another has
+a value of Corolla on model. Without an accompanying explanation, the
+user would be hard pressed to understand why these are relevant answers
+to her query. To provide such explanation, we need to record the
+provenance information as how we derive query results and how we rank
+them, and design a user-friendly interface for query result explanation.
+<p>
+I will briefly introduce the QUIC system that handles data
+incompleteness and query imprecision during data integration, ranks
+answers in the order of their expected relevance to users, and attempts
+to explain the relevance of its answers by providing snippets of its
+reasoning about query result identification and ranking. Then, I will
+discuss several challenges on data provenance that we found in
+developing QUIC. 
 
 </body>
 </html>
