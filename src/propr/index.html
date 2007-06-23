@@ -49,6 +49,7 @@ body {background:#eeeeff;
 <h2>News</h2>
 
 <ul>
+  <li>Location updated to Raisler Lounge (22 June).</li>
   <li>Preliminary <a href="#program">program</a> posted (20 June).</li>
   <li>Web page created (7 June).</li>
 </ul>
@@ -88,9 +89,11 @@ interests in this area and to address questions such as:
 <h2>Local Arrangements</h2>
 
 PrOPr will take place on Tuesdsay, 26 June 2007 at the 
-<a href="http://www.facilities.upenn.edu/visitUs/">University of Pennsylvania</a> in 
-<a href="http://www.facilities.upenn.edu/mapsBldgs/view_map.php3?id=407">Levine Hall</a>, 
-Room 315.
+<a href="http://www.facilities.upenn.edu/visitUs/">University of
+Pennsylvania</a> in the Raisler Lounge, which is located on the second floor of the
+<a
+href="http://www.facilities.upenn.edu/mapsBldgs/view_map.php3?id=158">Towne
+Building</a>. 
 <p>
 Please contact <a href="mailto:jnfoster@cis.upenn.edu">Nate Foster</a>
 for additional local information.
@@ -103,6 +106,15 @@ presentations and discussion.
 <p>
 <center>
 <table id="program">
+<tr>
+<td>
+9:00-9:30
+</td>
+<td>
+<b>Breakfast</b>
+</td>
+</tr>
+
 <tr>
 <td>
 9:30-11:00
@@ -148,11 +160,10 @@ presentations and discussion.
 </li>
 
 <li>Querying Provenance through User Views<br>
-    <i>Susan Davidson (Penn)</i>
+    <i>Susan Davidson (Penn)</i></li>
 
-<li><a href="#mengmeng">Recursive Views Over Streams</a><br>
-    <i>Mengmeng Liu (Penn)</i>
-</li>
+<li><a href="#yi">Data Provenance for Query Result Explanation</a><br>
+    <i>Yi Chen (Arizona State)</i></li>
 </ul>
 </td>
 </tr>
@@ -182,8 +193,10 @@ presentations and discussion.
     <i>TJ Green (Penn)</i>
 </li>
 
-<li><a href="#yi">Data Provenance for Query Result Explanation</a><br>
-    <i>Yi Chen (Arizona State)</i></li>
+<li><a href="#mengmeng">Recursive Views Over Streams</a><br>
+    <i>Mengmeng Liu (Penn)</i>
+</li>
+
 </ul>
 </td>
 </tr>
@@ -221,8 +234,9 @@ presentations and discussion.
 
 <h2>Abstracts</h2>
 
-<h3><a name="john">Provenance and copyright: Some practical problems - <i>John Ockerbloom</i></a></h3>
-
+<h3><a name="john">Provenance and copyright: Some practical problems</a></h3>
+<i>John Ockerbloom</i>
+<p>
 As information seekers increasingly move from print to digital media,
 print resources are being digitized, both by nonprofit libraries
 and for-profit companies like Google and Microsoft, at an ever-accelerating
@@ -240,8 +254,41 @@ copyrights at large scale, discuss some current work and proposals
 to more efficiently gather and share copyright information, and
 provide useful examples for applying principles of provenance.
 
-<h3><a name="mengmeng">Recursive Views Over Streams - <i>Mengmeng Liu</i></a></h3>
+<h3><a name="yi">Data Provenance for Query Result Explanation</a></h3>
+<i>Yi Chen</i>
+<p>
+As more and more information from autonomous web databases becomes
+available, query processing over these databases must adapt to deal with
+the imprecise nature of user queries as well as the incompleteness of
+data due to missing attribute values and schema heterogeneity. In such
+scenarios, a query processor begins to acquire the role of a recommender
+system. Specifically, in addition to presenting answers which satisfy
+the user's query, the query processor is expected to provide highly
+relevant answers even though they do not exactly satisfy the query
+predicates. In this case, it is important that the query results
+recommended by the system are trusted by the user. While query result
+explanation is critical in traditional databases, it is even more
+critical in order to obtain user trust in the presence of imprecision
+and incompleteness. For example, consider a scenario where the user
+gives a query that searches for car whose model is Civic, one of the
+tuples returned by the system has a null value on model, and another has
+a value of Corolla on model. Without an accompanying explanation, the
+user would be hard pressed to understand why these are relevant answers
+to her query. To provide such explanation, we need to record the
+provenance information as how we derive query results and how we rank
+them, and design a user-friendly interface for query result explanation.
+<p>
+I will briefly introduce the QUIC system that handles data
+incompleteness and query imprecision during data integration, ranks
+answers in the order of their expected relevance to users, and attempts
+to explain the relevance of its answers by providing snippets of its
+reasoning about query result identification and ranking. Then, I will
+discuss several challenges on data provenance that we found in
+developing QUIC. 
 
+<h3><a name="mengmeng">Recursive Views Over Streams</a></h3>
+<i>Mengmeng Liu</i>
+<p>
 Traditionally, materialized views in relational and deductive
 database systems can be maintained through incremental evaluation
 algorithms such as Counting and DRed proposed by Gupta, Mumick,
@@ -272,39 +319,8 @@ be nicely incorporated. There are many applications of recursive
 view maintenance over streams, such as distributed recursive
 queries in declarative network, region-based transitive closure
 queries in sensor networks and so on.
-
-[Ongoing work with Zackary Ives and Boon Thau Loo]
-
-<h3><a name="yi">Data Provenance for Query Result Explanation - <i>Yi Chen</i></a></h3>
-
-As more and more information from autonomous web databases becomes
-available, query processing over these databases must adapt to deal with
-the imprecise nature of user queries as well as the incompleteness of
-data due to missing attribute values and schema heterogeneity. In such
-scenarios, a query processor begins to acquire the role of a recommender
-system. Specifically, in addition to presenting answers which satisfy
-the user's query, the query processor is expected to provide highly
-relevant answers even though they do not exactly satisfy the query
-predicates. In this case, it is important that the query results
-recommended by the system are trusted by the user. While query result
-explanation is critical in traditional databases, it is even more
-critical in order to obtain user trust in the presence of imprecision
-and incompleteness. For example, consider a scenario where the user
-gives a query that searches for car whose model is Civic, one of the
-tuples returned by the system has a null value on model, and another has
-a value of Corolla on model. Without an accompanying explanation, the
-user would be hard pressed to understand why these are relevant answers
-to her query. To provide such explanation, we need to record the
-provenance information as how we derive query results and how we rank
-them, and design a user-friendly interface for query result explanation.
 <p>
-I will briefly introduce the QUIC system that handles data
-incompleteness and query imprecision during data integration, ranks
-answers in the order of their expected relevance to users, and attempts
-to explain the relevance of its answers by providing snippets of its
-reasoning about query result identification and ranking. Then, I will
-discuss several challenges on data provenance that we found in
-developing QUIC. 
+[Ongoing work with Zackary Ives and Boon Thau Loo]
 
 </body>
 </html>
