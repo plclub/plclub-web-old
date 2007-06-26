@@ -12,18 +12,20 @@
   </talk>
   <talk>
     <speaker>Karl</speaker>
-    <topic></topic>
+    <topic>
+      <a href="http://www.seas.upenn.edu/~mazurak/papers/abash-plas07.pdf">ABash: Finding Bugs in Bash Scripts</a>
+    </topic>
     <other>&nbsp;</other>
     <date>20070525</date>
   </talk>
   <talk>
     <speaker>Dimitris</speaker>
-    <topic></topic>
+    <topic>Higher order free theorems</topic>
     <other>&nbsp;</other>
     <date>20070601</date>
   </talk>
   <talk>
-    <speaker>Jeff</speaker>
+    <speaker></speaker>
     <topic></topic>
     <other>&nbsp;</other>
     <date>20070608</date>
@@ -41,8 +43,8 @@
     <date>20070622</date>
   </talk>
   <talk>
-    <speaker>Aaron</speaker>
-    <topic></topic>
+    <speaker>Michael&nbsp;Levin (Microsoft)</speaker>
+    <topic>Program Analysis Tools</topic>
     <other>&nbsp;</other>
     <date>20070629</date>
   </talk>
@@ -95,7 +97,7 @@
     <date>20070824</date>
   </talk>
   <talk>
-    <speaker>Brian</speaker>
+    <speaker></speaker>
     <topic></topic>
     <other>&nbsp;</other>
     <date>20070831</date>
