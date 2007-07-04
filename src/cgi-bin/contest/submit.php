@@ -1,3 +1,4 @@
+#!/usr/local/bin/php
 <?php 
       $this_page = submit; 
       $version = '$Id: submit.php,v 1.4 2004/06/07 15:56:48 jnfoster Exp $';

@@ -1,3 +1,4 @@
+#!/usr/local/bin/php
 <?php 
       $this_page = rules; 
       $version = '$Id: rules.php,v 1.2 2004/06/02 21:19:50 jnfoster Exp $';

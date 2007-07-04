@@ -1,3 +1,4 @@
+#!/usr/local/bin/php
 <?php 
      $this_page = "task"; 
      $version = '$Id: task.php,v 1.4 2004/06/03 20:25:33 vgapeyev Exp $';

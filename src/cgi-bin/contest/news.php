@@ -1,3 +1,4 @@
+#!/usr/local/bin/php
 <?php 
       $this_page = "news"; 
       $version = '$Id: news.php,v 1.10 2004/09/27 15:05:29 jnfoster Exp $';

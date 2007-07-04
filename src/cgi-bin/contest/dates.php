@@ -1,3 +1,4 @@
+#!/usr/local/bin/php
 <?php 
       $this_page = "dates"; 
       $version = '$Id: dates.php,v 1.1 2004/06/01 20:30:48 jnfoster Exp $'; 

@@ -6,3 +6,6 @@ RewriteRule (.*) http://alliance.seas.upenn.edu/~plclub/$1 [R=301]
 
 RewriteCond %{REQUEST_URI} ^/proj/plclub/.*
 RewriteRule (.*) /~plclub/$1 [R=301]
+
+RewriteCond %{REQUEST_URI} ^/~plclub/contest/.*
+RewriteRule (.*) http://alliance.seas.upenn.edu/~plclub/cgi-bin/contest/$1 [R=301]

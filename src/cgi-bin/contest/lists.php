@@ -1,3 +1,4 @@
+#!/usr/local/bin/php
 <?php 
      $this_page = "lists"; 
      $version = '$Id: lists.php,v 1.2 2004/06/01 21:34:05 jnfoster Exp $';
