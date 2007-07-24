@@ -68,7 +68,9 @@
   </talk>
   <talk>
     <speaker>Stephanie</speaker>
-    <topic></topic>
+    <topic><a href="http://www.cs.cmu.edu/~rwh/papers/extidx/paper.pdf">An
+		    Extensible Theory of Indexed Types (Harper and Licata)</a>
+    </topic>
     <other>&nbsp;</other>
     <date>20070727</date>
   </talk>
