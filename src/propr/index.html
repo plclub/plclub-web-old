@@ -126,10 +126,13 @@ presentations and discussion.
 </li>
 
 <li>Program Analysis and Information Flow<br>
-    <i>James Cheney (Edinburgh) and Steve Zdancewic (Penn)</i></li>
+    <i>James Cheney (Edinburgh) and Steve Zdancewic (Penn)</i><br>
+    [<a href="stevez-slides.pdf">slides</a>]
+   </li>
 
 <li>Data Synchronization<br>
-   <i>Nate Foster (Penn)</i>
+   <i>Nate Foster (Penn)</i><br>
+    [<a href="nate-slides.pdf">slides</a>]
 </li>
 
 <li><a href="#john">Provenance and copyright: Some practical problems</a><br>
@@ -181,20 +184,16 @@ presentations and discussion.
 </td>
 <td>
 <ul>
-<li>Provenance Semirings<br>
+<li><a href="#greg">Provenance Semirings</a><br>
     <i>Grigoris Karvounarakis (Penn)</i>
+</li>
+
+<li><a href="#tj">Provenance in Orchestra</a><br>
+    <i>TJ Green (Penn)</i>
 </li>
 
 <li>Provenance for Complex Values<br>
     <i>Val Tannen (Penn)</i>
-</li>
-
-<li>Provenance in Sharq<br>
-    <i>TJ Green (Penn)</i>
-</li>
-
-<li><a href="#mengmeng">Recursive Views Over Streams</a><br>
-    <i>Mengmeng Liu (Penn)</i>
 </li>
 
 </ul>
@@ -313,41 +312,34 @@ reasoning about query result identification and ranking. Then, I will
 discuss several challenges on data provenance that we found in
 developing QUIC. 
 
-<h3><a name="mengmeng">Recursive Views Over Streams</a></h3>
-<i>Mengmeng Liu</i>
+<h3><a name="greg">Provenance Semirings</a></h3>
+<i>Grigoris Karvounarakis (Penn)</i>
 <p>
-Traditionally, materialized views in relational and deductive
-database systems can be maintained through incremental evaluation
-algorithms such as Counting and DRed proposed by Gupta, Mumick,
-and Subrahmanian(1993). Normally a view is a derived(idb) relation
-defined in terms of base(edb) relations, and the
-changes(insertions, deletions and replacements) to the edb
-relations can change the view. In some cases, datalog views may be
-recursive. The Counting algorithm works for non-recursive views by
-tracking the number of alternative derivations(counts) for each
-idb in the view. However, for recursive views, an alternative of
-Counting algorithm, DRed must be used: it deletes and rederives
-tuples to maintain the correct semantics.
-<p>
-Both non-recursive and recursive views can be more efficiently
-maintained by attaching the provenance expression associated with
-each tuple. This is because for deletion propagation we can easily
-determine which idbs in the view should be deleted. However, in
-recursive views, the challenge lies in how to maintain succinct
-provenance information: the numbers of provenance items may become
-infinitely large with the existence of loops. Here we propose a
-variation on provenance semirings formalism proposed by Green,
-Karvounarakis and Tannen (2007), which exploits boolean absorption
-to make the process more efficient. Our method doesn't keep the
-whole provenance information but maintains necessarily succinct
-provenance expression for recursive view maintenance. This work
-can be easily extended to streams, where sliding windows semantics
-be nicely incorporated. There are many applications of recursive
-view maintenance over streams, such as distributed recursive
-queries in declarative network, region-based transitive closure
-queries in sensor networks and so on.
-<p>
-[Ongoing work with Zackary Ives and Boon Thau Loo]
+We show that relational algebra calculations for incomplete
+databases, probabilistic databases, bag semantics and why-provenance
+are particular cases of the same general algorithms involving
+semirings. This further suggests a comprehensive provenance representation
+that uses semirings of polynomials.
 
+<h3><a name="tj">Provenance in Orchestra</a></h3>
+<i>TJ Green (Penn)</i>
+<p>
+We consider systems for data sharing among heterogeneous peers
+related by a network of schema mappings.  Each peer has a locally
+controlled and edited database instance, but wants to ask queries
+over related data from other peers as well. To achieve this, a
+peer's updates propagate along the mappings to the other peers.
+However, this <i>update exchange<i> is filtered by <i>trust
+conditions</i> -- expressing what data and sources a peer judges to
+be authoritative -- which may cause a peer to reject another's
+updates.  In order to support such filtering, updates carry <i>provenance</i> information.
+<p>
+In this talk we present methods for realizing such systems.
+Specifically, we extend techniques from data integration, data
+exchange, and incremental view maintenance to propagate updates
+along mappings and we integrate a novel model for tracking data
+provenance, such that curators may filter updates based on trust
+conditions over this provenance, as implemented in our
+Orchestra prototype system.
 </body>
 </html>
