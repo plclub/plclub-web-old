@@ -46,7 +46,7 @@
 		          </ul>
 			</li>
                         <li><a
-href="http://fling-l.seas.upenn.edu/~plclub/cgi-bin/poplmark/">POPLmark (formerly Mechanized
+href="http://alliance.seas.upenn.edu/~plclub/cgi-bin/poplmark/">POPLmark (formerly Mechanized
 Metatheory for the Masses!)</a></li>
 
 		</ul>
@@ -140,6 +140,10 @@ Metatheory for the Masses!)</a></li>
 		</ul>
 		<h3 class="header">Activities</h3>
 		<ul>
+			<li><a href="http://www.cis.upenn.edu/~plclub/popl08-tutorial/">Using
+			Proof Assistants for Programming Language Research <i>or,
+			How to write your next POPL paper in Coq</i></a>, a workshop at <a
+			href="http://www.cs.ucsd.edu/popl/08/">POPL 2008</a></li>
 			<li><a href="contest/index.html">The Seventh Annual ICFP Programming Contest</a> </li>
 			<li>
 			<a href="http://www.cs.uoregon.edu/activities/summerschool/summer04/">Summer School on Software Security</a></li>
