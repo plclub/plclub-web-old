@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+
+  <start-date>20070907</start-date>
+  <end-date>20071221</end-date>
+  <talk>
+    <speaker>Jeff</speaker>
+    <topic></topic>
+    <other>&nbsp;</other>
+    <date>20070907</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Social</topic>
+    <other>&nbsp;</other>
+    <date>20070914</date>
+  </talk>
+  <talk>
+    <speaker>Provers</speaker>
+    <topic>Arith</topic>
+    <other>&nbsp;</other>
+    <date>20070921</date>
+  </talk>
+  <talk>
+    <speaker>Colin</speaker>
+    <topic>Transactional Memory I</topic>
+    <other>&nbsp;</other>
+    <date>20070928</date>
+  </talk>
+  <talk>
+    <speaker>Colin</speaker>
+    <topic>Transactional Memory II</topic>
+    <other>&nbsp;</other>
+    <date>20071005</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Social</topic>
+    <other>Fall Break</other>
+    <date>20071012</date>
+  </talk>
+  <talk>
+    <speaker>Provers</speaker>
+    <topic>FSub</topic>
+    <other>&nbsp;</other>
+    <date>20071019</date>
+  </talk>
+  <talk>
+    <speaker>Michael</speaker>
+    <topic></topic>
+    <other>&nbsp;</other>
+    <date>20071026</date>
+  </talk>
+  <talk>
+    <speaker>Dimitris</speaker>
+    <topic></topic>
+    <other>&nbsp;</other>
+    <date>20071102</date>
+  </talk>
+  <talk>
+    <speaker>Chris</speaker>
+    <topic></topic>
+    <other>&nbsp;</other>
+    <date>20071109</date>
+  </talk>
+  <talk>
+    <speaker>Peng</speaker>
+    <topic>Social</topic>
+    <other>&nbsp;</other>
+    <date>20071116</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other>Thanksgiving</other>
+    <date>20071123</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other>NJPLS/MAPLAS @ Maryland</other>
+    <date>20071130</date>
+  </talk>
+  <talk>
+    <speaker>Jianzhou</speaker>
+    <topic></topic>
+    <other>&nbsp;</other>
+    <date>20071207</date>
+  </talk>
+  <talk>
+    <speaker>Aaron</speaker>
+    <topic></topic>
+    <other>&nbsp;</other>
+    <date>20071214</date>
+  </talk>
+  <talk>
+    <speaker>Nate</speaker>
+    <topic></topic>
+    <other>&nbsp;</other>
+    <date>20071221</date>
+  </talk>
+</schedule>
