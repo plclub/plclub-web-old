@@ -70,7 +70,6 @@ Metatheory for the Masses!)</a></li>
 		<li>Karl Mazurak</li>
     <li><a href="http://www.seas.upenn.edu/~vaughan2/">Jeff Vaughan</a></li>
 		<li><a href="http://www.seas.upenn.edu/~dimitriv/">Dimitrios Vytiniotis</a></li>
-		<li><a href="http://www.cis.upenn.edu/~geoffw/">Geoff Washburn</a></li>
     <li><a href="http://www.seas.upenn.edu/~jianzhou/">Jianzhou Zhao</a></li>
 		</ul>
       <h4 class="header">Recent Alumni</h4>
@@ -93,6 +92,7 @@ Metatheory for the Masses!)</a></li>
 			<li><a href="http://www.pps.jussieu.fr/~vouillon/">J&eacute;r&ocirc;me Vouillon
 			</a>
 			</li>
+			<li><a href="http://www.cis.upenn.edu/~geoffw/">Geoff Washburn</a></li>
 		</ul>
 		</td>
     <td style="width: 100%;">
@@ -103,16 +103,17 @@ Metatheory for the Masses!)</a></li>
 		<h3 class="header">Seminars and Courses</h3>
                 <ul>
 			<li><a href="schedule/fall07.shtml">PLClub discussion group</a></li>
-                        <li>CIS 700 / F07 - <a href="http://www.seas.upenn.edu/~sweirich/cis700/f06/">Mechanizing Programming Language Metatheory</a></li>
+			<li>CIS 500 / F07 - <a href="http://www.seas.upenn.edu/~cis500/">Software foundations</a>
+			<li>CIS 500 / F06 - <a href="http://www.seas.upenn.edu/~cis500/cis500-f06/">Software foundations</a>
+                        <li>CIS 700 / F06 - <a href="http://www.seas.upenn.edu/~sweirich/cis700/f06/">Mechanizing Programming Language Metatheory</a></li>
                         <li>CIS 700 / S06 - <a href="http://www.seas.upenn.edu/~sweirich/cis700/s06/">Parametric and Ad hoc Polymorphism</a></li>
-			<li>CIS 500 / F05 - <a href="http://www.seas.upenn.edu/~cis500/">Software foundations</a>
+			<li>CIS 500 / F05 - <a href="http://www.seas.upenn.edu/~cis500/cis500-f05/">Software foundations</a>
                         </li>
 			<li>CIS 700 / F05 - <a href="http://www.cis.upenn.edu/~stevez/CIS700-05.html">Software and Compiler Verification</a>
 			</li>
 			<li>CIS 700 / S05 - <a href="http://www.cis.upenn.edu/~plclub/cis700-009-s05/">Proof Theory for Programming Languages</a>
 			</li>
-
-			<li>CIS 500 / F04 - <a href="http://www.seas.upenn.edu/~cis500/">Software foundations</a>
+			<li>CIS 500 / F04 - <a href="http://www.seas.upenn.edu/~cis500/cis500-f04">Software foundations</a>
                         </li>
 
 			<li>CIS 670 / F04 -
@@ -125,7 +126,7 @@ Metatheory for the Masses!)</a></li>
 			<a href="http://www.cis.upenn.edu/~stevez/CIS700-04.html">&pi;-calculus and foundations of concurrent systems</a>
 			</li>
 			<li>CIS 500 / F03 -
-			<a href="http://www.seas.upenn.edu/~cis500/cis500-f03/index.html">Software foundations</a></li>
+			<a href="http://www.seas.upenn.edu/~cis500/cis500-f03/">Software foundations</a></li>
 			<li>CIS 670 / F03 -
 			<a href="http://www.cis.upenn.edu/~sweirich/cis670/03/">Advanced type systems</a>
 			</li>
