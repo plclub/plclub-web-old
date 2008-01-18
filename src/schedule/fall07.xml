@@ -3,7 +3,7 @@
 <schedule>
 
   <start-date>20070907</start-date>
-  <end-date>20071221</end-date>
+  <end-date>20071214</end-date>
   <talk>
     <speaker>Jeff</speaker>
     <topic></topic>
@@ -78,26 +78,20 @@
   </talk>
   <talk>
     <speaker></speaker>
-    <topic></topic>
+    <topic>No Meeting</topic>
     <other>NJPLS/MAPLAS @ Maryland</other>
     <date>20071130</date>
   </talk>
   <talk>
     <speaker>Jianzhou</speaker>
-    <topic></topic>
+    <topic>Commercial Solution of System Level Hardware Verification</topic>
     <other>&nbsp;</other>
     <date>20071207</date>
   </talk>
   <talk>
     <speaker>Aaron</speaker>
-    <topic></topic>
+    <topic><a href="http://doi.acm.org/10.1145/1291151.1291165">Termination Analysis and Call Graph Construction for Higher-Order Functional Programs</a></topic>
     <other>&nbsp;</other>
     <date>20071214</date>
-  </talk>
-  <talk>
-    <speaker>Nate</speaker>
-    <topic></topic>
-    <other>&nbsp;</other>
-    <date>20071221</date>
   </talk>
 </schedule>
