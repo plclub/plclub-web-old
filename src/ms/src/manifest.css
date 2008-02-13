@@ -12,14 +12,21 @@ code {
   font-family: monospace;
 }
 
+#outer { 
+  border: 2px solid black;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
 #header {
   border: 2px solid #A22;
   display: table;
   padding: 0px 10px 0px 10px;
-  width: 740px;
+  width: 725px;
   position: absolute;    
-  top: 20px;
-  left: 20px;
+  top: 10px;
+  left: 10px;
   height: 45px;
 }
 
@@ -33,28 +40,64 @@ code {
 
 #nav { 
   border: 2px solid #22A;
-  padding: 10px;
+  padding: 5px 5px 5px 15px;
   width: 100px;
   position: absolute;    
-  top: 85px;
-  left: 20px;
-  font-size: 10pt;
+  top: 75px;
+  left: 10px;
+  /*font-size: 10pt;*/
 }
 
+#nav a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+#nav a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+
 #main {
+  border: 1px solid black;
   padding: 10px;
-  width: 600px;
-  position: absolute;    
-  top: 85px;
-  left: 160px;
+  width: 580px;
+  position: relative;    
+  padding-top: 55px;
+  padding-left: 160px;
+  padding-bottom: 80px;
+  padding-right: 30px;
   min-height: 60%;
+  /*left: 160px;*/
+}
+
+#pennlogo {
+  height: 45px;
+  position: absolute;
+  right: 5px;
+  bottom: 3px;
+}
+
+#cmulogo {
+  height: 51px;
+  position: absolute;
+  left: 5px;
+  bottom: 0px;
 }
 
 #footer {
   position: absolute;
-  width: 600px;
+  width: 100%;
   bottom: 0; 
-  background: transparent;
+  left: 0px;
+}
+
+#footer_strut{
+  position: relative;
+  width: 20px;
+  height: 60px;
+  left: 300px;
 }
 
 .hdr {
