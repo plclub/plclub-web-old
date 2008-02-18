@@ -11,31 +11,36 @@
   </talk>
   <talk>
     <speaker>Michael</speaker>
-    <topic></topic>
+    <topic><a href="http://www.ccs.neu.edu/scheme/pubs/popl08-thf.pdf">On the
+Design and Implementation of Typed Scheme</a></topic>
     <other>&nbsp;</other>
     <date>20080125</date>
   </talk>
   <talk>
-    <speaker>Damian</speaker>
-    <topic></topic>
+    <speaker>Damien</speaker>
+    <topic><a
+href="http://www.cs.unibo.it/~sangio/DOC_public/env.pdf">Environmental
+Bisimulations for Higher-Order Languages</a></topic>
     <other>&nbsp;</other>
     <date>20080201</date>
   </talk>
   <talk>
-    <speaker>Frances Perry</speaker>
-    <topic></topic>
+    <speaker>Frances Perry (Princeton)</speaker>
+    <topic>Reasoning about Software in the Presence of Transient Faults</topic>
     <other>&nbsp;</other>
     <date>20080208</date>
   </talk>
   <talk>
-    <speaker>Aaron</speaker>
-    <topic></topic>
+    <speaker>Aaron,Benjamin,Damien</speaker>
+    <topic>A Security Model for Web Browsers</topic>
     <other>&nbsp;</other>
     <date>20080215</date>
   </talk>
   <talk>
     <speaker>Peng</speaker>
-    <topic></topic>
+    <topic><a
+href="http://research.microsoft.com/users/misard/papers/popl2008.pdf">Semantics
+of Transactional Memory and Automatic Mutual Exclusion</a></topic>
     <other>&nbsp;</other>
     <date>20080222</date>
   </talk>
