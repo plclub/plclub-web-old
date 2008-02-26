@@ -95,15 +95,15 @@ live:
 # Build the Manifest Security Pages
 ###############################################################################
 .SUBDIRS: $(SRC)/ms 
-  DIR = $(in $(ROOT)/$(SRC), $(CWD)) #???
+  DIR = $(in $(ROOT)/$(SRC), $(CWD))
 
   build:
     mkdir -p $(ROOT)/$(LIVE)/$(DIR)
-    section
-      bash $(CWD)/util/format $(CWD)/src/index.html > $(ROOT)/$(LIVE)/$(DIR)/index.html
-      bash $(CWD)/util/format $(CWD)/src/papers.html > $(ROOT)/$(LIVE)/$(DIR)/papers.html
-      bash $(CWD)/util/format $(CWD)/src/people.html > $(ROOT)/$(LIVE)/$(DIR)/people.html
-    cp $(CWD)/src/*jpg $(CWD)/src/*gif $(CWD)/src/*.css $(ROOT)/$(LIVE)/$(DIR)/
+    section 
+      $(CWD)/util/format $(CWD)/src/index.html $(ROOT)/$(LIVE)/$(DIR)/index.html
+      $(CWD)/util/format $(CWD)/src/papers.html $(ROOT)/$(LIVE)/$(DIR)/papers.html
+      $(CWD)/util/format $(CWD)/src/people.html $(ROOT)/$(LIVE)/$(DIR)/people.html
+      $(SMRTCP) $(glob src/*.jpg src/*.gif src/*.css) $(ROOT)/$(LIVE)/$(DIR)/
 
   clean:
 
