@@ -31,7 +31,7 @@ Bisimulations for Higher-Order Languages</a></topic>
     <date>20080208</date>
   </talk>
   <talk>
-    <speaker>Aaron,Benjamin,Damien</speaker>
+    <speaker>Aaron, Benjamin, Damien</speaker>
     <topic>A Security Model for Web Browsers</topic>
     <other>&nbsp;</other>
     <date>20080215</date>
@@ -83,19 +83,21 @@ higher-order abstract syntax</a></topic>
   </talk>
   <talk>
     <speaker>Jeff</speaker>
-    <topic></topic>
+    <topic><a href="http://www.google.com/search?q=wadler+dual">Call-by-value is dual to call-by-name</a></topic>
     <other>&nbsp;</other>
     <date>20080411</date>
   </talk>
   <talk>
     <speaker>Limin</speaker>
-    <topic></topic>
+    <topic><a href="http://www.eecs.harvard.edu/%7Ealeks/papers/hoarelogic/icfp06.pdf">Hoare Type Theory, Polymorphism and Separation</a></topic>
     <other>&nbsp;</other>
     <date>20080418</date>
   </talk>
   <talk>
-    <speaker>Stephanie / Steve</speaker>
-    <topic></topic>
+    <speaker>Steve</speaker>
+    <topic><a
+href="http://research.microsoft.com/~simonpj/papers/assoc-types/icfp2008.pdf">Type
+Checking with Open Type Functions</a></topic>
     <other>&nbsp;</other>
     <date>20080425</date>
   </talk>
