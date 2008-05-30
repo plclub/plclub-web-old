@@ -103,13 +103,16 @@ Checking with Open Type Functions</a></topic>
   </talk>
   <talk>
     <speaker>Karl</speaker>
-    <topic></topic>
+    <topic><a
+href="http://homepages.inf.ed.ac.uk/wadler/papers/dual-revolutions/dual-revolutions.pdf">Down
+with the bureaucracy of syntax! Pattern matching for classical linear logic</a></topic>
     <other>&nbsp;</other>
     <date>20080502</date>
   </talk>
   <talk>
     <speaker>Dimitris</speaker>
-    <topic></topic>
+    <topic><a
+href="http://research.microsoft.com/users/daan/download/papers/mlftof.pdf">A type directed translation of MLF to System F</a></topic>
     <other>&nbsp;</other>
     <date>20080509</date>
   </talk>

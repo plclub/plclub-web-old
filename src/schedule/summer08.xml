@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20080516</start-date>
+  <end-date>20080829</end-date>
+  <talk>
+    <speaker>Benjamin</speaker>
+    <topic><a href="http://www.cis.upenn.edu/~bcpierce/papers/harmful-mfps.pdf">Types Considered Harmful</a></topic>
+    <other>&nbsp;</other>
+    <date>20080516</date>
+  </talk>
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>&nbsp;</topic>
+    <other>MFPS @ Penn</other>
+    <date>20080523</date>
+  </talk>
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>&nbsp;</topic>
+    <other>Social</other>
+    <date>20080530</date>
+  </talk>
+  <talk>
+    <speaker>Brian</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20080606</date>
+  </talk>
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20080613</date>
+  </talk>
+  <talk>
+    <speaker>Nate</speaker>
+    <topic>John C. Reynolds. <a
+href="http://www.brics.dk/~hosc/local/HOSC-11-4-pp355-361.pdf">Definitional
+Interpreters for Higher-Order Programming Languages</a>. Higher-Order and Symbolic Computation. 11(4):363-397, 1988.</topic>
+    <other>&nbsp;</other>
+    <date>20080620</date>
+  </talk>
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20080627</date>
+  </talk>
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>&nbsp;</topic>
+    <other>No meeting (celebrate casting off of monarchy).</other>
+    <date>20080704</date>
+  </talk>
+  <talk>
+    <speaker>Jeff</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20080711</date>
+  </talk>
+  <talk>
+    <speaker>Peng</speaker>
+    <topic>&nbsp;</topic>
+    <other>Peng's defense</other>
+    <date>20080718</date>
+  </talk>
+  <talk>
+    <speaker>Limin</speaker>
+    <topic>&nbsp;</topic>
+    <other>UOregon Summer School</other>
+    <date>20080725</date>
+  </talk>
+  <talk>
+    <speaker>Aaron</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20080801</date>
+  </talk>
+  <talk>
+    <speaker>Stephanie</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20080808</date>
+  </talk>
+  <talk>
+    <speaker>Mike</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20080815</date>
+  </talk>
+  <talk>
+    <speaker>Chris</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20080822</date>
+  </talk>
+  <talk>
+    <speaker>Jianzhou</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20080829</date>
+  </talk>
+</schedule>
