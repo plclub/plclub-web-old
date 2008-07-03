@@ -104,7 +104,7 @@ live:
       $(CWD)/util/format $(CWD)/src/index.html $(ROOT)/$(LIVE)/$(DIR)/index.html
       $(CWD)/util/format $(CWD)/src/papers.html $(ROOT)/$(LIVE)/$(DIR)/papers.html
       $(CWD)/util/format $(CWD)/src/people.html $(ROOT)/$(LIVE)/$(DIR)/people.html
-      $(CWD)/util/format $(CWD)/src/meetings.html $(ROOT)/$(LIVE)/$(DIR)/meetings.html 
+      $(CWD)/util/format $(CWD)/src/meetings.html $(ROOT)/$(LIVE)/$(DIR)/meetings.html
       $(SMRTCP) $(glob src/*.jpg src/*.gif src/*.css) $(ROOT)/$(LIVE)/$(DIR)/
 
   clean:
