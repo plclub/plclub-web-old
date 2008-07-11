@@ -23,30 +23,38 @@
   </talk>
   <talk>
     <speaker>Brian</speaker>
-    <topic>&nbsp;</topic>
+    <topic>Gordon Plotkin. <a
+href="http://homepages.inf.ed.ac.uk/gdp/publications/cbn_cbv_lambda.pdf">Call-by-Name, Call-by-Value, and the Lambda Calculus</a>. TCS 1(2):125-159, 1975.</topic>
     <other>&nbsp;</other>
     <date>20080606</date>
   </talk>
   <talk>
     <speaker>&nbsp;</speaker>
     <topic>&nbsp;</topic>
-    <other>&nbsp;</other>
+    <other>Social</other>
     <date>20080613</date>
   </talk>
   <talk>
-    <speaker>Nate</speaker>
-    <topic>John C. Reynolds. <a
-href="http://www.brics.dk/~hosc/local/HOSC-11-4-pp355-361.pdf">Definitional
-Interpreters for Higher-Order Programming Languages</a>. Higher-Order and Symbolic Computation. 11(4):363-397, 1988.</topic>
+    <speaker>Alan Schmitt (INRIA)</speaker>
+    <topic><a href="http://sardes.inrialpes.fr/~aschmitt/papers/Lanese2008On-the-Expressivenes.pdf">On the Expressiveness and Decidability of Higher-Order Process Calculi</a></topic>
     <other>&nbsp;</other>
     <date>20080620</date>
   </talk>
+
   <talk>
     <speaker>&nbsp;</speaker>
     <topic>&nbsp;</topic>
-    <other>&nbsp;</other>
+    <other>No meeting (almost everyone in Pittsburgh).</other>
     <date>20080627</date>
   </talk>
+
+<!--
+    <speaker>Nate</speaker>
+    <topic>John C. Reynolds. <a
+href="http://www.brics.dk/~hosc/local/HOSC-11-4-pp363-397.pdf">Definitional Interpreters for Higher-Order Programming Languages</a>. Higher-Order and Symbolic Computation. 11(4):363-397, 1988.</topic>
+    <other>&nbsp;</other>
+-->
+
   <talk>
     <speaker>&nbsp;</speaker>
     <topic>&nbsp;</topic>
@@ -55,13 +63,15 @@ Interpreters for Higher-Order Programming Languages</a>. Higher-Order and Symbol
   </talk>
   <talk>
     <speaker>Jeff</speaker>
-    <topic>&nbsp;</topic>
+    <topic>P. J. Landin <a
+href="http://doi.acm.org/10.1145/365230.365257">The Next 700 Programming Languages</a>. Communications of the
+ACM. 9(3):157-166, 1966.</topic>
     <other>&nbsp;</other>
     <date>20080711</date>
   </talk>
   <talk>
-    <speaker>Peng</speaker>
-    <topic>&nbsp;</topic>
+    <speaker>Andrew Tolmach</speaker>
+    <topic>Proof Technology for High-Assurance Run-Time Systems</topic>
     <other>Peng's defense</other>
     <date>20080718</date>
   </talk>
