@@ -29,7 +29,8 @@ DIRS = $(subdirs CP, $(SRC)) $(SRC)
 
 # SPECIALDIRS are subdirectories of SRC that should be treated specially,
 # rather than just copied.
-SPECIALDIRS = $(SRC)/papers $(SRC)/schedule $(SRC)/ms $(SRC)/ms/html $(SRC)/ms/util $(SRC)/ms/src
+SPECIALDIRS = $(SRC)/papers $(SRC)/schedule $(subdirs $(SRC)/ms)
+              #$(SRC)/ms $(SRC)/ms/html $(SRC)/ms/util $(SRC)/ms/src
 
 $(LIVE):
 	if $(file-exists $@)
@@ -94,17 +95,20 @@ live:
 ###############################################################################
 # Build the Manifest Security Pages
 ###############################################################################
-.SUBDIRS: $(SRC)/ms 
-  DIR = $(in $(ROOT)/$(SRC), $(CWD))
+.SUBDIRS: $(SRC)/ms
+  DIR = ms
+  #$(in $(ROOT)/$(SRC), $(CWD))
 
   build:
     mkdir -p $(ROOT)/$(LIVE)/$(DIR)
+    mkdir -p $(ROOT)/$(LIVE)/$(DIR)/docs
     section 
       $(CWD)/util/format $(CWD)/src/activities.html $(ROOT)/$(LIVE)/$(DIR)/activities.html 
       $(CWD)/util/format $(CWD)/src/index.html $(ROOT)/$(LIVE)/$(DIR)/index.html
       $(CWD)/util/format $(CWD)/src/papers.html $(ROOT)/$(LIVE)/$(DIR)/papers.html
       $(CWD)/util/format $(CWD)/src/people.html $(ROOT)/$(LIVE)/$(DIR)/people.html
       $(CWD)/util/format $(CWD)/src/meetings.html $(ROOT)/$(LIVE)/$(DIR)/meetings.html
+      $(SMRTCP) $(glob src/docs/*.ppt) $(ROOT)/$(LIVE)/$(DIR)/docs/
       $(SMRTCP) $(glob src/*.jpg src/*.gif src/*.css) $(ROOT)/$(LIVE)/$(DIR)/
 
   clean:
