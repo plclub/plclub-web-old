@@ -35,8 +35,13 @@
 				<li><a href="http://xduce.sourceforge.net/">XDuce</a></li>
 				<li><a href="http://www.cis.upenn.edu/~bcpierce/xtatic/">Xtatic</a></li>
 			</ul></li>
+			<li>Language based security</li>
+			<ul>
 			<li><a href="http://www.cis.upenn.edu/~stevez/sol/">
-			Security-oriented languages</a></li>
+				Security-oriented languages</a></li>
+			<li><a href="http://www.cis.upenn.edu/~plclub/ms/">
+				Manifest Security</a></li>
+			</ul>
 			<li>Type-directed programming
                           <ul>
 			  <li><a href="http://www.cis.upenn.edu/~dimitriv/itaname/">Extensible
@@ -67,6 +72,8 @@ Metatheory for the Masses!)</a></li>
 		<li><a href="http://www.cis.upenn.edu/~jnfoster/">Nate Foster</a></li>
 		<li><a href="http://www.cis.upenn.edu/~mgree/">Michael Greenberg</a></li>
 		<li><a href="http://www.cis.upenn.edu/~lipeng/">Peng Li</a></li>
+		<li><a href="http://perso.ens-lyon.fr/guillaume.munch/">
+			Guillaume Munch</a></li>
 		<li>Karl Mazurak</li>
     <li><a href="http://www.seas.upenn.edu/~vaughan2/">Jeff Vaughan</a></li>
 		<li><a href="http://www.seas.upenn.edu/~dimitriv/">Dimitrios Vytiniotis</a></li>
@@ -104,6 +111,7 @@ Metatheory for the Masses!)</a></li>
 		<h3 class="header">Seminars and Courses</h3>
                 <ul>
 			<li><a href="schedule/summer08.shtml">PLClub discussion group</a></li>
+			<li>Student Reading Group / S08 - <a href="http://perso.ens-lyon.fr/guillaume.munch/blindspot/">Proof Theory</a></li>
 			<li>CIS 500 / F07 - <a href="http://www.seas.upenn.edu/~cis500/">Software foundations</a>
 			<li>CIS 500 / F06 - <a href="http://www.seas.upenn.edu/~cis500/cis500-f06/">Software foundations</a>
                         <li>CIS 700 / F06 - <a href="http://www.seas.upenn.edu/~sweirich/cis700/f06/">Mechanizing Programming Language Metatheory</a></li>
