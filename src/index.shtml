@@ -23,13 +23,12 @@
     <td style="width: 100%;">
 	<h3 class="header">Research Projects</h3>
 		<ul>
-			<li>Synchronization<ul>
+			<li>Bidirectional Languages and Synchronization<ul>
 				<li>
 				<a href="http://www.cis.upenn.edu/~bcpierce/unison/index.html">
 				Unison</a></li>
-				<li>
-				<a href="http://www.seas.upenn.edu/~harmony">
-				Harmony</a></li>
+				<li><a href="http://www.seas.upenn.edu/~harmony">Boomerang</a></li>
+				<li><a href="http://www.seas.upenn.edu/~harmony/old">Harmony</a></li>
 			</ul></li>
 			<li>Language support for XML<ul>
 				<li><a href="http://xduce.sourceforge.net/">XDuce</a></li>
