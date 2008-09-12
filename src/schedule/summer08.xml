@@ -84,32 +84,37 @@ Sciences. 17(3):348-375, 1978.</topic>
     <date>20080725</date>
   </talk>
   <talk>
-    <speaker>Aaron</speaker>
+    <speaker></speaker>
     <topic>&nbsp;</topic>
-    <other>&nbsp;</other>
+    <other>Social</other>
     <date>20080801</date>
   </talk>
   <talk>
-    <speaker>Stephanie</speaker>
-    <topic>&nbsp;</topic>
+    <speaker>Sneha</speaker>
+    <topic>Verifying Program Properties in Coq.</topic>
     <other>&nbsp;</other>
     <date>20080808</date>
   </talk>
   <talk>
-    <speaker>Mike</speaker>
-    <topic>&nbsp;</topic>
+    <speaker>Aaron</speaker>
+    <topic>M. H. Van Emden and R. A. Kowalski. <a href="http://doi.acm.org/10.1145/321978.321991">The Semantics of Predicate Logic as a Programming Language</a>. Journal of the ACM. 23(4):733-742, October 1976.</topic>
     <other>&nbsp;</other>
     <date>20080815</date>
   </talk>
   <talk>
     <speaker>Chris</speaker>
-    <topic>&nbsp;</topic>
+    <topic>Per Martin-Lof. <a href="http://www.hf.uio.no/ifikk/filosofi/njpl/vol1no1/meaning/meaning.html">On
+the Means of the Logical Constants and the Justifications of the Logical
+Laws</a>. Nordic Journal of Philosophical Logic. 1(1), 1996.</topic>
     <other>&nbsp;</other>
     <date>20080822</date>
   </talk>
   <talk>
     <speaker>Jianzhou</speaker>
-    <topic>&nbsp;</topic>
+    <topic>Greg Morrisett, David Walker, Karl Crary, and Neal Glew. <a
+href="http://doi.acm.org/10.1145/268946.268954">From System F to Typed Assembly
+Language</a>. In ACM SIGPLAN-SIGACT Symposium on Principles of Programming
+Languages (POPL), San Diego, CA, pages 85-97, January 1998.</topic>
     <other>&nbsp;</other>
     <date>20080829</date>
   </talk>
