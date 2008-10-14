@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20080905</start-date>
+  <end-date>20081219</end-date>
+  <talk>
+    <speaker>Michael</speaker>
+    <topic>John Launchbury. <a href="http://doi.acm.org/10.1145/158511.158618">A Natural
+Semantics for Lazy Evaluation</a>. ACM SIGPLAN-SIGACT Symposium on Principles
+of Programming Languages (POPL), Charleston, SC, pages 144-154, January 1993.</topic>
+    <other>Nate bakes</other>
+    <date>20080905</date>
+  </talk>
+
+  <talk>
+    <speaker>Nate</speaker>
+    <topic>John C. Reynolds. <a
+href="http://www.brics.dk/~hosc/local/HOSC-11-4-pp363-397.pdf">Definitional Interpreters for Higher-Order Programming Languages</a>. Higher-Order and Symbolic Computation. 11(4):363-397, 1988.</topic>
+    <other>Michael bakes</other>
+    <date>20080912</date>
+  </talk>
+
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>Social</topic>
+    <other>&nbsp;</other>
+    <date>20080919</date>
+  </talk>
+
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>Social</topic>
+    <other>ICFP</other>
+    <date>20080926</date>
+  </talk>
+
+  <talk>
+    <speaker>Alessandro</speaker>
+    <topic><a
+href="http://disi.unitn.it/~romanel/techreports/TR-09-2008.pdf">BlenX: A
+Programming Language for Systems Biology</a></topic>
+    <other>Brent bakes</other>
+    <date>20081003</date>
+  </talk>
+
+  <talk>
+    <speaker>Brian</speaker>
+    <topic><a href="http://doi.acm.org/10.1145/1411203.1411237">Ynot: Dependent
+Types for Imperative Programs</a></topic>
+    <other>Jeff bakes</other>
+    <date>20081010</date>
+  </talk>
+
+  <talk>
+    <speaker>Chris</speaker>
+    <topic><a
+href="http://www.mpi-sws.org/~dreyer/papers/mixml/main-short.pdf">Mixin' Up the
+ML Module System</a></topic>
+    <other>Chris bakes</other>
+    <date>20081017</date>
+  </talk>
+
+  <talk>
+    <speaker>Brent</speaker>
+    <topic>&nbsp;</topic>
+    <other>Michael bakes</other>
+    <date>20081024</date>
+  </talk>
+
+  <talk>
+    <speaker>Karl</speaker>
+    <topic>&nbsp;</topic>
+    <other>Daniel bakes</other>
+    <date>20081031</date>
+  </talk>
+
+  <talk>
+    <speaker>Daniel</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20081107</date>
+  </talk>
+
+  <talk>
+    <speaker>Aileen</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20081114</date>
+  </talk>
+
+  <talk>
+    <speaker>Peter-Michael</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20081121</date>
+  </talk>
+
+  <talk>
+    <speaker>&nbsp;</speaker>
+    <topic>No Meeting</topic>
+    <other>Thanksgiving</other>
+    <date>20081128</date>
+  </talk>
+
+  <talk>
+    <speaker>Jianzhou</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20081205</date>
+  </talk>
+
+  <talk>
+    <speaker>Vilhelm</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20081212</date>
+  </talk>
+
+  <talk>
+    <speaker>Limin</speaker>
+    <topic>&nbsp;</topic>
+    <other>&nbsp;</other>
+    <date>20081219</date>
+  </talk>
+
+</schedule>
