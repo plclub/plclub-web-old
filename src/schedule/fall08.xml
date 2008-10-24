@@ -56,13 +56,15 @@ Types for Imperative Programs</a></topic>
     <topic><a
 href="http://www.mpi-sws.org/~dreyer/papers/mixml/main-short.pdf">Mixin' Up the
 ML Module System</a></topic>
-    <other>Chris bakes</other>
+    <other>Nate bakes</other>
     <date>20081017</date>
   </talk>
 
   <talk>
     <speaker>Brent</speaker>
-    <topic>&nbsp;</topic>
+    <topic><a
+href="http://portal.acm.org/citation.cfm?id=1411203.1411232">Streams and Unique
+Fixed Points</a></topic>
     <other>Michael bakes</other>
     <date>20081024</date>
   </talk>
@@ -89,7 +91,7 @@ ML Module System</a></topic>
   </talk>
 
   <talk>
-    <speaker>Peter-Michael</speaker>
+    <speaker>Alessandro and Benjamin</speaker>
     <topic>&nbsp;</topic>
     <other>&nbsp;</other>
     <date>20081121</date>
@@ -103,7 +105,7 @@ ML Module System</a></topic>
   </talk>
 
   <talk>
-    <speaker>Jianzhou</speaker>
+    <speaker><a href="http://www.cs.chalmers.se/~russo/">Alejandro Russo</a></speaker>
     <topic>&nbsp;</topic>
     <other>&nbsp;</other>
     <date>20081205</date>
