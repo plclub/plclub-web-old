@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20090116</start-date>
+  <end-date>20090508</end-date>
+  <talk>
+    <speaker>Nate</speaker>
+    <topic><a
+href="http://wwwtcs.inf.tu-dresden.de/~voigt/popl09-2.pdf">
+Bidirectionalization for Free! </a></topic>
+    <other>&nbsp;</other>
+    <date>20090116</date>
+  </talk>
+  <talk>
+    <speaker>Peter Michael</speaker>
+    <topic></topic>
+    <other>Michael bakes</other>
+    <date>20090123</date>
+  </talk>
+  <talk>
+    <speaker>Jeff</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090130</date>
+  </talk>
+  <talk>
+    <speaker>Chris</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090206</date>
+  </talk>
+  <talk>
+    <speaker>Aaron</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090213</date>
+  </talk>
+  <talk>
+    <speaker>Vilhelm</speaker>
+    <topic></topic>
+    <other>Brent bakes</other>
+    <date>20090220</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Amigo Review for ICFP</topic>
+    <other>Michael bakes</other>
+    <date>20090227</date>
+  </talk>
+  <talk>
+    <speaker>Jianzhou Zhao</speaker>
+    <topic></topic>
+    <other>Daniel bakes</other>
+    <date>20090306</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Social (spring break)</topic>
+    <other></other>
+    <date>20090313</date>
+  </talk>
+  <talk>
+    <speaker>Michael</speaker>
+    <topic></topic>
+    <other>Jeff bakes</other>
+    <date>20090320</date>
+  </talk>
+  <talk>
+    <speaker>Daniel</speaker>
+    <topic></topic>
+    <other>Chris bakes</other>
+    <date>20090327</date>
+  </talk>
+  <talk>
+    <speaker>Stephanie</speaker>
+    <topic></topic>
+    <other>Jianzhou bakes</other>
+    <date>20090403</date>
+  </talk>
+  <talk>
+    <speaker>Brent</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090410</date>
+  </talk>
+  <talk>
+    <speaker>Steve</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090417</date>
+  </talk>
+  <talk>
+    <speaker>Brian</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090424</date>
+  </talk>
+  <talk>
+    <speaker>TBD</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090501</date>
+  </talk>
+  <talk>
+    <speaker>TBD</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090508</date>
+  </talk>
+</schedule>
