@@ -13,31 +13,35 @@ Bidirectionalization for Free! </a></topic>
   </talk>
   <talk>
     <speaker>Peter Michael</speaker>
-    <topic></topic>
+    <topic><a href="http://www.ece.northwestern.edu/~robby/pubs/papers/popl2007-mf-bw.pdf">Operational
+Semantics for Multi-Language Programs</a></topic>
     <other>Michael bakes</other>
     <date>20090123</date>
   </talk>
   <talk>
     <speaker>Jeff</speaker>
-    <topic></topic>
+    <topic><a
+href="http://www.seas.upenn.edu/~vaughan2/docs/logical_exns_draft.pdf">A logical interpretation of Java-style exceptions</a></topic>
     <other></other>
     <date>20090130</date>
   </talk>
   <talk>
     <speaker>Chris</speaker>
-    <topic></topic>
+    <topic><a href="http://gallium.inria.fr/~montagu/publications/2009/Montagu-Remy@popl09:fzip.pdf">Modeling Abstract Types in Modules with Open
+Existential Types</a></topic>
     <other></other>
     <date>20090206</date>
   </talk>
   <talk>
     <speaker>Aaron</speaker>
-    <topic></topic>
+    <topic><a href="http://www.springerlink.com/content/nudp8rmw194glhqc/">Towards a Type System for Analyzing JavaScript Programs</a></topic>
     <other></other>
     <date>20090213</date>
   </talk>
   <talk>
     <speaker>Vilhelm</speaker>
-    <topic></topic>
+    <topic><a href="http://www.brics.dk/~danvy/tdpe-ln.pdf">Type-directed
+Partial Evaluation</a></topic>
     <other>Brent bakes</other>
     <date>20090220</date>
   </talk>
@@ -68,7 +72,7 @@ Bidirectionalization for Free! </a></topic>
   <talk>
     <speaker>Daniel</speaker>
     <topic></topic>
-    <other>Chris bakes</other>
+    <other></other>
     <date>20090327</date>
   </talk>
   <talk>
@@ -80,7 +84,7 @@ Bidirectionalization for Free! </a></topic>
   <talk>
     <speaker>Brent</speaker>
     <topic></topic>
-    <other></other>
+    <other>Chris bakes</other>
     <date>20090410</date>
   </talk>
   <talk>
