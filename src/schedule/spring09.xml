@@ -53,7 +53,9 @@ Partial Evaluation</a></topic>
   </talk>
   <talk>
     <speaker>Jianzhou Zhao</speaker>
-    <topic></topic>
+    <topic><a
+href="http://ttic.uchicago.edu/~amal/papers/sdri.pdf">State-Dependent
+Representation Independence</a></topic>
     <other>Daniel bakes</other>
     <date>20090306</date>
   </talk>
@@ -64,7 +66,7 @@ Partial Evaluation</a></topic>
     <date>20090313</date>
   </talk>
   <talk>
-    <speaker>Michael</speaker>
+    <speaker>Guest speaker: Jeffrey Siskind</speaker>
     <topic></topic>
     <other>Jeff bakes</other>
     <date>20090320</date>
@@ -100,7 +102,7 @@ Partial Evaluation</a></topic>
     <date>20090424</date>
   </talk>
   <talk>
-    <speaker>TBD</speaker>
+    <speaker>Michael</speaker>
     <topic></topic>
     <other></other>
     <date>20090501</date>
