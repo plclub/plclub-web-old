@@ -67,13 +67,13 @@ Representation Independence</a></topic>
   </talk>
   <talk>
     <speaker>Guest speaker: <a href="http://cobweb.ecn.purdue.edu/~qobi/">Jeffrey Siskind</a></speaker>
-    <topic>Automatic Differentiation of Functional Programs and its use for Probabilistic Programming</topic>
+    <topic><a href="http://www.ece.purdue.edu/~qobi/stalingrad-examples2009/">Automatic Differentiation of Functional Programs and its use for Probabilistic Programming</a></topic>
     <other>Jeff bakes</other>
     <date>20090320</date>
   </talk>
   <talk>
     <speaker>Guest speaker: <a href="http://srl.cs.jhu.edu/~shap/">Jonathan S. Shapiro</a></speaker>
-    <topic><a href="http://www.bitc-lang.org/">BitC</a></topic>
+    <topic><a href="http://www.bitc-lang.org/">BitC</a> (<a href="2009_spring_shap.pdf">slides</a>)</topic>
     <other></other>
     <date>20090327</date>
   </talk>
@@ -99,19 +99,23 @@ Computational Interpretations of Linear Logic</a> (section 6)</topic>
   </talk>
   <talk>
     <speaker>Brian</speaker>
-    <topic></topic>
+    <topic>Abella</topic>
     <other></other>
     <date>20090424</date>
   </talk>
   <talk>
     <speaker>Michael</speaker>
-    <topic></topic>
+    <topic><a
+href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.123.3771">Unifying
+hybrid types and contracts</a></topic>
     <other></other>
     <date>20090501</date>
   </talk>
   <talk>
     <speaker>Daniel</speaker>
-    <topic></topic>
+    <topic><a
+href="http://research.microsoft.com/en-us/um/people/simonpj/papers/stm/stm.pdf">STM
+in Haskell</a></topic>
     <other></other>
     <date>20090508</date>
   </talk>

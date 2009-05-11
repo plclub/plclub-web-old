@@ -138,6 +138,7 @@ live:
 
       # Copy everything else
       $(SMRTCP) $(glob *.shtml) $(ROOT)/$(LIVE)/$(DIR)/
+      $(SMRTCP) $(glob *.pdf) $(ROOT)/$(LIVE)/$(DIR)/
 
   clean:
     $(RM) $(CWD)/fall05.shtml
