@@ -15,8 +15,16 @@
 	<img src="images/tower-retouched-cropped-small.jpg" alt="" style="border:0;height:302px;width:194px;"/>
     </td>
     <td style="background: #CFED74; width: 100%;">
-	<h1 style="vertical-align: bottom;">Programming Languages <br />
-	Research at Penn</h1>
+      <table style="border:0; width: 100%">
+	<tr>
+	  <td><h1 style="vertical-align: bottom;">
+	  Programming Languages <br />
+	  Research at Penn</h1>
+	  </td>
+	  <td><img align="right" src="images/plclub-logo_small.png" alt="PL Club logo" /></td>
+
+	</tr>
+      </table>
     </td>
   </tr>
   <tr>
