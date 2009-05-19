@@ -1,5 +1,5 @@
 <?php if (!defined('PmWiki')) exit();
-$WikiTitle = "PLClub Paper Pool";
+$WikiTitle = "PLClub Wiki";
 $PageLogoUrl = "http://www.cis.upenn.edu/~plclub/images/plclub-logo_small.png";
 
 $DefaultPasswords['admin'] = crypt('9x1h3__g');

@@ -2,7 +2,7 @@
 <!DOCTYPE schedule SYSTEM "schedule.dtd">
 <schedule>
   <start-date>20090116</start-date>
-  <end-date>20090508</end-date>
+  <end-date>20090515</end-date>
   <talk>
     <speaker>Nate</speaker>
     <topic><a
@@ -118,5 +118,11 @@ href="http://research.microsoft.com/en-us/um/people/simonpj/papers/stm/stm.pdf">
 in Haskell</a></topic>
     <other></other>
     <date>20090508</date>
+  </talk>
+  <talk>
+    <speaker>Benjamin</speaker>
+    <topic>Security Views for Lenses</topic>
+    <other></other>
+    <date>20090515</date>
   </talk>
 </schedule>
