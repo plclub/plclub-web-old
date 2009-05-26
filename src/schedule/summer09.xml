@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20090522</start-date>
+  <end-date>20090904</end-date>
+  <talk>
+    <speaker>Guest speaker: Andy Gordon</speaker>
+    <topic><a
+href="http://research.microsoft.com/en-us/people/adg/part.aspx">Principles and
+Applications of Refinement Types</a></topic>
+    <other></other>
+    <date>20090522</date>
+  </talk>
+  <talk>
+    <speaker>Chris</speaker>
+    <topic>Arity-generic programming</topic>
+    <other>Michael bakes</other>
+    <date>20090529</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other>Brent bakes</other>
+    <date>20090605</date>
+  </talk>
+  <talk>
+    <speaker>Peter Michael</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090612</date>
+  </talk>
+  <talk>
+    <speaker>Brent</speaker>
+    <topic></topic>
+    <other>Jeff bakes</other>
+    <date>20090619</date>
+  </talk>
+  <talk>
+    <speaker>Stephanie</speaker>
+    <topic></topic>
+    <other>Limin bakes</other>
+    <date>20090626</date>
+  </talk>
+  <talk>
+    <speaker>Jeff</speaker>
+    <topic></topic>
+    <other>Chris bakes</other>
+    <date>20090703</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Amigo review for POPL</topic>
+    <other></other>
+    <date>20090710</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090717</date>
+  </talk>
+  <talk>
+    <speaker>Aaron</speaker>
+    <topic></topic>
+    <other>Brent bakes</other>
+    <date>20090724</date>
+  </talk>
+  <talk>
+    <speaker>Vilhelm</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090731</date>
+  </talk>
+  <talk>
+    <speaker>Brian</speaker>
+    <topic></topic>
+    <other>Michael bakes</other>
+    <date>20090807</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090814</date>
+  </talk>
+  <talk>
+    <speaker>Michael</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090821</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090828</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20090904</date>
+  </talk>
+</schedule>
