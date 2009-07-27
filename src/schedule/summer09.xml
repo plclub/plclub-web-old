@@ -19,25 +19,26 @@ Applications of Refinement Types</a></topic>
   </talk>
   <talk>
     <speaker>Limin</speaker>
-    <topic></topic>
+    <topic><a href="http://pdos.csail.mit.edu/~max/docs/kt09.pdf">Non-Interference for a Practical DIFC-Based Operating
+System</a></topic>
     <other>Brent bakes</other>
     <date>20090605</date>
   </talk>
   <talk>
     <speaker>Peter Michael</speaker>
-    <topic></topic>
+    <topic><a href="http://www.research.att.com/~bs/popl06.pdf">Specifying C++ Concepts</a></topic>
     <other></other>
     <date>20090612</date>
   </talk>
   <talk>
     <speaker>Brent</speaker>
-    <topic></topic>
+    <topic>Dependent pattern matching</topic>
     <other>Jeff bakes</other>
     <date>20090619</date>
   </talk>
   <talk>
     <speaker>Stephanie</speaker>
-    <topic></topic>
+    <topic>Dependent Types and Program Equivalence</topic>
     <other>Limin bakes</other>
     <date>20090626</date>
   </talk>
@@ -55,14 +56,14 @@ Applications of Refinement Types</a></topic>
   </talk>
   <talk>
     <speaker>Aaron</speaker>
-    <topic></topic>
+    <topic><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.4656">On the Expressive Power of Programming Languages</a></topic>
     <other></other>
     <date>20090717</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic></topic>
-    <other>Brent bakes</other>
+    <speaker>Aaron</speaker>
+    <topic>Continued.</topic>
+    <other>Courtesy of Dave Walker</other>
     <date>20090724</date>
   </talk>
   <talk>
@@ -84,13 +85,13 @@ Applications of Refinement Types</a></topic>
     <date>20090814</date>
   </talk>
   <talk>
-    <speaker>Michael</speaker>
+    <speaker>Benjamin</speaker>
     <topic></topic>
     <other></other>
     <date>20090821</date>
   </talk>
   <talk>
-    <speaker></speaker>
+    <speaker>Michael</speaker>
     <topic></topic>
     <other></other>
     <date>20090828</date>

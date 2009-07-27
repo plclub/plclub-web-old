@@ -15,7 +15,7 @@ B2HFLAGS = -dl \
            --reverse-sort --sort-by-date
 
 MV=mv
-BIBS=bcp.bib geoffw.bib jnf.bib weirich.bib zdancewic.bib
+BIBS=bcp.bib jnf.bib weirich.bib zdancewic.bib #geoffw.bib
 
 .DELETE_ON_ERROR: $(BIBS)
 
@@ -30,9 +30,9 @@ bcp.bib:
 	bib2bib -ob $@-tmp -c 'not($$key = "poplmark") and not($$key = "AITR-474")' $@
 	$(MV) $@-tmp $@
 
-geoffw.bib:
-	-$(RM) geoffw.bib
-	wget http://www.cis.upenn.edu/~geoffw/research/papers/geoffw.bib
+#geoffw.bib:
+#	-$(RM) geoffw.bib
+#	wget http://www.cis.upenn.edu/~geoffw/research/papers/geoffw.bib
 
 jnf.bib:
 	-$(RM) jnf.bib
