@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20090918</start-date>
+  <end-date>20091218</end-date>
+  <talk>
+    <speaker>Daniel</speaker>
+    <topic></topic>
+    <other>Michael bakes</other>
+    <date>20090918</date>
+  </talk>
+  <talk>
+    <speaker>Peter-Michael</speaker>
+    <topic></topic>
+    <other>Brent bakes</other>
+    <date>20090925</date>
+  </talk>
+  <talk>
+    <speaker>Brian</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091002</date>
+  </talk>
+  <talk>
+    <speaker>Michael</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091009</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091016</date>
+  </talk>
+  <talk>
+    <speaker>Vilhelm</speaker>
+    <topic></topic>
+    <other>Brent bakes</other>
+    <date>20091023</date>
+  </talk>
+  <talk>
+    <speaker>Chris</speaker>
+    <topic></topic>
+    <other>Michael bakes; costumes optional</other>
+    <date>20091030</date>
+  </talk>
+  <talk>
+    <speaker>Karl</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091106</date>
+  </talk>
+  <talk>
+    <speaker>Qi Zhang</speaker>
+    <topic></topic>
+    <other>Jianzhou bakes</other>
+    <date>20091113</date>
+  </talk>
+  <talk>
+    <speaker>Brent</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091120</date>
+  </talk>
+  <talk>
+    <speaker>Tom A. Turkey</speaker>
+    <topic>Vegetarianism</topic>
+    <other></other>
+    <date>20091127</date>
+  </talk>
+  <talk>
+    <speaker>Jianzhou</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091204</date>
+  </talk>
+  <talk>
+    <speaker>Aaron</speaker>
+    <topic></topic>
+    <other>Vilhelm bakes</other>
+    <date>20091218</date>
+  </talk>
+</schedule>
