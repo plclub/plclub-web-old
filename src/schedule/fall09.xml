@@ -17,7 +17,7 @@
   </talk>
   <talk>
     <speaker>Peter-Michael</speaker>
-    <topic></topic>
+    <topic><a href="http://research.microsoft.com/pubs/79812/outsidein-icfp09.pdf">Complete and Decidable Type Inference for GADTs</a></topic>
     <other></other>
     <date>20091002</date>
   </talk>
