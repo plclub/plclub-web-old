@@ -17,19 +17,19 @@
   </talk>
   <talk>
     <speaker>Peter-Michael</speaker>
-    <topic><a href="http://research.microsoft.com/pubs/79812/outsidein-icfp09.pdf">Complete and Decidable Type Inference for GADTs</a></topic>
-    <other></other>
+    <topic><a href="http://research.microsoft.com/pubs/79812/outsidein-icfp09.pdf">Complete and Decidable Type Inference for GADTs</a> (preview)</topic>
+    <other>NJPLS</other>
     <date>20091002</date>
   </talk>
   <talk>
     <speaker>Michael</speaker>
-    <topic></topic>
+    <topic><a href="http://www.cs.colorado.edu/~siek/pubs/pubs/2006/siek06:_gradual.pdf">A Theory of Typed Coercions and its Applications</a></topic>
     <other></other>
     <date>20091009</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic></topic>
+    <speaker>Peter-Michael</speaker>
+    <topic><a href="http://research.microsoft.com/pubs/79812/outsidein-icfp09.pdf">Complete and Decidable Type Inference for GADTs</a></topic>
     <other></other>
     <date>20091016</date>
   </talk>
