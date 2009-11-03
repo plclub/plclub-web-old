@@ -35,14 +35,14 @@
   </talk>
   <talk>
     <speaker>Vilhelm</speaker>
-    <topic></topic>
+    <topic><a href="http://www.irisa.fr/celtique/pichardie/papers/flops06.pdf">Defining and Reasoning About Recursive Functions: A Practical Tool for the Coq Proof Assistant</a></topic>
     <other>Brent bakes</other>
     <date>20091023</date>
   </talk>
   <talk>
-    <speaker>Chris</speaker>
-    <topic></topic>
-    <other>Michael bakes; costumes optional</other>
+    <speaker>Joao Belo</speaker>
+    <topic><a href="http://pwp.net.ipl.pt/cc.isel/jbelo/Types_07.pdf">Dependently Sorted Logic</a></topic>
+    <other>Michael bakes; costumes strongly encouraged</other>
     <date>20091030</date>
   </talk>
   <talk>

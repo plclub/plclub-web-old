@@ -135,7 +135,7 @@ doctype-system="DTD/xhtml1-strict.dtd" />
 
   <tr style="height: 3em; vertical-align:bottom;" >
     <td style="background: #B4D7E9; width: 20%">
-        <small>Last modified: <xsl:comment><xsl:text>#flastmod virtual="</xsl:text><xsl:value-of select="$file" /><xsl:text>"</xsl:text></xsl:comment></small>
+        <small>Last modified: <xsl:comment><xsl:text>#flastmod file="</xsl:text><xsl:value-of select="$file" /><xsl:text>"</xsl:text></xsl:comment></small>
     </td>
     <td style="background: #CFED74; width: 80%;">
         <table width="100%"><tr>
