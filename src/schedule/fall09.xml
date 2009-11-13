@@ -47,13 +47,13 @@
   </talk>
   <talk>
     <speaker>Karl</speaker>
-    <topic></topic>
+    <topic><a href="http://portal.acm.org/citation.cfm?id=116987">Inheritance as Implicit Coercion</a></topic>
     <other></other>
     <date>20091106</date>
   </talk>
   <talk>
     <speaker>Qi Zhang</speaker>
-    <topic></topic>
+    <topic><a href="http://www.kb.ecei.tohoku.ac.jp/~koba/papers/POPL02.ps.gz">Resource Usage Analysis</a></topic>
     <other>Jianzhou bakes</other>
     <date>20091113</date>
   </talk>
