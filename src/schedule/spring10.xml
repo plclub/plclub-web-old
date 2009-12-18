@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20100108</start-date>
+  <end-date>20100526</end-date>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other>Michael bakes</other>
+    <date>20100108</date>
+  </talk>
+  <talk>
+    <speaker><a href="http://www.people.fas.harvard.edu/~gmalecha/">Gregory Malecha</a></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100115</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>POPL</topic>
+    <other></other>
+    <date>20100122</date>
+  </talk>
+  <talk>
+    <speaker>Jason</speaker>
+    <topic></topic>
+    <other>Daniel bakes</other>
+    <date>20100129</date>
+  </talk>
+  <talk>
+    <speaker>Peter-Michael</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100205</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100212</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100219</date>
+  </talk>
+  <talk>
+    <speaker>Daniel</speaker>
+    <topic></topic>
+    <other>Brent bakes</other>
+    <date>20100226</date>
+  </talk>
+  <talk>
+    <speaker>Michael</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100305</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Spring break</topic>
+    <other></other>
+    <date>20100312</date>
+  </talk>
+  <talk>
+    <speaker>Brent</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100319</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Amigo review for ICFP</topic>
+    <other></other>
+    <date>20100326</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>ICFP deadline</topic>
+    <other></other>
+    <date>20100402</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other>Michael bakes</other>
+    <date>20100409</date>
+  </talk>
+  <talk>
+    <speaker>Vilhelm</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100416</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100423</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100430</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100507</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100512</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100519</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100526</date>
+  </talk>
+</schedule>
