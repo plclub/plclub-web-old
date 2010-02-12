@@ -4,44 +4,44 @@
   <start-date>20100108</start-date>
   <end-date>20100526</end-date>
   <talk>
-    <speaker></speaker>
+    <speaker>Social</speaker>
     <topic></topic>
     <other>Michael bakes</other>
     <date>20100108</date>
   </talk>
   <talk>
     <speaker><a href="http://www.people.fas.harvard.edu/~gmalecha/">Gregory Malecha</a></speaker>
-    <topic></topic>
+    <topic>Fractional Permissions in Ynot</topic>
     <other></other>
     <date>20100115</date>
   </talk>
   <talk>
-    <speaker></speaker>
+    <speaker>Social</speaker>
     <topic>POPL</topic>
     <other></other>
     <date>20100122</date>
   </talk>
   <talk>
     <speaker>Jason</speaker>
-    <topic></topic>
+    <topic><a href="http://jcreed.org/papers/thesis-final-color.pdf">Taming Exotic Logics</a></topic>
     <other>Daniel bakes</other>
     <date>20100129</date>
   </talk>
   <talk>
     <speaker>Peter-Michael</speaker>
-    <topic></topic>
+    <topic><a href="http://moscova.inria.fr/~zappa/projects/liketypes/paper.pdf">Integrating Typed and Untyped Code in a Scripting Language</a></topic>
     <other></other>
     <date>20100205</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic></topic>
+    <speaker>Chris</speaker>
+    <topic><a href="http://research.microsoft.com/pubs/102483/tldi10-vytiniotis.pdf">Let Should Not Be Generalised</a></topic>
     <other></other>
     <date>20100212</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic></topic>
+    <speaker><a href="http://www.cse.psu.edu/~swarat/">Swarat Chaudhuri</a></speaker>
+    <topic>Cauchy: Towards an analytical calculus of computation</topic>
     <other></other>
     <date>20100219</date>
   </talk>
