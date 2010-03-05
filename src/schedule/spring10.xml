@@ -47,31 +47,31 @@
   </talk>
   <talk>
     <speaker>Daniel</speaker>
-    <topic></topic>
+    <topic><a href="http://www.soi.city.ac.uk/~ross/papers/FingerTree.html">Finger Trees</a></topic>
     <other>Brent bakes</other>
     <date>20100226</date>
   </talk>
   <talk>
     <speaker>Michael</speaker>
-    <topic></topic>
+    <topic><a href="http://ecee.colorado.edu/~siek/popl10.pdf">Threesomes, With and Without Blame</a></topic>
     <other>Jianzhou bakes</other>
     <date>20100305</date>
   </talk>
   <talk>
     <speaker></speaker>
     <topic>Spring break</topic>
-    <other></other>
+    <other>Michael bakes</other>
     <date>20100312</date>
   </talk>
   <talk>
-    <speaker>Brent</speaker>
-    <topic></topic>
+    <speaker></speaker>
+    <topic>ICFP Amigo Review</topic>
     <other></other>
     <date>20100319</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic>Amigo review for ICFP</topic>
+    <speaker>Brent</speaker>
+    <topic></topic>
     <other></other>
     <date>20100326</date>
   </talk>
