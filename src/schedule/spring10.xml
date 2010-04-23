@@ -58,7 +58,7 @@
     <date>20100305</date>
   </talk>
   <talk>
-    <speaker></speaker>
+    <speaker>Social</speaker>
     <topic>Spring break</topic>
     <other>Michael bakes</other>
     <date>20100312</date>
@@ -71,25 +71,25 @@
   </talk>
   <talk>
     <speaker>Brent</speaker>
-    <topic></topic>
+    <topic>Combinatorial Species</topic>
     <other></other>
     <date>20100326</date>
   </talk>
   <talk>
-    <speaker></speaker>
+    <speaker>Social</speaker>
     <topic>ICFP deadline</topic>
     <other></other>
     <date>20100402</date>
   </talk>
   <talk>
-    <speaker></speaker>
+    <speaker>Social</speaker>
     <topic></topic>
     <other>Michael bakes</other>
     <date>20100409</date>
   </talk>
   <talk>
     <speaker>Vilhelm</speaker>
-    <topic></topic>
+    <topic><a href="www.plpv.org/plpv07/obseqnow.pdf">Observational Equality, Now!</a></topic>
     <other></other>
     <date>20100416</date>
   </talk>
@@ -118,9 +118,9 @@
     <date>20100514</date>
   </talk>
   <talk>
-    <speaker></speaker>
+    <speaker>Trevor Jim</speaker>
     <topic></topic>
-    <other></other>
+    <other>Hac phi</other>
     <date>20100521</date>
   </talk>
   <talk>
