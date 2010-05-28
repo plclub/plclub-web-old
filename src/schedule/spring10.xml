@@ -107,25 +107,27 @@
   </talk>
   <talk>
     <speaker>Brent</speaker>
-    <topic></topic>
-    <other>Chris bakes</other>
+    <topic><a href="http://www.cs.nott.ac.uk/~txa/publ/pisigma-new.pdf">PiSigma</a></topic>
+    <other></other>
     <date>20100507</date>
   </talk>
   <talk>
     <speaker>Jianzhou</speaker>
-    <topic></topic>
+    <topic><a href="http://www.cis.upenn.edu/%7Ejianzhou/parametricity4linf/aplas10.pdf">Relational
+    Parametricity for a Polymorphic Linear Lambda Calculus</a></topic>
     <other></other>
     <date>20100514</date>
   </talk>
   <talk>
     <speaker>Trevor Jim</speaker>
-    <topic></topic>
+    <topic>Parsing Dependent Grammars</topic>
     <other>Hac phi</other>
     <date>20100521</date>
   </talk>
   <talk>
     <speaker>Vilhelm</speaker>
-    <topic></topic>
+    <topic><a href="http://www.seas.upenn.edu/~vilhelm/tvec.pdf">Equality, Quasi-Implicit Products, and Large Eliminations</a>
+    </topic>
     <other></other>
     <date>20100528</date>
   </talk>
