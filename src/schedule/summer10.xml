@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20100528</start-date>
+  <end-date>20100828</end-date>
+  <talk>
+    <speaker>Vilhelm</speaker>
+    <topic><a href="http://www.seas.upenn.edu/~vilhelm/tvec.pdf">Equality, Quasi-Implicit Products, and Large Eliminations</a>
+    </topic>
+    <other></other>
+    <date>20100528</date>
+  </talk>
+  <talk>
+    <speaker>Social</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100604</date>
+  </talk>
+  <talk>
+    <speaker>Chris</speaker>
+    <topic><a href="http://personal.cis.strath.ac.uk/~dagand/papers/levitation.pdf">
+    The Gentle Art of Leviatation</a></topic>
+    <other></other>
+    <date>20100611</date>
+  </talk>
+  <talk>
+    <speaker>Atsushi Igarashi</speaker>
+    <topic><a href="http://www.sato.kuis.kyoto-u.ac.jp/~igarashi/papers/pdf/stc-OOPSLA09.pdf">
+    Self Type Constructors</a></topic>
+    <other></other>
+    <date>20100618</date>
+  </talk>
+  <talk>
+    <speaker>Joao Belo</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100625</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100702</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>POPL Amigo Review</topic>
+    <other></other>
+    <date>20100709</date>
+  </talk>
+  <talk>
+    <speaker>Peter-Michael</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100716</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other>Daniel Bakes</other>
+    <date>20100723</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100730</date>
+  </talk>
+  <talk>
+    <speaker>Daniel</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100806</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100813</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100820</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20100827</date>
+  </talk>
+</schedule>
