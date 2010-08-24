@@ -30,13 +30,13 @@
     <date>20100618</date>
   </talk>
   <talk>
-    <speaker>social</speaker>
+    <speaker>Social</speaker>
     <topic></topic>
     <other></other>
     <date>20100625</date>
   </talk>
   <talk>
-    <speaker>social</speaker>
+    <speaker>Social</speaker>
     <topic></topic>
     <other></other>
     <date>20100702</date>
@@ -49,7 +49,7 @@
   </talk>
   <talk>
     <speaker>Jianzhou</speaker>
-    <topic></topic>
+    <topic><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.75.1865">Coinductive big-step operational semantics</a></topic>
     <other></other>
     <date>20100716</date>
   </talk>
@@ -60,32 +60,32 @@
     <date>20100723</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic></topic>
+    <speaker>Chris</speaker>
+    <topic><a href="http://personal.cis.strath.ac.uk/~dagand/papers/levitation.pdf">The Gentle Art of Levitation</a></topic>
     <other></other>
     <date>20100730</date>
   </talk>
   <talk>
     <speaker>Daniel</speaker>
-    <topic></topic>
+    <topic><a href="http://www.math.ucla.edu/~jjacobson/patch-theory/patch-semigroups.pdf">A Formalization of Darcs Patch Theory Using Inverse Semigroups</a></topic>
     <other></other>
     <date>20100806</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic></topic>
+    <speaker>Michael</speaker>
+    <topic>Distribution Transformer Semantics for Bayesian Machine Learning</topic>
     <other></other>
     <date>20100813</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic></topic>
+    <speaker>Peter Michael</speaker>
+    <topic><a href="http://www.cs.washington.edu/homes/marius/papers/tpd/tpd-popl08.pdf">A Theory of Platform-Dependent Low-Level Software</a></topic>
     <other></other>
     <date>20100820</date>
   </talk>
   <talk>
     <speaker>Aileen</speaker>
-    <topic></topic>
+    <topic><a href="http://www.cs.cmu.edu/~fp/papers/cade09.pdf">Efficient Intuitionistic Theorem Proving with the Polarized Inverse Method</a></topic>
     <other></other>
     <date>20100827</date>
   </talk>
