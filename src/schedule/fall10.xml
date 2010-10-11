@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20090917</start-date>
+  <end-date>20091217</end-date>
+  <talk>
+    <speaker>Stephanie</speaker>
+    <topic>Newtype deriving and Haskell</topic>
+    <other></other>
+    <date>20090917</date>
+  </talk>
+  <talk>
+    <speaker>Matthieu Souzeau</speaker>
+    <topic>Coq Equations</topic>
+    <other></other>
+    <date>20090924</date>
+  </talk>
+  <talk>
+    <speaker>Social</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091001</date>
+  </talk>
+  <talk>
+    <speaker>Aaron</speaker>
+    <topic>MapReduce</topic>
+    <other></other>
+    <date>20091008</date>
+  </talk>
+  <talk>
+    <speaker>Daniel</speaker>
+    <topic></topic>
+    <other>Chris bakes</other>
+    <date>20091015</date>
+  </talk>
+  <talk>
+    <speaker>Peter-Michael</speaker>
+    <topic></topic>
+    <other>Michael bakes</other>
+    <date>20091022</date>
+  </talk>
+  <talk>
+    <speaker>Michael</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091029</date>
+  </talk>
+  <talk>
+    <speaker>Brent</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091105</date>
+  </talk>
+  <talk>
+    <speaker>PLDI amigo review</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091112</date>
+  </talk>
+  <talk>
+    <speaker>Aileen</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091119</date>
+  </talk>
+  <talk>
+    <speaker>Tom A. Turkey</speaker>
+    <topic>Vegetarianism</topic>
+    <other></other>
+    <date>20091126</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091203</date>
+  </talk>
+  <talk>
+    <speaker>Jianzhou</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091210</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20091217</date>
+  </talk>
+</schedule>
