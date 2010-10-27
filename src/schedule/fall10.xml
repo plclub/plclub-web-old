@@ -35,13 +35,13 @@
   </talk>
   <talk>
     <speaker>Peter-Michael</speaker>
-    <topic></topic>
+    <topic><a href="http://cseweb.ucsd.edu/~lerner/papers/popl10.pdf">Generating Compiler Optimizations from Proofs</a></topic>
     <other>Jianzhou bakes</other>
     <date>20091022</date>
   </talk>
   <talk>
     <speaker>Michael</speaker>
-    <topic></topic>
+    <topic><a href="http://www.ccs.neu.edu/home/dvanhorn/pubs/vanhorn-might-icfp10.pdf">Abstracting Abstract Machines</a></topic>
     <other>Brent bakes</other>
     <date>20091029</date>
   </talk>
