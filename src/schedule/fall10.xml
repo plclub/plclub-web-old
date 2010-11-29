@@ -58,8 +58,9 @@
     <date>20091112</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic></topic>
+    <speaker>Jianzhou</speaker>
+    <topic><a href="http://www.cis.upenn.edu/%7Ejianzhou/parametricity4linf/aplas10.pdf">Relational
+    Parametricity for a Polymorphic Linear Lambda Calculus</a> (practice talk)</topic>
     <other></other>
     <date>20091119</date>
   </talk>
@@ -70,8 +71,8 @@
     <date>20091126</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic></topic>
+    <speaker>Michael</speaker>
+    <topic><a href="http://www.cis.upenn.edu/~mgree/papers/esop2011sub_fh.pdf">Polymorphic Contracts</a> (practice talk)</topic>
     <other></other>
     <date>20091203</date>
   </talk>
