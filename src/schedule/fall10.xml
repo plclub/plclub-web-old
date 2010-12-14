@@ -78,7 +78,9 @@
   </talk>
   <talk>
     <speaker>Jianzhou</speaker>
-    <topic></topic>
+    <topic><a href="http://www.hpl.hp.com/techreports/2010/HPL-2010-81R1.html">A
+Technique for the Effective and Automatic Reuse of Classical Compiler
+Optimizations on Multithreaded Code</a></topic>
     <other></other>
     <date>20091210</date>
   </talk>
