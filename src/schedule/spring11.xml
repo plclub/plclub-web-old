@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20110107</start-date>
+  <end-date>20110513</end-date>
+  <talk>
+    <speaker>Daniel Wagner</speaker>
+    <topic><a href="http://www.dmwit.com/papers/201009SL.pdf">Symmetric Lenses</a></topic>
+    <other>Michael bakes</other>
+    <date>20110107</date>
+  </talk>
+  <talk>
+    <speaker><a href="http://greg.bronevetsky.com/">Greg Bronevetsky</a></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110114</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>2011021</date>
+  </talk>
+  <talk>
+    <speaker>Social</speaker>
+    <topic>POPL</topic>
+    <other></other>
+    <date>20110128</date>
+  </talk>
+  <talk>
+    <speaker>Peter-Michael</speaker>
+    <topic></topic>
+    <other>Brent bakes</other>
+    <date>20110204</date>
+  </talk>
+  <talk>
+    <speaker>Chris</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110211</date>
+  </talk>
+  <talk>
+    <speaker>Vilhelm</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110218</date>
+  </talk>
+  <talk>
+    <speaker>Aaron</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110225</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110304</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110311</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>ICFP Amigo Review</topic>
+    <other></other>
+    <date>20110318</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110325</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>OOPSLA Amigo Review?</topic>
+    <other></other>
+    <date>20110401</date>
+  </talk>
+  <talk>
+    <speaker>Jianzhou</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110408</date>
+  </talk>
+  <talk>
+    <speaker>Michael</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110415</date>
+  </talk>
+  <talk>
+    <speaker>Brent</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110422</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110429</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110506</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110513</date>
+  </talk>
+</schedule>
