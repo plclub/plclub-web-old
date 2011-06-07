@@ -17,7 +17,8 @@
   </talk>
   <talk>
     <speaker>Brent</speaker>
-    <topic></topic>
+    <topic><a href="http://research.microsoft.com/en-us/um/people/simonpj/papers/ext-f/fc-new-tyco.pdf">Practical aspects of evidence-based compilation in System
+FC</a></topic>
     <other>Daniel</other>
     <date>20110603</date>
   </talk>
