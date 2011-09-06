@@ -12,6 +12,7 @@ B2HFLAGS = -dl \
            --named-field TR 'tech report' \
            --named-field errata 'errata' \
            --named-field sources 'source code' \
+	   --debug \
            --reverse-sort --sort-by-date
 
 MV=mv
@@ -19,10 +20,13 @@ BIBS=bcp.bib weirich.bib zdancewic.bib
 
 .DELETE_ON_ERROR: $(BIBS)
 
-plclub.html: $(BIBS) Makefile
-	bib2bib -s -r -oc plclub.keys -ob merged.bib -c 'bcp:"yes"|plclub:"yes"' $(BIBS)
-	bibtex2html -o plclub $(B2HFLAGS) -citefile plclub.keys ./merged.bib
+plclub.html: merged.bib Makefile
+	TMPDIR=. bibtex2html -o plclub $(B2HFLAGS) -citefile plclub.keys ./merged.bib
+	-$(RM) bib2html*
 	-$(RM) ./merged.bib $(BIBS)
+
+merged.bib: $(BIBS)
+	bib2bib -s -r -oc plclub.keys -ob merged.bib -c 'bcp:"yes"|plclub:"yes"' $(BIBS)
 
 bcp.bib:
 	-$(RM) $@
@@ -41,4 +45,4 @@ zdancewic.bib:
 	$(MV) $@-tmp $@
 
 clean:
-	-$(RM) *.bib plclub.keys plclub.html plclub_bib.html
+	-$(RM) bib2html* plclub.keys plclub.html plclub_bib.html

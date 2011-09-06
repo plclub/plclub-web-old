@@ -29,102 +29,72 @@
   </tr>
   <tr>
     <td style="width: 100%;">
-	<h3 class="header">Research Projects</h3>
-		<ul>
-			<li>Bidirectional Languages and Synchronization<ul>
-				<li>
-				<a href="http://www.cis.upenn.edu/~bcpierce/unison/index.html">
-				Unison</a></li>
-				<li><a href="http://www.seas.upenn.edu/~harmony">Boomerang</a></li>
-				<li><a href="http://www.seas.upenn.edu/~harmony/old">Harmony</a></li>
-			</ul></li>
-			<li>Language support for XML<ul>
-				<li><a href="http://xduce.sourceforge.net/">XDuce</a></li>
-				<li><a href="http://www.cis.upenn.edu/~bcpierce/xtatic/">Xtatic</a></li>
-			</ul></li>
-			<li>Language based security</li>
-			<ul>
-			<li><a href="http://www.cis.upenn.edu/~stevez/sol/">
-				Security-oriented languages</a></li>
-			<li><a href="http://www.cis.upenn.edu/~plclub/ms/">
-				Manifest Security</a></li>
-			</ul>
-			<li>Type-directed programming
-                          <ul>
-			  <li><a href="http://www.cis.upenn.edu/~dimitriv/itaname/">Extensible
-			  intensional type analysis</a></li>
-			  <li><a href="http://www.cis.upenn.edu/~sweirich/tdj/tdj.htm">
-			  Type-directed Java</a></li>
-		          </ul>
-			</li>
-                        <li><a
-href="http://alliance.seas.upenn.edu/~plclub/cgi-bin/poplmark/">POPLmark (formerly Mechanized
-Metatheory for the Masses!)</a></li>
-
-		</ul>
-		</td>
+      <h3 class="header">Publications</h3>
+      <ul>
+        <li><a href="http://www.cis.upenn.edu/~plclub/papers/">All PLClub publications</a></li>
+      </ul>
+      <h3 class="header">Seminars</h3>
+      <ul>
+	<li><a href="schedule/summer11.shtml">PLClub discussion group</a></li>
+	<li><a href="http://alliance.seas.upenn.edu/~plclub/cgi-bin/papers/index.php">PLClub wiki</a></li>        
+    </td>
   </tr>
-	<tr style="vertical-align: top;">
+  <tr style="vertical-align: top;">
     <td style="background: #CFED74; white-space: nowrap;">
       <h4 class="header">People</h4>
       <ul>
-		<li><a href="http://www.cis.upenn.edu/~bcpierce">Benjamin Pierce</a></li>
-		<li><a href="http://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a></li>
-		<li><a href="http://www.cis.upenn.edu/~stevez/">Steve Zdancewic</a></li>
+	<li><a href="http://www.cis.upenn.edu/~bcpierce">Benjamin Pierce</a></li>
+	<li><a href="http://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a></li>
+	<li><a href="http://www.cis.upenn.edu/~stevez/">Steve Zdancewic</a></li>
       </ul>
       <ul>
-		<li><a href="http://www.cis.upenn.edu/~baydemir/">Brian Aydemir</a></li>
-		<li><a href="http://www.cis.upenn.edu/~bohannon/">Aaron Bohannon</a></li>
-		<li><a href="http://www.seas.upenn.edu/~ccasin/">Chris Casinghino</a></li>
-		<li><a href="http://www.cis.upenn.edu/~jnfoster/">Nate Foster</a></li>
-		<li><a href="http://www.cis.upenn.edu/~mgree/">Michael Greenberg</a></li>
-                <li><a href="http://www.seas.upenn.edu/~liminjia">Limin Jia</a></li>
-		<li>Karl Mazurak</li>
-                <li><a href="http://www.cis.upenn.edu/~posera">Peter-Michael Osera</a></li>
-		<li><a href="http://disi.unitn.it/~romanel">Alessandro Romanel</a></li>
-                <li><a href="http://www.seas.upenn.edu/~vilhelm/">Vilhelm Sj&ouml;berg</a></li>
-                <li><a href="http://www.seas.upenn.edu/~vaughan2/">Jeff Vaughan</a></li>
-                <li><a href="http://www.seas.upenn.edu/~wagnerdm/">Daniel Wagner</a></li>
-                <li><a href="http://www.cis.upenn.edu/~byorgey">Brent Yorgey</a></li>
-		<li>Qi Zhang</li>
-                <li><a href="http://www.seas.upenn.edu/~jianzhou/">Jianzhou Zhao</a></li>
-		</ul>
+        <li>Arthur de Amorim Azevedo</li>
+	<li><a href="http://www.cis.upenn.edu/~bohannon/">Aaron Bohannon</a></li>
+	<li><a href="http://www.seas.upenn.edu/~ccasin/">Chris Casinghino</a></li>
+        <li>Richard Eisenberg</li>
+        <li>Marco Gaboardi</li>
+	<li><a href="http://www.cis.upenn.edu/~mgree/">Michael Greenberg</a></li>
+        <li><a href="http://www.infsec.cs.uni-saarland.de/~hritcu/">C&#259;t&#259;lin Hri&#355;cu</a></li>
+        <li>Justin Hsu</li>
+	<li>Karl Mazurak</li>
+        <li><a href="http://www.cis.upenn.edu/~montagu/">Benoit Montagu</a></li>
+        <li><a href="http://www.cis.upenn.edu/~posera">Peter-Michael Osera</a></li>
+        <li><a href="http://www.seas.upenn.edu/~vilhelm/">Vilhelm Sj&ouml;berg</a></li>
+        <li><a href="http://www.cis.upenn.edu/~valiron/">Benoit Valiron</a></li>
+        <li><a href="http://www.seas.upenn.edu/~wagnerdm/">Daniel Wagner</a></li>
+        <li><a href="http://www.cis.upenn.edu/~byorgey">Brent Yorgey</a></li>
+        <li>Bob Zhang</li>
+        <li><a href="http://www.seas.upenn.edu/~jianzhou/">Jianzhou Zhao</a></li>
+      </ul>
       <h4 class="header">Recent Alumni</h4>
-		<ul>
-			<li><a href="http://moscova.inria.fr/~denielou/">Malo
-							Denielou</a></li>
-			<li>
-			  <a href="http://www.cis.upenn.edu/~vgapeyev/">Vladimir Gapayev</a></li>
-		  <li><a href="http://arbre.is.s.u-tokyo.ac.jp/~hahosoya/">Haruo
-							 	Hasoya</a></li>
-			<li>
-			<a href="http://www.sato.kuis.kyoto-u.ac.jp/~igarashi/index.html">
-			Atsushi Igarashi</a></li>
-			<li><a href="http://www.brics.dk/~ck/">Christian Kirkegaard</a></li> 
-  		        <li><a href="http://www.cis.upenn.edu/~milevin/">Michael Levin</a></li> 
-		        <li><a href="http://www.cis.upenn.edu/~lipeng/">Peng Li</a></li>
-		        <li><a href="http://perso.ens-lyon.fr/guillaume.munch/">Guillaume Munch</a></li>
-			<li><a href="http://stuwww.tcu.edu/sepopley/">Sneha Popley</a></li>
-			<li><a href="http://perso.ens-lyon.fr/damien.pous/">Damien Pous</a></li>
-			<li><a href="http://pauillac.inria.fr/~pilkiewi/">Alexandre Pilkiewicz</a></li>
-                        <li><a href="http://pauillac.inria.fr/~aschmitt/index.html">Alan Schmitt</a></li>
-		        <li><a href="http://www.cis.upenn.edu/~sumii/">Eijiro Sumii</a></li>
-		        <li><a href="http://www.cis.upenn.edu/~stse/">Stephen Tse</a></li>
-			<li><a href="http://www.pps.jussieu.fr/~vouillon/">J&eacute;r&ocirc;me Vouillon</a></li>
-    		        <li><a href="http://www.seas.upenn.edu/~dimitriv/">Dimitrios Vytiniotis</a></li>
-			<li><a href="http://www.cis.upenn.edu/~geoffw/">Geoff Washburn</a></li>
-		</ul>
-		</td>
+      <ul>
+        <li>Davi Barbosa</li>
+        <li>Julien Cretin</li>
+	<li><a href="http://moscova.inria.fr/~denielou/">Malo Denielou</a></li>
+  	<li><a href="http://www.cis.upenn.edu/~jnfoster/">Nate Foster</a></li>
+	<li><a href="http://www.cis.upenn.edu/~vgapeyev/">Vladimir Gapayev</a></li>
+	<li><a href="http://arbre.is.s.u-tokyo.ac.jp/~hahosoya/">Haruo Hasoya</a></li>
+	<li><a href="http://www.sato.kuis.kyoto-u.ac.jp/~igarashi/index.html">Atsushi Igarashi</a></li>
+	<li><a href="http://www.brics.dk/~ck/">Christian Kirkegaard</a></li> 
+  	<li><a href="http://www.cis.upenn.edu/~milevin/">Michael Levin</a></li> 
+	<li><a href="http://www.cis.upenn.edu/~lipeng/">Peng Li</a></li>
+	<li><a href="http://perso.ens-lyon.fr/guillaume.munch/">Guillaume Munch</a></li>
+	<li><a href="http://stuwww.tcu.edu/sepopley/">Sneha Popley</a></li>
+	<li><a href="http://perso.ens-lyon.fr/damien.pous/">Damien Pous</a></li>
+	<li><a href="http://pauillac.inria.fr/~pilkiewi/">Alexandre Pilkiewicz</a></li>
+        <li><a href="http://disi.unitn.it/~romanel">Alessandro Romanel</a></li>
+        <li><a href="http://pauillac.inria.fr/~aschmitt/index.html">Alan Schmitt</a></li>
+	<li><a href="http://www.cis.upenn.edu/~sumii/">Eijiro Sumii</a></li>
+	<li><a href="http://www.cis.upenn.edu/~stse/">Stephen Tse</a></li>
+        <li><a href="http://www.cs.ucla.edu/~jeff/">Jeff Vaughan</a></li>
+	<li><a href="http://www.pps.jussieu.fr/~vouillon/">J&eacute;r&ocirc;me Vouillon</a></li>
+    	<li><a href="http://www.seas.upenn.edu/~dimitriv/">Dimitrios Vytiniotis</a></li>
+	<li><a href="http://www.cis.upenn.edu/~geoffw/">Geoff Washburn</a></li>
+      </ul>
+    </td>
     <td style="width: 100%;">
-		<h3 class="header">Publications</h3>
-                <ul>
-                <li><a href="http://www.cis.upenn.edu/~plclub/papers/">All PLClub publications</a></li>
-                </ul>
 		<h3 class="header">Seminars and Courses</h3>
                 <ul>
-			<li><a href="schedule/summer11.shtml">PLClub discussion
-			    group</a></li>
-			<li><a href="http://alliance.seas.upenn.edu/~plclub/cgi-bin/papers/index.php">PLClub wiki</a></li>
 			<li>Student Reading Group / S08 - <a href="http://perso.ens-lyon.fr/guillaume.munch/blindspot/">Proof Theory</a></li>
 			<li>CIS 500 / F07 - <a href="http://www.seas.upenn.edu/~cis500/">Software foundations</a>
 			<li>CIS 500 / F06 - <a href="http://www.seas.upenn.edu/~cis500/cis500-f06/">Software foundations</a>
