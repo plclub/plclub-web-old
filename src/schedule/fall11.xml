@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20110909</start-date>
+  <end-date>20111223</end-date>
+  <talk>
+    <speaker>Chris</speaker>
+    <topic>Putting Martin-Lof to Work</topic>
+    <other>Catalin</other>
+    <date>20110909</date>
+  </talk>
+  <talk>
+    <speaker>Benoit V.</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110916</date>
+  </talk>
+  <talk>
+    <speaker>Michael</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110923</date>
+  </talk>
+  <talk>
+    <speaker>Benoit M.</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20110930</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>ESOP amigo review</topic>
+    <other>Steve</other>
+    <date>20111007</date>
+  </talk>
+  <talk>
+    <speaker>Marco</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20111014</date>
+  </talk>
+  <talk>
+    <speaker>Bob</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20111021</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>PLDI amigo review</topic>
+    <other></other>
+    <date>20111028</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20111104</date>
+  </talk>
+  <talk>
+    <speaker>Catalin</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20111111</date>
+  </talk>
+  <talk>
+    <speaker>Vilhelm</speaker>
+    <topic></topic>
+    <other>Ben K.</other>
+    <date>20111118</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Thanksgiving</topic>
+    <other></other>
+    <date>20111125</date>
+  </talk>
+  <talk>
+    <speaker>Jianzhou</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20111202</date>
+  </talk>
+  <talk>
+    <speaker>Peter-Michael</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20111209</date>
+  </talk>
+  <talk>
+    <speaker>Arthur</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20111216</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Winter break</topic>
+    <other></other>
+    <date>20111223</date>
+  </talk>
+</schedule>

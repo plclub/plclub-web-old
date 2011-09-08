@@ -33,7 +33,17 @@
         </ul>
         <h3 class="header">Seminars</h3>
         <ul>
-	  <li><a href="schedule/summer11.shtml">PLClub discussion group</a></li>
+	  <li><a href="schedule/fall11.shtml">PLClub discussion group</a> <br/>
+            <p>PL Club Rules
+              <ol>
+                <li>Talk about PL Club!  Everyone's welcome.</li>
+                <li>We meet in Levine 315.</li>
+                <li>If it's your first semester at PL Club, you have to PL.</li>
+                <li>Lunch starts at <b>12:15</b>.  The talk starts at <b>12:30</b>.</li>
+                <li>Talks go on as long as they have to, or until <b>1:30</b>.</li>
+              </ol>
+            </p>
+          </li>
 	  <li><a href="http://alliance.seas.upenn.edu/~plclub/cgi-bin/papers/index.php">PLClub wiki</a></li>        
         </ul>
       </td>
