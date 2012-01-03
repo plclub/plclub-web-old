@@ -13,7 +13,7 @@
 <months>
 <month num="01" name="January" abbrev="Jan" days="31" />
 <!-- FIX - Doesn't correctly handle leap years yet -->
-<month num="02" name="February" abbrev="Feb" days="28" />
+<month num="02" name="February" abbrev="Feb" days="29" />
 <month num="03" name="March" abbrev="Mar" days="31" />
 <month num="04" name="April" abbrev="Apr" days="30" />
 <month num="05" name="May" abbrev="May" days="31" />
