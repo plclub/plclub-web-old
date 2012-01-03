@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20120106</start-date>
+  <end-date>20120511</end-date>
+  <talk>
+    <speaker>Brent and Daniel</speaker>
+    <topic>POPL practice taslks</topic>
+    <other></other>
+    <date>20120106</date>
+  </talk>
+  <talk>
+    <speaker><a href="http://www.cs.cmu.edu/~ltz/">Luke Zarko</a></speaker>
+    <topic></topic>
+    <other>Peter-Michael and BCP practice talks on 2012-01-12</other>
+    <date>20120113</date>
+  </talk>
+  <talk>
+    <speaker>Benjamin</speaker>
+    <topic>PLPV practice talk</topic>
+    <other>Jianzhou and Peter-Michael on 2012-01-19</other>
+    <date>2012020</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>POPL</topic>
+    <other></other>
+    <date>20120127</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other>Derek Dreyer on 2012-02-02</other>
+    <date>20120203</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120210</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120217</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120224</date>
+  </talk>
+  <talk>
+    <speaker>Brent</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120302</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Spring break</topic>
+    <other>Wooooo!</other>
+    <date>20120309</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120316</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120323</date>
+  </talk>
+  <talk>
+    <speaker>Peter-Michael</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120330</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120406</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120413</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120420</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120427</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120504</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120511</date>
+  </talk>
+</schedule>
