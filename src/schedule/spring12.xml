@@ -11,7 +11,7 @@
   </talk>
   <talk>
     <speaker><a href="http://www.cs.cmu.edu/~ltz/">Luke Zarko</a></speaker>
-    <topic></topic>
+    <topic>ConcertOS, or: How I Learned to Stop Worrying and Love x64</topic>
     <other>Peter-Michael and BCP practice talks on 2012-01-12</other>
     <date>20120113</date>
   </talk>
@@ -29,31 +29,32 @@
   </talk>
   <talk>
     <speaker>Richard</speaker>
-    <topic></topic>
+    <topic>Ubiquitous Singletons</topic>
     <other>Derek Dreyer on 2012-02-02</other>
     <date>20120203</date>
   </talk>
   <talk>
     <speaker>Chris</speaker>
-    <topic></topic>
+    <topic><a href="http://www.seas.upenn.edu/~ccasin/papers/msfp12log.pdf">Step-indexed normalization for a language with general recursion</a></topic>
     <other></other>
     <date>20120210</date>
   </talk>
   <talk>
     <speaker>Michael</speaker>
-    <topic></topic>
+    <topic><a href="http://research.microsoft.com/apps/pubs/default.aspx?id=154568">Self-certification:
+Bootstrapping Certified Typecheckers in F* with Coq</a> </topic>
     <other></other>
     <date>20120217</date>
   </talk>
   <talk>
     <speaker><a href="http://www.loria.fr/~pechoux/">Romain Pechoux</a></speaker>
-    <topic></topic>
+    <topic>Type systems for complexity analysis</topic>
     <other></other>
     <date>20120224</date>
   </talk>
   <talk>
     <speaker>Brent</speaker>
-    <topic></topic>
+    <topic>(Seemingly) Impossible Functions</topic>
     <other>Daniel bakes</other>
     <date>20120302</date>
   </talk>
@@ -65,18 +66,18 @@
   </talk>
   <talk>
     <speaker>Vilhelm</speaker>
-    <topic></topic>
+    <topic><a href="http://arxiv.org/abs/1202.2923v1">Irrelevance, heterogenous equality, and call-by-value dependent type systems</a></topic>
     <other>Peter-Michael bakes</other>
     <date>20120316</date>
   </talk>
   <talk>
     <speaker>Justin</speaker>
-    <topic></topic>
+    <topic><a href="ftp://ftp.cs.cmu.edu/usr/rwh/www/home/courses/refinements/papers/HughesParetoSabry96/popl96.pdf">Proving the Correctness of Reactive Systems Using Sized Types</a></topic>
     <other>Arthur bakes</other>
     <date>20120323</date>
   </talk>
   <talk>
-    <speaker>Peter-Michael</speaker>
+    <speaker><a href="http://www.cs.princeton.edu/~rdockins/">Rob Dockins</a></speaker>
     <topic></topic>
     <other>Brent bakes</other>
     <date>20120330</date>
