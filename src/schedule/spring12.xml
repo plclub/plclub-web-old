@@ -78,13 +78,13 @@ Bootstrapping Certified Typecheckers in F* with Coq</a> </topic>
   </talk>
   <talk>
     <speaker><a href="http://www.cs.princeton.edu/~rdockins/">Rob Dockins</a></speaker>
-    <topic></topic>
+    <topic>Some reflections on compiler correctness</topic>
     <other>Brent bakes</other>
     <date>20120330</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic></topic>
+    <speaker>Jianzhou</speaker>
+    <topic><a href="http://www.cs.umd.edu/~jfoster/papers/sas00.pdf">Polymorphic versus monomorphic flow-insensitive points-to analysis for C</a></topic>
     <other>Daniel bakes</other>
     <date>20120406</date>
   </talk>
