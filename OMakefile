@@ -144,6 +144,7 @@ live:
       $(JAVA) net.sf.saxon.Transform $(CWD)/summer11.xml $(CWD)/schedule.xslt semester="Summer 2011" file=summer11.shtml > $(ROOT)/$(LIVE)/$(DIR)/summer11.shtml
       $(JAVA) net.sf.saxon.Transform $(CWD)/fall11.xml $(CWD)/schedule.xslt semester="Fall 2011" file=fall11.shtml > $(ROOT)/$(LIVE)/$(DIR)/fall11.shtml
       $(JAVA) net.sf.saxon.Transform $(CWD)/spring12.xml $(CWD)/schedule.xslt semester="Spring 2012" file=spring12.shtml > $(ROOT)/$(LIVE)/$(DIR)/spring12.shtml
+      $(JAVA) net.sf.saxon.Transform $(CWD)/summer12.xml $(CWD)/schedule.xslt semester="Summer 2012" file=summer12.shtml > $(ROOT)/$(LIVE)/$(DIR)/summer12.shtml
 
       # Copy everything else
       $(SMRTCP) $(glob *.shtml) $(ROOT)/$(LIVE)/$(DIR)/
@@ -153,4 +154,3 @@ live:
     $(RM) $(CWD)/fall05.shtml
     $(RM) $(CWD)/spring06.shtml
     $(RM) $(CWD)/summer06.shtml
-

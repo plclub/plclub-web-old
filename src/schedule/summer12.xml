@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20120601</start-date>
+  <end-date>20120831</end-date>
+  <talk>
+    <speaker>Social</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120601</date>
+  </talk>
+  <talk>
+    <speaker>Peter-Michael</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120608</date>
+  </talk>
+  <talk>
+    <speaker>Social</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120615</date>
+  </talk>
+  <talk>
+    <speaker>Social</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120622</date>
+  </talk>
+  <talk>
+    <speaker>Michael</speaker>
+    <topic><a href="http://www.springerlink.com/content/r7cjyl2kchav0euw/?MUD=MP">Alias Types</a></topic>
+    <other></other>
+    <date>20120629</date>
+  </talk>
+  <talk>
+    <speaker>Daniel</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120706</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>POPL amigo review</topic>
+    <other>Brent</other>
+    <date>20120713</date>
+  </talk>
+  <talk>
+    <speaker>Chris</speaker>
+    <topic></topic>
+    <other>Daniel</other>
+    <date>20120720</date>
+  </talk>
+  <talk>
+    <speaker>Brent</speaker>
+    <topic></topic>
+    <other>Ben K.</other>
+    <date>20120727</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Hac Phi</topic>
+    <other></other>
+    <date>20120803</date>
+  </talk>
+  <talk>
+    <speaker>Marco</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20120810</date>
+  </talk>
+  <talk>
+    <speaker>Richard</speaker>
+    <topic></topic>
+    <other>Vilhelm</other>
+    <date>20120817</date>
+  </talk>
+  <talk>
+    <speaker>Justin</speaker>
+    <topic></topic>
+    <other>Michael</other>
+    <date>20120824</date>
+  </talk>
+  <talk>
+    <speaker>Hongbo</speaker>
+    <topic></topic>
+    <other>Richard</other>
+    <date>20120831</date>
+  </talk>
+</schedule>
