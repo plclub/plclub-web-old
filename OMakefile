@@ -52,8 +52,8 @@ commit:
 	svn commit
 
 live:
-	$(RSYNC) ./$(LIVE)/ "plclub@eniac-l.seas.upenn.edu:html/"
-	ssh plclub@eniac-l.seas.upenn.edu chmod -R a+rX html
+	$(RSYNC) ./$(LIVE)/ "plclub@eniac.seas.upenn.edu:html/"
+	ssh plclub@eniac.seas.upenn.edu chmod -R a+rX html
 
 ###############################################################################
 # Default case - just copy the contents
