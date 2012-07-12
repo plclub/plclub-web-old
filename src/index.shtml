@@ -44,7 +44,10 @@
               </ol>
             </p>
           </li>
-	  <li><a href="http://alliance.seas.upenn.edu/~plclub/cgi-bin/papers/index.php">PLClub wiki</a></li>        
+	  <!--
+	  <li><a href="http://alliance.seas.upenn.edu/~plclub/cgi-bin/papers/index.php">PLClub
+	  wiki</a></li>        
+	  -->
         </ul>
       </td>
     </tr>
@@ -58,14 +61,12 @@
         </ul>
         <ul>
           <li>Arthur de Amorim Azevedo</li>
-	  <li><a href="http://www.cis.upenn.edu/~bohannon/">Aaron Bohannon</a></li>
 	  <li><a href="http://www.seas.upenn.edu/~ccasin/">Chris Casinghino</a></li>
           <li>Richard Eisenberg</li>
           <li><a href="http://www.cs.unibo.it/~gaboardi/">Marco Gaboardi</a></li>
 	  <li><a href="http://www.cis.upenn.edu/~mgree/">Michael Greenberg</a></li>
           <li><a href="http://www.infsec.cs.uni-saarland.de/~hritcu/">C&#259;t&#259;lin Hri&#355;cu</a></li>
-          <li>Justin Hsu</li>
-	  <li>Karl Mazurak</li>
+          <li><a href="http://www.cis.upenn.edu/~justhsu/">Justin Hsu</a></li>
           <li><a href="http://www.cis.upenn.edu/~montagu/">Benoit Montagu</a></li>
           <li><a href="http://www.cis.upenn.edu/~posera">Peter-Michael Osera</a></li>
           <li><a href="http://www.seas.upenn.edu/~vilhelm/">Vilhelm Sj&ouml;berg</a></li>
@@ -78,6 +79,7 @@
         <h4 class="header">Alumni</h4>
         <ul>
           <li>Davi Barbosa</li>
+	  <li><a href="http://www.cis.upenn.edu/~bohannon/">Aaron Bohannon</a></li>
           <li>Julien Cretin</li>
 	  <li><a href="http://moscova.inria.fr/~denielou/">Malo Denielou</a></li>
   	  <li><a href="http://www.cs.cornell.edu/~jnfoster/">Nate Foster</a></li>
@@ -87,6 +89,7 @@
 	  <li><a href="http://www.brics.dk/~ck/">Christian Kirkegaard</a></li> 
   	  <li><a href="http://www.cis.upenn.edu/~milevin/">Michael Levin</a></li> 
 	  <li><a href="http://www.cis.upenn.edu/~lipeng/">Peng Li</a></li>
+	  <li>Karl Mazurak</li>
 	  <li><a href="http://perso.ens-lyon.fr/guillaume.munch/">Guillaume Munch</a></li>
 	  <li><a href="http://stuwww.tcu.edu/sepopley/">Sneha Popley</a></li>
 	  <li><a href="http://perso.ens-lyon.fr/damien.pous/">Damien Pous</a></li>
@@ -107,6 +110,9 @@
 	  <li>CIS 500 - <a href="http://www.seas.upenn.edu/~cis500/">Software foundations</a></li>
           <li>CIS 552 - <a href="http://www.seas.upenn.edu/~cis552/">Advanced Programming</a></li>
           <li>CIS 670 - rotating PL seminar</li>
+	  <li>CIS 194
+	  - <a href="http://www.seas.upenn.edu/~cis194/">Introduction
+	  to Haskell</a></li>
 	</ul>
 	<h3 class="header">Activities</h3>
 	<ul>
