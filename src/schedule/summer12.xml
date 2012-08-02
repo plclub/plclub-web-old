@@ -47,20 +47,20 @@
   </talk>
   <talk>
     <speaker>Chris</speaker>
-    <topic></topic>
+    <topic><a href="http://hal.archives-ouvertes.fr/docs/00/07/62/61/PDF/RR-0296.pdf">Polymorphism is not set-theoretic</a></topic>
     <other>Daniel</other>
     <date>20120720</date>
   </talk>
   <talk>
     <speaker>Brent</speaker>
-    <topic></topic>
+    <topic><a href="http://www.cs.ox.ac.uk/ralf.hinze/LN.pdf">Adjunctions</a></topic>
     <other>Ben K.</other>
     <date>20120727</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic>Hac Phi</topic>
-    <other></other>
+    <speaker>Michael Sloan</speaker>
+    <topic>Instance templates for Haskell</topic>
+    <other>Hac Phi</other>
     <date>20120803</date>
   </talk>
   <talk>
@@ -70,7 +70,7 @@
     <date>20120810</date>
   </talk>
   <talk>
-    <speaker>Richard</speaker>
+    <speaker></speaker>
     <topic></topic>
     <other>Vilhelm</other>
     <date>20120817</date>
