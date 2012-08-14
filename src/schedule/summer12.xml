@@ -65,13 +65,13 @@
   </talk>
   <talk>
     <speaker>Marco</speaker>
-    <topic></topic>
+    <topic><a href="http://www.cis.upenn.edu/~bcpierce/papers/dp.pdf">Linear Dependent types for Differential Privacy</a></topic>
     <other></other>
     <date>20120810</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic></topic>
+    <speaker>Harley Eades</speaker>
+    <topic><a href="http://homepage.cs.uiowa.edu/~heades/papers/cr_TYPES11_pro_submission.pdf">Hereditary substitution</a></topic>
     <other>Vilhelm</other>
     <date>20120817</date>
   </talk>
