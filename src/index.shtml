@@ -33,7 +33,7 @@
         </ul>
         <h3 class="header">Seminars</h3>
         <ul>
-	  <li><a href="schedule/summer12.shtml">PLClub discussion group</a> <br/>
+	  <li><a href="schedule/fall12.shtml">PLClub discussion group</a> <br/>
             <p>PL Club Rules
               <ol>
                 <li>Talk about PL Club!  Everyone's welcome.</li>
@@ -66,10 +66,16 @@
           <li><a href="http://www.cs.unibo.it/~gaboardi/">Marco Gaboardi</a></li>
 	  <li><a href="http://www.cis.upenn.edu/~mgree/">Michael Greenberg</a></li>
           <li><a href="http://www.infsec.cs.uni-saarland.de/~hritcu/">C&#259;t&#259;lin Hri&#355;cu</a></li>
-          <li><a href="http://www.cis.upenn.edu/~justhsu/">Justin Hsu</a></li>
+          <li><a href="http://www.cis.upenn.edu/~justhsu/">Justin
+          Hsu</a></li>
+	  <li>Leonidas Lambropoulos</li>
           <li><a href="http://www.cis.upenn.edu/~montagu/">Benoit Montagu</a></li>
-          <li><a href="http://www.cis.upenn.edu/~posera">Peter-Michael Osera</a></li>
-          <li><a href="http://www.seas.upenn.edu/~vilhelm/">Vilhelm Sj&ouml;berg</a></li>
+          <li><a href="http://www.cis.upenn.edu/~posera">Peter-Michael
+          Osera</a></li>
+	  <li>Jennifer Paykin</li>
+          <li><a href="http://www.seas.upenn.edu/~vilhelm/">Vilhelm
+          Sj&ouml;berg</a></li>
+	  <li>Antal Spector-Zabusky</li>
           <li><a href="http://www.cis.upenn.edu/~valiron/">Benoit Valiron</a></li>
           <li><a href="http://www.seas.upenn.edu/~wagnerdm/">Daniel Wagner</a></li>
           <li><a href="http://www.cis.upenn.edu/~byorgey">Brent Yorgey</a></li>
@@ -78,6 +84,7 @@
         </ul>
         <h4 class="header">Alumni</h4>
         <ul>
+	  <li>Brian Aydemir</li>
           <li>Davi Barbosa</li>
 	  <li><a href="http://www.cis.upenn.edu/~bohannon/">Aaron Bohannon</a></li>
           <li>Julien Cretin</li>
