@@ -33,7 +33,7 @@
         </ul>
         <h3 class="header">Seminars</h3>
         <ul>
-	  <li><a href="schedule/fall12.shtml">PLClub discussion group</a> <br/>
+	  <li><a href="schedule/spring13.shtml">PLClub discussion group</a> <br/>
             <p>PL Club Rules
               <ol>
                 <li>Talk about PL Club!  Everyone's welcome.</li>
@@ -61,9 +61,13 @@
         </ul>
         <ul>
           <li>Arthur de Amorim Azevedo</li>
-	  <li><a href="http://www.seas.upenn.edu/~ccasin/">Chris Casinghino</a></li>
-          <li>Richard Eisenberg</li>
-          <li><a href="http://www.cs.unibo.it/~gaboardi/">Marco Gaboardi</a></li>
+	  <li><a href="http://www.seas.upenn.edu/~ccasin/">Chris
+	  Casinghino</a></li>
+          <li><a href="http://www.seas.upenn.edu/~ddemange/">Delphine Demange</a></li>
+          <li><a href="http://www.cis.upenn.edu/~eir/">Richard Eisenberg</a></li>
+          <li><a href="http://www.cs.unibo.it/~gaboardi/">Marco
+          Gaboardi</a></li>
+          <li><a href="http://babel.ls.fi.upm.es/~egallego/">Emilio Gallego</a></li>
 	  <li><a href="http://www.cis.upenn.edu/~mgree/">Michael Greenberg</a></li>
           <li><a href="http://www.infsec.cs.uni-saarland.de/~hritcu/">C&#259;t&#259;lin Hri&#355;cu</a></li>
           <li><a href="http://www.cis.upenn.edu/~justhsu/">Justin
@@ -79,7 +83,7 @@
           <li><a href="http://www.cis.upenn.edu/~valiron/">Benoit Valiron</a></li>
           <li><a href="http://www.seas.upenn.edu/~wagnerdm/">Daniel Wagner</a></li>
           <li><a href="http://www.cis.upenn.edu/~byorgey">Brent Yorgey</a></li>
-          <li>Bob Zhang</li>
+          <li>Hongbo Zhang</li>
           <li>Jianzhou Zhao</li>
         </ul>
         <h4 class="header">Alumni</h4>
