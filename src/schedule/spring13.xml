@@ -17,8 +17,8 @@
   </talk>
   <talk>
     <speaker>Vilhelm</speaker>
-    <topic></topic>
-    <other></other>
+    <topic><a href="http://www.cl.cam.ac.uk/~mrl42/articles/RealParam/RealParam.pdf">Realizability and Parametricity in Pure Type Systems</a></topic>
+    <other>Richard</other>
     <date>20130118</date>
   </talk>
   <talk>
@@ -58,8 +58,8 @@
     <date>20130301</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic></topic>
+    <speaker>Benoit M.</speaker>
+    <topic>Label algebras: a theory of information flow labels</topic>
     <other></other>
     <date>20130308</date>
   </talk>
@@ -100,7 +100,7 @@
     <date>20130419</date>
   </talk>
   <talk>
-    <speaker></speaker>
+    <speaker><a href="http://people.csail.mit.edu/angelee/">Angelina Lee</a></speaker>
     <topic></topic>
     <other></other>
     <date>20130426</date>
