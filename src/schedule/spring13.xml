@@ -23,13 +23,13 @@
   </talk>
   <talk>
     <speaker>Richard</speaker>
-    <topic></topic>
+    <topic><a href="https://personal.cis.strath.ac.uk/robert.atkey/algebraic-indexed.pdf">Abstraction and Invariance for Algebraically Indexed Types</a></topic>
     <other></other>
     <date>20130125</date>
   </talk>
   <talk>
     <speaker>Chris</speaker>
-    <topic></topic>
+    <topic><a href="http://www.tcs.ifi.lmu.de/~abel/popl13.pdf">Copatterns: Programming Infinite Structures by Observation</a></topic>
     <other>Peter-Michael</other>
     <date>20130201</date>
   </talk>
