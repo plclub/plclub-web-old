@@ -41,13 +41,13 @@
   </talk>
   <talk>
     <speaker>Loris</speaker>
-    <topic></topic>
+    <topic><a href="http://research.microsoft.com/pubs/151730/paper.pdf">Symbolic Finite State Transducers: Algorithms and Applications</a></topic>
     <other>Marco</other>
     <date>20130215</date>
   </talk>
   <talk>
-    <speaker>Marco</speaker>
-    <topic></topic>
+    <speaker>Jan Hoffman</speaker>
+    <topic>Quantitative Reasoning for Proving Lock-Freedom</topic>
     <other></other>
     <date>20130222</date>
   </talk>
@@ -58,8 +58,8 @@
     <date>20130301</date>
   </talk>
   <talk>
-    <speaker>Benoit M.</speaker>
-    <topic>Label algebras: a theory of information flow labels</topic>
+    <speaker>Spring break (social)</speaker>
+    <topic></topic>
     <other></other>
     <date>20130308</date>
   </talk>
@@ -76,8 +76,8 @@
     <date>20130322</date>
   </talk>
   <talk>
-    <speaker>Hongbo</speaker>
-    <topic></topic>
+    <speaker>Benoit M.</speaker>
+    <topic>Label algebras: a theory of information flow labels</topic>
     <other>Hongbo</other>
     <date>20130329</date>
   </talk>
@@ -106,7 +106,7 @@
     <date>20130426</date>
   </talk>
   <talk>
-    <speaker></speaker>
+    <speaker>Marco</speaker>
     <topic></topic>
     <other></other>
     <date>20130503</date>
