@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20130510</start-date>
+  <end-date>20130830</end-date>
+  <talk>
+    <speaker>Social</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20130510</date>
+  </talk>
+  <talk>
+    <speaker>Social</speaker>
+    <topic></topic>
+    <other>Levine 512</other>
+    <date>20130517</date>
+  </talk>
+  <talk>
+    <speaker>Catalin</speaker>
+    <topic></topic>
+    <other>Levine 512</other>
+    <date>20130524</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20130531</date>
+  </talk>
+  <talk>
+    <speaker>Limin Jia</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20130607</date>
+  </talk>
+  <talk>
+    <speaker>Alois</speaker>
+    <topic></topic>
+    <other>co-ICFP deadline (Haskell, ML, etc.)</other>
+    <date>20130614</date>
+  </talk>
+  <talk>
+    <speaker>Benjamin</speaker>
+    <topic></topic>
+    <other>location TBD</other>
+    <date>20130621</date>
+  </talk>
+  <talk>
+    <speaker>Chris</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20130628</date>
+  </talk>
+  <talk>
+    <speaker>Social</speaker>
+    <topic></topic>
+    <other>4th of July</other>
+    <date>20130705</date>
+  </talk>
+  <talk>
+    <speaker>Emilio</speaker>
+    <topic></topic>
+    <other>POPL deadline July 10</other>
+    <date>20130712</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other>Levine 512</other>
+    <date>20130719</date>
+  </talk>
+  <talk>
+    <speaker>Daniel</speaker>
+    <topic></topic>
+    <other>OPLSS</other>
+    <date>20130726</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other>OPLSS</other>
+    <date>20130802</date>
+  </talk>
+  <talk>
+    <speaker>Vilhelm</speaker>
+    <topic></topic>
+    <other>Daniel snack</other>
+    <date>20130809</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20130816</date>
+  </talk>
+  <talk>
+    <speaker>Arthur</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20130823</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic></topic>
+    <other></other>
+    <date>20130830</date>
+  </talk>
+</schedule>
