@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "schedule.dtd">
+<schedule>
+  <start-date>20130906</start-date>
+  <end-date>20131213</end-date>
+  <talk>
+    <speaker>Richard</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20130906</date>
+  </talk>
+  <talk>
+    <speaker>XXX</speaker>
+    <topic></topic>
+    <other>Richard snacks</other>
+    <date>20130913</date>
+  </talk>
+  <talk>
+    <speaker>Antal</speaker>
+    <topic></topic>
+    <other>Jennifer snacks</other>
+    <date>20130920</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Social (ICFP)</topic>
+    <other></other>
+    <date>20130927</date>
+  </talk>
+  <talk>
+    <speaker>Justin</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20131004</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Social (ESOP deadline, fall break)</topic>
+    <other></other>
+    <date>20131011</date>
+  </talk>
+  <talk>
+    <speaker>Peter-Michael</speaker>
+    <topic></topic>
+    <other>Arthur snacks</other>
+    <date>20131018</date>
+  </talk>
+  <talk>
+    <speaker>Jennifer</speaker>
+    <topic></topic>
+    <other>Leo snacks</other>
+    <date>20131025</date>
+  </talk>
+  <talk>
+    <speaker>Daniel</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20131101</date>
+  </talk>
+  <talk>
+    <speaker>Emilio</speaker>
+    <topic></topic>
+    <other>Daniel snacks</other>
+    <date>20131108</date>
+  </talk>
+  <talk>
+    <speaker>Arthur</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20131115</date>
+  </talk>
+  <talk>
+    <speaker>Maxime</speaker>
+    <topic></topic>
+    <other></other>
+    <date>20131122</date>
+  </talk>
+  <talk>
+    <speaker></speaker>
+    <topic>Thanksgiving</topic>
+    <other></other>
+    <date>20131129</date>
+  </talk>
+  <talk>
+    <speaker>Hongbo</speaker>
+    <topic></topic>
+    <other>Hongbo snacks</other>
+    <date>20131206</date>
+  </talk>
+  <talk>
+    <speaker>Chris</speaker>
+    <topic></topic>
+    <other>Antal snacks</other>
+    <date>20131213</date>
+  </talk>
+</schedule>
