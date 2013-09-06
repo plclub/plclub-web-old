@@ -5,13 +5,13 @@
   <end-date>20131213</end-date>
   <talk>
     <speaker>Richard</speaker>
-    <topic></topic>
+    <topic>HIW practice talk: Roles</topic>
     <other></other>
     <date>20130906</date>
   </talk>
   <talk>
-    <speaker>XXX</speaker>
-    <topic></topic>
+    <speaker>Hamidhasan</speaker>
+    <topic>Explicit type application for GHC</topic>
     <other>Richard snacks</other>
     <date>20130913</date>
   </talk>
@@ -22,8 +22,8 @@
     <date>20130920</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic>Social (ICFP)</topic>
+    <speaker><em>Social (ICFP)</em></speaker>
+    <topic></topic>
     <other></other>
     <date>20130927</date>
   </talk>
@@ -34,8 +34,8 @@
     <date>20131004</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic>Social (ESOP deadline, fall break)</topic>
+    <speaker><em>Social (ESOP deadline, fall break)</em></speaker>
+    <topic></topic>
     <other></other>
     <date>20131011</date>
   </talk>
@@ -76,8 +76,8 @@
     <date>20131122</date>
   </talk>
   <talk>
-    <speaker></speaker>
-    <topic>Thanksgiving</topic>
+    <speaker><em>Thanksgiving</em></speaker>
+    <topic></topic>
     <other></other>
     <date>20131129</date>
   </talk>
