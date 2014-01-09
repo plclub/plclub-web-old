@@ -31,9 +31,15 @@
         <ul>
           <li><a href="http://www.cis.upenn.edu/~plclub/papers/">All PLClub publications</a></li>
         </ul>
+	<div style="float: right;">
+          <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=88hj97m6e4lg7p56ou3l0npon8%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York"
+                  style=" border-width:0 " width="400" height="300"
+                  frameborder="0" scrolling="no">
+          </iframe>
+        </div>
         <h3 class="header">Seminars</h3>
         <ul>
-	  <li><a href="schedule/fall13.shtml">PLClub discussion group</a> <br/>
+	  <li><a href="https://www.google.com/calendar/embed?src=88hj97m6e4lg7p56ou3l0npon8%40group.calendar.google.com&ctz=America/New_York">PLClub discussion group</a> <br/>
             <p>PL Club Rules
               <ol>
                 <li>Talk about PL Club!  Everyone's welcome.</li>
@@ -46,7 +52,7 @@
           </li>
 	  <!--
 	  <li><a href="http://alliance.seas.upenn.edu/~plclub/cgi-bin/papers/index.php">PLClub
-	  wiki</a></li>        
+	  wiki</a></li>
 	  -->
         </ul>
       </td>
