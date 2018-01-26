@@ -87,7 +87,8 @@ live:
     # Use the old makefile for the moment
     make
     -mkdir -p $(ROOT)/$(LIVE)/$(DIR)
-    $(SMRTCP) $(glob *.html *.shtml) $(ROOT)/$(LIVE)/$(DIR)/
+    $(SMRTCP) $(glob *.shtml) $(ROOT)/$(LIVE)/$(DIR)/
+    $(SMRTCP) $(glob *.html) $(ROOT)/$(LIVE)/$(DIR)/
 
   clean:
     make clean
