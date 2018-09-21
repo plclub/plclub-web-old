@@ -1,22 +1,22 @@
 B2HFLAGS = -dl \
 	   -s bold-title \
-           --nodoc -nofooter -noheader --no-abstract -nokeys --no-keywords\
-           --named-field slides slides \
-           --named-field full 'full version' \
-           --named-field short 'short version' \
-           --named-field prelim 'preliminary version' \
-           --named-field conf 'conference version' \
-           --named-field official 'official version' \
-           --named-field homepage 'home page' \
-           --named-field manuscript 'manuscript' \
-           --named-field TR 'tech report' \
-           --named-field errata 'errata' \
-           --named-field sources 'source code' \
+	   --nodoc -nofooter -noheader --no-abstract -nokeys --no-keywords\
+	   --named-field slides slides \
+	   --named-field full 'full version' \
+	   --named-field short 'short version' \
+	   --named-field prelim 'preliminary version' \
+	   --named-field conf 'conference version' \
+	   --named-field official 'official version' \
+	   --named-field homepage 'home page' \
+	   --named-field manuscript 'manuscript' \
+	   --named-field TR 'tech report' \
+	   --named-field errata 'errata' \
+	   --named-field sources 'source code' \
 	   --debug \
-           --reverse-sort --sort-by-date
+	   --reverse-sort --sort-by-date
 
 MV=mv
-BIBS=bcp.bib weirich.bib zdancewic.bib
+BIBS=bcp.bib weirich.bib zdancewic.bib obastani.bib
 
 .DELETE_ON_ERROR: $(BIBS)
 
@@ -43,6 +43,10 @@ zdancewic.bib:
 	wget http://www.cis.upenn.edu/~stevez/papers/zdancewic.bib
 	bib2bib -ob $@-tmp -c 'not($$key = "ABFF+05")' $@
 	$(MV) $@-tmp $@
+
+obastani.bib:
+	-$(RM) $@
+	wget https://obastani.github.io/docs/obastani.bib
 
 clean:
 	-$(RM) bib2html* plclub.keys plclub.html plclub_bib.html
